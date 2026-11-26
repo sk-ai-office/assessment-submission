@@ -183,14 +183,23 @@
     $('share-status').textContent=`${format.toUpperCase()} download prepared with all evidence and context.`;
   }
   async function copyShare(value, confirmation) {
+    const previousFocus=document.activeElement;
+    const field=$('share-copy-text');
+    field.value=value;$('manual-copy').hidden=false;field.focus();field.select();
+    let copied=false;
+    try { copied=document.execCommand('copy'); } catch { /* Fall back to the Clipboard API. */ }
+    if(copied){$('share-status').textContent=confirmation;$('manual-copy').hidden=true;previousFocus?.focus({preventScroll:true});return;}
+    $('manual-copy').hidden=true;$('share-status').textContent='Copying…';
+    previousFocus?.focus({preventScroll:true});
+    let timeout;
     try {
       if(!navigator.clipboard?.writeText)throw new Error('Clipboard unavailable');
-      await navigator.clipboard.writeText(value);
+      await Promise.race([navigator.clipboard.writeText(value),new Promise((_,reject)=>{timeout=setTimeout(()=>reject(new Error('Clipboard unavailable')),2500);})]);
       $('share-status').textContent=confirmation;$('manual-copy').hidden=true;
     } catch {
       $('share-status').textContent='Select and copy the text below. Automatic copying is unavailable in this browser.';
       $('manual-copy').hidden=false;$('share-copy-text').value=value;$('share-copy-text').focus();$('share-copy-text').select();
-    }
+    } finally { clearTimeout(timeout); }
   }
   function followReference() {
     const ref=location.hash.slice(1).toUpperCase();
