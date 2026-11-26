@@ -7,4 +7,4 @@ SK-C identifies a grouped concern; SK-E identifies an evidence record. They are 
 Source snapshot: 2026-11-25. Review window: 2024-11-25 to 2026-11-25.
 50 distinct public accounts and 25 named people in reporting are separate counts and may overlap. Accounts are not verified individuals. Platform gaps and date limits are labelled.
 
-Public links are pending publication.
+Public dashboard: https://saskatchewan-service-complaints.soomrozaid.chatgpt.site
