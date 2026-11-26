@@ -1,0 +1,10 @@
+SASKATCHEWAN COMPLAINT BRIEFS
+
+Open index.html for all 28 concerns. Each SK-Cxxx.pdf, .html, .txt and .json includes the complete concern and evidence. HTML files include their own PDF download and work independently of the dashboard.
+
+SK-C identifies a grouped concern; SK-E identifies an evidence record. They are permanent internal references, not official government case numbers.
+
+Source snapshot: 2026-11-25. Review window: 2024-11-25 to 2026-11-25.
+50 distinct public accounts and 25 named people in reporting are separate counts and may overlap. Accounts are not verified individuals. Platform gaps and date limits are labelled.
+
+Public links are pending publication.

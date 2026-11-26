@@ -1,0 +1,95 @@
+SK-C009 — People cannot understand why payments are held
+INTERNAL COMPLAINT BRIEF · Sources reviewed 2026-11-25
+Review period: 2024-11-25 to 2026-11-25
+Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked.
+
+CONCERN AND IMPACT
+Recipients describe unexplained payment holds, delayed deposits and difficulty obtaining callbacks.
+Unexplained holds and missed callbacks leave recipients uncertain about money they rely on.
+
+EVIDENCE IN THIS SAMPLE
+2 distinct public accounts; 0 named people in reporting (separate count); 2 evidence records; 0 records excluded from counts; 1 source pages.
+
+RESPONSIBLE SERVICE
+Ministry / oversight: Social Services
+Service: Saskatchewan Assured Income for Disability
+First contact: Contact the assigned worker or local income-assistance office. Ask for the written decision, reasons, and the review or appeal instructions that apply to that decision.
+Escalation / responsibility: Ask for a supervisor review and use the applicable program appeal route. Unresolved administrative fairness concerns can go to Ombudsman Saskatchewan; policy concerns go to Social Services.
+Routing context: Appeal rules and deadlines depend on the decision. The program page and decision letter should be checked for a current case.
+Social Services offices: https://www.saskatchewan.ca/Residents/Family-and-Social-Support/Find-a-Social-Services-Office
+SAID program: https://www.saskatchewan.ca/Residents/Family-and-Social-Support/People-with-Disabilities/Income-Support-for-People-with-Disabilities
+Social Services ministry: https://www.saskatchewan.ca/Government/Government-Structure/Ministries/Social-Services
+
+AI ASSESSMENT AND PROPOSED ACTION
+Assessment: AI could help
+Opportunity / first intervention: Help staff turn verified payment-status records into clear explanations, next steps and callback notes.
+What AI cannot fix: It cannot release payments, remove holds, or invent a reason missing from the case record.
+First step: Map the actual hold reasons, case ownership and available status fields. Have caseworkers review sample explanations before any recipient-facing trial.
+Success measure: Repeat contacts needed to understand a payment hold.
+Why this starting point: Direct reports identify a specific communication failure with high practical impact; feasibility depends on trustworthy status data.
+
+ALL SOURCE EVIDENCE
+
+SK-E034 · SK-C009 · Original record SE11
+Platform: Reddit · r/saskatoon
+Attribution: u/dand_theythem_hehim · Personal experience
+Account / person reference: A020; incident reference: SE11
+Date: 2025-10-30 (post date)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “we can't get though to our workers as they are swamped with people who don't have workers.”
+Summary: Reports an unexplained payment hold and difficulty reaching a worker.
+Status at source review: Outcome unknown; not recontacted or independently verified
+Context: No additional context recorded.
+Source: SAID benefits on hold
+Original link: https://www.reddit.com/r/saskatoon/comments/1okadn1/said_benefits_on_hold/
+Region: Saskatoon
+Verification: Visible post author and exact excerpt verified on original full-title Reddit thread.
+Source checked: 2026-11-25
+
+SK-E035 · SK-C009 · Original record SE12
+Platform: Reddit · r/saskatoon
+Attribution: u/GrandDuchessMelody · Personal experience
+Account / person reference: A021; incident reference: SE12
+Date: 2025-10-30 (thread date; comment day not verified) (thread date; comment exact date not independently captured)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “I never gotten a real answer why”
+Summary: Reports a previous unexplained delay and an unfulfilled callback; payment later arrived.
+Status at source review: Payment later arrived; explanation/callback concern unresolved in source
+Context: Exact comment date was not independently established; the discussion date is shown.
+Source: SAID benefits on hold
+Original link: https://www.reddit.com/r/saskatoon/comments/1okadn1/comment/nmatf8i/
+Full discussion: https://www.reddit.com/r/saskatoon/comments/1okadn1/said_benefits_on_hold/
+Region: Saskatoon
+Verification: Author and exact excerpt verified on full parent thread. Comment permalink was exposed by Reddit timestamp link; direct comment fetch can fail, so parent link is retained. See historical resolution/status in the existing research record; do not assume the issue remains open today.
+Source checked: 2026-11-25
+
+COUNTING AND INTERPRETATION
+• SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.
+• A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.
+• Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.
+• This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.
+• Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.
+• AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes.
+
+REVIEW-WIDE COVERAGE AND LIMITATIONS
+The following platform totals cover the entire research review, not only this complaint.
+The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.
+Reddit: 48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked.
+App Store: 2 reviewer accounts counted. Direct reviews of the mySASKTEL app.
+LinkedIn: 4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts.
+X / Twitter: Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist.
+Quora: Original pages could not be reviewed because access was blocked. No Quora accounts counted.
+News & reports: 25 named complainants retained separately as supporting reporting, not direct social posts.
+• This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.
+• All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.
+• Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.
+• A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.
+• Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.
+• LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.
+• Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.
+• AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.
+• Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.
+• Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.
+• A missing topic or platform means a gap in this review, not that nobody has complained about it.
+
+Reference: SK-C009. Search this ID in the companion dashboard. Share this complete brief so evidence and qualifications travel together.

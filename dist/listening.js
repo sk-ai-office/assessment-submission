@@ -92,7 +92,7 @@
     $('issue-list').innerHTML = visible.map(i => {
       const rows = filteredRecords(i.id);
       const open = state.open === i.id;
-      return `<article class="issue" id="issue-${esc(i.id)}"><button class="issue-toggle" data-issue="${esc(i.id)}" aria-expanded="${open}" aria-controls="detail-${esc(i.id)}"><span><span class="issue-title"><span class="reference issue-reference">${esc(i.referenceId)}</span>${esc(i.concern)}</span><span class="issue-why">${esc(i.why)}</span></span>${countCell(rows)}<span class="row-owner">${owner(i)}</span><span class="row-fit"><span class="fit-label ${i.fit}">${esc(fitLabel[i.fit])}</span></span></button>${open ? issueDetail(i,rows) : `<div id="detail-${esc(i.id)}" hidden></div>`}</article>`;
+      return `<article class="issue" id="issue-${esc(i.id)}"><button class="issue-toggle" data-issue="${esc(i.id)}" aria-expanded="${open}" aria-controls="detail-${esc(i.id)}"><span><span class="issue-title">${esc(i.concern)}</span><span class="issue-why">${esc(i.why)}</span></span>${countCell(rows)}<span class="row-owner">${owner(i)}</span><span class="row-fit"><span class="fit-label ${i.fit}">${esc(fitLabel[i.fit])}</span></span></button>${open ? issueDetail(i,rows) : `<div id="detail-${esc(i.id)}" hidden></div>`}</article>`;
     }).join('');
     $('issue-list').querySelectorAll('[data-issue]').forEach(button => button.addEventListener('click', () => {
       const id = button.dataset.issue;
@@ -126,7 +126,7 @@
     const query = lower(state.libraryQuery.trim());
     const rows = data.observations.filter(r => !query || lower([r.referenceId,r.complaintReferenceId,r.id,r.authorHandle,r.publisher,r.platform,r.quote,r.summary,r.sourceTitle,issues.get(r.issueId)?.concern,issues.get(r.issueId)?.ministry].join(' ')).includes(query));
     $('library-count').textContent = `${rows.length} matching records of ${data.observations.length} · source excerpts, context, and original links`;
-    $('library').innerHTML = rows.slice(0,state.libraryLimit).map(r => `<div class="library-item"><div><h3><span class="reference">${esc(r.complaintReferenceId)}</span> ${esc(issues.get(r.issueId)?.concern)}</h3><span class="source-id">Original record ${esc(r.id)} · ${esc(issues.get(r.issueId)?.ministry)}</span></div>${evidenceCard(r,true)}</div>`).join('') || '<p class="small-note">No evidence matches your search.</p>';
+    $('library').innerHTML = rows.slice(0,state.libraryLimit).map(r => `<div class="library-item"><div><h3>${esc(issues.get(r.issueId)?.concern)}</h3><span class="source-id">${esc(r.complaintReferenceId)} · Original record ${esc(r.id)} · ${esc(issues.get(r.issueId)?.ministry)}</span></div>${evidenceCard(r,true)}</div>`).join('') || '<p class="small-note">No evidence matches your search.</p>';
     $('more-library').hidden = rows.length <= state.libraryLimit;
     $('more-library').textContent = `Show ${Math.min(12,rows.length-state.libraryLimit)} more records`;
   }
@@ -153,10 +153,34 @@
 
   function openShare(id) {
     activeBrief = briefs.pack(data,id);
-    $('share-title').textContent = activeBrief.referenceId+' · '+activeBrief.issue.concern;
-    $('share-scope').textContent = `${activeBrief.counts.evidenceRecords} evidence records · ${activeBrief.counts.publicAccounts} public accounts · ${activeBrief.counts.namedInReporting} named in reporting (separate) · Complete evidence, regardless of filters`;
+    $('share-title').textContent = activeBrief.issue.concern;
+    $('share-reference').textContent = activeBrief.referenceId;
+    $('share-scope').textContent = `${activeBrief.counts.evidenceRecords} evidence records · Complete context included`;
+    const shareUrl = publicLink(activeBrief.referenceId);
+    $('share-link').value=shareUrl || '';
+    $('share-link').placeholder='Available after publication';
+    $('copy-link').disabled=!shareUrl;
+    $('link-access-note').textContent=shareUrl ? 'Anyone with this link can view the complete complaint brief.' : 'The public link will be available when this version is published.';
+    $('download-format').value='pdf';
     $('share-status').textContent='';$('manual-copy').hidden=true;$('share-copy-text').value='';
     $('share-dialog').showModal();
+  }
+  function publicLink(referenceId) {
+    const config=window.SHARING_CONFIG || {};
+    const hosted=location.protocol==='https:' && !['localhost','127.0.0.1','[::1]'].includes(location.hostname);
+    const base=hosted ? location.origin : config.published ? config.publicBaseUrl : '';
+    return base ? base.replace(/\/$/,'')+'/complaint-briefs/'+encodeURIComponent(referenceId)+'.html' : '';
+  }
+  function downloadSelectedBrief() {
+    const format=$('download-format').value;
+    if(format==='pdf') {
+      const encoded=window.COMPLAINT_PDFS?.[activeBrief.referenceId];
+      if(!encoded){$('share-status').textContent='The PDF is unavailable in this copy. Download the HTML or text version.';return;}
+      download(activeBrief.referenceId+'.pdf',Uint8Array.from(atob(encoded),c=>c.charCodeAt(0)),'application/pdf');
+    } else if(format==='html') {
+      download(activeBrief.referenceId+'.html',briefs.html(activeBrief,window.COMPLAINT_PDFS?.[activeBrief.referenceId]),'text/html;charset=utf-8');
+    } else download(activeBrief.referenceId+'.txt',briefs.text(activeBrief),'text/plain;charset=utf-8');
+    $('share-status').textContent=`${format.toUpperCase()} download prepared with all evidence and context.`;
   }
   async function copyShare(value, confirmation) {
     try {
@@ -164,7 +188,7 @@
       await navigator.clipboard.writeText(value);
       $('share-status').textContent=confirmation;$('manual-copy').hidden=true;
     } catch {
-      $('share-status').textContent='Automatic copy is unavailable in this browser. Copy the selected text below, or download the text file.';
+      $('share-status').textContent='Select and copy the text below. Automatic copying is unavailable in this browser.';
       $('manual-copy').hidden=false;$('share-copy-text').value=value;$('share-copy-text').focus();$('share-copy-text').select();
     }
   }
@@ -205,8 +229,8 @@
   $('export-evidence').onclick = exportEvidence;
   $('export-all-evidence').onclick = exportEvidence;
   $('close-share').onclick = ()=>$('share-dialog').close();
-  $('download-brief').onclick = ()=>{download(activeBrief.referenceId+'.html',briefs.html(activeBrief),'text/html;charset=utf-8');$('share-status').textContent='Complete HTML brief prepared. Attach this file to share it.';};
-  $('download-brief-text').onclick = ()=>{download(activeBrief.referenceId+'.txt',briefs.text(activeBrief),'text/plain;charset=utf-8');$('share-status').textContent='Complete text brief prepared.';};
+  $('download-brief').onclick = downloadSelectedBrief;
+  $('copy-link').onclick = ()=>copyShare($('share-link').value,'Link copied. Anyone with the link can open this complaint brief.');
   $('copy-brief').onclick = ()=>copyShare(briefs.text(activeBrief),'Complete brief copied, including all evidence and context.');
   $('copy-reference').onclick = ()=>copyShare(activeBrief.referenceId,'Reference ID copied: '+activeBrief.referenceId);
   $('download-data').onclick = ()=>download('saskatchewan-complaints-data.json',JSON.stringify(data,null,2),'application/json');

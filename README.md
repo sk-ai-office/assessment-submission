@@ -21,6 +21,14 @@ These are recovered snapshots, not a reconstruction of every historical edit. Th
 
 All counts refer to the reviewed sample. Public accounts are not verified individuals. Named people in reporting are counted separately. Archived snapshots retain their original limitations and may contain superseded wording.
 
+## Build
+
+The repository is self-contained. Install `tools/requirements.txt` in a Python environment, then run `node tools/build.cjs --export /absolute/path/to/output-folder`. Set `PDF_PYTHON` to that environment's Python executable if needed. No Node packages are required.
+
+`tools/build.cjs` builds the site in `dist/`, renders all PDFs, and exports a standalone HTML app plus a ZIP containing every brief. The PDF and HTML downloads include all evidence regardless of dashboard filters. `data/dashboard-template.html` is the editable page template. `data/sharing.json` records the verified public origin and publication status.
+
+Share URLs point to `/complaint-briefs/SK-Cxxx.html`. Public access means anyone with the link can open the content. `noindex` is a search-engine request, not access control. Publication uses the existing Sites project and the exact committed source.
+
 ## Restore a version
 
 Use `git log --oneline` and `git tag` to inspect saved versions. To inspect an old version without changing the working app, use `git worktree add ../complaints-version-review <tag>`.

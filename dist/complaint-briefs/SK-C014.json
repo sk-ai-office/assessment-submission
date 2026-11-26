@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "type": "Saskatchewan public-service complaint brief",
+  "referenceId": "SK-C014",
+  "reviewedAt": "2026-11-25",
+  "period": {
+    "start": "2024-11-25",
+    "end": "2026-11-25"
+  },
+  "issue": {
+    "id": "school-support-capacity",
+    "title": "School educational-assistant capacity",
+    "summary": "A parent raises concerns about educational-assistant capacity and the continuity of classroom support.",
+    "ministry": "Education",
+    "service": "School division / Ministry of Education",
+    "routeId": "schools",
+    "concern": "Families worry about losing classroom support",
+    "why": "A parent fears reduced educational-assistant capacity will undermine consistent support at school.",
+    "fit": "service",
+    "idea": "Review staffing and support continuity with school divisions; do not propose AI as a substitute for educational assistants.",
+    "limit": "It cannot supply classroom staff or replace individualized human support.",
+    "firstStep": "Validate the affected support requirements and available staffing with the division before considering any administrative assistance opportunity.",
+    "measure": "Scheduled support hours delivered to students who require them.",
+    "priority": 21,
+    "reason": "The concern is staffing capacity and currently supported by media reporting; it does not establish an AI-solvable task.",
+    "referenceId": "SK-C014"
+  },
+  "counts": {
+    "publicAccounts": 0,
+    "namedInReporting": 1,
+    "evidenceRecords": 1,
+    "uncountedRecords": 0,
+    "sourcePages": 1
+  },
+  "route": {
+    "id": "schools",
+    "title": "School support and complaint handling",
+    "ministry": "Ministry of Education / local school division",
+    "first": "Raise the concern with the teacher or principal, then follow the relevant school division's escalation process through senior administration and the board.",
+    "escalation": "Ministry of Education for provincial funding and policy. The Ombudsman does not investigate schools, teachers, or school boards; ministry administration is a different jurisdiction.",
+    "note": "The linked Saskatoon Public Schools protocol is one division's example, not a universal provincial procedure.",
+    "links": [
+      {
+        "title": "Division escalation example",
+        "url": "https://www.spsd.sk.ca/communication-protocol-for-families"
+      },
+      {
+        "title": "School jurisdiction guidance",
+        "url": "https://ombudsman.sk.ca/ombudsman/where-to-complain/schools/"
+      },
+      {
+        "title": "Education ministry",
+        "url": "https://www.saskatchewan.ca/Government/Government-Structure/Ministries/Education"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "id": "SE20",
+      "authorId": "P016",
+      "authorType": "person",
+      "date": "2025-02-11",
+      "dateLabel": "Feb 11, 2025",
+      "datePrecision": "day",
+      "issueId": "school-support-capacity",
+      "summary": "Parent worries that reductions in educational-assistant capacity undermine classroom support.",
+      "url": "https://www.cjme.com/2025/02/11/ndp-parents-call-for-provincial-funding-after-ea-layoffs/",
+      "sourcePage": "https://www.cjme.com/2025/02/11/ndp-parents-call-for-provincial-funding-after-ea-layoffs/",
+      "sourceTitle": "Parents call for funding after EA layoffs",
+      "publisher": "980 CJME",
+      "sourceKind": "News",
+      "status": "Prospective concern about future classroom support; not an individual EA layoff confirmed in article",
+      "context": "The reported concern is prospective; the article does not establish an individual support-worker layoff for this family.",
+      "region": "Saskatoon",
+      "counted": true,
+      "caseId": "SE20",
+      "platform": "Reporting",
+      "sourceRole": "reported experience",
+      "referenceId": "SK-E043",
+      "complaintReferenceId": "SK-C014"
+    }
+  ],
+  "methodology": [
+    "SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.",
+    "A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.",
+    "Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.",
+    "This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.",
+    "Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.",
+    "AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes."
+  ],
+  "researchContext": {
+    "scopeNote": "The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.",
+    "limitations": [
+      "This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.",
+      "All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.",
+      "Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.",
+      "A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.",
+      "Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.",
+      "LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.",
+      "Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.",
+      "AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.",
+      "Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.",
+      "Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.",
+      "A missing topic or platform means a gap in this review, not that nobody has complained about it."
+    ],
+    "platformCoverage": [
+      {
+        "platform": "Reddit",
+        "note": "48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked."
+      },
+      {
+        "platform": "App Store",
+        "note": "2 reviewer accounts counted. Direct reviews of the mySASKTEL app."
+      },
+      {
+        "platform": "LinkedIn",
+        "note": "4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts."
+      },
+      {
+        "platform": "X / Twitter",
+        "note": "Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist."
+      },
+      {
+        "platform": "Quora",
+        "note": "Original pages could not be reviewed because access was blocked. No Quora accounts counted."
+      },
+      {
+        "platform": "News & reports",
+        "note": "25 named complainants retained separately as supporting reporting, not direct social posts."
+      }
+    ],
+    "priorityMeaning": "Suggested discovery order for a Solutions Architect, based on the reviewed complaints, clarity of the service problem and scope for a small pilot. This is judgment, not an objective score, prevalence ranking or incident-severity ranking."
+  },
+  "publicationNote": "Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked."
+}

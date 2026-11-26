@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "type": "Saskatchewan public-service complaint brief",
+  "referenceId": "SK-C001",
+  "reviewedAt": "2026-11-25",
+  "period": {
+    "start": "2024-11-25",
+    "end": "2026-11-25"
+  },
+  "issue": {
+    "id": "hospital-crowding",
+    "title": "Hospital crowding and hallway care",
+    "summary": "Patients and families describe prolonged hallway care, limited privacy, crowding and communication concerns.",
+    "ministry": "Health",
+    "service": "Saskatchewan Health Authority",
+    "routeId": "health",
+    "concern": "Patients spend days receiving care in hallways",
+    "why": "Patients and families describe limited privacy, difficult conditions and prolonged hallway stays.",
+    "fit": "service",
+    "idea": "Start with bed capacity, patient flow and escalation reviews; no AI pilot is recommended from these complaints alone.",
+    "limit": "It cannot create beds, staff wards or establish that a care arrangement is clinically appropriate.",
+    "firstStep": "Ask clinical operations to identify the measured causes of hallway stays and whether a specific information bottleneck warrants separate investigation.",
+    "measure": "Patient hours spent receiving care in hallways.",
+    "priority": 19,
+    "reason": "Repeated concerns are serious, but the evidence supports an operational capacity problem rather than a defined AI use case.",
+    "referenceId": "SK-C001"
+  },
+  "counts": {
+    "publicAccounts": 0,
+    "namedInReporting": 7,
+    "evidenceRecords": 7,
+    "uncountedRecords": 0,
+    "sourcePages": 5
+  },
+  "route": {
+    "id": "health",
+    "title": "Healthcare access and hospital care",
+    "ministry": "Ministry of Health",
+    "first": "Contact the care team or clinic, then its manager. For SHA services, use the SHA Client Concerns Office; surgical care coordinators can help with surgery navigation.",
+    "escalation": "Ministry of Health for system access, funding, and policy. For unresolved administrative fairness, check Ombudsman jurisdiction. Professional-conduct concerns may follow a separate regulator process.",
+    "note": "The provider determines the correct route: not every clinic or screening service is operated by SHA.",
+    "links": [
+      {
+        "title": "SHA patient concerns",
+        "url": "https://www.saskhealthauthority.ca/contact/patient-or-client-concerns-and-feedback"
+      },
+      {
+        "title": "Surgical care navigation",
+        "url": "https://www.saskatchewan.ca/residents/health/accessing-health-care-services/surgery/navigating-surgical-care"
+      },
+      {
+        "title": "Health ministry",
+        "url": "https://www.saskatchewan.ca/government/government-structure/ministries/health"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "id": "H001",
+      "authorId": "P001",
+      "authorType": "person",
+      "date": "2026-08-06",
+      "dateLabel": "Aug 6, 2026",
+      "datePrecision": "day",
+      "issueId": "hospital-crowding",
+      "summary": "A family member objected to a parent's almost five-day stay in a hospital hallway.",
+      "url": "https://www.620ckrm.com/2026/08/06/provinces-healthcare-needs-urgent-improvement-says-ndp/",
+      "sourcePage": "https://www.620ckrm.com/2026/08/06/provinces-healthcare-needs-urgent-improvement-says-ndp/",
+      "sourceTitle": "Province’s healthcare needs urgent improvement says NDP",
+      "publisher": "620 CKRM",
+      "sourceKind": "News — named interviewee",
+      "status": "Historical complaint; current resolution not verified",
+      "context": "NDP media event; article also includes SHA response.",
+      "region": "Saskatoon",
+      "counted": true,
+      "caseId": "HC01",
+      "platform": "Reporting",
+      "sourceRole": "reported experience",
+      "referenceId": "SK-E001",
+      "complaintReferenceId": "SK-C001"
+    },
+    {
+      "id": "H009",
+      "authorId": "P009",
+      "authorType": "person",
+      "date": "2025-11-06",
+      "dateLabel": "Nov 6, 2025",
+      "datePrecision": "day",
+      "issueId": "hospital-crowding",
+      "summary": "A patient criticized receiving treatment on a stretcher in a public hallway for six days.",
+      "url": "https://www.cjme.com/2025/11/06/it-broke-me-cancer-patient-recalls-traumatic-experience-at-ruh/",
+      "sourcePage": "https://www.cjme.com/2025/11/06/it-broke-me-cancer-patient-recalls-traumatic-experience-at-ruh/",
+      "sourceTitle": "Hospital hallway care report",
+      "publisher": "980 CJME / 650 CKOM",
+      "sourceKind": "News — named interviewee",
+      "status": "Historical complaint; current resolution not verified",
+      "context": "Article includes Minister response. Three separately attributed family speakers describe the same hospital event; one shared case.",
+      "region": "Saskatoon",
+      "counted": true,
+      "caseId": "HC09",
+      "platform": "Reporting",
+      "sourceRole": "reported experience",
+      "referenceId": "SK-E009",
+      "complaintReferenceId": "SK-C001"
+    },
+    {
+      "id": "H010",
+      "authorId": "P010",
+      "authorType": "person",
+      "date": "2025-11-06",
+      "dateLabel": "Nov 6, 2025",
+      "datePrecision": "day",
+      "issueId": "hospital-crowding",
+      "summary": "A spouse criticized hallway conditions and the response to the family's concerns.",
+      "url": "https://www.cjme.com/2025/11/06/it-broke-me-cancer-patient-recalls-traumatic-experience-at-ruh/",
+      "sourcePage": "https://www.cjme.com/2025/11/06/it-broke-me-cancer-patient-recalls-traumatic-experience-at-ruh/",
+      "sourceTitle": "Hospital hallway care report",
+      "publisher": "980 CJME / 650 CKOM",
+      "sourceKind": "News — named interviewee",
+      "status": "Historical complaint; current resolution not verified",
+      "context": "Article includes Minister response. Three separately attributed family speakers describe the same hospital event; one shared case.",
+      "region": "Saskatoon",
+      "counted": true,
+      "caseId": "HC09",
+      "platform": "Reporting",
+      "sourceRole": "reported experience",
+      "referenceId": "SK-E010",
+      "complaintReferenceId": "SK-C001"
+    },
+    {
+      "id": "H011",
+      "authorId": "P011",
+      "authorType": "person",
+      "date": "2025-11-06",
+      "dateLabel": "Nov 6, 2025",
+      "datePrecision": "day",
+      "issueId": "hospital-crowding",
+      "summary": "A daughter described the impact of the same hallway-care experience on her family.",
+      "url": "https://www.cjme.com/2025/11/06/it-broke-me-cancer-patient-recalls-traumatic-experience-at-ruh/",
+      "sourcePage": "https://www.cjme.com/2025/11/06/it-broke-me-cancer-patient-recalls-traumatic-experience-at-ruh/",
+      "sourceTitle": "Hospital hallway care report",
+      "publisher": "980 CJME / 650 CKOM",
+      "sourceKind": "News — named interviewee",
+      "status": "Historical complaint; current resolution not verified",
+      "context": "Article includes Minister response. Three separately attributed family speakers describe the same hospital event; one shared case.",
+      "region": "Saskatoon",
+      "counted": true,
+      "caseId": "HC09",
+      "platform": "Reporting",
+      "sourceRole": "reported experience",
+      "referenceId": "SK-E011",
+      "complaintReferenceId": "SK-C001"
+    },
+    {
+      "id": "H012",
+      "authorId": "P012",
+      "authorType": "person",
+      "date": "2025-10-03",
+      "dateLabel": "Oct 3, 2025",
+      "datePrecision": "day",
+      "issueId": "hospital-crowding",
+      "summary": "A family member criticized three days of hallway care, privacy, cleanliness and communication.",
+      "url": "https://www.cjme.com/2025/10/03/video-one-familys-reality-of-the-chaos-in-royal-university-hospital-hallway/",
+      "sourcePage": "https://www.cjme.com/2025/10/03/video-one-familys-reality-of-the-chaos-in-royal-university-hospital-hallway/",
+      "sourceTitle": "One family’s reality of the chaos in Royal University Hospital hallway",
+      "publisher": "980 CJME / 650 CKOM",
+      "sourceKind": "News — named interviewee",
+      "status": "Historical complaint; current resolution not verified",
+      "context": "NDP facilitated interview; SHA response included.",
+      "region": "Saskatoon",
+      "counted": true,
+      "caseId": "HC10",
+      "platform": "Reporting",
+      "sourceRole": "reported experience",
+      "referenceId": "SK-E012",
+      "complaintReferenceId": "SK-C001"
+    },
+    {
+      "id": "H013",
+      "authorId": "P013",
+      "authorType": "person",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21, 2026",
+      "datePrecision": "day",
+      "issueId": "hospital-crowding",
+      "summary": "Family member criticized a three-day hospital hallway stay.",
+      "url": "https://globalnews.ca/news/12110346/new-beds-saskatoon-hospital/",
+      "sourcePage": "https://globalnews.ca/news/12110346/new-beds-saskatoon-hospital/",
+      "sourceTitle": "Hospital capacity report",
+      "publisher": "Global News",
+      "sourceKind": "News — named interviewee",
+      "status": "Outcome unknown.",
+      "context": "NDP event; SHA response included.",
+      "region": "Saskatoon",
+      "counted": true,
+      "caseId": "HC11",
+      "platform": "Reporting",
+      "sourceRole": "reported experience",
+      "referenceId": "SK-E013",
+      "complaintReferenceId": "SK-C001"
+    },
+    {
+      "id": "H014",
+      "authorId": "P014",
+      "authorType": "person",
+      "date": "2026-07-08",
+      "dateLabel": "Jul 8, 2026",
+      "datePrecision": "day",
+      "issueId": "hospital-crowding",
+      "summary": "A patient criticized three days in an overcrowded hallway without privacy or call bells and delays in care.",
+      "url": "https://www.ckom.com/2026/07/08/patient-throwing-up-blood-spends-days-in-hospital-hallway/",
+      "sourcePage": "https://www.ckom.com/2026/07/08/patient-throwing-up-blood-spends-days-in-hospital-hallway/",
+      "sourceTitle": "Hospital hallway care report",
+      "publisher": "650 CKOM",
+      "sourceKind": "News — named interviewee",
+      "status": "Historical complaint; current resolution not verified",
+      "context": "NDP media event; includes province's response and expansion plans. Reviewed through the search-index text; the direct page could not be opened.",
+      "region": "Saskatoon",
+      "counted": true,
+      "caseId": "HC12",
+      "platform": "Reporting",
+      "sourceRole": "reported experience",
+      "referenceId": "SK-E014",
+      "complaintReferenceId": "SK-C001"
+    }
+  ],
+  "methodology": [
+    "SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.",
+    "A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.",
+    "Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.",
+    "This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.",
+    "Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.",
+    "AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes."
+  ],
+  "researchContext": {
+    "scopeNote": "The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.",
+    "limitations": [
+      "This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.",
+      "All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.",
+      "Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.",
+      "A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.",
+      "Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.",
+      "LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.",
+      "Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.",
+      "AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.",
+      "Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.",
+      "Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.",
+      "A missing topic or platform means a gap in this review, not that nobody has complained about it."
+    ],
+    "platformCoverage": [
+      {
+        "platform": "Reddit",
+        "note": "48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked."
+      },
+      {
+        "platform": "App Store",
+        "note": "2 reviewer accounts counted. Direct reviews of the mySASKTEL app."
+      },
+      {
+        "platform": "LinkedIn",
+        "note": "4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts."
+      },
+      {
+        "platform": "X / Twitter",
+        "note": "Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist."
+      },
+      {
+        "platform": "Quora",
+        "note": "Original pages could not be reviewed because access was blocked. No Quora accounts counted."
+      },
+      {
+        "platform": "News & reports",
+        "note": "25 named complainants retained separately as supporting reporting, not direct social posts."
+      }
+    ],
+    "priorityMeaning": "Suggested discovery order for a Solutions Architect, based on the reviewed complaints, clarity of the service problem and scope for a small pilot. This is judgment, not an objective score, prevalence ranking or incident-severity ranking."
+  },
+  "publicationNote": "Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked."
+}
