@@ -1,0 +1,206 @@
+{
+  "Child Care Home Information": {
+    "/FT": "/Tx",
+    "/TU": "Child Care Home Information"
+  },
+  "Applicant Name": {
+    "/FT": "/Tx",
+    "/TU": "Applicant Name"
+  },
+  "Address": {
+    "/FT": "/Tx",
+    "/TU": "Address"
+  },
+  "CityTown": {
+    "/FT": "/Tx",
+    "/TU": "City/Town"
+  },
+  "Postal Code": {
+    "/FT": "/Tx",
+    "/TU": "Postal Code"
+  },
+  "Phone Number": {
+    "/FT": "/Tx",
+    "/TU": "Phone Number"
+  },
+  "Email Address": {
+    "/FT": "/Tx",
+    "/TU": "Email Address"
+  },
+  "Item DescriptionRow1": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_1"
+  },
+  "Estimated CostRow1": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_1"
+  },
+  "Item DescriptionRow1_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_1"
+  },
+  "Estimated CostRow1_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_1"
+  },
+  "Item DescriptionRow2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_2"
+  },
+  "Estimated CostRow2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_2"
+  },
+  "Item DescriptionRow2_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_2"
+  },
+  "Estimated CostRow2_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_2"
+  },
+  "Item DescriptionRow3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_3"
+  },
+  "Estimated CostRow3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_3"
+  },
+  "Item DescriptionRow3_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_3"
+  },
+  "Estimated CostRow3_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_3"
+  },
+  "Item DescriptionRow4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_4"
+  },
+  "Estimated CostRow4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_4"
+  },
+  "Item DescriptionRow4_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_4"
+  },
+  "Estimated CostRow4_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_4"
+  },
+  "Item DescriptionRow5": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_5"
+  },
+  "Estimated CostRow5": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_5"
+  },
+  "Item DescriptionRow5_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_5"
+  },
+  "Estimated CostRow5_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_5"
+  },
+  "Item DescriptionRow6": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_6"
+  },
+  "Estimated CostRow6": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_6"
+  },
+  "Item DescriptionRow6_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_6"
+  },
+  "Estimated CostRow6_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_6"
+  },
+  "Item DescriptionRow7": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_7"
+  },
+  "Estimated CostRow7": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_7"
+  },
+  "Item DescriptionRow7_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_7"
+  },
+  "Estimated CostRow7_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_7"
+  },
+  "Item DescriptionRow8": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_8"
+  },
+  "Estimated CostRow8": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_8"
+  },
+  "Item DescriptionRow8_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_8"
+  },
+  "Estimated CostRow8_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_8"
+  },
+  "Item DescriptionRow9": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_9"
+  },
+  "Estimated CostRow9": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_9"
+  },
+  "Item DescriptionRow9_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_9"
+  },
+  "Estimated CostRow9_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_9"
+  },
+  "Item DescriptionRow10": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_10"
+  },
+  "Estimated CostRow10": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_10"
+  },
+  "Item DescriptionRow10_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_10"
+  },
+  "Estimated CostRow10_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_10"
+  },
+  "undefined": {
+    "/FT": "/Tx",
+    "/TU": "undefined"
+  },
+  "I decline all or a portion of the Fire Health and Safety Grant": {
+    "/FT": "/Tx",
+    "/TU": "I decline all or a portion of the Fire, Health and Safety Grant"
+  },
+  "Signature of Applicant": {
+    "/FT": "/Sig",
+    "/TU": "Signature of Applicant"
+  },
+  "Date": {
+    "/FT": "/Tx",
+    "/TU": "Date"
+  }
+}

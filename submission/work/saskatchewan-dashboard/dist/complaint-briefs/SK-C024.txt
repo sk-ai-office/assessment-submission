@@ -1,0 +1,107 @@
+SK-C024 — Evacuees receive unclear updates and delayed assistance
+INTERNAL COMPLAINT BRIEF · Sources reviewed 2026-11-25
+Review period: 2024-11-25 to 2026-11-25
+Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked.
+
+CONCERN AND IMPACT
+Evacuees report delayed financial assistance, insufficient supplies and unclear updates or return-home instructions.
+Delayed aid, insufficient supplies and conflicting instructions increase uncertainty while people are displaced.
+
+EVIDENCE IN THIS SAMPLE
+0 distinct public accounts; 3 named people in reporting (separate count); 3 evidence records; 0 records excluded from counts; 3 source pages.
+
+RESPONSIBLE SERVICE
+Ministry / oversight: Community Safety
+Service: Saskatchewan Public Safety Agency
+First contact: Contact the organization managing the particular assistance file: Saskatchewan Public Safety Agency for its emergency-support program, or the separate relief provider for its services.
+Escalation / responsibility: SPSA for operational and support-administration concerns; Community Safety for provincial oversight. Unresolved fairness concerns about a provincial agency can be raised with the Ombudsman.
+Routing context: Historical reporting refers to Corrections, Policing and Public Safety; current responsibility is Community Safety. Red Cross is a separate organization. Program eligibility varies by event.
+SPSA responsibilities: https://www.saskpublicsafety.ca/about-the-spsa/who-we-are
+Current ministerial responsibility: https://www.saskatchewan.ca/government/government-structure/cabinet
+Community Safety ministry: https://www.saskatchewan.ca/government/government-structure/ministries/community-safety
+
+AI ASSESSMENT AND PROPOSED ACTION
+Assessment: AI + service change
+Opportunity / first intervention: Help emergency-support staff draft consistent updates from approved current notices and verified assistance-status records.
+What AI cannot fix: It cannot supply aid, authorize payments, determine evacuation safety or issue independent return-home advice.
+First step: Trace how an approved notice reaches evacuees and identify conflicting versions. Test staff-reviewed drafts in a tabletop exercise before considering live use.
+Success measure: Time from an approved notice to a consistent recipient update.
+Why this starting point: Communication is consequential and repeated, but emergency authority, accessible channels and version control must be established first.
+
+ALL SOURCE EVIDENCE
+
+SK-E065 · SK-C024 · Original record OS18
+Platform: News & reports · MBC Radio
+Attribution: P020 · Reported experience
+Account / person reference: P020; incident reference: OS18
+Date: Jun 9, 2025 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: Says financial evacuation assistance had not arrived two weeks after leaving home.
+Status at source review: Historical complaint; current outcome not independently verified
+Context: No additional context recorded.
+Source: Northern NDP MLA and Creighton residents call out Saskatchewan government's wildfire response
+Original link: https://www.mbcradio.com/2025/06/northern-ndp-mla-and-creighton-residents-call-out-saskatchewan-governments-wildfire-response
+Region: Creighton
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+SK-E066 · SK-C024 · Original record OS19
+Platform: News & reports · 620 CKRM
+Attribution: P021 · Reported experience
+Account / person reference: P021; incident reference: OS19
+Date: Aug 7, 2025 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: Reports insufficient basic supplies and conflicting return-home instructions during evacuation.
+Status at source review: Historical complaint; current outcome not independently verified
+Context: No additional context recorded.
+Source: La Loche residents question aid response after wildfire evacuation to Regina
+Original link: https://www.620ckrm.com/2025/08/07/la-loche-residents-question-aid-response-after-wildfire-evacuation-to-regina/
+Region: La Loche / Regina evacuation
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+SK-E067 · SK-C024 · Original record OS20
+Platform: News & reports · CBC News
+Attribution: P022 · Reported experience
+Account / person reference: P022; incident reference: OS20
+Date: Jun 4, 2025 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: Describes uncertainty caused by sporadic wildfire updates while displaced.
+Status at source review: Historical complaint; current outcome not independently verified
+Context: Attribution and complaint reviewed in the publisher's video description; video not viewed.
+Source: Sask. wildfire evacuee criticizes lack of information, urgency from leaders
+Original link: https://www.youtube.com/watch?v=C5oVUZwgXsM
+Region: Wadin Bay / Prince Albert evacuation
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+COUNTING AND INTERPRETATION
+• SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.
+• A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.
+• Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.
+• This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.
+• Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.
+• AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes.
+
+REVIEW-WIDE COVERAGE AND LIMITATIONS
+The following platform totals cover the entire research review, not only this complaint.
+The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.
+Reddit: 48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked.
+App Store: 2 reviewer accounts counted. Direct reviews of the mySASKTEL app.
+LinkedIn: 4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts.
+X / Twitter: Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist.
+Quora: Original pages could not be reviewed because access was blocked. No Quora accounts counted.
+News & reports: 25 named complainants retained separately as supporting reporting, not direct social posts.
+• This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.
+• All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.
+• Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.
+• A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.
+• Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.
+• LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.
+• Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.
+• AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.
+• Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.
+• Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.
+• A missing topic or platform means a gap in this review, not that nobody has complained about it.
+
+Reference: SK-C024. Search this ID in the companion dashboard. Share this complete brief so evidence and qualifications travel together.

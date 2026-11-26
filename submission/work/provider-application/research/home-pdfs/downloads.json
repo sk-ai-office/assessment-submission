@@ -1,0 +1,116 @@
+[
+  {
+    "id": "active-play",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/127893/formats/153085/download",
+    "file": "active-play.pdf",
+    "bytes": 268834
+  },
+  {
+    "id": "active-plan",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/128037/formats/153257/download",
+    "file": "active-plan.pdf",
+    "bytes": 323617
+  },
+  {
+    "id": "active-info",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/127892/formats/153084/download",
+    "file": "active-info.pdf",
+    "bytes": 182350
+  },
+  {
+    "id": "handbook",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/69611/formats/87875/download",
+    "file": "handbook.docx",
+    "bytes": 68565
+  },
+  {
+    "id": "handbook-info",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/127403/formats/150255/download",
+    "file": "handbook-info.pdf",
+    "bytes": 283699
+  },
+  {
+    "id": "reference",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/75886/formats/84854/download",
+    "file": "reference.pdf",
+    "bytes": 62156
+  },
+  {
+    "id": "fee-limits",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/127280/formats/150047/download",
+    "file": "fee-limits.pdf",
+    "bytes": 196456
+  },
+  {
+    "id": "direct-deposit-childcare",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/75892/formats/84860/download",
+    "file": "direct-deposit-childcare.pdf",
+    "bytes": 341653
+  },
+  {
+    "id": "play-exploration",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/127883/formats/153076/download",
+    "file": "play-exploration.pdf",
+    "bytes": 196703
+  },
+  {
+    "id": "play-plan",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/127890/formats/153082/download",
+    "file": "play-plan.pdf",
+    "bytes": 315338
+  },
+  {
+    "id": "play-info",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/127884/formats/153077/download",
+    "file": "play-info.pdf",
+    "bytes": 275192
+  },
+  {
+    "id": "self-assessment",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/125669/formats/146978/download",
+    "file": "self-assessment.pdf",
+    "bytes": 564920
+  },
+  {
+    "id": "information-release",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/69606/formats/77361/download",
+    "file": "information-release.pdf",
+    "bytes": 115290
+  },
+  {
+    "id": "expansion-assessment",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/129928/formats/157353/download",
+    "file": "expansion-assessment.pdf",
+    "bytes": 329066
+  },
+  {
+    "id": "group-update",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/129930/formats/157364/download",
+    "file": "group-update.pdf",
+    "bytes": 213490
+  },
+  {
+    "id": "faq-current",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/123922/formats/144253/download",
+    "file": "faq-current.pdf",
+    "bytes": 270653
+  },
+  {
+    "id": "grants-guidance",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/113707/formats/127926/download",
+    "file": "grants-guidance.pdf",
+    "bytes": 290482
+  },
+  {
+    "id": "family-assessment-current",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/85581/formats/99082/download",
+    "file": "family-assessment-current.pdf",
+    "bytes": 761282
+  },
+  {
+    "id": "parent-fee-info",
+    "url": "https://publications.saskatchewan.ca/api/v1/products/115285/formats/130497/download",
+    "file": "parent-fee-info.pdf",
+    "bytes": 299204
+  }
+]

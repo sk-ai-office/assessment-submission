@@ -1,0 +1,195 @@
+{
+  "Facility Name": {
+    "/FT": "/Tx",
+    "/TU": "Facility Name"
+  },
+  "Date": {
+    "/FT": "/Tx",
+    "/TU": "Date"
+  },
+  "2 Vegetables or fruits  1 Grain  1": {
+    "/FT": "/Btn",
+    "/TU": "2 Vegetables or fruits + 1 Grain + 1"
+  },
+  "Milk": {
+    "/FT": "/Btn",
+    "/TU": "Milk"
+  },
+  "Water": {
+    "/FT": "/Btn",
+    "/TU": "Water"
+  },
+  "MondayBreakfast 2 Vegetables or fruits  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Monday_Breakfast 2 Vegetables or fruits + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "TuesdayBreakfast 2 Vegetables or fruits  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Tuesday_Breakfast 2 Vegetables or fruits + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "WednesdayBreakfast 2 Vegetables or fruits  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Wednesday_Breakfast 2 Vegetables or fruits + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "ThursdayBreakfast 2 Vegetables or fruits  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Thursday_Breakfast 2 Vegetables or fruits + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "FridayBreakfast 2 Vegetables or fruits  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Friday_Breakfast 2 Vegetables or fruits + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "1 Vegetable or fruit  1 Grain OR": {
+    "/FT": "/Btn",
+    "/TU": "1 Vegetable or fruit + 1 Grain; OR"
+  },
+  "Milk_2": {
+    "/FT": "/Btn",
+    "/TU": "Milk"
+  },
+  "Water_2": {
+    "/FT": "/Btn",
+    "/TU": "Water"
+  },
+  "MondayMorning Snack 1 Vegetable or fruit  1 Grain OR 1 Vegetable or fruit  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Monday_Morning Snack 1 Vegetable or fruit + 1 Grain; OR, 1 Vegetable or fruit + 1 Protein, and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "TuesdayMorning Snack 1 Vegetable or fruit  1 Grain OR 1 Vegetable or fruit  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Tuesday_Morning Snack 1 Vegetable or fruit + 1 Grain; OR, 1 Vegetable or fruit + 1 Protein, and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "WednesdayMorning Snack 1 Vegetable or fruit  1 Grain OR 1 Vegetable or fruit  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Wednesday_Morning Snack 1 Vegetable or fruit + 1 Grain; OR, 1 Vegetable or fruit + 1 Protein, and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "ThursdayMorning Snack 1 Vegetable or fruit  1 Grain OR 1 Vegetable or fruit  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Thursday_Morning Snack 1 Vegetable or fruit + 1 Grain; OR, 1 Vegetable or fruit + 1 Protein, and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "FridayMorning Snack 1 Vegetable or fruit  1 Grain OR 1 Vegetable or fruit  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Friday_Morning Snack 1 Vegetable or fruit + 1 Grain; OR, 1 Vegetable or fruit + 1 Protein, and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "1 Vegetable  1 Fruit  1 Grain": {
+    "/FT": "/Btn",
+    "/TU": "1 Vegetable + 1 Fruit + 1 Grain"
+  },
+  "Milk_3": {
+    "/FT": "/Btn",
+    "/TU": "Milk"
+  },
+  "Water_3": {
+    "/FT": "/Btn",
+    "/TU": "Water"
+  },
+  "MondayLunch 1 Vegetable  1 Fruit  1 Grain  1 Protein OR 2 Vegetables  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Monday_Lunch 1 Vegetable + 1 Fruit + 1 Grain + 1 Protein; OR 2 Vegetables + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "TuesdayLunch 1 Vegetable  1 Fruit  1 Grain  1 Protein OR 2 Vegetables  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Tuesday_Lunch 1 Vegetable + 1 Fruit + 1 Grain + 1 Protein; OR 2 Vegetables + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "WednesdayLunch 1 Vegetable  1 Fruit  1 Grain  1 Protein OR 2 Vegetables  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Wednesday_Lunch 1 Vegetable + 1 Fruit + 1 Grain + 1 Protein; OR 2 Vegetables + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "ThursdayLunch 1 Vegetable  1 Fruit  1 Grain  1 Protein OR 2 Vegetables  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Thursday_Lunch 1 Vegetable + 1 Fruit + 1 Grain + 1 Protein; OR 2 Vegetables + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "FridayLunch 1 Vegetable  1 Fruit  1 Grain  1 Protein OR 2 Vegetables  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Friday_Lunch 1 Vegetable + 1 Fruit + 1 Grain + 1 Protein; OR 2 Vegetables + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "1 Vegetable or fruit  1 Grain OR_2": {
+    "/FT": "/Btn",
+    "/TU": "1 Vegetable or fruit + 1 Grain; OR"
+  },
+  "Milk_4": {
+    "/FT": "/Btn",
+    "/TU": "Milk"
+  },
+  "Water_4": {
+    "/FT": "/Btn",
+    "/TU": "Water"
+  },
+  "MondayAfternoon Snack 1 Vegetable or fruit  1 Grain OR 1 Vegetable or fruit  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Monday_Afternoon Snack 1 Vegetable or fruit + 1 Grain; OR, 1 Vegetable or fruit + 1 Protein, and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "TuesdayAfternoon Snack 1 Vegetable or fruit  1 Grain OR 1 Vegetable or fruit  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Tuesday_Afternoon Snack 1 Vegetable or fruit + 1 Grain; OR, 1 Vegetable or fruit + 1 Protein, and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "WednesdayAfternoon Snack 1 Vegetable or fruit  1 Grain OR 1 Vegetable or fruit  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Wednesday_Afternoon Snack 1 Vegetable or fruit + 1 Grain; OR, 1 Vegetable or fruit + 1 Protein, and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "ThursdayAfternoon Snack 1 Vegetable or fruit  1 Grain OR 1 Vegetable or fruit  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Thursday_Afternoon Snack 1 Vegetable or fruit + 1 Grain; OR, 1 Vegetable or fruit + 1 Protein, and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "FridayAfternoon Snack 1 Vegetable or fruit  1 Grain OR 1 Vegetable or fruit  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Friday_Afternoon Snack 1 Vegetable or fruit + 1 Grain; OR, 1 Vegetable or fruit + 1 Protein, and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "1 Vegetable  1 Fruit  1 Grain_2": {
+    "/FT": "/Btn",
+    "/TU": "1 Vegetable + 1 Fruit + 1 Grain"
+  },
+  "Milk_5": {
+    "/FT": "/Btn",
+    "/TU": "Milk"
+  },
+  "Water_5": {
+    "/FT": "/Btn",
+    "/TU": "Water"
+  },
+  "MondaySupper 1 Vegetable  1 Fruit  1 Grain  1 Protein OR 2 Vegetables  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Monday_Supper 1 Vegetable + 1 Fruit + 1 Grain + 1 Protein; OR 2 Vegetables + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "TuesdaySupper 1 Vegetable  1 Fruit  1 Grain  1 Protein OR 2 Vegetables  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Tuesday_Supper 1 Vegetable + 1 Fruit + 1 Grain + 1 Protein; OR 2 Vegetables + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "WednesdaySupper 1 Vegetable  1 Fruit  1 Grain  1 Protein OR 2 Vegetables  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Wednesday_Supper 1 Vegetable + 1 Fruit + 1 Grain + 1 Protein; OR 2 Vegetables + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "ThursdaySupper 1 Vegetable  1 Fruit  1 Grain  1 Protein OR 2 Vegetables  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Thursday_Supper 1 Vegetable + 1 Fruit + 1 Grain + 1 Protein; OR 2 Vegetables + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  },
+  "FridaySupper 1 Vegetable  1 Fruit  1 Grain  1 Protein OR 2 Vegetables  1 Grain  1 Protein and Milk Water": {
+    "/FT": "/Tx",
+    "/TU": "Friday_Supper 1 Vegetable + 1 Fruit + 1 Grain + 1 Protein; OR 2 Vegetables + 1 Grain + 1 Protein; and, *Milk Water",
+    "/Ff": "4096"
+  }
+}

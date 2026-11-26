@@ -1,10 +1,17 @@
-node_modules/
-.DS_Store
-__pycache__/
-*.pyc
+# Secrets and machine-local state
 .env
 .env.*
 !.env.example
-artifacts/
-*.tar.gz
-*.zip
+**/.vercel/
+**/.openai/
+**/.DS_Store
+**/node_modules/
+**/__pycache__/
+*.pyc
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite3
+# Reproducible temporary output
+.tmp/
+tmp/

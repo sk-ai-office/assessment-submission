@@ -1,0 +1,123 @@
+{
+  "Change in address or name": {
+    "/FT": "/Btn",
+    "/TU": "Change in address or name"
+  },
+  "Change in household information eg new dependent new individual residing in the home etc": {
+    "/FT": "/Btn",
+    "/TU": "Change in household information (e.g. new dependent, new individual residing in the home, etc"
+  },
+  "Change in license type Specify": {
+    "/FT": "/Btn",
+    "/TU": "Change in license type. Specify"
+  },
+  "Change in licensed spaces Specify": {
+    "/FT": "/Btn",
+    "/TU": "Change in licensed spaces. Specify"
+  },
+  "First Name": {
+    "/FT": "/Tx",
+    "/TU": "First Name"
+  },
+  "Last Name": {
+    "/FT": "/Tx",
+    "/TU": "Last Name"
+  },
+  "Previous Names if applicable": {
+    "/FT": "/Tx",
+    "/TU": "Previous Names (if applicable)"
+  },
+  "Entity Number": {
+    "/FT": "/Tx",
+    "/TU": "Entity Number"
+  },
+  "Email Address": {
+    "/FT": "/Tx",
+    "/TU": "Email Address"
+  },
+  "Date of Birth yyyymmdd": {
+    "/FT": "/Tx",
+    "/TU": "Date of Birth (yyyy-mm-dd)"
+  },
+  "Street Address": {
+    "/FT": "/Tx",
+    "/TU": "Street Address"
+  },
+  "CityTown": {
+    "/FT": "/Tx",
+    "/TU": "City/Town"
+  },
+  "Postal Code": {
+    "/FT": "/Tx",
+    "/TU": "Postal Code"
+  },
+  "Daytime Phone": {
+    "/FT": "/Tx",
+    "/TU": "Daytime Phone"
+  },
+  "First and Last NameRow1": {
+    "/FT": "/Tx",
+    "/TU": "First and Last Name_Row_1"
+  },
+  "Date of BirthRow1": {
+    "/FT": "/Tx",
+    "/TU": "Date of Birth_Row_1"
+  },
+  "Relationship to ApplicantRow1": {
+    "/FT": "/Tx",
+    "/TU": "Relationship to Applicant_Row_1"
+  },
+  "First and Last NameRow2": {
+    "/FT": "/Tx",
+    "/TU": "First and Last Name_Row_2"
+  },
+  "Date of BirthRow2": {
+    "/FT": "/Tx",
+    "/TU": "Date of Birth_Row_2"
+  },
+  "Relationship to ApplicantRow2": {
+    "/FT": "/Tx",
+    "/TU": "Relationship to Applicant_Row_2"
+  },
+  "First and Last NameRow3": {
+    "/FT": "/Tx",
+    "/TU": "First and Last Name_Row_3"
+  },
+  "Date of BirthRow3": {
+    "/FT": "/Tx",
+    "/TU": "Date of Birth_Row_3"
+  },
+  "Relationship to ApplicantRow3": {
+    "/FT": "/Tx",
+    "/TU": "Relationship to Applicant_Row_3"
+  },
+  "First and Last NameRow4": {
+    "/FT": "/Tx",
+    "/TU": "First and Last Name_Row_4"
+  },
+  "Date of BirthRow4": {
+    "/FT": "/Tx",
+    "/TU": "Date of Birth_Row_4"
+  },
+  "Relationship to ApplicantRow4": {
+    "/FT": "/Tx",
+    "/TU": "Relationship to Applicant_Row_4"
+  },
+  "Signature": {
+    "/FT": "/Sig",
+    "/TU": "Signature"
+  },
+  "Date": {
+    "/FT": "/Tx",
+    "/TU": "Date"
+  },
+  "Check Box1": {
+    "/FT": "/Btn"
+  },
+  "Text2": {
+    "/FT": "/Tx"
+  },
+  "Text3": {
+    "/FT": "/Tx"
+  }
+}

@@ -1,0 +1,8 @@
+import {useState} from 'react';
+import {Button,Field,Notice} from './ui';
+import {dateLabel} from './domain';
+export default function ProviderWorkspace({provider,onSave}) {
+  const [value,setValue]=useState(provider.availability),[error,setError]=useState(''),[busy,setBusy]=useState(false),[saved,setSaved]=useState(false);
+  async function save(e){e.preventDefault();setBusy(true);setError('');try{await onSave(value);setSaved(true);}catch(e){setError(e.message);}finally{setBusy(false);}}
+  return <><div className="page-heading"><h1>Your provider listing</h1><p>{provider.name}</p></div><form className="provider-settings" onSubmit={save}>{error&&<Notice error>{error}</Notice>}{saved&&<Notice>Your availability was updated. Families can see it in search.</Notice>}<Field label="Application availability"><select value={value} onChange={e=>{setValue(e.target.value);setSaved(false);}}><option value="accepting">Accepting applications</option><option value="closed">Waitlist closed</option><option value="unknown">Not confirmed</option></select></Field><p className="muted">Accepting applications does not promise a vacant space. This update changes only your example facility.</p><Button primary disabled={busy}>{busy?'Saving…':'Update listing'}</Button>{provider.availabilityUpdated&&<p>Last confirmed {dateLabel(provider.availabilityUpdated)}</p>}</form><section className="detail-section provider-explainer"><h2>One update, visible to families</h2><p>Application responses and listing availability use the same local database. The family view receives these changes automatically.</p><p>Real providers would connect through authenticated staff accounts or their existing childcare software. This pilot’s account switcher is for demonstration only.</p></section></>;
+}

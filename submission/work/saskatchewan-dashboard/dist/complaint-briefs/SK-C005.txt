@@ -1,0 +1,159 @@
+SK-C005 — People call repeatedly for breast imaging appointments
+INTERNAL COMPLAINT BRIEF · Sources reviewed 2026-11-25
+Review period: 2024-11-25 to 2026-11-25
+Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked.
+
+CONCERN AND IMPACT
+Residents describe long screening and diagnostic waits, repeated calls and travel to obtain appointments.
+Long waits and limited local appointments prompt repeated calls or travel to other cities.
+
+EVIDENCE IN THIS SAMPLE
+4 distinct public accounts; 2 named people in reporting (separate count); 6 evidence records; 0 records excluded from counts; 3 source pages.
+
+RESPONSIBLE SERVICE
+Ministry / oversight: Health
+Service: Saskatchewan Cancer Agency / Saskatchewan Health Authority
+First contact: Contact the care team or clinic, then its manager. For SHA services, use the SHA Client Concerns Office; surgical care coordinators can help with surgery navigation.
+Escalation / responsibility: Ministry of Health for system access, funding, and policy. For unresolved administrative fairness, check Ombudsman jurisdiction. Professional-conduct concerns may follow a separate regulator process.
+Routing context: The provider determines the correct route: not every clinic or screening service is operated by SHA.
+SHA patient concerns: https://www.saskhealthauthority.ca/contact/patient-or-client-concerns-and-feedback
+Surgical care navigation: https://www.saskatchewan.ca/residents/health/accessing-health-care-services/surgery/navigating-surgical-care
+Health ministry: https://www.saskatchewan.ca/government/government-structure/ministries/health
+
+AI ASSESSMENT AND PROPOSED ACTION
+Assessment: AI + service change
+Opportunity / first intervention: Help booking staff explain approved referral status and available scheduling options, using current service information.
+What AI cannot fix: It cannot expand imaging capacity, interpret symptoms or decide clinical priority.
+First step: Distinguish screening from diagnostic pathways with service owners. Test explanations for verified booking scenarios and keep clinical decisions with qualified staff.
+Success measure: Enquiries resolved with an accurate explanation of the applicable booking pathway.
+Why this starting point: Several accounts show a navigation problem, but combining different clinical pathways without discovery would produce misleading advice.
+
+ALL SOURCE EVIDENCE
+
+SK-E007 · SK-C005 · Original record H007
+Platform: News & reports · The Canadian Press / 980 CJME
+Attribution: P007 · Reported experience
+Account / person reference: P007; incident reference: HC07
+Date: Feb 17, 2025 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: A patient criticized a nearly year-long wait for a diagnostic mammogram.
+Status at source review: Appointment occurred or was scheduled; later resolution not verified
+Context: Includes Ministry response on staffing and out-of-province services.
+Source: Sask. dealing with long waits for breast health one year after plan announced
+Original link: https://www.cjme.com/2025/02/17/sask-dealing-with-long-waits-for-breast-health-one-year-after-plan-announced/
+Region: Regina
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+SK-E008 · SK-C005 · Original record H008
+Platform: News & reports · Saskatchewan NDP Caucus
+Attribution: P008 · Reported experience
+Account / person reference: P008; incident reference: HC08
+Date: Oct 30, 2026 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: A resident criticized a year-long mammogram wait and the much later appointment offered if she rescheduled.
+Status at source review: Appointment occurred or was scheduled; later resolution not verified
+Context: Partisan source. No endorsement of political allegations in release.
+Source: Year-long mammogram wait highlighted by Saskatchewan NDP
+Original link: https://www.ndpcaucus.sk.ca/carla_beck_s_team_calls_out_sask_party_government_for_year_long_wait_time_for_a_mammogram_putting_lives_at_risk
+Region: Regina
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+SK-E017 · SK-C005 · Original record H018
+Platform: Reddit · r/saskatchewan
+Attribution: u/batteredkitty · Personal experience
+Account / person reference: A003; incident reference: HC16
+Date: 2025-03-26 — publication day from search index (day; indexed)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “The wait time for my mammogram, which is supposed to be done yearly is now a year and a half.”
+Summary: Criticized an anticipated 18-month mammogram wait.
+Status at source review: Unresolved at post; current status unknown
+Context: Self-reported and not independently verified. Several thread participants also report faster or satisfactory access; these are not complaints. No official response in thread reviewed. Unresolved at post; current status unknown
+Source: Biopsy and mammogram wait times in Sask.
+Original link: https://www.reddit.com/r/saskatchewan/comments/1jke659/biopsy_and_mammogram_wait_times_in_sask/
+Region: Regina
+Verification: Public handle and exact excerpt read together on the full parent-thread page. Calendar date previously verified in the matching indexed post/comment. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.
+Source checked: 2026-11-25
+
+SK-E018 · SK-C005 · Original record H019
+Platform: Reddit · r/saskatchewan
+Attribution: u/Sheweb · Personal experience
+Account / person reference: A004; incident reference: HC17
+Date: Thread dated March 26, 2025; exact comment day unverified (parent-thread-day; comment-day-unverified)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “I call regularly to ask about the wait times and my family doctor has called the mammogram place directly to tell them I can’t wait.”
+Summary: Reported delayed screening that required repeated calls and advocacy.
+Status at source review: Some accommodation reported; current status unknown
+Context: Self-reported and not independently verified. Several thread participants also report faster or satisfactory access; these are not complaints. No official response in thread reviewed. Exact comment date was not independently established; the discussion date is shown. Some accommodation reported; current status unknown
+Source: Biopsy and mammogram wait times in Sask. — comment
+Original link: https://www.reddit.com/r/saskatchewan/comments/1jke659/comment/mjunwpd/
+Full discussion: https://www.reddit.com/r/saskatchewan/comments/1jke659/biopsy_and_mammogram_wait_times_in_sask/
+Region: Saskatchewan (not specified)
+Verification: Public handle and exact excerpt read together on the full parent-thread page. The page exposes only a relative comment age; the stored date is the parent thread date, not a verified comment date. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.
+Source checked: 2026-11-25
+
+SK-E019 · SK-C005 · Original record H020
+Platform: Reddit · r/saskatchewan
+Attribution: u/Ok_Wealth2955 · Personal experience
+Account / person reference: A005; incident reference: HC18
+Date: Thread dated March 26, 2025; exact comment day unverified (parent-thread-day; comment-day-unverified)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “I asked to go to Moose Jaw for mammogram. It was more than a year wait in Regina and 6 weeks in Moose Jaw.”
+Summary: Reported choosing another city after being quoted a Regina wait exceeding one year.
+Status at source review: Shorter appointment available in another city
+Context: Self-reported and not independently verified. Several thread participants also report faster or satisfactory access; these are not complaints. No official response in thread reviewed. Exact comment date was not independently established; the discussion date is shown. Shorter appointment available in another city
+Source: Biopsy and mammogram wait times in Sask. — comment
+Original link: https://www.reddit.com/r/saskatchewan/comments/1jke659/comment/mjuwn7o/
+Full discussion: https://www.reddit.com/r/saskatchewan/comments/1jke659/biopsy_and_mammogram_wait_times_in_sask/
+Region: Regina / Moose Jaw
+Verification: Public handle and exact excerpt read together on the full parent-thread page. The page exposes only a relative comment age; the stored date is the parent thread date, not a verified comment date. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.
+Source checked: 2026-11-25
+
+SK-E020 · SK-C005 · Original record H021
+Platform: Reddit · r/saskatchewan
+Attribution: u/FrmBkr · Personal experience
+Account / person reference: A006; incident reference: HC19
+Date: Thread dated March 26, 2025; exact comment day unverified (parent-thread-day; comment-day-unverified)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “When I called in mid-January there were no MJ appointments available to and they wouldn’t add me to any kind of waitlist.”
+Summary: Reported unavailable local appointments and a later cancellation booking.
+Status at source review: Cancellation appointment scheduled for April 9
+Context: Self-reported and not independently verified. Several thread participants also report faster or satisfactory access; these are not complaints. No official response in thread reviewed. Exact comment date was not independently established; the discussion date is shown. Cancellation appointment scheduled for April 9
+Source: Biopsy and mammogram wait times in Sask. — comment
+Original link: https://www.reddit.com/r/saskatchewan/comments/1jke659/comment/mjvm3fv/
+Full discussion: https://www.reddit.com/r/saskatchewan/comments/1jke659/biopsy_and_mammogram_wait_times_in_sask/
+Region: Moose Jaw / Regina
+Verification: Public handle and exact excerpt read together on the full parent-thread page. The page exposes only a relative comment age; the stored date is the parent thread date, not a verified comment date. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.
+Source checked: 2026-11-25
+
+COUNTING AND INTERPRETATION
+• SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.
+• A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.
+• Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.
+• This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.
+• Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.
+• AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes.
+
+REVIEW-WIDE COVERAGE AND LIMITATIONS
+The following platform totals cover the entire research review, not only this complaint.
+The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.
+Reddit: 48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked.
+App Store: 2 reviewer accounts counted. Direct reviews of the mySASKTEL app.
+LinkedIn: 4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts.
+X / Twitter: Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist.
+Quora: Original pages could not be reviewed because access was blocked. No Quora accounts counted.
+News & reports: 25 named complainants retained separately as supporting reporting, not direct social posts.
+• This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.
+• All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.
+• Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.
+• A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.
+• Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.
+• LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.
+• Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.
+• AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.
+• Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.
+• Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.
+• A missing topic or platform means a gap in this review, not that nobody has complained about it.
+
+Reference: SK-C005. Search this ID in the companion dashboard. Share this complete brief so evidence and qualifications travel together.

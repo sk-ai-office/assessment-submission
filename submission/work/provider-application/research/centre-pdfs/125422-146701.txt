@@ -1,0 +1,168 @@
+PAGE 1
+ 
+ 
+Completion of a budget is part of the child care centre application process. The Ministry of Education 
+has developed a Budget Template for Centres to assist with this request. This template will calculate the 
+centre’s projected revenues and expenses based on the amounts the applicant enters for each category.  
+The total annual grant amounts are an estimate based on the information provided by the organization. 
+Actual grant amounts the organization will receive from the Ministry of Education are dependent upon 
+multiple variables including approved number and age designation of spaces. 
+The template is an Excel document that contains three worksheets. When an organization provides their 
+estimations, the template’s built-in calculations populate additional cells which will identify potential 
+revenue and expenses.  
+The three worksheets are:  
+• Inputs; 
+• Actual Grants; and, 
+• Budget.  
+ 
+The first worksheet in the template is Inputs. The Description section is used to calculate multiple 
+sources of grant funding a centre may receive from the Ministry of Education.  
+The following information is required to complete this section: 
+• the number of spaces for each age category of child: 
+o Only those centres located in the Northern Saskatchewan Administrative District should fill 
+in the ‘Northern Region’ lines if applicable.  
+• the number of early childhood educators; 
+• the wages per hour of each certification level; and, 
+• the proposed child care fees - refer to Setting Fee Schedules - Centres. 
+ 
+Additional Information: 
+• Projected calculations consider the geographical location of the centre. Centres located in the 
+Northern Saskatchewan Administrative District (NSAD) are funded at a higher rate than those not in 
+the NSAD in recognition of the additional costs associated with living in that region. 
+• If the combined work hours of more than one employee equal the hours of a full-time position, 
+record this as one full-time equivalent (FTE). For example, if an organization anticipates they will 
+have two part-time employees each working four hours per day, they will combine their total hours 
+to be one full-time staff member. 
+ 
+ 
+ 
+
+PAGE 2
+2 
+• Further clarification on staffing, early childhood educators certification levels and child to staff ratios 
+can be found in Part IV – Standards For Centres of the Child Care Licensee Manual: 
+o Section 41 Centre Director and Supervisor 
+▪ topic: director and supervisor requirements 
+o Section 42 Child Care Workers 
+▪ topic: child care workers and percentage of early childhood educators required 
+o Section 43 Exemptions 
+▪ topic: early childhood educator exemptions 
+o Section 49 Duty to Supervise 
+▪ topic: supervision of children by child care workers 
+o Section 50 Groups 
+▪ topic: caring for children in age categories 
+o Section 51 Maximum Group Size 
+▪ topic: maximum number of children cared for in each age group 
+o Section 52 Supervision at Centres 
+▪ topic: staff-to-child ratios 
+The second worksheet in the template is Annual Grants. The grant amount calculated in this workbook 
+is an estimate based on the information provided in the Inputs worksheet. Actual grant amounts may 
+vary depending on specific circumstances. This worksheet has three categories of grants that are 
+provided by the Ministry of Education to child care centres.  
+ 
+Grants for Child Care Centres fall into three categories: 
+• Capital/Start Up Grants; 
+• Operational Grants; and, 
+• One-time Grants. 
+Capital/Start-Up Grants 
+Capital/start-up grants support the development of centres following the space allocation. There are 
+two grants in this category: Space Development Grant and Start-Up Grant. 
+ 
+Additional Information 
+• Further clarification on capital grants is in Section VII - Grants of the of the Child Care Licensee 
+Manual: 
+o Section 77 Start Up Grants – Centres 
+▪ topic: a grant to assist with expenses incurred for centre development 
+o Section 78 Space Development Capital Grants – Centres 
+▪ topic: a grant is to assist with the expenses incurred in opening new child care 
+centre space (e.g., equipment, furnishings).  
+ 
+ 
+ 
+ 
+
+PAGE 3
+3 
+Operational Grants  
+Operational grants assist with the costs of day-to-day expenses and support ongoing operations and 
+program delivery. Operational grants consider multiple factors such as the number of staff, early 
+childhood education certification levels of staff, and the number of and ages of children. These grants 
+are intended to support staff salaries, administrative functions and other essential operational needs. 
+ 
+The following list identifies available grants and the applicable section of the Child Care Licensee 
+Manual:  
+• Section 83 Early Childhood Service Grants - Centres 
+• Section 83.1 Early Childhood Services – Northern Centres 
+• Section 84 Support Services Grants – Teen Student Support Centres  
+• Section 87 Northern Transportation Grant - Centres 
+• Section 92 Tuition Reimbursement Grants 
+• Section 94 Individual Inclusion Grants 
+• Section 95 Enhanced Accessibility Grants 
+The following grants require an additional application.  
+• Wage Enhancement Grant 
+• Parent Fee Reduction Grant 
+• Professional Development Grant  
+ 
+One-Time Grants 
+The Ministry of Education provides one-time grants to facilities. One-time grants have specific criteria 
+and are provided without any expectations of recurring financial support. Once these grants are 
+allocated, no additional funding is provided. There are two specific one-time grants provided prior to 
+centre opening based on the number of licensed spaces: 
+• Active Play Grant; and, 
+• Play and Exploration Grant. 
+ 
+The third worksheet is Annual Operating Budget. This worksheet summarizes the monthly and annual 
+budget required to operate.  
+This part of the template includes: 
+• Revenue; 
+• Staff;  
+• Administration Costs; 
+• Physical Facility; 
+• Professional Development;  
+• Consumable Supplies; and, 
+• Equipment and Furnishings. 
+ 
+The ‘Revenue’ section will populate based on previously provided information. This includes facility fees, 
+total grants and other revenue. 
+ 
+ 
+ 
+
+PAGE 4
+4 
+The ‘Staff’ section requires salary calculations. A hyperlink is embedded in the worksheet to assist with 
+these calculations for payroll deductions. When calculating staff wages, start with the annual salary cost 
+then divide by twelve for the monthly cost. Two pay periods will be missed on the annual calculation 
+when starting with the monthly cost and calculating a bi-weekly payment. 
+ 
+‘Administration Costs’ take into consideration expenses related to the overall management and 
+operations of the child care centre. This may include items such as a computer, required software and 
+costs for accounting services/book-keeping to name a few. 
+ 
+‘Physical Facility’ takes into account expenses related to the mortgage or lease of the child care facility, 
+utilities, and facility repairs and maintenance.  
+ 
+The ‘Professional Development’ section considers those expenses related to the child care staff’s 
+professional learning and development, including the centre’s professional memberships (i.e., SECA), 
+and requirements that are necessary to maintain a child care licence such as Early Childhood Education 
+classes or first aid and CPR courses. 
+ 
+‘Consumable Supplies’ those items that are used up or depleted during regular child care operations or 
+specific activities. These supplies need to be replaced after they are consumed. They are typically not 
+intended for long-term use or reuse and the costs should be accounted for as part of the operational 
+budget.   
+ 
+‘Equipment and Furnishings’ category considers items that are used in the child care centre’s operations. 
+These items have a longer lifespan than ‘Consumable Supplies’. Equipment costs can be categorized as 
+different than supplies because they involve larger, more durable items that support ongoing activities. 
+Equipment and furnishings may require maintenance and occasional upgrades and should be factored 
+into a budget. It is important to consider equipment purchases that may depreciate or may need to be 
+replaced.  
+ 
+Budgets for Centres Template Key 
+ 
+Abbreviation Term 
+ECE Early Childhood Educator 
+ECS Early Childhood Services 
+PFC Parent Fee Reduction 
+ 

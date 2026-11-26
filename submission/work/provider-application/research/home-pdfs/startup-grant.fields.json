@@ -1,0 +1,539 @@
+{
+  "Licensee Name": {
+    "/FT": "/Tx",
+    "/TU": "Licensee Name"
+  },
+  "Address": {
+    "/FT": "/Tx",
+    "/TU": "Address"
+  },
+  "CityTown": {
+    "/FT": "/Tx",
+    "/TU": "City/Town"
+  },
+  "Postal Code": {
+    "/FT": "/Tx",
+    "/TU": "Postal Code"
+  },
+  "Phone Number": {
+    "/FT": "/Tx",
+    "/TU": "Phone Number"
+  },
+  "Email Address": {
+    "/FT": "/Tx",
+    "/TU": "Email Address"
+  },
+  "Item DescriptionRow1": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_1"
+  },
+  "Estimated CostRow1": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_1"
+  },
+  "Item DescriptionRow1_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_1"
+  },
+  "Estimated CostRow1_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_1"
+  },
+  "Item DescriptionRow2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_2"
+  },
+  "Estimated CostRow2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_2"
+  },
+  "Item DescriptionRow2_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_2"
+  },
+  "Estimated CostRow2_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_2"
+  },
+  "Item DescriptionRow3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_3"
+  },
+  "Estimated CostRow3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_3"
+  },
+  "Item DescriptionRow3_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_3"
+  },
+  "Estimated CostRow3_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_3"
+  },
+  "Item DescriptionRow4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_4"
+  },
+  "Estimated CostRow4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_4"
+  },
+  "Item DescriptionRow4_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_4"
+  },
+  "Estimated CostRow4_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_4"
+  },
+  "Item DescriptionRow5": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_5"
+  },
+  "Estimated CostRow5": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_5"
+  },
+  "Item DescriptionRow5_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_5"
+  },
+  "Estimated CostRow5_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_5"
+  },
+  "Item DescriptionRow6": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_6"
+  },
+  "Estimated CostRow6": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_6"
+  },
+  "Item DescriptionRow6_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_6"
+  },
+  "Estimated CostRow6_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_6"
+  },
+  "Item DescriptionRow7": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_7"
+  },
+  "Estimated CostRow7": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_7"
+  },
+  "Item DescriptionRow7_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_7"
+  },
+  "Estimated CostRow7_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_7"
+  },
+  "Item DescriptionRow8": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_8"
+  },
+  "Estimated CostRow8": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_8"
+  },
+  "Item DescriptionRow8_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_8"
+  },
+  "Estimated CostRow8_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_8"
+  },
+  "Item DescriptionRow9": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_9"
+  },
+  "Estimated CostRow9": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_9"
+  },
+  "Item DescriptionRow9_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_9"
+  },
+  "Estimated CostRow9_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_9"
+  },
+  "Item DescriptionRow10": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_10"
+  },
+  "Estimated CostRow10": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_10"
+  },
+  "Item DescriptionRow10_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_10"
+  },
+  "Estimated CostRow10_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_10"
+  },
+  "Item DescriptionRow11": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_11"
+  },
+  "Estimated CostRow11": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_11"
+  },
+  "Item DescriptionRow11_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_11"
+  },
+  "Estimated CostRow11_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_11"
+  },
+  "Item DescriptionRow12": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_12"
+  },
+  "Estimated CostRow12": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_12"
+  },
+  "Item DescriptionRow12_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_12"
+  },
+  "Estimated CostRow12_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_12"
+  },
+  "Item DescriptionRow13": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_13"
+  },
+  "Estimated CostRow13": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_13"
+  },
+  "Item DescriptionRow13_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_13"
+  },
+  "Estimated CostRow13_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_13"
+  },
+  "Item DescriptionRow14": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_14"
+  },
+  "Estimated CostRow14": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_14"
+  },
+  "Item DescriptionRow14_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_14"
+  },
+  "Estimated CostRow14_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_14"
+  },
+  "Item DescriptionRow15": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_15"
+  },
+  "Estimated CostRow15": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_15"
+  },
+  "Item DescriptionRow15_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_15"
+  },
+  "Estimated CostRow15_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_15"
+  },
+  "Item DescriptionRow16": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_16"
+  },
+  "Estimated CostRow16": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_16"
+  },
+  "Item DescriptionRow16_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_16"
+  },
+  "Estimated CostRow16_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_16"
+  },
+  "Item DescriptionRow17": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_17"
+  },
+  "Estimated CostRow17": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_17"
+  },
+  "Item DescriptionRow17_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_17"
+  },
+  "Estimated CostRow17_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_17"
+  },
+  "Item DescriptionRow18": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_18"
+  },
+  "Estimated CostRow18": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_18"
+  },
+  "Item DescriptionRow18_2": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_18"
+  },
+  "Estimated CostRow18_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_18"
+  },
+  "Estimated CostSubTotal including taxes": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Sub-Total (including taxes):",
+    "/V": "0"
+  },
+  "Item DescriptionRow1_3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_1"
+  },
+  "Estimated CostRow1_3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_1"
+  },
+  "Item DescriptionRow1_4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_1"
+  },
+  "Estimated CostRow1_4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_1"
+  },
+  "Item DescriptionRow2_3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_2"
+  },
+  "Estimated CostRow2_3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_2"
+  },
+  "Item DescriptionRow2_4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_2"
+  },
+  "Estimated CostRow2_4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_2"
+  },
+  "Item DescriptionRow3_3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_3"
+  },
+  "Estimated CostRow3_3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_3"
+  },
+  "Item DescriptionRow3_4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_3"
+  },
+  "Estimated CostRow3_4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_3"
+  },
+  "Item DescriptionRow4_3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_4"
+  },
+  "Estimated CostRow4_3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_4"
+  },
+  "Item DescriptionRow4_4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_4"
+  },
+  "Estimated CostRow4_4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_4"
+  },
+  "Item DescriptionRow5_3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_5"
+  },
+  "Estimated CostRow5_3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_5"
+  },
+  "Item DescriptionRow5_4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_5"
+  },
+  "Estimated CostRow5_4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_5"
+  },
+  "Item DescriptionRow6_3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_6"
+  },
+  "Estimated CostRow6_3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_6"
+  },
+  "Item DescriptionRow6_4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_6"
+  },
+  "Estimated CostRow6_4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_6"
+  },
+  "Item DescriptionRow7_3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_7"
+  },
+  "Estimated CostRow7_3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_7"
+  },
+  "Item DescriptionRow7_4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_7"
+  },
+  "Estimated CostRow7_4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_7"
+  },
+  "Item DescriptionRow8_3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_8"
+  },
+  "Estimated CostRow8_3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_8"
+  },
+  "Item DescriptionRow8_4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_8"
+  },
+  "Estimated CostRow8_4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_8"
+  },
+  "Item DescriptionRow9_3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_9"
+  },
+  "Estimated CostRow9_3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_9"
+  },
+  "Item DescriptionRow9_4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_9"
+  },
+  "Estimated CostRow9_4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_9"
+  },
+  "Item DescriptionRow10_3": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_10"
+  },
+  "Estimated CostRow10_3": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_10"
+  },
+  "Item DescriptionRow10_4": {
+    "/FT": "/Tx",
+    "/TU": "Item Description_Row_10"
+  },
+  "Estimated CostRow10_4": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Row_10"
+  },
+  "Estimated CostSubTotal including taxes_2": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Sub-Total (including taxes):"
+  },
+  "Estimated CostSubTotal": {
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost_Sub-Total %"
+  },
+  "I decline all or a portion of the StartUp Grant": {
+    "/FT": "/Tx",
+    "/TU": "I decline all or a portion of the Start-Up Grant"
+  },
+  "Signature of Licensee": {
+    "/FT": "/Sig",
+    "/TU": "Signature of Licensee"
+  },
+  "Date": {
+    "/FT": "/Tx",
+    "/TU": "Date"
+  },
+  "Check Box1": {
+    "/FT": "/Btn"
+  },
+  "Check Box2": {
+    "/FT": "/Btn"
+  },
+  "Check Box3": {
+    "/FT": "/Btn"
+  },
+  "Check Box4": {
+    "/FT": "/Btn"
+  },
+  "Check Box5": {
+    "/FT": "/Btn"
+  },
+  "Check Box6": {
+    "/FT": "/Btn"
+  },
+  "Check Box7": {
+    "/FT": "/Btn"
+  },
+  "Check Box9": {
+    "/FT": "/Btn"
+  },
+  "Check Box10": {
+    "/FT": "/Btn"
+  },
+  "Check Box11": {
+    "/FT": "/Btn"
+  },
+  "Check Box12": {
+    "/FT": "/Btn"
+  },
+  "Check Box13": {
+    "/FT": "/Btn"
+  },
+  "Total": {
+    "/FT": "/Tx",
+    "/TU": "Total"
+  }
+}

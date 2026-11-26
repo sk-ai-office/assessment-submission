@@ -1,0 +1,116 @@
+{
+  "To Start Direct Deposit": {
+    "/T": "To Start Direct Deposit",
+    "/FT": "/Btn",
+    "/TU": "To Start Direct Deposit",
+    "/_States_": "['/Off', '/On']"
+  },
+  "To Change Information on Direct Deposit": {
+    "/T": "To Change Information on Direct Deposit",
+    "/FT": "/Btn",
+    "/TU": "To Change Information on Direct Deposit",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Supplier Name": {
+    "/T": "Supplier Name",
+    "/FT": "/Tx",
+    "/TU": "Supplier Name"
+  },
+  "Supplier No": {
+    "/T": "Supplier No",
+    "/FT": "/Tx",
+    "/TU": "Supplier No"
+  },
+  "Mailing Address": {
+    "/T": "Mailing Address",
+    "/FT": "/Tx",
+    "/TU": "Mailing Address"
+  },
+  "s Name": {
+    "/T": "s Name",
+    "/FT": "/Tx",
+    "/TU": "s Name"
+  },
+  "Title": {
+    "/T": "Title",
+    "/FT": "/Tx",
+    "/TU": "Title"
+  },
+  "Authorizing Signature": {
+    "/T": "Authorizing Signature",
+    "/FT": "/Sig",
+    "/TU": "Authorizing Signature"
+  },
+  "Telephone Number": {
+    "/T": "Telephone Number",
+    "/FT": "/Tx",
+    "/TU": "Telephone Number"
+  },
+  "Account Number": {
+    "/T": "Account Number",
+    "/FT": "/Tx",
+    "/TU": "Account Number",
+    "/Ff": "25165824"
+  },
+  "Name and Address of Financial Institution": {
+    "/T": "Name and Address of Financial Institution",
+    "/FT": "/Tx",
+    "/TU": "Name and Address of Financial Institution"
+  },
+  "Financial Institution Officials Signature and Stamp": {
+    "/T": "Financial Institution Officials Signature and Stamp",
+    "/FT": "/Sig",
+    "/TU": "Financial Institution Official's Signature and Stamp"
+  },
+  "Supplier Number": {
+    "/T": "Supplier Number",
+    "/FT": "/Tx",
+    "/TU": "Supplier Number"
+  },
+  "Supplier Contact Name": {
+    "/T": "Supplier Contact Name",
+    "/FT": "/Tx",
+    "/TU": "Supplier Contact Name"
+  },
+  "Supplier Site": {
+    "/T": "Supplier Site",
+    "/FT": "/Tx",
+    "/TU": "Supplier Site"
+  },
+  "Phone Number": {
+    "/T": "Phone Number",
+    "/FT": "/Tx",
+    "/TU": "undefined"
+  },
+  "Ministry Contact": {
+    "/T": "Ministry Contact",
+    "/FT": "/Tx",
+    "/TU": "Ministry Contact"
+  },
+  "Ministry": {
+    "/T": "Ministry",
+    "/FT": "/Tx",
+    "/TU": "Ministry"
+  },
+  "Authorized Signature": {
+    "/T": "Authorized Signature",
+    "/FT": "/Sig",
+    "/TU": "Authorized Signature"
+  },
+  "Text1": {
+    "/T": "Text1",
+    "/FT": "/Tx"
+  },
+  "Text2": {
+    "/T": "Text2",
+    "/FT": "/Tx"
+  },
+  "Text3": {
+    "/T": "Text3",
+    "/FT": "/Tx"
+  },
+  "Text4": {
+    "/T": "Text4",
+    "/FT": "/Tx"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "type": "Saskatchewan public-service complaint brief",
+  "referenceId": "SK-C026",
+  "reviewedAt": "2026-11-25",
+  "period": {
+    "start": "2024-11-25",
+    "end": "2026-11-25"
+  },
+  "issue": {
+    "id": "student-aid-delays",
+    "title": "Student aid delays and unanswered enquiries",
+    "summary": "Students report unclear application progress, inconsistent enrolment status and unanswered calls.",
+    "ministry": "Advanced Education",
+    "service": "Student Service Centre / institutions / NSLSC",
+    "routeId": "student-aid",
+    "concern": "Students cannot track funding or get callbacks",
+    "why": "Funding delays and unanswered callbacks leave students uncertain about where their application is stalled.",
+    "fit": "assist",
+    "idea": "Help staff summarize case progress, identify the responsible organization and draft clear handoff or callback messages from verified records.",
+    "limit": "It cannot approve aid, confirm enrolment for a university, or control federal loan disbursement.",
+    "firstStep": "Map provincial assessment, institutional enrolment confirmation and NSLSC disbursement. Test summaries of anonymized delayed cases with the teams responsible for each handoff.",
+    "measure": "Time to identify the organization responsible for the next action.",
+    "priority": 6,
+    "reason": "The reported problem spans organizations; clear ownership and case summaries are promising, but shared status access must be established.",
+    "referenceId": "SK-C026"
+  },
+  "counts": {
+    "publicAccounts": 6,
+    "namedInReporting": 0,
+    "evidenceRecords": 6,
+    "uncountedRecords": 0,
+    "sourcePages": 2
+  },
+  "route": {
+    "id": "student-aid",
+    "title": "Student aid delays and unanswered enquiries",
+    "ministry": "Advanced Education",
+    "first": "For application assessment or provincial aid questions, contact the Saskatchewan Student Service Centre at 1-800-597-8278 or studentservices@gov.sk.ca. For enrolment confirmation, contact the institution; for release and payment status, check the NSLSC funding tracker and contact NSLSC.",
+    "escalation": "Shared process: Saskatchewan Student Service Centre assesses applications; the institution confirms enrolment; the federal National Student Loans Service Centre (NSLSC) handles most provincial and federal disbursements. These posts do not establish that every delay was caused by the province.",
+    "note": "The provincial page says in-person services are no longer available. USask Student Central is separate from the provincial Student Service Centre. Human review remains necessary for disputed assessments and individual circumstances.",
+    "links": [
+      {
+        "title": "Saskatchewan: receiving student aid",
+        "url": "https://www.saskatchewan.ca/residents/education-and-learning/saskatchewan-student-aid/student-loans-and-grants/receiving-your-student-aid-funding"
+      },
+      {
+        "title": "Ministry of Advanced Education",
+        "url": "https://www.saskatchewan.ca/government/government-structure/ministries/advanced-education"
+      },
+      {
+        "title": "2026–27 Educational Institution Manual",
+        "url": "https://publications.saskatchewan.ca/api/v1/products/128543/formats/154203/download"
+      },
+      {
+        "title": "USask Student Central",
+        "url": "https://students.usask.ca/student-central.php"
+      },
+      {
+        "title": "National Student Loans Service Centre",
+        "url": "https://www.csnpe-nslsc.canada.ca/en/home"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "id": "SA01",
+      "authorHandle": "u/Ill-Veterinarian-324",
+      "authorType": "account",
+      "quote": "I called them daily for 3 weeks before I got through.",
+      "url": "https://www.reddit.com/r/usask/comments/1xbdo6p/still_waiting_for_student_loans/",
+      "sourcePage": "https://www.reddit.com/r/usask/comments/1xbdo6p/still_waiting_for_student_loans/",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21, 2026",
+      "datePrecision": "day",
+      "summary": "Reports conflicting loan-type and study-period guidance, repeated calls and reapplications, and continued waiting.",
+      "sourceRole": "firsthand",
+      "platform": "Reddit",
+      "verification": "Public handle and exact quoted text visible on the parent Reddit page; publication day matched to the dated search-index discussion transcript. Self-reported experience, not an adjudicated finding.",
+      "issueId": "student-aid-delays",
+      "sourceKind": "Direct public account",
+      "sourceTitle": "Student aid discussion",
+      "publisher": "Reddit · r/usask",
+      "region": "Saskatchewan / USask",
+      "status": "Unresolved at posting",
+      "context": "The account describes both USask guidance and provincial loan-office contact; exact source of each delay is not independently established.",
+      "counted": true,
+      "authorId": "A045",
+      "caseId": "SA01",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E071",
+      "complaintReferenceId": "SK-C026"
+    },
+    {
+      "id": "SA02",
+      "authorHandle": "u/bettywiththebangs",
+      "authorType": "account",
+      "quote": "He calls all the time, leaves messages, emails, and no one ever calls back or replies??",
+      "url": "https://www.reddit.com/r/usask/comments/1xbdo6p/comment/19rff5e8lkmqp/",
+      "sourcePage": "https://www.reddit.com/r/usask/comments/1xbdo6p/still_waiting_for_student_loans/",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21, 2026",
+      "datePrecision": "day",
+      "summary": "Parent reports a student still awaiting an initial assessment after an August application and repeated unanswered enquiries.",
+      "sourceRole": "household",
+      "platform": "Reddit",
+      "verification": "Public handle and exact quoted text visible on the parent Reddit page; publication day matched to the dated search-index discussion transcript. Self-reported experience, not an adjudicated finding. Comment permalink exposed on parent; direct comment fetch unavailable.",
+      "issueId": "student-aid-delays",
+      "sourceKind": "Direct public account",
+      "sourceTitle": "Student aid discussion",
+      "publisher": "Reddit · r/usask",
+      "region": "Saskatchewan / USask",
+      "status": "Unresolved at posting",
+      "context": "Counts the posting account once; the student mentioned is not a second observed complainant. The post mixes university Student Central and the provincial office.",
+      "counted": true,
+      "authorId": "A046",
+      "caseId": "SA02",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E072",
+      "complaintReferenceId": "SK-C026"
+    },
+    {
+      "id": "SA03",
+      "authorHandle": "u/Feeling-Nail176",
+      "authorType": "account",
+      "quote": "I didn’t get my loans until December last year",
+      "url": "https://www.reddit.com/r/usask/comments/1xbdo6p/comment/19rfeuszuq4v8/",
+      "sourcePage": "https://www.reddit.com/r/usask/comments/1xbdo6p/still_waiting_for_student_loans/",
+      "date": "2026-10-21",
+      "dateLabel": "Oct 21, 2026",
+      "datePrecision": "day",
+      "summary": "Describes a long previous-year funding delay and a current-year application corrected by telephone.",
+      "sourceRole": "firsthand",
+      "platform": "Reddit",
+      "verification": "Public handle and exact quoted text visible on the parent Reddit page; publication day matched to the dated search-index discussion transcript. Self-reported experience, not an adjudicated finding. Comment permalink exposed on parent; direct comment fetch unavailable.",
+      "issueId": "student-aid-delays",
+      "sourceKind": "Direct public account",
+      "sourceTitle": "Student aid discussion",
+      "publisher": "Reddit · r/usask",
+      "region": "Saskatchewan / USask",
+      "status": "Resolved according to poster",
+      "context": "The poster says the current-year problem was their own incorrect credit entry, corrected by staff; the previous delay was resolved after escalation.",
+      "counted": true,
+      "authorId": "A047",
+      "caseId": "SA03",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E073",
+      "complaintReferenceId": "SK-C026"
+    },
+    {
+      "id": "SA04",
+      "authorHandle": "u/Pitiful_Response4903",
+      "authorType": "account",
+      "quote": "I haven’t got any of my grants or loans deposited into my bank account yet.",
+      "url": "https://www.reddit.com/r/usask/comments/1w5wtwx/has_anyone_else_not_received_their_student_loans/",
+      "sourcePage": "https://www.reddit.com/r/usask/comments/1w5wtwx/has_anyone_else_not_received_their_student_loans/",
+      "date": "2026-09-03",
+      "dateLabel": "Sep 3, 2026",
+      "datePrecision": "day",
+      "summary": "Reports waiting for grants and loans after expecting payment at the start of the month.",
+      "sourceRole": "firsthand",
+      "platform": "Reddit",
+      "verification": "Public handle and exact quoted text visible on the parent Reddit page; publication day matched to the dated search-index discussion transcript. Self-reported experience, not an adjudicated finding.",
+      "issueId": "student-aid-delays",
+      "sourceKind": "Direct public account",
+      "sourceTitle": "Student aid discussion",
+      "publisher": "Reddit · r/usask",
+      "region": "Saskatchewan / USask",
+      "status": "Unresolved at posting",
+      "context": "A peer response said release could still fall within its expected early-month window. No official error was established.",
+      "counted": true,
+      "authorId": "A048",
+      "caseId": "SA04",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E074",
+      "complaintReferenceId": "SK-C026"
+    },
+    {
+      "id": "SA05",
+      "authorHandle": "u/speedflash223",
+      "authorType": "account",
+      "quote": "I still haven't received my student loans, and when I checked, the funding tracker said that they were still confirming enrollment.",
+      "url": "https://www.reddit.com/r/usask/comments/1w5wtwx/comment/p7lbm8c/",
+      "sourcePage": "https://www.reddit.com/r/usask/comments/1w5wtwx/has_anyone_else_not_received_their_student_loans/",
+      "date": "2026-09-03",
+      "dateLabel": "Sep 3, 2026",
+      "datePrecision": "day",
+      "summary": "Reports a funding tracker awaiting enrolment despite a university confirmation email; a call identified an unprocessed record.",
+      "sourceRole": "firsthand",
+      "platform": "Reddit",
+      "verification": "Public handle and exact quoted text visible on the parent Reddit page; publication day matched to the dated search-index discussion transcript. Self-reported experience, not an adjudicated finding. Comment permalink exposed on parent; direct comment fetch unavailable.",
+      "issueId": "student-aid-delays",
+      "sourceKind": "Direct public account",
+      "sourceTitle": "Student aid discussion",
+      "publisher": "Reddit · r/usask",
+      "region": "Saskatchewan / USask",
+      "status": "Processing issue reportedly addressed",
+      "context": "The poster says staff could see the enrolment and resolved that processing issue, but funding had not arrived at posting. Agency responsibility is not conclusively identified.",
+      "counted": true,
+      "authorId": "A049",
+      "caseId": "SA05",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E075",
+      "complaintReferenceId": "SK-C026"
+    },
+    {
+      "id": "SA06",
+      "authorHandle": "u/MechanicalBootyquake",
+      "authorType": "account",
+      "quote": "“Confirming enrolment” this morning on my tracker, even though USask emailed me on Aug 19 to say they sent out confirmation.",
+      "url": "https://www.reddit.com/r/usask/comments/1w5wtwx/comment/p7ltxm8/",
+      "sourcePage": "https://www.reddit.com/r/usask/comments/1w5wtwx/has_anyone_else_not_received_their_student_loans/",
+      "date": "2026-09-03",
+      "dateLabel": "Sep 3, 2026",
+      "datePrecision": "day",
+      "summary": "Reports inconsistent enrolment status between a university email and funding tracker, followed by a further wait after calling.",
+      "sourceRole": "firsthand",
+      "platform": "Reddit",
+      "verification": "Public handle and exact quoted text visible on the parent Reddit page; publication day matched to the dated search-index discussion transcript. Self-reported experience, not an adjudicated finding. Comment permalink exposed on parent; direct comment fetch unavailable.",
+      "issueId": "student-aid-delays",
+      "sourceKind": "Direct public account",
+      "sourceTitle": "Student aid discussion",
+      "publisher": "Reddit · r/usask",
+      "region": "Saskatchewan / USask",
+      "status": "Processing promised; payment pending",
+      "context": "The poster says staff promised processing that day and advised waiting several more business days; completion was not reported.",
+      "counted": true,
+      "authorId": "A050",
+      "caseId": "SA06",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E076",
+      "complaintReferenceId": "SK-C026"
+    }
+  ],
+  "methodology": [
+    "SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.",
+    "A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.",
+    "Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.",
+    "This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.",
+    "Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.",
+    "AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes."
+  ],
+  "researchContext": {
+    "scopeNote": "The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.",
+    "limitations": [
+      "This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.",
+      "All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.",
+      "Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.",
+      "A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.",
+      "Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.",
+      "LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.",
+      "Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.",
+      "AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.",
+      "Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.",
+      "Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.",
+      "A missing topic or platform means a gap in this review, not that nobody has complained about it."
+    ],
+    "platformCoverage": [
+      {
+        "platform": "Reddit",
+        "note": "48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked."
+      },
+      {
+        "platform": "App Store",
+        "note": "2 reviewer accounts counted. Direct reviews of the mySASKTEL app."
+      },
+      {
+        "platform": "LinkedIn",
+        "note": "4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts."
+      },
+      {
+        "platform": "X / Twitter",
+        "note": "Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist."
+      },
+      {
+        "platform": "Quora",
+        "note": "Original pages could not be reviewed because access was blocked. No Quora accounts counted."
+      },
+      {
+        "platform": "News & reports",
+        "note": "25 named complainants retained separately as supporting reporting, not direct social posts."
+      }
+    ],
+    "priorityMeaning": "Suggested discovery order for a Solutions Architect, based on the reviewed complaints, clarity of the service problem and scope for a small pilot. This is judgment, not an objective score, prevalence ranking or incident-severity ranking."
+  },
+  "publicationNote": "Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked."
+}

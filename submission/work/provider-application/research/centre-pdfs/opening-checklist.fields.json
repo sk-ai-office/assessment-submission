@@ -1,0 +1,356 @@
+{
+  "Survey of Need for Child Care Services": {
+    "/T": "Survey of Need for Child Care Services",
+    "/FT": "/Btn",
+    "/TU": "Survey of Need for Child Care Services",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Consider partnerships such as your local municipality school division community based organizations or local": {
+    "/T": "Consider partnerships such as your local municipality school division community based organizations or local",
+    "/FT": "/Btn",
+    "/TU": "Consider partnerships such as your local municipality, school division, community based organizations or local",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Complete the Child Care Centre Development Information Session": {
+    "/T": "Complete the Child Care Centre Development Information Session",
+    "/FT": "/Btn",
+    "/TU": "Complete the Child Care Centre Development Information Session",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Review sources of funding": {
+    "/T": "Review sources of funding",
+    "/FT": "/Btn",
+    "/TU": "Review sources of funding",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Prepare a budget and business plan": {
+    "/T": "Prepare a budget and business plan",
+    "/FT": "/Btn",
+    "/TU": "Prepare a budget and business plan",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Complete the Community Needs Assessment Form": {
+    "/T": "Complete the Community Needs Assessment Form",
+    "/FT": "/Btn",
+    "/TU": "Complete the Community Needs Assessment Form",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Proposed development and projected operating budget": {
+    "/T": "Proposed development and projected operating budget",
+    "/FT": "/Btn",
+    "/TU": "Proposed development and projected operating budget",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Certificate of Incorporation": {
+    "/T": "Certificate of Incorporation",
+    "/FT": "/Btn",
+    "/TU": "Certificate of Incorporation",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Application for Child Care Centre Licence": {
+    "/T": "Application for Child Care Centre Licence",
+    "/FT": "/Btn",
+    "/TU": "Application for Child Care Centre Licence",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Direct Deposit Payment Request Form and corresponding banking information": {
+    "/T": "Direct Deposit Payment Request Form and corresponding banking information",
+    "/FT": "/Btn",
+    "/TU": "Direct Deposit Payment Request Form and corresponding banking information",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Signed agreement for space development capital funding": {
+    "/T": "Signed agreement for space development capital funding",
+    "/FT": "/Btn",
+    "/TU": "Signed agreement for space development capital funding",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Applicable grant application forms": {
+    "/T": "Applicable grant application forms",
+    "/FT": "/Btn",
+    "/TU": "Applicable grant application forms",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Results of a criminal records search for a private operator": {
+    "/T": "Results of a criminal records search for a private operator",
+    "/FT": "/Btn",
+    "/TU": "Results of a criminal records search (for a private operator",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Child Care Licensee Manual": {
+    "/T": "Child Care Licensee Manual",
+    "/FT": "/Btn",
+    "/TU": "Child Care Licensee Manual",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Early Learning and Child Care Child Care Centre Board of Directors Guiding Document": {
+    "/T": "Early Learning and Child Care Child Care Centre Board of Directors Guiding Document",
+    "/FT": "/Btn",
+    "/TU": "Early Learning and Child Care, Child Care Centre Board of Directors Guiding Document",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Committees Child Care Organizations": {
+    "/T": "Committees Child Care Organizations",
+    "/FT": "/Btn",
+    "/TU": "Committees -Child Care Organizations",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Information about Child Care Parent Advisory Committees": {
+    "/T": "Information about Child Care Parent Advisory Committees",
+    "/FT": "/Btn",
+    "/TU": "Information about Child Care Parent Advisory Committees",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Construction and Design Requirements and Consideration": {
+    "/T": "Construction and Design Requirements and Consideration",
+    "/FT": "/Btn",
+    "/TU": "Construction and Design Requirements and Consideration",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Legislation": {
+    "/T": "Legislation",
+    "/FT": "/Btn",
+    "/TU": "Legislation",
+    "/_States_": "['/Off', '/On']"
+  },
+  "The Child Care Act 2014": {
+    "/T": "The Child Care Act 2014",
+    "/FT": "/Btn",
+    "/TU": "The Child Care Act, 2014",
+    "/_States_": "['/Off', '/On']"
+  },
+  "The Child Care Regulations 2015": {
+    "/T": "The Child Care Regulations 2015",
+    "/FT": "/Btn",
+    "/TU": "The Child Care Regulations, 2015",
+    "/_States_": "['/Off', '/On']"
+  },
+  "The NonProfit Corporations 2022 or Cooperatives Act 1996": {
+    "/T": "The NonProfit Corporations 2022 or Cooperatives Act 1996",
+    "/FT": "/Btn",
+    "/TU": "The Non-Profit Corporations, 2022 or Co-operatives Act, 1996",
+    "/_States_": "['/Off', '/On']"
+  },
+  "The Saskatchewan Employment Act": {
+    "/T": "The Saskatchewan Employment Act",
+    "/FT": "/Btn",
+    "/TU": "The Saskatchewan Employment Act",
+    "/_States_": "['/Off', '/On']"
+  },
+  "The Occupational Health and Safety Regulations 2020": {
+    "/T": "The Occupational Health and Safety Regulations 2020",
+    "/FT": "/Btn",
+    "/TU": "The Occupational Health and Safety Regulations, 2020",
+    "/_States_": "['/Off', '/On']"
+  },
+  "The Workers Compensation Act 2013": {
+    "/T": "The Workers Compensation Act 2013",
+    "/FT": "/Btn",
+    "/TU": "The Workers\u2019 Compensation Act, 2013",
+    "/_States_": "['/Off', '/On']"
+  },
+  "The Saskatchewan Human Rights Code 2018": {
+    "/T": "The Saskatchewan Human Rights Code 2018",
+    "/FT": "/Btn",
+    "/TU": "The Saskatchewan Human Rights Code, 2018",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Canadian Human Rights Act": {
+    "/T": "Canadian Human Rights Act",
+    "/FT": "/Btn",
+    "/TU": "Canadian Human Rights Act",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Income Tax Act 2000": {
+    "/T": "Income Tax Act 2000",
+    "/FT": "/Btn",
+    "/TU": "Income Tax Act, 2000",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Discuss the regulations as per the Child Care Licensee Manual": {
+    "/T": "Discuss the regulations as per the Child Care Licensee Manual",
+    "/FT": "/Btn",
+    "/TU": "Discuss the regulations, as per the Child Care Licensee Manual",
+    "/_States_": "['/Off', '/On']"
+  },
+  "View and measure space if applicable": {
+    "/T": "View and measure space if applicable",
+    "/FT": "/Btn",
+    "/TU": "View and measure space, if applicable",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Bylaws": {
+    "/T": "Bylaws",
+    "/FT": "/Btn",
+    "/TU": "Bylaws",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Parent Handbook": {
+    "/T": "Parent Handbook",
+    "/FT": "/Btn",
+    "/TU": "Parent Handbook",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Staff Handbook": {
+    "/T": "Staff Handbook",
+    "/FT": "/Btn",
+    "/TU": "Staff Handbook",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Board of Directors roles and responsibilities confidentiality conflict of interest": {
+    "/T": "Board of Directors roles and responsibilities confidentiality conflict of interest",
+    "/FT": "/Btn",
+    "/TU": "Board of Directors: (roles and responsibilities, confidentiality, conflict of interest",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Hiring a Director": {
+    "/T": "Hiring a Director",
+    "/FT": "/Btn",
+    "/TU": "Hiring a Director",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Advertising and marketing plan": {
+    "/T": "Advertising and marketing plan",
+    "/FT": "/Btn",
+    "/TU": "Advertising and marketing plan",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Insurance general liability directors liability vehicle if applicable": {
+    "/T": "Insurance general liability directors liability vehicle if applicable",
+    "/FT": "/Btn",
+    "/TU": "Insurance (general liability, director\u2019s liability, vehicle (if applicable",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Financial control budget expenditure approval investments signing authority etc": {
+    "/T": "Financial control budget expenditure approval investments signing authority etc",
+    "/FT": "/Btn",
+    "/TU": "Financial control (budget, expenditure approval, investments, signing authority, etc",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Facility equipment and furnishings furniture equipment and materials maintenance inventory": {
+    "/T": "Facility equipment and furnishings furniture equipment and materials maintenance inventory",
+    "/FT": "/Btn",
+    "/TU": "Facility equipment and furnishings (furniture, equipment and materials, maintenance, inventory",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Fire Inspection scheduled by contacting your Municipality": {
+    "/T": "Fire Inspection scheduled by contacting your Municipality",
+    "/FT": "/Btn",
+    "/TU": "Fire Inspection, scheduled by contacting your Municipality",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Heating Inspection completed by a licensed inspector": {
+    "/T": "Heating Inspection completed by a licensed inspector",
+    "/FT": "/Btn",
+    "/TU": "Heating Inspection, completed by a licensed inspector",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Health Inspection scheduled contacting your local Public Health Inspection Office": {
+    "/T": "Health Inspection scheduled contacting your local Public Health Inspection Office",
+    "/FT": "/Btn",
+    "/TU": "Health Inspection, scheduled contacting your local Public Health Inspection Office",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Insurance Policy": {
+    "/T": "Insurance Policy",
+    "/FT": "/Btn",
+    "/TU": "Insurance Policy",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Approved Floor Plan": {
+    "/T": "Approved Floor Plan",
+    "/FT": "/Btn",
+    "/TU": "Approved Floor Plan",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Signed copy of Lease if space is rentedleased": {
+    "/T": "Signed copy of Lease if space is rentedleased",
+    "/FT": "/Btn",
+    "/TU": "Signed copy of Lease (if space is rented/leased",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Bylaws_2": {
+    "/T": "Bylaws_2",
+    "/FT": "/Btn",
+    "/TU": "Bylaws",
+    "/_States_": "['/Off', '/On']"
+  },
+  "List of board of directors andor advisory committee members": {
+    "/T": "List of board of directors andor advisory committee members",
+    "/FT": "/Btn",
+    "/TU": "List of board of directors and/or advisory committee members",
+    "/_States_": "['/Off', '/On']"
+  },
+  "List of board members partners or shareholders": {
+    "/T": "List of board members partners or shareholders",
+    "/FT": "/Btn",
+    "/TU": "List of board members, partners or shareholders",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Parent Handbook_2": {
+    "/T": "Parent Handbook_2",
+    "/FT": "/Btn",
+    "/TU": "Parent Handbook",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Staff Handbook_2": {
+    "/T": "Staff Handbook_2",
+    "/FT": "/Btn",
+    "/TU": "Staff Handbook",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Child Care Centre Information Release form": {
+    "/T": "Child Care Centre Information Release form",
+    "/FT": "/Btn",
+    "/TU": "Child Care Centre Information Release form",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Child Care Fee Schedule submitted online on the Enrolment Portal": {
+    "/T": "Child Care Fee Schedule submitted online on the Enrolment Portal",
+    "/FT": "/Btn",
+    "/TU": "Child Care Fee Schedule (submitted online on the Enrolment Portal",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Menu Planning Form": {
+    "/T": "Menu Planning Form",
+    "/FT": "/Btn",
+    "/TU": "Menu Planning Form",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Applicable grant application forms_2": {
+    "/T": "Applicable grant application forms_2",
+    "/FT": "/Btn",
+    "/TU": "Applicable grant application forms",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Child Care Enrolment Portal Application Form": {
+    "/T": "Child Care Enrolment Portal Application Form",
+    "/FT": "/Btn",
+    "/TU": "Child Care Enrolment Portal Application Form",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Forms and Resources for Regulated Child Care Centres": {
+    "/T": "Forms and Resources for Regulated Child Care Centres",
+    "/FT": "/Btn",
+    "/TU": "Forms and Resources for Regulated Child Care Centres",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Play and Exploration for Boards": {
+    "/T": "Play and Exploration for Boards",
+    "/FT": "/Btn",
+    "/TU": "Play and Exploration for Boards",
+    "/_States_": "['/Off', '/On']"
+  },
+  "View and measure final space with an Early Learning and Child Care ELCC consultant": {
+    "/T": "View and measure final space with an Early Learning and Child Care ELCC consultant",
+    "/FT": "/Btn",
+    "/TU": "View and measure final space with an Early Learning and Child Care (ELCC) consultant",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Discuss the regulations on the licensing checklist explaining how they are now met": {
+    "/T": "Discuss the regulations on the licensing checklist explaining how they are now met",
+    "/FT": "/Btn",
+    "/TU": "Discuss the regulations on the licensing checklist, explaining how they are now met",
+    "/_States_": "['/Off', '/On']"
+  }
+}

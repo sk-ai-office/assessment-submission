@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "type": "Saskatchewan public-service complaint brief",
+  "referenceId": "SK-C012",
+  "reviewedAt": "2026-11-25",
+  "period": {
+    "start": "2024-11-25",
+    "end": "2026-11-25"
+  },
+  "issue": {
+    "id": "income-assistance-eligibility",
+    "title": "Income-assistance deductions and eligibility",
+    "summary": "A recipient disputes how other income or reimbursement affected benefit eligibility.",
+    "ministry": "Social Services",
+    "service": "SIS / SAID income-assistance programs",
+    "routeId": "income-assistance",
+    "concern": "People cannot understand disputed benefit deductions",
+    "why": "A recipient alleges an interruption after other income; commenters disagree about the applicable rules.",
+    "fit": "assist",
+    "idea": "Help caseworkers explain a recorded deduction using cited policy and the approved calculation, without making eligibility decisions.",
+    "limit": "It cannot adjudicate disputed facts, recalculate entitlements independently or decide an appeal.",
+    "firstStep": "Have benefits specialists establish the correct policy and calculations for anonymized resolved examples before evaluating any generated explanations.",
+    "measure": "Explanations requiring correction by a benefits specialist.",
+    "priority": 15,
+    "reason": "The complaint exposes confusion, but disputed facts and rules require expert review before any assistance tool is proposed.",
+    "referenceId": "SK-C012"
+  },
+  "counts": {
+    "publicAccounts": 1,
+    "namedInReporting": 0,
+    "evidenceRecords": 1,
+    "uncountedRecords": 0,
+    "sourcePages": 1
+  },
+  "route": {
+    "id": "income-assistance",
+    "title": "SAID and income assistance",
+    "ministry": "Ministry of Social Services",
+    "first": "Contact the assigned worker or local income-assistance office. Ask for the written decision, reasons, and the review or appeal instructions that apply to that decision.",
+    "escalation": "Ask for a supervisor review and use the applicable program appeal route. Unresolved administrative fairness concerns can go to Ombudsman Saskatchewan; policy concerns go to Social Services.",
+    "note": "Appeal rules and deadlines depend on the decision. The program page and decision letter should be checked for a current case.",
+    "links": [
+      {
+        "title": "Social Services offices",
+        "url": "https://www.saskatchewan.ca/Residents/Family-and-Social-Support/Find-a-Social-Services-Office"
+      },
+      {
+        "title": "SAID program",
+        "url": "https://www.saskatchewan.ca/Residents/Family-and-Social-Support/People-with-Disabilities/Income-Support-for-People-with-Disabilities"
+      },
+      {
+        "title": "Social Services ministry",
+        "url": "https://www.saskatchewan.ca/Government/Government-Structure/Ministries/Social-Services"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "id": "SE17",
+      "authorId": "A026",
+      "authorType": "account",
+      "date": "2024-12-01",
+      "dateLabel": "2024-12-01 (thread date; comment day not verified)",
+      "datePrecision": "thread date; comment exact date not independently captured",
+      "issueId": "income-assistance-eligibility",
+      "summary": "Alleges benefit interruption after receiving income or reimbursement.",
+      "url": "https://www.reddit.com/r/saskatchewan/comments/1h412ln/comment/lzwvnzx/",
+      "sourcePage": "https://www.reddit.com/r/saskatchewan/comments/1h412ln/i_feel_like_anyone_thats_on_disability_or_welfare/",
+      "sourceTitle": "Disability and welfare affordability discussion",
+      "publisher": "r/saskatchewan",
+      "sourceKind": "Reddit",
+      "status": "Outcome unknown; not recontacted or independently verified",
+      "context": "Other commenters dispute the described rules; the complaint does not establish current program policy. Exact comment date was not independently established; the discussion date is shown.",
+      "region": "Saskatchewan; locality unspecified",
+      "counted": true,
+      "caseId": "SE17",
+      "platform": "Reddit",
+      "sourceRole": "firsthand",
+      "originalDate": "2024-12-01",
+      "authorHandle": "u/Justredditin",
+      "quote": "It has happened to me just getting reimbursed from the Federal Gov't. Super bad news. Straight up stuck in a trap.",
+      "verification": "Author and exact excerpt verified on full parent thread. Comment permalink was exposed by Reddit timestamp link; direct comment fetch can fail, so parent link is retained. Other commenters dispute the benefit rules described. Treat as a reported experience, not a statement of policy.",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E040",
+      "complaintReferenceId": "SK-C012"
+    }
+  ],
+  "methodology": [
+    "SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.",
+    "A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.",
+    "Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.",
+    "This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.",
+    "Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.",
+    "AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes."
+  ],
+  "researchContext": {
+    "scopeNote": "The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.",
+    "limitations": [
+      "This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.",
+      "All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.",
+      "Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.",
+      "A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.",
+      "Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.",
+      "LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.",
+      "Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.",
+      "AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.",
+      "Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.",
+      "Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.",
+      "A missing topic or platform means a gap in this review, not that nobody has complained about it."
+    ],
+    "platformCoverage": [
+      {
+        "platform": "Reddit",
+        "note": "48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked."
+      },
+      {
+        "platform": "App Store",
+        "note": "2 reviewer accounts counted. Direct reviews of the mySASKTEL app."
+      },
+      {
+        "platform": "LinkedIn",
+        "note": "4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts."
+      },
+      {
+        "platform": "X / Twitter",
+        "note": "Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist."
+      },
+      {
+        "platform": "Quora",
+        "note": "Original pages could not be reviewed because access was blocked. No Quora accounts counted."
+      },
+      {
+        "platform": "News & reports",
+        "note": "25 named complainants retained separately as supporting reporting, not direct social posts."
+      }
+    ],
+    "priorityMeaning": "Suggested discovery order for a Solutions Architect, based on the reviewed complaints, clarity of the service problem and scope for a small pilot. This is judgment, not an objective score, prevalence ranking or incident-severity ranking."
+  },
+  "publicationNote": "Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked."
+}

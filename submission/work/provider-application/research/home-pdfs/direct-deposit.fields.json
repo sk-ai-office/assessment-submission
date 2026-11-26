@@ -1,0 +1,91 @@
+{
+  "To Start Direct Deposit": {
+    "/FT": "/Btn",
+    "/TU": "To Start Direct Deposit"
+  },
+  "To Change Information on Direct Deposit": {
+    "/FT": "/Btn",
+    "/TU": "To Change Information on Direct Deposit"
+  },
+  "Supplier Name": {
+    "/FT": "/Tx",
+    "/TU": "Supplier Name"
+  },
+  "Supplier No": {
+    "/FT": "/Tx",
+    "/TU": "Supplier No"
+  },
+  "Mailing Address": {
+    "/FT": "/Tx",
+    "/TU": "Mailing Address"
+  },
+  "s Name": {
+    "/FT": "/Tx",
+    "/TU": "s Name"
+  },
+  "Title": {
+    "/FT": "/Tx",
+    "/TU": "Title"
+  },
+  "Authorizing Signature": {
+    "/FT": "/Sig",
+    "/TU": "Authorizing Signature"
+  },
+  "Telephone Number": {
+    "/FT": "/Tx",
+    "/TU": "Telephone Number"
+  },
+  "Account Number": {
+    "/FT": "/Tx",
+    "/TU": "Account Number",
+    "/Ff": "25165824"
+  },
+  "Name and Address of Financial Institution": {
+    "/FT": "/Tx",
+    "/TU": "Name and Address of Financial Institution"
+  },
+  "Financial Institution Officials Signature and Stamp": {
+    "/FT": "/Sig",
+    "/TU": "Financial Institution Official's Signature and Stamp"
+  },
+  "Supplier Number": {
+    "/FT": "/Tx",
+    "/TU": "Supplier Number"
+  },
+  "Supplier Contact Name": {
+    "/FT": "/Tx",
+    "/TU": "Supplier Contact Name"
+  },
+  "Supplier Site": {
+    "/FT": "/Tx",
+    "/TU": "Supplier Site"
+  },
+  "Phone Number": {
+    "/FT": "/Tx",
+    "/TU": "undefined"
+  },
+  "Ministry Contact": {
+    "/FT": "/Tx",
+    "/TU": "Ministry Contact"
+  },
+  "Ministry": {
+    "/FT": "/Tx",
+    "/TU": "Ministry"
+  },
+  "Authorized Signature": {
+    "/FT": "/Sig",
+    "/TU": "Authorized Signature"
+  },
+  "Text1": {
+    "/FT": "/Tx"
+  },
+  "Text2": {
+    "/FT": "/Tx"
+  },
+  "Text3": {
+    "/FT": "/Tx"
+  },
+  "Text4": {
+    "/FT": "/Tx"
+  }
+}

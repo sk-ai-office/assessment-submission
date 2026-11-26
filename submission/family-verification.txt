@@ -1,0 +1,29 @@
+FAMILY / PROVIDER DASHBOARD — VERIFICATION EVIDENCE
+Date: November 25, 2026 (America/Regina)
+
+Verified source: /Users/zaidsoomro/Documents/Codex/2026-11-24/can/outputs/family-dashboard
+Runtime: Node.js v24.16.0
+Command: node --test tests/backend.test.js
+Fresh result: 11 tests, 11 passed, 0 failed; duration 412.941624 ms.
+The initial restricted run passed 10 tests; the HTTP test could not bind a local port (EPERM). The same full suite then passed after permission to use a temporary localhost port. This was an execution restriction, not an application failure.
+Tests use in-memory SQLite, except a persistence test that creates and removes a temporary database. Existing demonstration data was not changed.
+
+REPRESENTATIVE EXPECTED / ACTUAL RESULTS
+1. Recipient isolation: expect another provider and another family to receive 404 when requesting an application. Actual: both rejected with 404; other-provider and other-family inboxes remained empty. A provider requesting a family profile received 403.
+2. Consent and validation: expect missing consent to be rejected, stale profile versions rejected, and duplicate active applications prevented. Actual: 400 for consent=false, 409 for stale version, 409 for duplicate; all assertions passed.
+3. Child and care boundaries: expect only the selected child to be shared, optional care notes to stay private, and age eligibility to use the requested start date. Actual: sibling details absent; unselected notes empty; 41-day-old child rejected at a 42-day minimum and accepted at 42 days; invalid dates and reversed care hours rejected.
+4. Withdrawal and profile updates: expect edits to remain private until explicitly reshared, and withdrawal to revoke recipient access. Actual: provider retained 08:00 after the family changed to 09:00; reviewed sharing updated the copy to 09:00. Withdrawal returned null profile and empty history to the provider and blocked further messages.
+5. Real API and persistence: expect unauthenticated profile access and invalid-origin requests to fail, valid application creation to succeed, and data to survive database reopen. Actual: 401 unauthenticated, 403 invalid origin, 201 valid application, 404 wrong provider, 200 receiving provider; saved provider and application remained after reopening SQLite.
+
+LIMITATIONS
+This is a local working pilot, not production authentication: the Demo account switcher intentionally permits selecting fictional accounts. Nine researched real listings are included, plus two fictional connected providers. Real providers use external application/contact routes; no real applications or messages are sent. Ministry/provider onboarding is not connected to this database. Map tiles require internet access. Province-wide registry coverage, production identities, hosting, operational privacy controls, grant workflows, real notifications and real provider integrations remain future work. No live URL exists. No browser retest was performed during this submission-time verification; earlier desktop/mobile browser results are documented in the included UX-audit.md.
+
+60-SECOND DEMONSTRATION SCRIPT (FRESH SEEDED DATABASE)
+Before recording: launch Start dashboard.command and open http://127.0.0.1:4180. Use invented information. The default account is Morgan family.
+0–10 seconds: In Find care, type Prairie Sprouts in Search by name or neighbourhood. Open View details. Say: “Families find care using one reusable profile, schedules and a matching map.”
+10–25 seconds: Click Review application. Show the child and parent details. Check “I have reviewed these details and agree to share them with this provider.” Click Send application. Say: “Only this child’s reviewed details are shared with the selected provider.”
+25–45 seconds: Click Demo account, choose “Prairie Sprouts · example provider”, then View application. Under Update application status choose Received by provider and click Update status. Say: “The receiving provider sees the application and acknowledges it in the same database.”
+45–60 seconds: Close the application panel; click Demo account and choose Morgan family. Open My applications. Show Received by provider. Say: “The family sees a confirmed status. The ministry onboarding connection and real provider rollout are the next implementation stage.”
+
+BUILD-RECORD CORRECTION EVIDENCE
+UX-audit.md records an AI-built date/time input problem corrected after browser testing, a map refresh that reset zoom corrected in implementation, and the initial concept’s illustrative providers/approximate distances replaced with researched listings, clearly labelled fictional examples, computed distances and explicit unknown fields. These are documented implementation corrections, not claimed user rejections.

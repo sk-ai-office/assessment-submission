@@ -1,0 +1,59 @@
+{
+  "undefined": {
+    "/FT": "/Tx",
+    "/TU": "undefined"
+  },
+  "Licensee": {
+    "/FT": "/Tx",
+    "/TU": "Licensee"
+  },
+  "Address": {
+    "/FT": "/Tx",
+    "/TU": "Address"
+  },
+  "CityTown": {
+    "/FT": "/Tx",
+    "/TU": "City/Town"
+  },
+  "Postal Code": {
+    "/FT": "/Tx",
+    "/TU": "Postal Code"
+  },
+  "Phone Number": {
+    "/FT": "/Tx",
+    "/TU": "Phone Number"
+  },
+  "Email Address": {
+    "/FT": "/Tx",
+    "/TU": "Email Address"
+  },
+  "undefined_2": {
+    "/FT": "/Tx",
+    "/TU": "undefined"
+  },
+  "undefined_3": {
+    "/FT": "/Tx",
+    "/TU": "undefined"
+  },
+  "I decline all or a portion of the Nutrition Grant": {
+    "/FT": "/Tx",
+    "/TU": "I decline all or a portion of the Nutrition Grant"
+  },
+  "Signature of Licensee": {
+    "/FT": "/Sig",
+    "/TU": "Signature of Licensee"
+  },
+  "Date": {
+    "/FT": "/Tx",
+    "/TU": "Date"
+  },
+  "Check Box1": {
+    "/FT": "/Btn"
+  },
+  "Check Box2": {
+    "/FT": "/Btn"
+  },
+  "Check Box3": {
+    "/FT": "/Btn"
+  }
+}

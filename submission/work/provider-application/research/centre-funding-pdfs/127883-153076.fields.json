@@ -1,0 +1,101 @@
+{
+  "Child Care Facility Information": {
+    "/T": "Child Care Facility Information",
+    "/FT": "/Tx",
+    "/TU": "Child Care Facility Information"
+  },
+  "Home Provider Child Care Centre Name": {
+    "/T": "Home Provider Child Care Centre Name",
+    "/FT": "/Tx",
+    "/TU": "Home Provider /Child Care Centre Name"
+  },
+  "Address": {
+    "/T": "Address",
+    "/FT": "/Tx",
+    "/TU": "Address"
+  },
+  "CityTown": {
+    "/T": "CityTown",
+    "/FT": "/Tx",
+    "/TU": "City/Town"
+  },
+  "Postal Code": {
+    "/T": "Postal Code",
+    "/FT": "/Tx",
+    "/TU": "Postal Code"
+  },
+  "Phone Number": {
+    "/T": "Phone Number",
+    "/FT": "/Tx",
+    "/TU": "Phone Number"
+  },
+  "Email Address": {
+    "/T": "Email Address",
+    "/FT": "/Tx",
+    "/TU": "Email Address"
+  },
+  "Total Number of Licensed Spaces": {
+    "/T": "Total Number of Licensed Spaces",
+    "/FT": "/Tx",
+    "/TU": "Total Number of Licensed Spaces"
+  },
+  "Family Child Care Home": {
+    "/T": "Family Child Care Home",
+    "/FT": "/Btn",
+    "/TU": "Family Child Care Home",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Group Family Child Care Home": {
+    "/T": "Group Family Child Care Home",
+    "/FT": "/Btn",
+    "/TU": "Group Family Child Care Home",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Centre with 30 or fewer spaces": {
+    "/T": "Centre with 30 or fewer spaces",
+    "/FT": "/Btn",
+    "/TU": "Centre with 30 or fewer spaces",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Signature of Child Care Home ProviderBoard Chairperson": {
+    "/T": "Signature of Child Care Home ProviderBoard Chairperson",
+    "/FT": "/Sig",
+    "/TU": "Signature of Child Care Home Provider/Board Chairperson"
+  },
+  "Date": {
+    "/T": "Date",
+    "/FT": "/Tx",
+    "/TU": "Date"
+  },
+  "Centre with 31 and more spaces  2500 base amount  75 for each additional space above": {
+    "/T": "Centre with 31 and more spaces  2500 base amount  75 for each additional space above",
+    "/FT": "/Btn",
+    "/TU": "Centre with 31 and more spaces  $2,500 base amount + $75 for each additional space above",
+    "/Kids": "[IndirectObject(58, 0, 4436918096)]"
+  },
+  "Check Box6": {
+    "/T": "Check Box6",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box8": {
+    "/T": "Check Box8",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box9": {
+    "/T": "Check Box9",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box10": {
+    "/T": "Check Box10",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box11": {
+    "/T": "Check Box11",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  }
+}

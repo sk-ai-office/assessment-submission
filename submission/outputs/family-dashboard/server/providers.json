@@ -1,0 +1,571 @@
+[
+  {
+    "id": "new-leaf-evergreen",
+    "name": "New Leaf Daycare — Evergreen",
+    "aliases": [
+      "New Leaf Daycare"
+    ],
+    "type": "centre",
+    "neighbourhood": "Evergreen",
+    "address": "90 - 110 Evergreen Square, Saskatoon, SK S7W 0W8",
+    "lat": 52.16539,
+    "lon": -106.57053,
+    "locationNote": "Approximate government map location. Confirm the address before travelling. Address sources conflict; see notes below.",
+    "phone": "306-621-0053",
+    "website": null,
+    "minAgeMonths": 4,
+    "minAgeDays": null,
+    "maxAgeMonths": 72,
+    "ageDescription": "4 months–6 years",
+    "open": "07:30",
+    "close": "17:30",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "infantHours": null,
+    "languages": null,
+    "feeMonthly": null,
+    "feeNote": "Current fees and eligibility have not been reconfirmed. Ask the provider about base fees and extras.",
+    "availability": "unknown",
+    "availabilityUpdated": null,
+    "availabilityNote": null,
+    "connected": false,
+    "demo": false,
+    "applicationUrl": null,
+    "applicationNote": "Contact the provider directly. A current online application route has not been verified.",
+    "licensingNote": "Listed in Saskatchewan’s regulated child care directory. A live licence feed is not connected.",
+    "sourceNotes": [
+      "Unresolved. Pin follows government listing; confirm location before travel. Government: 90 - 110 Evergreen Square, S7W 0W8. Other listing: 100 - 245 Evergreen Square, S7W 1G4",
+      "Government listing is named New Leaf Daycare. Evergreen association follows the street/neighbourhood and matching provider phone.",
+      "Parent Central registration link https://newleafdaycare.com/registration/ returned 404 during review."
+    ],
+    "sources": [
+      {
+        "label": "Government of Saskatchewan regulated child care directory",
+        "url": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community"
+      },
+      {
+        "label": "Parent Central — New Leaf Evergreen",
+        "url": "https://parentcentral.sk.211.ca/services/new-leaf-daycare-evergreen/child-care-evergreen/"
+      }
+    ],
+    "reviewedAt": "November 25, 2026"
+  },
+  {
+    "id": "preston-willowgrove",
+    "name": "Preston Early Learning Centre — Holy Family/Willowgrove",
+    "aliases": [
+      "Preston Early Learning Centre Inc. Holy Family/Willowgrove"
+    ],
+    "type": "centre",
+    "neighbourhood": "Willowgrove",
+    "address": "805 Stensrud Road, Saskatoon, SK S7W 0M9",
+    "lat": 52.14784,
+    "lon": -106.55937,
+    "locationNote": "Approximate government map location. Confirm the address before travelling.",
+    "phone": "306-373-3535",
+    "website": "https://www.prestonearlylearning.ca/willowgrove",
+    "minAgeMonths": null,
+    "minAgeDays": 42,
+    "maxAgeMonths": null,
+    "ageDescription": "6 weeks–kindergarten",
+    "open": "07:15",
+    "close": "18:00",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "infantHours": {
+      "open": "07:30",
+      "close": "17:30"
+    },
+    "languages": null,
+    "feeMonthly": null,
+    "feeNote": "Current fees and eligibility have not been reconfirmed. Ask the provider about base fees and extras.",
+    "availability": "unknown",
+    "availabilityUpdated": null,
+    "availabilityNote": null,
+    "connected": false,
+    "demo": false,
+    "applicationUrl": "https://www.prestonearlylearning.ca/admissions",
+    "applicationNote": "Apply through the provider’s own website. This local dashboard does not send your family profile.",
+    "licensingNote": "Listed in Saskatchewan’s regulated child care directory. A live licence feed is not connected.",
+    "sourceNotes": [
+      "Provider reports full centres and a long shared waitlist; no verified live vacancy count.",
+      "One application per child; provider prioritizes internal age-group moves and siblings. Age-specific infant hours matter when matching schedules.",
+      "Six weeks through kindergarten; location page describes six weeks to five years.",
+      "Infant hours are 7:30 am–5:30 pm. Other age groups use the general hours shown."
+    ],
+    "sources": [
+      {
+        "label": "Government of Saskatchewan regulated child care directory",
+        "url": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community"
+      },
+      {
+        "label": "Preston — Willowgrove location",
+        "url": "https://www.prestonearlylearning.ca/willowgrove"
+      },
+      {
+        "label": "Preston — parent manual April 2025",
+        "url": "https://www.prestonearlylearning.ca/s/Parent-Manual-April-2025.pdf"
+      }
+    ],
+    "reviewedAt": "November 25, 2026"
+  },
+  {
+    "id": "bright-learners-willowgrove",
+    "name": "Bright Learners Academy — Willowgrove",
+    "aliases": [
+      "Bright Learners Academy Willowgrove"
+    ],
+    "type": "centre",
+    "neighbourhood": "Willowgrove",
+    "address": "415 Willowgrove Square, Saskatoon, SK S7W 0G8",
+    "lat": 52.149128,
+    "lon": -106.557098,
+    "locationNote": "Approximate government map location. Confirm the address before travelling.",
+    "phone": "306-244-2404",
+    "website": "https://brightlearnersacademy.net/location-Willowgrove/",
+    "minAgeMonths": null,
+    "minAgeDays": null,
+    "maxAgeMonths": null,
+    "ageDescription": "Toddler and preschool; confirm ages",
+    "open": "07:00",
+    "close": "17:30",
+    "days": null,
+    "infantHours": null,
+    "languages": null,
+    "feeMonthly": null,
+    "feeNote": "Current fees and eligibility have not been reconfirmed. Ask the provider about base fees and extras.",
+    "availability": "unknown",
+    "availabilityUpdated": null,
+    "availabilityNote": null,
+    "connected": false,
+    "demo": false,
+    "applicationUrl": "https://brightlearnersacademy.net/registration-willowgrove/",
+    "applicationNote": "Apply through the provider’s own website. This local dashboard does not send your family profile.",
+    "licensingNote": "Listed in Saskatchewan’s regulated child care directory. A live licence feed is not connected.",
+    "sourceNotes": [
+      "Operating days are not explicitly stated on the location page.",
+      "Organization-wide infant and school-age programs must not be assumed to operate at Willowgrove.",
+      "Location-specific page lists toddler and preschool programs; exact age bounds unconfirmed.",
+      "Operating days have not been verified. Confirm your requested days directly."
+    ],
+    "sources": [
+      {
+        "label": "Government of Saskatchewan regulated child care directory",
+        "url": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community"
+      },
+      {
+        "label": "Bright Learners — Willowgrove location",
+        "url": "https://brightlearnersacademy.net/location-Willowgrove/"
+      }
+    ],
+    "reviewedAt": "November 25, 2026"
+  },
+  {
+    "id": "ymca-brighton",
+    "name": "YMCA Child Development Centre — Brighton",
+    "aliases": [
+      "YMCA Child Development Centre - Brighton"
+    ],
+    "type": "centre",
+    "neighbourhood": "Brighton",
+    "address": "115 Secord Way, Saskatoon, SK S7V 0L9",
+    "lat": 52.12962,
+    "lon": -106.55109,
+    "locationNote": "Approximate government map location. Confirm the address before travelling.",
+    "phone": "306-374-3502",
+    "website": "https://ymcasaskatoon.org/early-learning-and-childcare/",
+    "minAgeMonths": null,
+    "minAgeDays": 42,
+    "maxAgeMonths": 72,
+    "ageDescription": "6 weeks–6 years",
+    "open": "07:30",
+    "close": "18:00",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "infantHours": null,
+    "languages": null,
+    "feeMonthly": null,
+    "feeNote": "Current fees and eligibility have not been reconfirmed. Ask the provider about base fees and extras.",
+    "availability": "unknown",
+    "availabilityUpdated": null,
+    "availabilityNote": null,
+    "connected": false,
+    "demo": false,
+    "applicationUrl": "https://app.lillio.com/online_registration/apply/ymca-brighton",
+    "applicationNote": "Apply through the provider’s own website. This local dashboard does not send your family profile.",
+    "licensingNote": "Listed in Saskatchewan’s regulated child care directory. A live licence feed is not connected.",
+    "sourceNotes": [
+      "Show provider link and disclose conflict. Do not infer an open seat or guaranteed intake. Other listing: Parent Central says waitlist closed and no new applications.",
+      "Closed weekends and statutory holidays according to Parent Central."
+    ],
+    "sources": [
+      {
+        "label": "Government of Saskatchewan regulated child care directory",
+        "url": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community"
+      },
+      {
+        "label": "Parent Central — YMCA Brighton",
+        "url": "https://parentcentral.sk.211.ca/services/child-development-centre-brighton/child-care-child-development-centre-brighton/"
+      },
+      {
+        "label": "YMCA Saskatoon early learning and childcare",
+        "url": "https://ymcasaskatoon.org/early-learning-and-childcare/"
+      }
+    ],
+    "reviewedAt": "November 25, 2026"
+  },
+  {
+    "id": "bgc-evergreen",
+    "name": "BGC Saskatoon — Evergreen Early Learning Centre",
+    "aliases": [
+      "Evergreen Early Learning Centre"
+    ],
+    "type": "centre",
+    "neighbourhood": "Evergreen",
+    "address": "616 Manek Road, Saskatoon, SK S7W 0W3",
+    "lat": 52.169039,
+    "lon": -106.565884999999,
+    "locationNote": "Approximate government map location. Confirm the address before travelling.",
+    "phone": "306-373-3111",
+    "website": "https://www.bgcsaskatoon.com/programs/early-learning-centres/",
+    "minAgeMonths": null,
+    "minAgeDays": 42,
+    "maxAgeMonths": null,
+    "ageDescription": "6 weeks–kindergarten",
+    "open": "07:00",
+    "close": "18:00",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "infantHours": null,
+    "languages": null,
+    "feeMonthly": null,
+    "feeNote": "Current fees and eligibility have not been reconfirmed. Ask the provider about base fees and extras.",
+    "availability": "closed",
+    "availabilityUpdated": null,
+    "availabilityNote": "Provider website reports waitlist registration closed; reviewed November 25, 2026.",
+    "connected": false,
+    "demo": false,
+    "applicationUrl": null,
+    "applicationNote": "The provider reports its waiting list is closed. Contact them to ask about future intake.",
+    "licensingNote": "Listed in Saskatchewan’s regulated child care directory. A live licence feed is not connected.",
+    "sourceNotes": [
+      "Primary provider page reports waiting list registration currently closed; this is a page statement, not a live integration.",
+      "Weekdays are corroborated by Parent Central.",
+      "Infants, toddlers and preschool children including kindergarten."
+    ],
+    "sources": [
+      {
+        "label": "Government of Saskatchewan regulated child care directory",
+        "url": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community"
+      },
+      {
+        "label": "BGC Saskatoon — early learning centres",
+        "url": "https://www.bgcsaskatoon.com/programs/early-learning-centres/"
+      },
+      {
+        "label": "Parent Central — Evergreen ELC",
+        "url": "https://parentcentral.sk.211.ca/services/evergreen-early-learning-centre/child-care-evergreen-early-learning-centre/"
+      }
+    ],
+    "reviewedAt": "November 25, 2026"
+  },
+  {
+    "id": "christine-wilmut",
+    "name": "Christine Wilmut",
+    "aliases": [
+      "Christine Wilmut"
+    ],
+    "type": "home",
+    "neighbourhood": "Willowgrove",
+    "address": "218 Lamarsh Road, Saskatoon, SK S7W 1B8",
+    "lat": 52.14597,
+    "lon": -106.55176,
+    "locationNote": "Approximate government map location. Confirm the address before travelling.",
+    "phone": "306-651-1875",
+    "website": null,
+    "minAgeMonths": null,
+    "minAgeDays": null,
+    "maxAgeMonths": null,
+    "ageDescription": "Ages unconfirmed",
+    "open": null,
+    "close": null,
+    "days": null,
+    "infantHours": null,
+    "languages": null,
+    "feeMonthly": null,
+    "feeNote": "Current fees and eligibility have not been reconfirmed. Ask the provider about base fees and extras.",
+    "availability": "unknown",
+    "availabilityUpdated": null,
+    "availabilityNote": null,
+    "connected": false,
+    "demo": false,
+    "applicationUrl": null,
+    "applicationNote": "Contact the provider directly. A current online application route has not been verified.",
+    "licensingNote": "Listed in Saskatchewan’s regulated child care directory. A live licence feed is not connected.",
+    "sourceNotes": [
+      "Public regulated home listing. Age range, operating hours, fees and current intake were not verified."
+    ],
+    "sources": [
+      {
+        "label": "Government of Saskatchewan regulated child care directory",
+        "url": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community"
+      }
+    ],
+    "reviewedAt": "November 25, 2026"
+  },
+  {
+    "id": "shazia-kousar",
+    "name": "Shazia Kousar",
+    "aliases": [
+      "Shazia Kousar"
+    ],
+    "type": "home",
+    "neighbourhood": "Evergreen",
+    "address": "606 Boykowich Crescent, Saskatoon, SK S7W 0S5",
+    "lat": 52.16631,
+    "lon": -106.55775,
+    "locationNote": "Approximate government map location. Confirm the address before travelling.",
+    "phone": "639-317-7505",
+    "website": null,
+    "minAgeMonths": null,
+    "minAgeDays": null,
+    "maxAgeMonths": null,
+    "ageDescription": "Ages unconfirmed",
+    "open": null,
+    "close": null,
+    "days": null,
+    "infantHours": null,
+    "languages": null,
+    "feeMonthly": null,
+    "feeNote": "Current fees and eligibility have not been reconfirmed. Ask the provider about base fees and extras.",
+    "availability": "unknown",
+    "availabilityUpdated": null,
+    "availabilityNote": null,
+    "connected": false,
+    "demo": false,
+    "applicationUrl": null,
+    "applicationNote": "Contact the provider directly. A current online application route has not been verified.",
+    "licensingNote": "Listed in Saskatchewan’s regulated child care directory. A live licence feed is not connected.",
+    "sourceNotes": [
+      "Public regulated group family home listing. Age range, operating hours, fees and current intake were not verified."
+    ],
+    "sources": [
+      {
+        "label": "Government of Saskatchewan regulated child care directory",
+        "url": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community"
+      }
+    ],
+    "reviewedAt": "November 25, 2026"
+  },
+  {
+    "id": "new-leaf-aspen-ridge",
+    "name": "New Leaf Daycare — Aspen Ridge",
+    "aliases": [
+      "New Leaf Daycare - Aspen Ridge"
+    ],
+    "type": "centre",
+    "neighbourhood": "Aspen Ridge",
+    "address": "70 - 1164 Baltzan Boulevard, Saskatoon, SK S7W 1E8",
+    "lat": 52.16821,
+    "lon": -106.55496,
+    "locationNote": "Approximate government map location. Confirm the address before travelling.",
+    "phone": "306-621-0053",
+    "website": null,
+    "minAgeMonths": 4,
+    "minAgeDays": null,
+    "maxAgeMonths": 72,
+    "ageDescription": "4 months–6 years",
+    "open": "07:30",
+    "close": "17:30",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "infantHours": null,
+    "languages": null,
+    "feeMonthly": null,
+    "feeNote": "Current fees and eligibility have not been reconfirmed. Ask the provider about base fees and extras.",
+    "availability": "unknown",
+    "availabilityUpdated": null,
+    "availabilityNote": null,
+    "connected": false,
+    "demo": false,
+    "applicationUrl": null,
+    "applicationNote": "Contact the provider directly. A current online application route has not been verified.",
+    "licensingNote": "Listed in Saskatchewan’s regulated child care directory. A live licence feed is not connected.",
+    "sourceNotes": [
+      "Parent Central spells the street Baltzen; this record uses government directory spelling Baltzan.",
+      "Parent Central registration link https://newleafdaycare.com/registration/ returned 404 during review."
+    ],
+    "sources": [
+      {
+        "label": "Government of Saskatchewan regulated child care directory",
+        "url": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community"
+      },
+      {
+        "label": "Parent Central — New Leaf Aspen Ridge",
+        "url": "https://parentcentral.sk.211.ca/services/new-leaf-daycare-aspen-ridge/child-care-aspen-ridge/"
+      }
+    ],
+    "reviewedAt": "November 25, 2026"
+  },
+  {
+    "id": "ymca-aspen-ridge",
+    "name": "YMCA Child Development Centre — Aspen Ridge",
+    "aliases": [
+      "YMCA Child Development Centre Aspen Ridge"
+    ],
+    "type": "centre",
+    "neighbourhood": "Aspen Ridge",
+    "address": "260 Orban Way, Saskatoon, SK S7W 1E7",
+    "lat": 52.172487,
+    "lon": -106.5532,
+    "locationNote": "Approximate government map location. Confirm the address before travelling.",
+    "phone": "306-500-1312",
+    "website": "https://ymcasaskatoon.org/early-learning-and-childcare/",
+    "minAgeMonths": 18,
+    "minAgeDays": null,
+    "maxAgeMonths": null,
+    "ageDescription": "18 months+; confirm upper age",
+    "open": "07:30",
+    "close": "18:00",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "infantHours": null,
+    "languages": null,
+    "feeMonthly": null,
+    "feeNote": "Current fees and eligibility have not been reconfirmed. Ask the provider about base fees and extras.",
+    "availability": "unknown",
+    "availabilityUpdated": null,
+    "availabilityNote": null,
+    "connected": false,
+    "demo": false,
+    "applicationUrl": "https://app.lillio.com/online_registration/apply/ymca-aspen-ridge",
+    "applicationNote": "Apply through the provider’s own website. This local dashboard does not send your family profile.",
+    "licensingNote": "Listed in Saskatchewan’s regulated child care directory. A live licence feed is not connected.",
+    "sourceNotes": [
+      "Same street address; government postal code retained. Government: S7W 1E7. ",
+      "18 months and older on YMCA site; Parent Central describes 18 months to five years."
+    ],
+    "sources": [
+      {
+        "label": "Government of Saskatchewan regulated child care directory",
+        "url": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community"
+      },
+      {
+        "label": "Parent Central — YMCA Aspen Ridge",
+        "url": "https://parentcentral.sk.211.ca/services/saskatoon-aspen-ridge/child-care-aspen-ridge-2/"
+      },
+      {
+        "label": "YMCA Saskatoon early learning and childcare",
+        "url": "https://ymcasaskatoon.org/early-learning-and-childcare/"
+      }
+    ],
+    "reviewedAt": "November 25, 2026"
+  },
+  {
+    "id": "demo-sprouts",
+    "name": "Prairie Sprouts · Example provider",
+    "aliases": [],
+    "type": "centre",
+    "neighbourhood": "Willowgrove",
+    "address": "Illustrative location in Willowgrove, Saskatoon",
+    "lat": 52.151,
+    "lon": -106.553,
+    "locationNote": "Fictional example location, not a real facility.",
+    "phone": null,
+    "website": null,
+    "minAgeMonths": 18,
+    "maxAgeMonths": 72,
+    "ageDescription": "18 months–6 years",
+    "open": "08:00",
+    "close": "17:30",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "languages": [
+      "English"
+    ],
+    "feeMonthly": 250,
+    "feeNote": "Illustrative fee for the example provider, not a real market rate or subsidy determination.",
+    "availability": "accepting",
+    "availabilityUpdated": "2026-11-25T18:00:00Z",
+    "connected": true,
+    "demo": true,
+    "applicationUrl": null,
+    "sourceNotes": [],
+    "sources": [],
+    "reviewedAt": "November 25, 2026"
+  },
+  {
+    "id": "demo-willow",
+    "name": "Little Willow · Example provider",
+    "aliases": [],
+    "type": "home",
+    "neighbourhood": "Evergreen",
+    "address": "Illustrative location in Evergreen, Saskatoon",
+    "lat": 52.171,
+    "lon": -106.576,
+    "locationNote": "Fictional example location, not a real facility.",
+    "phone": null,
+    "website": null,
+    "minAgeMonths": 3,
+    "maxAgeMonths": 72,
+    "ageDescription": "3 months–6 years",
+    "open": "07:00",
+    "close": "18:00",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "feeMonthly": 300,
+    "feeNote": "Illustrative fee for the example provider, not a real market rate or subsidy determination.",
+    "availability": "accepting",
+    "availabilityUpdated": "2026-11-25T18:00:00Z",
+    "connected": true,
+    "demo": true,
+    "applicationUrl": null,
+    "sourceNotes": [],
+    "sources": [],
+    "reviewedAt": "November 25, 2026"
+  }
+]

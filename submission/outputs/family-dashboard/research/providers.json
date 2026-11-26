@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-25",
+  "scope": "Bounded northeast/east Saskatoon sample; not a complete registry. Nine government-listed locations.",
+  "providers": [
+    {
+      "id": "new-leaf-evergreen",
+      "name": "New Leaf Daycare — Evergreen",
+      "governmentName": "New Leaf Daycare",
+      "type": "centre",
+      "address": {
+        "street": "90 - 110 Evergreen Square",
+        "city": "Saskatoon",
+        "province": "SK",
+        "postalCode": "S7W 0W8"
+      },
+      "neighbourhood": "Evergreen",
+      "coordinates": {
+        "lat": 52.16539,
+        "lng": -106.57053,
+        "accuracy": "government_map_approximate",
+        "source": "gov",
+        "sourceUrl": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "method": "Government map pageList point matched to same-download directory row by index; government JavaScript confirms this positional mapping.",
+        "sourceRowOrdinal": 376
+      },
+      "directionsUrl": "https://maps.google.com/maps?saddr=&daddr=90 - 110 Evergreen Square, Saskatoon, SK, S7W 0W8",
+      "licensing": {
+        "status": "listed_in_government_regulated_directory",
+        "licenceNumber": null,
+        "source": "gov",
+        "note": "Directory listing verified; current licence certificate and number not independently obtained."
+      },
+      "availability": {
+        "status": "unconfirmed",
+        "spaces": null,
+        "confirmedAt": null,
+        "note": "No live provider connection. Published application links do not indicate a vacancy."
+      },
+      "fees": {
+        "monthlyCAD": null,
+        "status": "not_provider_reconfirmed",
+        "note": "Confirm current fee eligibility and extras with provider."
+      },
+      "connectedToDashboard": false,
+      "reviewedAt": "2026-11-25",
+      "fieldSources": {
+        "name": [
+          "gov",
+          "newLeafEvergreenPC"
+        ],
+        "type": [
+          "gov"
+        ],
+        "address": [
+          "gov"
+        ],
+        "phone": [
+          "gov"
+        ],
+        "coordinates": [
+          "gov"
+        ],
+        "age": [
+          "newLeafEvergreenPC"
+        ],
+        "hours": [
+          "newLeafEvergreenPC"
+        ],
+        "care": [
+          "newLeafEvergreenPC"
+        ],
+        "application": [
+          "newLeafEvergreenPC"
+        ],
+        "neighbourhood": [],
+        "neighbourhoodNote": "Geographic label used for browsing, not provider-verified catchment.",
+        "fees": []
+      },
+      "phone": "306-621-0053",
+      "age": {
+        "minMonths": 4,
+        "maxMonths": 72,
+        "groups": [
+          "infant",
+          "toddler",
+          "preschool"
+        ],
+        "source": "newLeafEvergreenPC"
+      },
+      "hours": {
+        "opens": "07:30",
+        "closes": "17:30",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "source": "newLeafEvergreenPC",
+        "status": "published_hours_not_provider_reconfirmed"
+      },
+      "care": [
+        "full-time",
+        "part-time"
+      ],
+      "application": {
+        "mode": "contact",
+        "url": null,
+        "informationUrl": "https://parentcentral.sk.211.ca/services/new-leaf-daycare-evergreen/child-care-evergreen/",
+        "status": "current_application_route_unverified"
+      },
+      "conflicts": [
+        {
+          "field": "address",
+          "governmentValue": "90 - 110 Evergreen Square, S7W 0W8",
+          "otherValue": "100 - 245 Evergreen Square, S7W 1G4",
+          "sources": [
+            "gov",
+            "newLeafEvergreenPC"
+          ],
+          "resolution": "Unresolved. Pin follows government listing; confirm location before travel."
+        }
+      ],
+      "notes": [
+        "Government listing is named New Leaf Daycare. Evergreen association follows the street/neighbourhood and matching provider phone.",
+        "Parent Central registration link https://newleafdaycare.com/registration/ returned 404 during review."
+      ],
+      "sourceUrls": [
+        "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "https://parentcentral.sk.211.ca/services/new-leaf-daycare-evergreen/child-care-evergreen/"
+      ]
+    },
+    {
+      "id": "preston-willowgrove",
+      "name": "Preston Early Learning Centre — Holy Family/Willowgrove",
+      "governmentName": "Preston Early Learning Centre Inc. Holy Family/Willowgrove",
+      "type": "centre",
+      "address": {
+        "street": "805 Stensrud Road",
+        "city": "Saskatoon",
+        "province": "SK",
+        "postalCode": "S7W 0M9"
+      },
+      "neighbourhood": "Willowgrove",
+      "coordinates": {
+        "lat": 52.14784,
+        "lng": -106.55937,
+        "accuracy": "government_map_approximate",
+        "source": "gov",
+        "sourceUrl": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "method": "Government map pageList point matched to same-download directory row by index; government JavaScript confirms this positional mapping.",
+        "sourceRowOrdinal": 378
+      },
+      "directionsUrl": "https://maps.google.com/maps?saddr=&daddr=805 Stensrud Road, Saskatoon, SK, S7W 0M9 ",
+      "licensing": {
+        "status": "listed_in_government_regulated_directory",
+        "licenceNumber": null,
+        "source": "gov",
+        "note": "Directory listing verified; current licence certificate and number not independently obtained."
+      },
+      "availability": {
+        "status": "unconfirmed",
+        "spaces": null,
+        "confirmedAt": null,
+        "note": "No live provider connection. Published application links do not indicate a vacancy."
+      },
+      "fees": {
+        "monthlyCAD": 217.5,
+        "status": "published_provider_fee",
+        "effectiveDate": null,
+        "source": "prestonApply",
+        "note": "Published infant/toddler and eligible preschool/kindergarten monthly fee. Older-child and summer rates differ."
+      },
+      "connectedToDashboard": false,
+      "reviewedAt": "2026-11-25",
+      "fieldSources": {
+        "name": [
+          "gov",
+          "preston"
+        ],
+        "type": [
+          "gov"
+        ],
+        "address": [
+          "gov"
+        ],
+        "phone": [
+          "gov"
+        ],
+        "coordinates": [
+          "gov"
+        ],
+        "age": [
+          "preston"
+        ],
+        "hours": [
+          "prestonHours"
+        ],
+        "care": [
+          "preston"
+        ],
+        "application": [
+          "preston"
+        ],
+        "neighbourhood": [],
+        "neighbourhoodNote": "Geographic label used for browsing, not provider-verified catchment.",
+        "fees": [
+          "prestonApply"
+        ]
+      },
+      "phone": "306-373-3535",
+      "age": {
+        "minWeeks": 6,
+        "maxMonths": null,
+        "groups": [
+          "infant",
+          "toddler",
+          "preschool",
+          "kindergarten"
+        ],
+        "description": "Six weeks through kindergarten; location page describes six weeks to five years.",
+        "source": "preston"
+      },
+      "hours": {
+        "opens": "07:15",
+        "closes": "18:00",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "source": "prestonHours",
+        "status": "published_hours_not_provider_reconfirmed",
+        "infantOverride": {
+          "opens": "07:30",
+          "closes": "17:30"
+        }
+      },
+      "care": [
+        "full-time"
+      ],
+      "application": {
+        "mode": "external",
+        "url": "https://www.prestonearlylearning.ca/admissions",
+        "status": "provider_waitlist_application_link_published"
+      },
+      "notes": [
+        "Provider reports full centres and a long shared waitlist; no verified live vacancy count.",
+        "One application per child; provider prioritizes internal age-group moves and siblings. Age-specific infant hours matter when matching schedules."
+      ],
+      "conflicts": [],
+      "sourceUrls": [
+        "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "https://www.prestonearlylearning.ca/willowgrove",
+        "https://www.prestonearlylearning.ca/s/Parent-Manual-April-2025.pdf"
+      ]
+    },
+    {
+      "id": "bright-learners-willowgrove",
+      "name": "Bright Learners Academy — Willowgrove",
+      "governmentName": "Bright Learners Academy Willowgrove",
+      "type": "centre",
+      "address": {
+        "street": "415 Willowgrove Square",
+        "city": "Saskatoon",
+        "province": "SK",
+        "postalCode": "S7W 0G8"
+      },
+      "neighbourhood": "Willowgrove",
+      "coordinates": {
+        "lat": 52.149128,
+        "lng": -106.557098,
+        "accuracy": "government_map_approximate",
+        "source": "gov",
+        "sourceUrl": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "method": "Government map pageList point matched to same-download directory row by index; government JavaScript confirms this positional mapping.",
+        "sourceRowOrdinal": 385
+      },
+      "directionsUrl": "https://maps.google.com/maps?saddr=&daddr=415 Willowgrove Square, Saskatoon, SK, S7W 0G8",
+      "licensing": {
+        "status": "listed_in_government_regulated_directory",
+        "licenceNumber": null,
+        "source": "gov",
+        "note": "Directory listing verified; current licence certificate and number not independently obtained."
+      },
+      "availability": {
+        "status": "unconfirmed",
+        "spaces": null,
+        "confirmedAt": null,
+        "note": "No live provider connection. Published application links do not indicate a vacancy."
+      },
+      "fees": {
+        "monthlyCAD": null,
+        "status": "not_provider_reconfirmed",
+        "note": "Confirm current fee eligibility and extras with provider."
+      },
+      "connectedToDashboard": false,
+      "reviewedAt": "2026-11-25",
+      "fieldSources": {
+        "name": [
+          "gov",
+          "bright"
+        ],
+        "type": [
+          "gov"
+        ],
+        "address": [
+          "gov"
+        ],
+        "phone": [
+          "gov"
+        ],
+        "coordinates": [
+          "gov"
+        ],
+        "age": [
+          "bright"
+        ],
+        "hours": [
+          "bright"
+        ],
+        "care": [
+          "bright"
+        ],
+        "application": [
+          "bright"
+        ],
+        "neighbourhood": [],
+        "neighbourhoodNote": "Geographic label used for browsing, not provider-verified catchment.",
+        "fees": []
+      },
+      "phone": "306-244-2404",
+      "age": {
+        "minMonths": null,
+        "maxMonths": null,
+        "groups": [
+          "toddler",
+          "preschool"
+        ],
+        "description": "Location-specific page lists toddler and preschool programs; exact age bounds unconfirmed.",
+        "source": "bright"
+      },
+      "hours": {
+        "opens": "07:00",
+        "closes": "17:30",
+        "days": null,
+        "source": "bright",
+        "status": "published_hours_not_provider_reconfirmed"
+      },
+      "care": [
+        "full-time"
+      ],
+      "application": {
+        "mode": "external",
+        "url": "https://brightlearnersacademy.net/registration-willowgrove/",
+        "status": "provider_web_form_observed",
+        "alternatePublishedUrl": "https://himama.com/online_registration/apply/bright-leaners-academy-willowgrove",
+        "alternateStatus": "linked_by_provider_location_page_but_destination_not_verified"
+      },
+      "notes": [
+        "Operating days are not explicitly stated on the location page.",
+        "Organization-wide infant and school-age programs must not be assumed to operate at Willowgrove."
+      ],
+      "conflicts": [],
+      "sourceUrls": [
+        "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "https://brightlearnersacademy.net/location-Willowgrove/"
+      ]
+    },
+    {
+      "id": "ymca-brighton",
+      "name": "YMCA Child Development Centre — Brighton",
+      "governmentName": "YMCA Child Development Centre - Brighton",
+      "type": "centre",
+      "address": {
+        "street": "115 Secord Way",
+        "city": "Saskatoon",
+        "province": "SK",
+        "postalCode": "S7V 0L9"
+      },
+      "neighbourhood": "Brighton",
+      "coordinates": {
+        "lat": 52.12962,
+        "lng": -106.55109,
+        "accuracy": "government_map_approximate",
+        "source": "gov",
+        "sourceUrl": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "method": "Government map pageList point matched to same-download directory row by index; government JavaScript confirms this positional mapping.",
+        "sourceRowOrdinal": 404
+      },
+      "directionsUrl": "https://maps.google.com/maps?saddr=&daddr=115 Secord Way, Saskatoon, SK, S7V 0L9",
+      "licensing": {
+        "status": "listed_in_government_regulated_directory",
+        "licenceNumber": null,
+        "source": "gov",
+        "note": "Directory listing verified; current licence certificate and number not independently obtained."
+      },
+      "availability": {
+        "status": "unconfirmed",
+        "spaces": null,
+        "confirmedAt": null,
+        "note": "No live provider connection. Published application links do not indicate a vacancy."
+      },
+      "fees": {
+        "monthlyCAD": null,
+        "status": "not_provider_reconfirmed",
+        "note": "Confirm current fee eligibility and extras with provider."
+      },
+      "connectedToDashboard": false,
+      "reviewedAt": "2026-11-25",
+      "fieldSources": {
+        "name": [
+          "gov",
+          "ymcaBrightonPC"
+        ],
+        "type": [
+          "gov"
+        ],
+        "address": [
+          "gov"
+        ],
+        "phone": [
+          "gov"
+        ],
+        "coordinates": [
+          "gov"
+        ],
+        "age": [
+          "ymcaBrightonPC"
+        ],
+        "hours": [
+          "ymcaBrightonPC"
+        ],
+        "care": [
+          "ymcaBrightonPC"
+        ],
+        "application": [
+          "ymca"
+        ],
+        "neighbourhood": [],
+        "neighbourhoodNote": "Geographic label used for browsing, not provider-verified catchment.",
+        "fees": []
+      },
+      "phone": "306-374-3502",
+      "age": {
+        "minWeeks": 6,
+        "maxMonths": 72,
+        "groups": [
+          "infant",
+          "toddler",
+          "preschool"
+        ],
+        "source": "ymcaBrightonPC",
+        "minimumAgePrimarySource": "ymca"
+      },
+      "hours": {
+        "opens": "07:30",
+        "closes": "18:00",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "source": "ymcaBrightonPC",
+        "status": "published_hours_not_provider_reconfirmed"
+      },
+      "care": [
+        "full-time"
+      ],
+      "application": {
+        "mode": "external",
+        "url": "https://app.lillio.com/online_registration/apply/ymca-brighton",
+        "status": "provider_application_link_published_intake_status_conflicts",
+        "source": "ymca"
+      },
+      "conflicts": [
+        {
+          "field": "application.status",
+          "providerValue": "YMCA primary page links a Brighton Join Waitlist application.",
+          "otherValue": "Parent Central says waitlist closed and no new applications.",
+          "sources": [
+            "ymca",
+            "ymcaBrightonPC"
+          ],
+          "resolution": "Show provider link and disclose conflict. Do not infer an open seat or guaranteed intake."
+        }
+      ],
+      "notes": [
+        "Closed weekends and statutory holidays according to Parent Central."
+      ],
+      "sourceUrls": [
+        "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "https://parentcentral.sk.211.ca/services/child-development-centre-brighton/child-care-child-development-centre-brighton/",
+        "https://ymcasaskatoon.org/early-learning-and-childcare/"
+      ]
+    },
+    {
+      "id": "bgc-evergreen",
+      "name": "BGC Saskatoon — Evergreen Early Learning Centre",
+      "governmentName": "Evergreen Early Learning Centre",
+      "type": "centre",
+      "address": {
+        "street": "616 Manek Road",
+        "city": "Saskatoon",
+        "province": "SK",
+        "postalCode": "S7W 0W3"
+      },
+      "neighbourhood": "Evergreen",
+      "coordinates": {
+        "lat": 52.169039,
+        "lng": -106.565884999999,
+        "accuracy": "government_map_approximate",
+        "source": "gov",
+        "sourceUrl": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "method": "Government map pageList point matched to same-download directory row by index; government JavaScript confirms this positional mapping.",
+        "sourceRowOrdinal": 406
+      },
+      "directionsUrl": "https://maps.google.com/maps?saddr=&daddr=616 Manek Road, Saskatoon, SK, S7W 0W3",
+      "licensing": {
+        "status": "listed_in_government_regulated_directory",
+        "licenceNumber": null,
+        "source": "gov",
+        "note": "Directory listing verified; current licence certificate and number not independently obtained."
+      },
+      "availability": {
+        "status": "unconfirmed",
+        "spaces": null,
+        "confirmedAt": null,
+        "note": "No live provider connection. Published application links do not indicate a vacancy."
+      },
+      "fees": {
+        "monthlyCAD": 217.5,
+        "status": "published_provider_fee",
+        "effectiveDate": "2026-04-01",
+        "source": "bgc",
+        "note": "Published parent portion for eligible younger age groups. Six-year-old eligibility varies by school year/summer; payment and late fees are additional. Confirm eligibility."
+      },
+      "connectedToDashboard": false,
+      "reviewedAt": "2026-11-25",
+      "fieldSources": {
+        "name": [
+          "gov",
+          "bgc"
+        ],
+        "type": [
+          "gov"
+        ],
+        "address": [
+          "gov"
+        ],
+        "phone": [
+          "gov"
+        ],
+        "coordinates": [
+          "gov"
+        ],
+        "age": [
+          "bgc"
+        ],
+        "hours": [
+          "bgc",
+          "bgcPC"
+        ],
+        "care": [
+          "bgc"
+        ],
+        "application": [
+          "bgc"
+        ],
+        "neighbourhood": [],
+        "neighbourhoodNote": "Geographic label used for browsing, not provider-verified catchment.",
+        "fees": [
+          "bgc"
+        ]
+      },
+      "phone": "306-373-3111",
+      "email": "evergreenelc@bgcsaskatoon.com",
+      "age": {
+        "minWeeks": 6,
+        "maxMonths": null,
+        "groups": [
+          "infant",
+          "toddler",
+          "preschool",
+          "kindergarten"
+        ],
+        "description": "Infants, toddlers and preschool children including kindergarten.",
+        "source": "bgc"
+      },
+      "hours": {
+        "opens": "07:00",
+        "closes": "18:00",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "source": "bgc",
+        "status": "published_hours_not_provider_reconfirmed"
+      },
+      "care": [
+        "full-time"
+      ],
+      "application": {
+        "mode": "closed",
+        "url": null,
+        "informationUrl": "https://www.bgcsaskatoon.com/programs/early-learning-centres/",
+        "status": "provider_reports_waitlist_closed",
+        "contactPreference": "Email only for availability and waitlist questions; provider asks families not to call."
+      },
+      "notes": [
+        "Primary provider page reports waiting list registration currently closed; this is a page statement, not a live integration.",
+        "Weekdays are corroborated by Parent Central."
+      ],
+      "conflicts": [],
+      "sourceUrls": [
+        "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "https://www.bgcsaskatoon.com/programs/early-learning-centres/",
+        "https://parentcentral.sk.211.ca/services/evergreen-early-learning-centre/child-care-evergreen-early-learning-centre/"
+      ]
+    },
+    {
+      "id": "christine-wilmut",
+      "name": "Christine Wilmut",
+      "governmentName": "Christine Wilmut",
+      "type": "family-home",
+      "address": {
+        "street": "218 Lamarsh Road",
+        "city": "Saskatoon",
+        "province": "SK",
+        "postalCode": "S7W 1B8"
+      },
+      "neighbourhood": "Willowgrove",
+      "coordinates": {
+        "lat": 52.14597,
+        "lng": -106.55176,
+        "accuracy": "government_map_approximate",
+        "source": "gov",
+        "sourceUrl": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "method": "Government map pageList point matched to same-download directory row by index; government JavaScript confirms this positional mapping.",
+        "sourceRowOrdinal": 407
+      },
+      "directionsUrl": "https://maps.google.com/maps?saddr=&daddr=218 Lamarsh Road, Saskatoon, SK, S7W 1B8",
+      "licensing": {
+        "status": "listed_in_government_regulated_directory",
+        "licenceNumber": null,
+        "source": "gov",
+        "note": "Directory listing verified; current licence certificate and number not independently obtained."
+      },
+      "availability": {
+        "status": "unconfirmed",
+        "spaces": null,
+        "confirmedAt": null,
+        "note": "No live provider connection. Published application links do not indicate a vacancy."
+      },
+      "fees": {
+        "monthlyCAD": null,
+        "status": "not_provider_reconfirmed",
+        "note": "Confirm current fee eligibility and extras with provider."
+      },
+      "connectedToDashboard": false,
+      "reviewedAt": "2026-11-25",
+      "fieldSources": {
+        "name": [
+          "gov",
+          "gov"
+        ],
+        "type": [
+          "gov"
+        ],
+        "address": [
+          "gov"
+        ],
+        "phone": [
+          "gov"
+        ],
+        "coordinates": [
+          "gov"
+        ],
+        "age": [],
+        "hours": [],
+        "care": [],
+        "application": [
+          "gov"
+        ],
+        "neighbourhood": [],
+        "neighbourhoodNote": "Geographic label used for browsing, not provider-verified catchment.",
+        "fees": []
+      },
+      "phone": "306-651-1875",
+      "age": {
+        "minMonths": null,
+        "maxMonths": null,
+        "groups": null,
+        "source": null
+      },
+      "hours": null,
+      "care": null,
+      "application": {
+        "mode": "contact",
+        "url": null,
+        "status": "contact_provider_for_process"
+      },
+      "notes": [
+        "Public regulated home listing. Age range, operating hours, fees and current intake were not verified."
+      ],
+      "conflicts": [],
+      "sourceUrls": [
+        "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community"
+      ]
+    },
+    {
+      "id": "shazia-kousar",
+      "name": "Shazia Kousar",
+      "governmentName": "Shazia Kousar",
+      "type": "group-family-home",
+      "address": {
+        "street": "606 Boykowich Crescent",
+        "city": "Saskatoon",
+        "province": "SK",
+        "postalCode": "S7W 0S5"
+      },
+      "neighbourhood": "Evergreen",
+      "coordinates": {
+        "lat": 52.16631,
+        "lng": -106.55775,
+        "accuracy": "government_map_approximate",
+        "source": "gov",
+        "sourceUrl": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "method": "Government map pageList point matched to same-download directory row by index; government JavaScript confirms this positional mapping.",
+        "sourceRowOrdinal": 423
+      },
+      "directionsUrl": "https://maps.google.com/maps?saddr=&daddr=606 Boykowich Crescent, Saskatoon, SK, S7W 0S5",
+      "licensing": {
+        "status": "listed_in_government_regulated_directory",
+        "licenceNumber": null,
+        "source": "gov",
+        "note": "Directory listing verified; current licence certificate and number not independently obtained."
+      },
+      "availability": {
+        "status": "unconfirmed",
+        "spaces": null,
+        "confirmedAt": null,
+        "note": "No live provider connection. Published application links do not indicate a vacancy."
+      },
+      "fees": {
+        "monthlyCAD": null,
+        "status": "not_provider_reconfirmed",
+        "note": "Confirm current fee eligibility and extras with provider."
+      },
+      "connectedToDashboard": false,
+      "reviewedAt": "2026-11-25",
+      "fieldSources": {
+        "name": [
+          "gov",
+          "gov"
+        ],
+        "type": [
+          "gov"
+        ],
+        "address": [
+          "gov"
+        ],
+        "phone": [
+          "gov"
+        ],
+        "coordinates": [
+          "gov"
+        ],
+        "age": [],
+        "hours": [],
+        "care": [],
+        "application": [
+          "gov"
+        ],
+        "neighbourhood": [],
+        "neighbourhoodNote": "Geographic label used for browsing, not provider-verified catchment.",
+        "fees": []
+      },
+      "phone": "639-317-7505",
+      "age": {
+        "minMonths": null,
+        "maxMonths": null,
+        "groups": null,
+        "source": null
+      },
+      "hours": null,
+      "care": null,
+      "application": {
+        "mode": "contact",
+        "url": null,
+        "status": "contact_provider_for_process"
+      },
+      "notes": [
+        "Public regulated group family home listing. Age range, operating hours, fees and current intake were not verified."
+      ],
+      "conflicts": [],
+      "sourceUrls": [
+        "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community"
+      ]
+    },
+    {
+      "id": "new-leaf-aspen-ridge",
+      "name": "New Leaf Daycare — Aspen Ridge",
+      "governmentName": "New Leaf Daycare - Aspen Ridge",
+      "type": "centre",
+      "address": {
+        "street": "70 - 1164 Baltzan Boulevard",
+        "city": "Saskatoon",
+        "province": "SK",
+        "postalCode": "S7W 1E8"
+      },
+      "neighbourhood": "Aspen Ridge",
+      "coordinates": {
+        "lat": 52.16821,
+        "lng": -106.55496,
+        "accuracy": "government_map_approximate",
+        "source": "gov",
+        "sourceUrl": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "method": "Government map pageList point matched to same-download directory row by index; government JavaScript confirms this positional mapping.",
+        "sourceRowOrdinal": 435
+      },
+      "directionsUrl": "https://maps.google.com/maps?saddr=&daddr=70 - 1164 Baltzan Boulevard, Saskatoon, SK, S7W 1E8",
+      "licensing": {
+        "status": "listed_in_government_regulated_directory",
+        "licenceNumber": null,
+        "source": "gov",
+        "note": "Directory listing verified; current licence certificate and number not independently obtained."
+      },
+      "availability": {
+        "status": "unconfirmed",
+        "spaces": null,
+        "confirmedAt": null,
+        "note": "No live provider connection. Published application links do not indicate a vacancy."
+      },
+      "fees": {
+        "monthlyCAD": null,
+        "status": "not_provider_reconfirmed",
+        "note": "Confirm current fee eligibility and extras with provider."
+      },
+      "connectedToDashboard": false,
+      "reviewedAt": "2026-11-25",
+      "fieldSources": {
+        "name": [
+          "gov",
+          "newLeafAspenPC"
+        ],
+        "type": [
+          "gov"
+        ],
+        "address": [
+          "gov"
+        ],
+        "phone": [
+          "gov"
+        ],
+        "coordinates": [
+          "gov"
+        ],
+        "age": [
+          "newLeafAspenPC"
+        ],
+        "hours": [
+          "newLeafAspenPC"
+        ],
+        "care": [
+          "newLeafAspenPC"
+        ],
+        "application": [
+          "newLeafAspenPC"
+        ],
+        "neighbourhood": [],
+        "neighbourhoodNote": "Geographic label used for browsing, not provider-verified catchment.",
+        "fees": []
+      },
+      "phone": "306-621-0053",
+      "age": {
+        "minMonths": 4,
+        "maxMonths": 72,
+        "groups": [
+          "infant",
+          "toddler",
+          "preschool"
+        ],
+        "source": "newLeafAspenPC"
+      },
+      "hours": {
+        "opens": "07:30",
+        "closes": "17:30",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "source": "newLeafAspenPC",
+        "status": "published_hours_not_provider_reconfirmed"
+      },
+      "care": [
+        "full-time",
+        "part-time"
+      ],
+      "application": {
+        "mode": "contact",
+        "url": null,
+        "informationUrl": "https://parentcentral.sk.211.ca/services/new-leaf-daycare-aspen-ridge/child-care-aspen-ridge/",
+        "status": "current_application_route_unverified"
+      },
+      "notes": [
+        "Parent Central spells the street Baltzen; this record uses government directory spelling Baltzan.",
+        "Parent Central registration link https://newleafdaycare.com/registration/ returned 404 during review."
+      ],
+      "conflicts": [],
+      "sourceUrls": [
+        "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "https://parentcentral.sk.211.ca/services/new-leaf-daycare-aspen-ridge/child-care-aspen-ridge/"
+      ]
+    },
+    {
+      "id": "ymca-aspen-ridge",
+      "name": "YMCA Child Development Centre — Aspen Ridge",
+      "governmentName": "YMCA Child Development Centre Aspen Ridge",
+      "type": "centre",
+      "address": {
+        "street": "260 Orban Way",
+        "city": "Saskatoon",
+        "province": "SK",
+        "postalCode": "S7W 1E7"
+      },
+      "neighbourhood": "Aspen Ridge",
+      "coordinates": {
+        "lat": 52.172487,
+        "lng": -106.5532,
+        "accuracy": "government_map_approximate",
+        "source": "gov",
+        "sourceUrl": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "method": "Government map pageList point matched to same-download directory row by index; government JavaScript confirms this positional mapping.",
+        "sourceRowOrdinal": 458
+      },
+      "directionsUrl": "https://maps.google.com/maps?saddr=&daddr=260 Orban Way, Saskatoon, SK, S7W 1E7",
+      "licensing": {
+        "status": "listed_in_government_regulated_directory",
+        "licenceNumber": null,
+        "source": "gov",
+        "note": "Directory listing verified; current licence certificate and number not independently obtained."
+      },
+      "availability": {
+        "status": "unconfirmed",
+        "spaces": null,
+        "confirmedAt": null,
+        "note": "No live provider connection. Published application links do not indicate a vacancy."
+      },
+      "fees": {
+        "monthlyCAD": null,
+        "status": "not_provider_reconfirmed",
+        "note": "Confirm current fee eligibility and extras with provider."
+      },
+      "connectedToDashboard": false,
+      "reviewedAt": "2026-11-25",
+      "fieldSources": {
+        "name": [
+          "gov",
+          "ymcaAspenPC"
+        ],
+        "type": [
+          "gov"
+        ],
+        "address": [
+          "gov"
+        ],
+        "phone": [
+          "gov"
+        ],
+        "coordinates": [
+          "gov"
+        ],
+        "age": [
+          "ymca"
+        ],
+        "hours": [
+          "ymcaAspenPC"
+        ],
+        "care": [
+          "ymcaAspenPC"
+        ],
+        "application": [
+          "ymca"
+        ],
+        "neighbourhood": [],
+        "neighbourhoodNote": "Geographic label used for browsing, not provider-verified catchment.",
+        "fees": []
+      },
+      "phone": "306-500-1312",
+      "age": {
+        "minMonths": 18,
+        "maxMonths": null,
+        "groups": [
+          "toddler",
+          "preschool"
+        ],
+        "description": "18 months and older on YMCA site; Parent Central describes 18 months to five years.",
+        "source": "ymca",
+        "upperAgeSource": "ymcaAspenPC"
+      },
+      "hours": {
+        "opens": "07:30",
+        "closes": "18:00",
+        "days": [
+          "mon",
+          "tue",
+          "wed",
+          "thu",
+          "fri"
+        ],
+        "source": "ymcaAspenPC",
+        "status": "published_hours_not_provider_reconfirmed"
+      },
+      "care": [
+        "full-time"
+      ],
+      "application": {
+        "mode": "external",
+        "url": "https://app.lillio.com/online_registration/apply/ymca-aspen-ridge",
+        "status": "provider_application_link_published",
+        "source": "ymca"
+      },
+      "conflicts": [
+        {
+          "field": "postalCode",
+          "governmentValue": "S7W 1E7",
+          "providerValue": "S7W 1M1",
+          "sources": [
+            "gov",
+            "ymca"
+          ],
+          "resolution": "Same street address; government postal code retained."
+        }
+      ],
+      "notes": [],
+      "sourceUrls": [
+        "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+        "https://parentcentral.sk.211.ca/services/saskatoon-aspen-ridge/child-care-aspen-ridge-2/",
+        "https://ymcasaskatoon.org/early-learning-and-childcare/"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "gov",
+      "title": "Government of Saskatchewan regulated child care directory",
+      "url": "https://www.saskatchewan.ca/residents/family-and-social-support/child-care/find-a-child-care-provider-in-my-community",
+      "kind": "government",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "ymca",
+      "title": "YMCA Saskatoon early learning and childcare",
+      "url": "https://ymcasaskatoon.org/early-learning-and-childcare/",
+      "kind": "provider",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "ymcaAspenPC",
+      "title": "Parent Central — YMCA Aspen Ridge",
+      "url": "https://parentcentral.sk.211.ca/services/saskatoon-aspen-ridge/child-care-aspen-ridge-2/",
+      "kind": "directory",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "ymcaBrightonPC",
+      "title": "Parent Central — YMCA Brighton",
+      "url": "https://parentcentral.sk.211.ca/services/child-development-centre-brighton/child-care-child-development-centre-brighton/",
+      "kind": "directory",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "newLeafAspenPC",
+      "title": "Parent Central — New Leaf Aspen Ridge",
+      "url": "https://parentcentral.sk.211.ca/services/new-leaf-daycare-aspen-ridge/child-care-aspen-ridge/",
+      "kind": "directory",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "newLeafEvergreenPC",
+      "title": "Parent Central — New Leaf Evergreen",
+      "url": "https://parentcentral.sk.211.ca/services/new-leaf-daycare-evergreen/child-care-evergreen/",
+      "kind": "directory",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "preston",
+      "title": "Preston — Willowgrove location",
+      "url": "https://www.prestonearlylearning.ca/willowgrove",
+      "kind": "provider",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "prestonApply",
+      "title": "Preston — admissions and waiting list",
+      "url": "https://www.prestonearlylearning.ca/admissions",
+      "kind": "provider",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "prestonHours",
+      "title": "Preston — parent manual April 2025",
+      "url": "https://www.prestonearlylearning.ca/s/Parent-Manual-April-2025.pdf",
+      "kind": "provider",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "bright",
+      "title": "Bright Learners — Willowgrove location",
+      "url": "https://brightlearnersacademy.net/location-Willowgrove/",
+      "kind": "provider",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "brightApply",
+      "title": "Bright Learners — Willowgrove registration form",
+      "url": "https://brightlearnersacademy.net/registration-willowgrove/",
+      "kind": "provider",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "bgc",
+      "title": "BGC Saskatoon — early learning centres",
+      "url": "https://www.bgcsaskatoon.com/programs/early-learning-centres/",
+      "kind": "provider",
+      "reviewedAt": "2026-11-25"
+    },
+    {
+      "id": "bgcPC",
+      "title": "Parent Central — Evergreen ELC",
+      "url": "https://parentcentral.sk.211.ca/services/evergreen-early-learning-centre/child-care-evergreen-early-learning-centre/",
+      "kind": "directory",
+      "reviewedAt": "2026-11-25"
+    }
+  ],
+  "notes": [
+    "All coordinates were extracted from the public Saskatchewan directory map, not estimated or geocoded. The directory expressly says its map locations are approximate only. Do not present street-level precision or route travel times.",
+    "List and coordinate arrays contained 1,414 entries each in the same downloaded HTML. Government script assigns each map marker its array index and each list item selects the marker using its list index.",
+    "Nine records provide a working seed catalogue only. No comprehensive coverage or missing-provider resolution is claimed. BLOSSOMS and Brighton Family Childcare are not included because sufficient identity/location/licensing evidence was not verified in this bounded pass.",
+    "No live vacancies, queue positions, confirmed response times or licence numbers were invented. Zero counts in Parent Central were not interpreted as current availability.",
+    "Published directory information may be stale. Provider-operated application links take precedence for routing while source conflicts remain visible.",
+    "No application was submitted and no family data was sent to any provider. Local dashboard demonstration submissions must be clearly distinguished from real provider submissions.",
+    "Unknown hours, age eligibility and accessibility must remain unknown rather than being treated as a negative filter match. Confirmed-fit and incomplete-information results should be distinguishable."
+  ]
+}

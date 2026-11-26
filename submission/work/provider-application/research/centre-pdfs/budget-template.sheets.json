@@ -1,0 +1,979 @@
+{
+  "Input to Calculate Annual Grant": [
+    {
+      "row": 2,
+      "cells": {
+        "B2": "Budget Template for Centres"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "B5": "Description",
+        "C5": "Input"
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "B6": "Number of Infant Spaces"
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "B7": "Number of Infant Spaces (Northern Region) if applicable"
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "B8": "Number of Toddler Spaces"
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "B9": "Number of Toddler Spaces (Northern Region) if Applicable"
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "B10": "Number of Preschool Spaces"
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "B11": "Number of Preschool Spaces (Northern Region) if applicable"
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "B12": "Number of School-age Spaces"
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "B13": "Number of School-age Spaces (Northern region) if applicable"
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "B14": "Number of ECE Level I Staff "
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "B15": "Number of ECE Level II Staff "
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "B16": "Number of ECE Level III Staff "
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "B17": "Number of ECE Level I Director"
+      }
+    },
+    {
+      "row": 18,
+      "cells": {
+        "B18": "Number of ECE Level II Director"
+      }
+    },
+    {
+      "row": 19,
+      "cells": {
+        "B19": "Number of ECE Level III Director"
+      }
+    },
+    {
+      "row": 20,
+      "cells": {
+        "B20": "Number of ECE Level I Assistant Director"
+      }
+    },
+    {
+      "row": 21,
+      "cells": {
+        "B21": "Number of ECE Level II Assistant Director"
+      }
+    },
+    {
+      "row": 22,
+      "cells": {
+        "B22": "Number of ECE Level III Assistant Director"
+      }
+    },
+    {
+      "row": 23,
+      "cells": {
+        "B23": "Number of ECE Level I Supervisor"
+      }
+    },
+    {
+      "row": 24,
+      "cells": {
+        "B24": "Number of ECE Level II Supervisor"
+      }
+    },
+    {
+      "row": 25,
+      "cells": {
+        "B25": "Number of ECE Level III Supervisor"
+      }
+    },
+    {
+      "row": 26,
+      "cells": {
+        "B26": "Staff wages per hour ECE I"
+      }
+    },
+    {
+      "row": 27,
+      "cells": {
+        "B27": "Staff wages per hour ECE II"
+      }
+    },
+    {
+      "row": 28,
+      "cells": {
+        "B28": "Staff wages per hour ECE III"
+      }
+    },
+    {
+      "row": 29,
+      "cells": {
+        "B29": "Director wages per hour ECE I"
+      }
+    },
+    {
+      "row": 30,
+      "cells": {
+        "B30": "Director wages per hour ECE II"
+      }
+    },
+    {
+      "row": 31,
+      "cells": {
+        "B31": "Director wages per hour ECE III"
+      }
+    },
+    {
+      "row": 32,
+      "cells": {
+        "B32": "Assistant Director wages per hour ECE I"
+      }
+    },
+    {
+      "row": 33,
+      "cells": {
+        "B33": "Assistant Director wages per hour ECE II"
+      }
+    },
+    {
+      "row": 34,
+      "cells": {
+        "B34": "Assistant Director wages per hour ECE III"
+      }
+    },
+    {
+      "row": 35,
+      "cells": {
+        "B35": "Supervisor wages per hour ECE I"
+      }
+    },
+    {
+      "row": 36,
+      "cells": {
+        "B36": "Supervisor wages per hour ECE II"
+      }
+    },
+    {
+      "row": 37,
+      "cells": {
+        "B37": "Supervisor wages per hour ECE III"
+      }
+    },
+    {
+      "row": 38,
+      "cells": {
+        "B38": "Fee per Infant Space"
+      }
+    },
+    {
+      "row": 39,
+      "cells": {
+        "B39": "Fee per Infant Space - Northern Region"
+      }
+    },
+    {
+      "row": 40,
+      "cells": {
+        "B40": "Fee per Toddler Space"
+      }
+    },
+    {
+      "row": 41,
+      "cells": {
+        "B41": "Fee per Toddler Space - Northern Region"
+      }
+    },
+    {
+      "row": 42,
+      "cells": {
+        "B42": "Fee per Preschool Space"
+      }
+    },
+    {
+      "row": 43,
+      "cells": {
+        "B43": "Fee per Preschool Space - Northern Region"
+      }
+    },
+    {
+      "row": 44,
+      "cells": {
+        "B44": "Fee per School-age Space"
+      }
+    },
+    {
+      "row": 45,
+      "cells": {
+        "B45": "Fee per School-age Space - Northern Region"
+      }
+    },
+    {
+      "row": 49,
+      "cells": {
+        "B49": "Important Things to Note:"
+      }
+    },
+    {
+      "row": 51,
+      "cells": {
+        "B51": "1.ECE staff requirements to meet Regulations"
+      }
+    },
+    {
+      "row": 52,
+      "cells": {
+        "B52": "ECE I- 50% of your total ECE staff"
+      }
+    },
+    {
+      "row": 53,
+      "cells": {
+        "B53": "ECE II- 30% of your total ECE staff"
+      }
+    },
+    {
+      "row": 54,
+      "cells": {
+        "B54": "ECE III- 20% of your total ECE staff"
+      }
+    },
+    {
+      "row": 56,
+      "cells": {
+        "B56": "2.If the combined work hours of several employees equal the hours of a full-time position, record them as one full-time worker."
+      }
+    },
+    {
+      "row": 58,
+      "cells": {
+        "B58": "3.One worker can care for a maximum of three infants, five toddlers, 10 preschool age children or 15 school age children except in specific circumstances identified in the regulations."
+      }
+    },
+    {
+      "row": 61,
+      "cells": {
+        "B61": "saskatchewan.ca"
+      }
+    }
+  ],
+  "Annual Grants": [
+    {
+      "row": 1,
+      "cells": {
+        "A1": "Annual Grants"
+      }
+    },
+    {
+      "row": 2,
+      "cells": {
+        "A2": "Grant Type",
+        "B2": "Formula"
+      }
+    },
+    {
+      "row": 3,
+      "cells": {
+        "A3": "Capital/Start Up"
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A4": "Space Development",
+        "B4": "=SUM('Input to Calculate Annual Grant'!C6:C13)*13360"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "A5": "Start-Up",
+        "B5": "=SUM('Input to Calculate Annual Grant'!C6:C13)*1360"
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "B6": "=+SUM(B4:B5)"
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "A7": "Operational"
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "A8": "ECS Infant",
+        "B8": "='Input to Calculate Annual Grant'!C6*690*12"
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "A9": "ECS Toddler",
+        "B9": "='Input to Calculate Annual Grant'!C8*414*12"
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A10": " ECS Preschool",
+        "B10": "='Input to Calculate Annual Grant'!C10*207*12"
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A11": "ECS School-age",
+        "B11": "='Input to Calculate Annual Grant'!C12*138*12"
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A12": "ECS Northern Region",
+        "B12": "=('Input to Calculate Annual Grant'!C7*720*12)+('Input to Calculate Annual Grant'!C9*426*12)+('Input to Calculate Annual Grant'!C11*216*12)+('Input to Calculate Annual Grant'!C13*144*12)"
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A13": "PFC Infant",
+        "B13": "=+('Input to Calculate Annual Grant'!C38*12*'Input to Calculate Annual Grant'!C6)-IF(('Input to Calculate Annual Grant'!C38*12*'Input to Calculate Annual Grant'!C6)<1,0,217.5*12*'Input to Calculate Annual Grant'!C6)"
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A14": "PFC Infant -Northern Region",
+        "B14": "=+('Input to Calculate Annual Grant'!C39*12*'Input to Calculate Annual Grant'!C7)-IF(('Input to Calculate Annual Grant'!C39*12*'Input to Calculate Annual Grant'!C7)<1,0,217.5*12*'Input to Calculate Annual Grant'!C7)"
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "A15": "PFC Toddler",
+        "B15": "=+('Input to Calculate Annual Grant'!C40*12*'Input to Calculate Annual Grant'!C8)-IF(('Input to Calculate Annual Grant'!C40*12*'Input to Calculate Annual Grant'!C8)<1,0,217.5*12*'Input to Calculate Annual Grant'!C8)"
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A16": "PFC Toddler -Northern Region",
+        "B16": "=+('Input to Calculate Annual Grant'!C41*12*'Input to Calculate Annual Grant'!C9)-IF(('Input to Calculate Annual Grant'!C41*12*'Input to Calculate Annual Grant'!C9)<1,0,217.5*12*'Input to Calculate Annual Grant'!C9)"
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "A17": "PFC Preschool",
+        "B17": "=+('Input to Calculate Annual Grant'!C42*12*'Input to Calculate Annual Grant'!C10)-IF(('Input to Calculate Annual Grant'!C42*12*'Input to Calculate Annual Grant'!C10)<1,0,217.5*12*'Input to Calculate Annual Grant'!C10)"
+      }
+    },
+    {
+      "row": 18,
+      "cells": {
+        "A18": "PFC Preschool-Northern Region",
+        "B18": "=+('Input to Calculate Annual Grant'!C43*12*'Input to Calculate Annual Grant'!C11)-IF(('Input to Calculate Annual Grant'!C43*12*'Input to Calculate Annual Grant'!C11)<1,0,217.5*12*'Input to Calculate Annual Grant'!C11)"
+      }
+    },
+    {
+      "row": 19,
+      "cells": {
+        "A19": "Staff Wage Enhancement: ECE I",
+        "B19": "=IF('Input to Calculate Annual Grant'!C26<21.06,MIN(21.06-'Input to Calculate Annual Grant'!C26,5.5)*2080*'Input to Calculate Annual Grant'!C14,0)"
+      }
+    },
+    {
+      "row": 20,
+      "cells": {
+        "A20": "Staff Wage Enhancement: ECE II",
+        "B20": "=IF('Input to Calculate Annual Grant'!C27<25.06,MIN(25.06-'Input to Calculate Annual Grant'!C27,7)*2080*'Input to Calculate Annual Grant'!C15,0)"
+      }
+    },
+    {
+      "row": 21,
+      "cells": {
+        "A21": "Staff Wage Enhancement: ECE III",
+        "B21": "=IF('Input to Calculate Annual Grant'!C28<28.93,MIN(28.93-'Input to Calculate Annual Grant'!C28,8.5)*2080*'Input to Calculate Annual Grant'!C16,0)"
+      }
+    },
+    {
+      "row": 22,
+      "cells": {
+        "A22": "Director Wage Enhancement: ECE I",
+        "B22": "=IF('Input to Calculate Annual Grant'!C29<25.43,MIN(25.43-'Input to Calculate Annual Grant'!C29,5.5)*2080*'Input to Calculate Annual Grant'!C17,0)"
+      }
+    },
+    {
+      "row": 23,
+      "cells": {
+        "A23": "Director Wage Enhancement: ECE II",
+        "B23": "=IF('Input to Calculate Annual Grant'!C30<31.75,MIN(31.75-'Input to Calculate Annual Grant'!C30,7)*2080*'Input to Calculate Annual Grant'!C18,0)"
+      }
+    },
+    {
+      "row": 24,
+      "cells": {
+        "A24": "Director Wage Enhancement: ECE III",
+        "B24": "=IF('Input to Calculate Annual Grant'!C31<35.53,MIN(35.53-'Input to Calculate Annual Grant'!C31,8.5)*2080*'Input to Calculate Annual Grant'!C19,0)"
+      }
+    },
+    {
+      "row": 25,
+      "cells": {
+        "A25": "Assistant Director Wage Enhancement: ECE I",
+        "B25": "=IF('Input to Calculate Annual Grant'!C32<25.44,MIN(25.44-'Input to Calculate Annual Grant'!C32,5.5)*2080*'Input to Calculate Annual Grant'!C20,0)"
+      }
+    },
+    {
+      "row": 26,
+      "cells": {
+        "A26": "Assistant Director Wage Enhancement: ECE II",
+        "B26": "=IF('Input to Calculate Annual Grant'!C33<28.25,MIN(28.25-'Input to Calculate Annual Grant'!C33,7)*2080*'Input to Calculate Annual Grant'!C21,0)"
+      }
+    },
+    {
+      "row": 27,
+      "cells": {
+        "A27": "Assistant Director Wage Enhancement: ECE III",
+        "B27": "=IF('Input to Calculate Annual Grant'!C34<32.62,MIN(32.62-'Input to Calculate Annual Grant'!C34,8.5)*2080*'Input to Calculate Annual Grant'!C22,0)"
+      }
+    },
+    {
+      "row": 28,
+      "cells": {
+        "A28": "Supervisor Wage Enhancement: ECE I",
+        "B28": "=IF('Input to Calculate Annual Grant'!C35<22.4,MIN(22.4-'Input to Calculate Annual Grant'!C35,5.5)*2080*'Input to Calculate Annual Grant'!C23,0)"
+      }
+    },
+    {
+      "row": 29,
+      "cells": {
+        "A29": "Supervisor Wage Enhancement: ECE II",
+        "B29": "=IF('Input to Calculate Annual Grant'!C36<27.19,MIN(27.19-'Input to Calculate Annual Grant'!C36,7)*2080*'Input to Calculate Annual Grant'!C24,0)"
+      }
+    },
+    {
+      "row": 30,
+      "cells": {
+        "A30": "Supervisor Wage Enhancement: ECE II",
+        "B30": "=IF('Input to Calculate Annual Grant'!C37<30.07,MIN(30.07-'Input to Calculate Annual Grant'!C37,8.5)*2080*'Input to Calculate Annual Grant'!C25,0)"
+      }
+    },
+    {
+      "row": 31,
+      "cells": {
+        "B31": "=+SUM(B8:B30)"
+      }
+    },
+    {
+      "row": 32,
+      "cells": {
+        "A32": "One-Time"
+      }
+    },
+    {
+      "row": 33,
+      "cells": {
+        "A33": "Play and Exploration",
+        "B33": "=IF(SUM('Input to Calculate Annual Grant'!C6:C13)>30, 2500 + (SUM('Input to Calculate Annual Grant'!C6:C13)-30)*75, 2500)"
+      }
+    },
+    {
+      "row": 34,
+      "cells": {
+        "A34": "Active Play",
+        "B34": "=IF(SUM('Input to Calculate Annual Grant'!C6:C13)>30, 1900 + (SUM('Input to Calculate Annual Grant'!C6:C13)-30)*60, 1900)"
+      }
+    },
+    {
+      "row": 35,
+      "cells": {
+        "B35": "=+SUM(B33:B34)"
+      }
+    },
+    {
+      "row": 37,
+      "cells": {
+        "A37": "Total Grant",
+        "B37": "=+B6+B31+B35"
+      }
+    },
+    {
+      "row": 38,
+      "cells": {
+        "A38": "This total annual grant is an estimate based on the provided data and certain assumptions. Actual grant amount may vary depending on specific circumstances and actual enrolment."
+      }
+    },
+    {
+      "row": 41,
+      "cells": {
+        "A41": "Assumptions"
+      }
+    },
+    {
+      "row": 42,
+      "cells": {
+        "A42": "1. Assumes all workers are full-time"
+      }
+    },
+    {
+      "row": 43,
+      "cells": {
+        "A43": "2. Assumes all spaces are filled full-time"
+      }
+    }
+  ],
+  "Budget ": [
+    {
+      "row": 1,
+      "cells": {
+        "A1": "Annual Operating Budget "
+      }
+    },
+    {
+      "row": 3,
+      "cells": {
+        "A3": "Revenue",
+        "B3": "Monthly",
+        "C3": "Annual"
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A4": "Facility Fees (incl Parent Fee Grant)",
+        "B4": "=(SUM('Input to Calculate Annual Grant'!C6:C13)*217.5)",
+        "C4": "=+Table2[[#This Row],[Monthly]]*12"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "A5": "Total Grants",
+        "B5": "=+Table2[[#This Row],[Annual]]/12",
+        "C5": "='Annual Grants'!B31"
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "A6": "Other Revenue",
+        "C6": "=SUM(B6*12)"
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "B7": "=SUBTOTAL(109,B4:B5)",
+        "C7": "=SUM(C4:C6)"
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "E9": "CRA Payroll Deductions  Online Calculator "
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A10": "Staff",
+        "B10": "Monthly",
+        "C10": "Annual",
+        "E10": "Salary calculation"
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A11": "Staff Wages ",
+        "C11": "=B11*12"
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A12": "Federal Tax ",
+        "C12": "=B12*12"
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A13": "Mandatory Employment Related Costs  (MERCs)",
+        "C13": "=B13*12"
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A14": "Workers Compensation (WCB)",
+        "C14": "=B14*12"
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "A15": "Staff Benefits (health, dental, life)",
+        "C15": "=B15*12"
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A16": "Other",
+        "C16": "=B16*12"
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "B17": "=SUM(B11:B15)",
+        "C17": "=+SUM(C11:C16)"
+      }
+    },
+    {
+      "row": 19,
+      "cells": {
+        "A19": "Administration Costs"
+      }
+    },
+    {
+      "row": 20,
+      "cells": {
+        "A20": "Accounting & Audit",
+        "C20": "=SUM(B20*12)"
+      }
+    },
+    {
+      "row": 21,
+      "cells": {
+        "A21": "Office Supplies",
+        "C21": "=SUM(B21*12)"
+      }
+    },
+    {
+      "row": 22,
+      "cells": {
+        "A22": "Liability Insurance",
+        "C22": "=SUM(B22*12)"
+      }
+    },
+    {
+      "row": 23,
+      "cells": {
+        "A23": "Bank Charges",
+        "C23": "=SUM(B23*12)"
+      }
+    },
+    {
+      "row": 24,
+      "cells": {
+        "A24": "Telephone & Internet",
+        "C24": "=SUM(B24*12)"
+      }
+    },
+    {
+      "row": 25,
+      "cells": {
+        "A25": "Mileage/Travel",
+        "C25": "=SUM(B25*12)"
+      }
+    },
+    {
+      "row": 26,
+      "cells": {
+        "A26": "Other",
+        "C26": "=SUM(B26*12)"
+      }
+    },
+    {
+      "row": 27,
+      "cells": {
+        "B27": "=SUM(B20:B25)",
+        "C27": "=SUM(C20:C26)"
+      }
+    },
+    {
+      "row": 29,
+      "cells": {
+        "A29": "Physical Facility"
+      }
+    },
+    {
+      "row": 30,
+      "cells": {
+        "A30": "Mortgage/Lease",
+        "C30": "=SUM(B30*12)"
+      }
+    },
+    {
+      "row": 31,
+      "cells": {
+        "A31": "Property tax",
+        "C31": "=SUM(B31*12)"
+      }
+    },
+    {
+      "row": 32,
+      "cells": {
+        "A32": "Utilities (water, energy & power)",
+        "C32": "=SUM(B32*12)"
+      }
+    },
+    {
+      "row": 33,
+      "cells": {
+        "A33": "Insurance",
+        "C33": "=SUM(B33*12)"
+      }
+    },
+    {
+      "row": 34,
+      "cells": {
+        "A34": "Repairs & Maintenance",
+        "C34": "=SUM(B34*12)"
+      }
+    },
+    {
+      "row": 35,
+      "cells": {
+        "A35": "Other",
+        "C35": "=SUM(B35*12)"
+      }
+    },
+    {
+      "row": 36,
+      "cells": {
+        "B36": "=SUM(B30:B34)",
+        "C36": "=SUM(C30:C35)"
+      }
+    },
+    {
+      "row": 38,
+      "cells": {
+        "A38": "Professional Development"
+      }
+    },
+    {
+      "row": 39,
+      "cells": {
+        "A39": "Memberships (SECA)"
+      }
+    },
+    {
+      "row": 40,
+      "cells": {
+        "A40": "Workshops & Conferences"
+      }
+    },
+    {
+      "row": 41,
+      "cells": {
+        "A41": "First/Aid CPR Cert & Recert"
+      }
+    },
+    {
+      "row": 42,
+      "cells": {
+        "A42": "Other"
+      }
+    },
+    {
+      "row": 43,
+      "cells": {
+        "B43": "=SUM(B39:B41)",
+        "C43": "=SUM(C39:C42)"
+      }
+    },
+    {
+      "row": 45,
+      "cells": {
+        "A45": "Consumable Supplies"
+      }
+    },
+    {
+      "row": 46,
+      "cells": {
+        "A46": "Food",
+        "C46": "=SUM(B46*12)"
+      }
+    },
+    {
+      "row": 47,
+      "cells": {
+        "A47": "Kitchen Supplies (utensils, cups, bowls, plates)",
+        "C47": "=SUM(B47*12)"
+      }
+    },
+    {
+      "row": 48,
+      "cells": {
+        "A48": "Cleaning Supplies",
+        "C48": "=SUM(B48*12)"
+      }
+    },
+    {
+      "row": 49,
+      "cells": {
+        "A49": "Commercial Diswasher Rental & Chemical",
+        "C49": "=SUM(B49*12)"
+      }
+    },
+    {
+      "row": 50,
+      "cells": {
+        "A50": "Toiletry & First Aid Supplies",
+        "C50": "=SUM(B50*12)"
+      }
+    },
+    {
+      "row": 51,
+      "cells": {
+        "A51": "Art & children's Activity Supplies",
+        "C51": "=SUM(B51*12)"
+      }
+    },
+    {
+      "row": 52,
+      "cells": {
+        "A52": "Field Trips (incl transportation- city bus)",
+        "C52": "=SUM(B52*12)"
+      }
+    },
+    {
+      "row": 53,
+      "cells": {
+        "A53": "Other",
+        "C53": 0
+      }
+    },
+    {
+      "row": 54,
+      "cells": {
+        "B54": "=SUM(B47:B53)",
+        "C54": "=SUM(C46:C53)"
+      }
+    },
+    {
+      "row": 56,
+      "cells": {
+        "A56": "Equipment & Furnishings"
+      }
+    },
+    {
+      "row": 57,
+      "cells": {
+        "A57": "Kitchen Equipment (large appliance replacement)",
+        "C57": "=SUM(B57*12)"
+      }
+    },
+    {
+      "row": 58,
+      "cells": {
+        "A58": "Office Equipment (computers, printers, etc.)",
+        "C58": "=SUM(B58*12)"
+      }
+    },
+    {
+      "row": 59,
+      "cells": {
+        "A59": "Children's Furnishings (cots, shelving)",
+        "C59": "=SUM(B59*12)"
+      }
+    },
+    {
+      "row": 60,
+      "cells": {
+        "A60": "Children's Play Equipment (outdoor- balls, bikes, etc.)",
+        "C60": "=SUM(B60*12)"
+      }
+    },
+    {
+      "row": 61,
+      "cells": {
+        "A61": "Other",
+        "C61": "=SUM(B61*12)"
+      }
+    },
+    {
+      "row": 62,
+      "cells": {
+        "B62": "=SUM(B57:B60)",
+        "C62": "=SUM(C57:C61)"
+      }
+    },
+    {
+      "row": 64,
+      "cells": {
+        "A64": "Totals -->",
+        "B64": "=SUM(B17,B27,B36,B43,B54,B62)",
+        "C64": "=SUM(C17,C27,C36,C43,C54,C62)"
+      }
+    },
+    {
+      "row": 66,
+      "cells": {
+        "A66": "Revenue minus Expenditures -->",
+        "B66": "=SUM(B7-B64)",
+        "C66": "=SUM(C7-C64)"
+      }
+    },
+    {
+      "row": 68,
+      "cells": {
+        "A68": "Enter information in the unshaded areas of the Budget template"
+      }
+    }
+  ]
+}

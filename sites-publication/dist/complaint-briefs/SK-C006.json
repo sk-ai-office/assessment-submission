@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "type": "Saskatchewan public-service complaint brief",
+  "referenceId": "SK-C006",
+  "reviewedAt": "2026-11-25",
+  "period": {
+    "start": "2024-11-25",
+    "end": "2026-11-25"
+  },
+  "issue": {
+    "id": "medical-imaging-waits",
+    "title": "Medical imaging waits",
+    "summary": "Patients question lengthy imaging waits, cancellation-list availability and the efficiency of booking appointments.",
+    "ministry": "Health",
+    "service": "Saskatchewan Health Authority",
+    "routeId": "health",
+    "concern": "Patients struggle to navigate imaging appointment waits",
+    "why": "Long quoted waits and unclear cancellation options lead patients to make repeated booking calls.",
+    "fit": "mixed",
+    "idea": "Help booking staff summarize referral status and draft updates from verified appointment records.",
+    "limit": "It cannot add scanners or staff, assign clinical urgency, or guarantee an earlier slot.",
+    "firstStep": "Verify the existing cancellation-list rules and booking workflow. Compare a conventional status display with staff-assisted summaries before choosing an AI approach.",
+    "measure": "Repeat booking calls per patient enquiry.",
+    "priority": 10,
+    "reason": "Direct accounts point to booking friction as well as long waits; data visibility and ordinary workflow fixes may suffice.",
+    "referenceId": "SK-C006"
+  },
+  "counts": {
+    "publicAccounts": 3,
+    "namedInReporting": 0,
+    "evidenceRecords": 3,
+    "uncountedRecords": 0,
+    "sourcePages": 1
+  },
+  "route": {
+    "id": "health",
+    "title": "Healthcare access and hospital care",
+    "ministry": "Ministry of Health",
+    "first": "Contact the care team or clinic, then its manager. For SHA services, use the SHA Client Concerns Office; surgical care coordinators can help with surgery navigation.",
+    "escalation": "Ministry of Health for system access, funding, and policy. For unresolved administrative fairness, check Ombudsman jurisdiction. Professional-conduct concerns may follow a separate regulator process.",
+    "note": "The provider determines the correct route: not every clinic or screening service is operated by SHA.",
+    "links": [
+      {
+        "title": "SHA patient concerns",
+        "url": "https://www.saskhealthauthority.ca/contact/patient-or-client-concerns-and-feedback"
+      },
+      {
+        "title": "Surgical care navigation",
+        "url": "https://www.saskatchewan.ca/residents/health/accessing-health-care-services/surgery/navigating-surgical-care"
+      },
+      {
+        "title": "Health ministry",
+        "url": "https://www.saskatchewan.ca/government/government-structure/ministries/health"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "id": "H022",
+      "authorId": "A007",
+      "authorType": "account",
+      "date": "2025-07-25",
+      "dateLabel": "2025-07-25 — publication day from search index",
+      "datePrecision": "day; indexed",
+      "issueId": "medical-imaging-waits",
+      "summary": "Criticized a quoted six-to-seven-month MRI wait and lack of a cancellation list.",
+      "url": "https://www.reddit.com/r/saskatoon/comments/1m925f3/mri_wait_times/",
+      "sourcePage": "https://www.reddit.com/r/saskatoon/comments/1m925f3/mri_wait_times/",
+      "sourceTitle": "MRI wait times",
+      "publisher": "r/saskatoon",
+      "sourceKind": "Reddit — original post",
+      "status": "Unresolved at post; current status unknown",
+      "context": "Self-reported and not independently verified. Several thread participants also report faster or satisfactory access; these are not complaints. No official response in thread reviewed. Unresolved at post; current status unknown",
+      "region": "Saskatoon",
+      "counted": true,
+      "caseId": "HC20",
+      "platform": "Reddit",
+      "sourceRole": "firsthand",
+      "originalDate": "2025-07-25",
+      "authorHandle": "u/YALL_IGNANT",
+      "quote": "and the receptionist at booking told me that takes 6-7 months to get in as semi-urgent, and that there is no such thing as a cancelation list",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. Calendar date previously verified in the matching indexed post/comment. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E021",
+      "complaintReferenceId": "SK-C006"
+    },
+    {
+      "id": "H023",
+      "authorId": "A008",
+      "authorType": "account",
+      "date": "2025-07-25",
+      "dateLabel": "2025-07-25 — publication day from search index",
+      "datePrecision": "day; indexed",
+      "issueId": "medical-imaging-waits",
+      "summary": "Objected to an anticipated year-long MRI wait.",
+      "url": "https://www.reddit.com/r/saskatoon/comments/1m925f3/comment/n53pno3/",
+      "sourcePage": "https://www.reddit.com/r/saskatoon/comments/1m925f3/mri_wait_times/",
+      "sourceTitle": "MRI wait times — comment",
+      "publisher": "r/saskatoon",
+      "sourceKind": "Reddit — comment",
+      "status": "Unresolved at comment; current status unknown",
+      "context": "Self-reported and not independently verified. Several thread participants also report faster or satisfactory access; these are not complaints. No official response in thread reviewed. Unresolved at comment; current status unknown",
+      "region": "Saskatoon (subreddit context)",
+      "counted": true,
+      "caseId": "HC21",
+      "platform": "Reddit",
+      "sourceRole": "firsthand",
+      "originalDate": "2025-07-25",
+      "authorHandle": "u/MagicLottie",
+      "quote": "im just expected to wait for like a year",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. Calendar date previously verified in the matching indexed post/comment. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E022",
+      "complaintReferenceId": "SK-C006"
+    },
+    {
+      "id": "H024",
+      "authorId": "A009",
+      "authorType": "account",
+      "date": "2025-07-26",
+      "dateLabel": "2025-07-26 — publication day from search index",
+      "datePrecision": "day; indexed",
+      "issueId": "medical-imaging-waits",
+      "summary": "Criticized scan-booking efficiency after repeated calls secured an earlier appointment.",
+      "url": "https://www.reddit.com/r/saskatoon/comments/1m925f3/comment/n57pfvy/",
+      "sourcePage": "https://www.reddit.com/r/saskatoon/comments/1m925f3/mri_wait_times/",
+      "sourceTitle": "MRI wait times — comment",
+      "publisher": "r/saskatoon",
+      "sourceKind": "Reddit — comment",
+      "status": "Earlier scan obtained after repeated calls",
+      "context": "Self-reported and not independently verified. Several thread participants also report faster or satisfactory access; these are not complaints. No official response in thread reviewed. Earlier scan obtained after repeated calls",
+      "region": "Saskatoon (subreddit context)",
+      "counted": true,
+      "caseId": "HC22",
+      "platform": "Reddit",
+      "sourceRole": "firsthand",
+      "originalDate": "2025-07-26",
+      "authorHandle": "u/Ok-Cantaloupe-2410",
+      "quote": "Just seems like an inefficient use of resources.. but I also don’t know the ins/outs.",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. Calendar date previously verified in the matching indexed post/comment. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim. The linked comment is the author’s follow-up about booking efficiency. The parent thread also contains an earlier comment from the same account about obtaining a sooner scan. The quote is the author’s perception, not proof that scanner capacity was wasted.",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E023",
+      "complaintReferenceId": "SK-C006"
+    }
+  ],
+  "methodology": [
+    "SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.",
+    "A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.",
+    "Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.",
+    "This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.",
+    "Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.",
+    "AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes."
+  ],
+  "researchContext": {
+    "scopeNote": "The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.",
+    "limitations": [
+      "This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.",
+      "All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.",
+      "Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.",
+      "A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.",
+      "Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.",
+      "LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.",
+      "Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.",
+      "AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.",
+      "Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.",
+      "Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.",
+      "A missing topic or platform means a gap in this review, not that nobody has complained about it."
+    ],
+    "platformCoverage": [
+      {
+        "platform": "Reddit",
+        "note": "48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked."
+      },
+      {
+        "platform": "App Store",
+        "note": "2 reviewer accounts counted. Direct reviews of the mySASKTEL app."
+      },
+      {
+        "platform": "LinkedIn",
+        "note": "4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts."
+      },
+      {
+        "platform": "X / Twitter",
+        "note": "Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist."
+      },
+      {
+        "platform": "Quora",
+        "note": "Original pages could not be reviewed because access was blocked. No Quora accounts counted."
+      },
+      {
+        "platform": "News & reports",
+        "note": "25 named complainants retained separately as supporting reporting, not direct social posts."
+      }
+    ],
+    "priorityMeaning": "Suggested discovery order for a Solutions Architect, based on the reviewed complaints, clarity of the service problem and scope for a small pilot. This is judgment, not an objective score, prevalence ranking or incident-severity ranking."
+  },
+  "publicationNote": "Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked."
+}

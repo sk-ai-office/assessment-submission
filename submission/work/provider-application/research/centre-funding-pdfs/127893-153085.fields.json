@@ -1,0 +1,94 @@
+{
+  "Child Care Facility Information": {
+    "/T": "Child Care Facility Information",
+    "/FT": "/Tx",
+    "/TU": "Child Care Facility Information"
+  },
+  "Licensee NameChild Care Centre Name": {
+    "/T": "Licensee NameChild Care Centre Name",
+    "/FT": "/Tx",
+    "/TU": "Licensee Name/Child Care Centre Name"
+  },
+  "Address": {
+    "/T": "Address",
+    "/FT": "/Tx",
+    "/TU": "Address"
+  },
+  "CityTown": {
+    "/T": "CityTown",
+    "/FT": "/Tx",
+    "/TU": "City/Town"
+  },
+  "Postal Code": {
+    "/T": "Postal Code",
+    "/FT": "/Tx",
+    "/TU": "Postal Code"
+  },
+  "Phone Number": {
+    "/T": "Phone Number",
+    "/FT": "/Tx",
+    "/TU": "Phone Number"
+  },
+  "Email Address": {
+    "/T": "Email Address",
+    "/FT": "/Tx",
+    "/TU": "Email Address"
+  },
+  "Total Number of Licensed Spaces": {
+    "/T": "Total Number of Licensed Spaces",
+    "/FT": "/Tx",
+    "/TU": "Total Number of Licensed Spaces"
+  },
+  "Family Child Care Home": {
+    "/T": "Family Child Care Home",
+    "/FT": "/Btn",
+    "/TU": "Family Child Care Home",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Group Family Child Care Home": {
+    "/T": "Group Family Child Care Home",
+    "/FT": "/Btn",
+    "/TU": "Group Family Child Care Home",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Centre with 30 or fewer spaces": {
+    "/T": "Centre with 30 or fewer spaces",
+    "/FT": "/Btn",
+    "/TU": "Centre with 30 or fewer spaces",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Centre with 31 and more spaces 1900 base amount  60 for each additional space above": {
+    "/T": "Centre with 31 and more spaces 1900 base amount  60 for each additional space above",
+    "/FT": "/Btn",
+    "/TU": "Centre with 31 and more spaces $1,900 base amount + $60 for each additional space above",
+    "/_States_": "['/Off', '/On']"
+  },
+  "I will use this grant according to its intended purpose to support active play in my facility attach": {
+    "/T": "I will use this grant according to its intended purpose to support active play in my facility attach",
+    "/FT": "/Btn",
+    "/TU": "I will use this grant according to its intended purpose to support active play in my facility (attach",
+    "/_States_": "['/Off', '/On']"
+  },
+  "I will retain receipts of Active Play Grant purchases and will provide these receipts to ministry": {
+    "/T": "I will retain receipts of Active Play Grant purchases and will provide these receipts to ministry",
+    "/FT": "/Btn",
+    "/TU": "I will retain receipts of Active Play Grant purchases and will provide these receipts to ministry",
+    "/_States_": "['/Off', '/On']"
+  },
+  "I understand that if this funding is not used for its intended purpose the grant will be repaid to": {
+    "/T": "I understand that if this funding is not used for its intended purpose the grant will be repaid to",
+    "/FT": "/Btn",
+    "/TU": "I understand that if this funding is not used for its intended purpose, the grant will be repaid to",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Signature of Child Care Home LicenseeBoard Chairperson": {
+    "/T": "Signature of Child Care Home LicenseeBoard Chairperson",
+    "/FT": "/Sig",
+    "/TU": "Signature of Child Care Home Licensee/Board Chairperson"
+  },
+  "Date": {
+    "/T": "Date",
+    "/FT": "/Tx",
+    "/TU": "Date"
+  }
+}

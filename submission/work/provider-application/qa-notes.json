@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-25",
+  "modelTests": 14,
+  "browserChecks": [
+    "Applicant sees only own facility; another facility is a deliberate action",
+    "Shared name updated in linked form",
+    "Conditional routes and separate applicant/Ministry sections",
+    "Specific correction requested, answered, resubmitted and accepted",
+    "Fixed-row weekly menu changed and saved",
+    "Prepared AI example inserted only after user action",
+    "New centre application created with development checklist",
+    "Budget template opened from required budget evidence step",
+    "Operating totals verified: 10000 monthly revenue less 7000 wages and 250 food = 2750 monthly balance; 33000 annual balance",
+    "Consultant visit notes saved independently",
+    "Printable assessment includes applicant name and 17 blank visit-note fields",
+    "Printable packet downloaded with saved answers and sources",
+    "375px usable viewport: no document overflow; forms usable",
+    "Applicant and Ministry browser console: no errors",
+    "Current-process map renders full inventory and source register"
+  ],
+  "limitations": [
+    "Local demonstration only; no authentication or government submission",
+    "AI is a prepared demonstration, no API calls",
+    "15 Ministry-template/direction items remain unresolved",
+    "28 source grant estimates are disabled pending current Ministry confirmation",
+    "Print preparation copies are not approved replacements for official signatures/forms"
+  ],
+  "visualReview": {
+    "matches": [
+      "White and forest-green palette",
+      "Four progress stages and amber next-action banner",
+      "Flat two-column detail layout",
+      "Compact information icons"
+    ],
+    "authorizedChanges": [
+      "Separate applicant and Ministry dashboards",
+      "No role toggle or primary multi-application list for applicant",
+      "Application tab renamed Provider details",
+      "Digital forms replace questionnaire uploads",
+      "Platform details moved behind information controls"
+    ]
+  }
+}

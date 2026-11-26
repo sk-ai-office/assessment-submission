@@ -1,0 +1,1557 @@
+{
+  "meta": {
+    "title": "Open a Child Care Service",
+    "subtitle": "One facility record. Clear next steps.",
+    "asOf": "2026-11-25",
+    "primaryCaseId": "APP-2026-001",
+    "localOnly": true,
+    "prototype": true,
+    "caseNotice": "Fictional demonstration cases. No application has been submitted.",
+    "sourceNotice": "Official sources inform requirements. The four-stage workspace, record reuse and correction flow are proposed improvements.",
+    "sourceReviewNote": "Some published forms retain older wording. Current regulations control legal requirements; the Ministry confirms case-specific requirements."
+  },
+  "sources": [
+    {
+      "id": "home-process",
+      "title": "Apply to start a regulated family child care home",
+      "url": "https://www.saskatchewan.ca/business/entrepreneurs-start-or-exit-a-business/start-a-business/managing-a-child-care-business/start-a-licensed-family-child-care-home/apply-to-start-a-regulated-family-child-care-home",
+      "note": "Current published home application sequence and local-need screening."
+    },
+    {
+      "id": "centre-process",
+      "title": "Apply to start a regulated child care centre",
+      "url": "https://www.saskatchewan.ca/business/entrepreneurs-start-or-exit-a-business/start-a-business/managing-a-child-care-business/start-a-regulated-child-care-centre/apply-to-start-a-regulated-child-care-centre",
+      "note": "Development assessment, budgets, funding eligibility and email acknowledgement."
+    },
+    {
+      "id": "regulations",
+      "title": "Child Care Regulations, 2015 — including 2026 amendments",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/82271/C7-31r1.pdf",
+      "note": "Sections 6, 8–13, 38, 41–45 and 60–67 govern capacity, applications, insurance and staffing. Reviewed with SR 55/2026 amendments."
+    },
+    {
+      "id": "centre-checklist",
+      "title": "Official centre opening checklist",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/146785/Opening%252Ba%252BRegulated%252BChild%252BCare%252BCentre%252BChecklist%252B-%252BFinal.pdf",
+      "note": "Separate development, licence, grant, inspection and operational steps. Fee schedules use the existing Enrolment Portal."
+    },
+    {
+      "id": "home-form",
+      "title": "Family child care home application form",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/87866/FCCH%252BLicence%252BApplication-fillable.pdf",
+      "note": "The September 2026 application covers initial family and group-home licensing. Current guidance limits initial group-home licences to up to 12 spaces; later expansion beyond 12 has additional conditions. Original check handling is confirmed with the consultant."
+    },
+    {
+      "id": "family-assessment",
+      "title": "Family assessment questionnaire",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/99082/Family%252BAssessment%252BQuestionnaire-FINAL%252B-%252Bfillable%252B-%252BNov%252B2021.pdf",
+      "note": "Applicant responses and consultant assessment are distinct parts of suitability review."
+    },
+    {
+      "id": "centre-needs",
+      "title": "Centre community needs assessment",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/87863/Saskatchewan%252BChild%252BCare%252BCNA%252BForm%252B2025-01-14.pdf",
+      "note": "Published submission channel: cwcentredev@gov.sk.ca. Requests entity details, spaces by age, community need and financial readiness."
+    },
+    {
+      "id": "centre-form",
+      "title": "Centre licence application form",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/84997/Child%252BCare%252BCentre%252BApplication%252B%252B-%252BFillable.pdf",
+      "note": "Return to the ELCC consultant. Published form includes consultant, manager and director decision fields; older form details must be checked against current regulations."
+    },
+    {
+      "id": "act",
+      "title": "The Child Care Act, 2014 — current consolidation",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/82267/C7-31.pdf",
+      "note": "Sections 2 and 5–8 distinguish settings, licensing and applicant eligibility, including current 2026 amendments."
+    },
+    {
+      "id": "group-guidance",
+      "title": "Group Family Child Care Home Providers — September 2026",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/129930/formats/157364/download",
+      "note": "Expansion beyond 12 requires at least two years on a regular licence and consideration of local need; staffing also depends on child ages."
+    },
+    {
+      "id": "home-faq",
+      "title": "Family Home Child Care — current FAQ",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/123922/formats/144253/download",
+      "note": "Distinguishes initial group-home licensing up to 12 spaces from later expansion to a maximum of 16."
+    }
+  ],
+  "workflow": {
+    "stages": [
+      {
+        "id": "readiness",
+        "title": "Readiness",
+        "description": "Confirm the type of service, local need and next steps."
+      },
+      {
+        "id": "application",
+        "title": "Application",
+        "description": "Review the application and required supporting records."
+      },
+      {
+        "id": "premises",
+        "title": "Premises",
+        "description": "Check the space, inspections, insurance and operating plans."
+      },
+      {
+        "id": "final_review",
+        "title": "Final review",
+        "description": "Resolve outstanding items and record the Ministry decision."
+      }
+    ],
+    "stageStatusLabels": {
+      "not_started": "Not started",
+      "in_progress": "In progress",
+      "awaiting_review": "Awaiting review",
+      "needs_changes": "Changes requested",
+      "complete": "Complete"
+    },
+    "documentStatusLabels": {
+      "missing": "Not yet provided",
+      "received": "Received — not yet accepted",
+      "accepted": "Accepted for this case",
+      "needs_changes": "Changes requested"
+    },
+    "decisionLabels": {
+      "readiness": "Readiness review",
+      "licence": "Operating licence",
+      "funding": "Funding"
+    },
+    "decisionHelp": {
+      "readiness": "Readiness is a proposed administrative checkpoint. It does not authorize operation.",
+      "licence": "Only the Ministry can issue an operating licence and set its conditions.",
+      "funding": "Space allocation and grant approvals require separate Ministry decisions. A licence does not guarantee funding."
+    },
+    "currentProcedure": "The published process includes information sessions, application review, consultant visits, inspections and a licensing decision. Centre development and funding have additional approval steps.",
+    "prototypeProcedure": "This prototype groups the work into four stages and one facility record. Shared documents, correction threads and visible progress are proposed improvements.",
+    "submissionNotice": "This local demonstration does not submit an application, contact officials, issue a licence or award funding.",
+    "originalCheckHandling": "Record delivery and Ministry verification of original checks separately. Uploading a scan does not satisfy the published sealed-original requirement.",
+    "dataNotice": "All cases and progress shown here are fictional. Do not enter real criminal-record, health, identity or banking information.",
+    "decisionNotice": "Staff review remains necessary. No automated eligibility, suitability, licensing or funding decisions are made.",
+    "existingSystems": "The Ministry already uses an Enrolment Portal for fee schedules. This prototype proposes a connected applicant experience; it does not imply that every current step is paper-based.",
+    "actionLabels": {
+      "save": "Save changes locally",
+      "sendCorrection": "Send a correction in this demo",
+      "markReceived": "Mark received in this demo",
+      "markAccepted": "Accept for this demo case",
+      "requestChanges": "Request changes in this demo",
+      "reset": "Reset demo cases"
+    }
+  },
+  "facilityTypes": [
+    {
+      "id": "family_home",
+      "title": "Family child care home",
+      "currentProcedure": "Information session, application package, local-need screening, learning sessions, home visits, inspections and final licensing review.",
+      "capacityNote": "Normally up to eight attending children, including resident children, within age-combination and licence limits.",
+      "fundingNote": "Regulation can provide access to grants; each applicable approval still needs confirmation.",
+      "sourceIds": [
+        "home-process",
+        "home-form",
+        "regulations"
+      ],
+      "requiredDocumentIds": [
+        "home_information",
+        "licence_application",
+        "family_assessment",
+        "household_checks",
+        "references",
+        "banking_setup",
+        "fire_inspection",
+        "heating_inspection",
+        "insurance",
+        "home_space",
+        "home_training",
+        "operating_policies",
+        "final_visit",
+        "licence_decision",
+        "funding_decision"
+      ],
+      "afterLicensing": [
+        "Introductory ECE training within one year, subject to the regulatory exemption.",
+        "At least six hours of continuing education annually.",
+        "CPR within six months if it was not included in the first-aid course."
+      ],
+      "eligibilityNote": "Home licence applicants must be individuals aged 18 or older who reside in Saskatchewan."
+    },
+    {
+      "id": "group_home",
+      "title": "Group family child care home",
+      "currentProcedure": "Home licensing pathway plus review of assistants, staffing, child ages and the requested group-home capacity.",
+      "capacityNote": "New group family homes may initially be licensed for up to 12 spaces. Existing group homes with at least two years on a regular licence may apply for up to 16 in targeted need areas, subject to premises, age mix and Ministry approval. An assistant is needed whenever numbers or ages exceed the family-home limits.",
+      "fundingNote": "Space and grant approvals are separate decisions; local demand can affect whether development proceeds.",
+      "sourceIds": [
+        "home-process",
+        "regulations"
+      ],
+      "requiredDocumentIds": [
+        "home_information",
+        "licence_application",
+        "family_assessment",
+        "household_checks",
+        "references",
+        "banking_setup",
+        "fire_inspection",
+        "heating_inspection",
+        "insurance",
+        "home_space",
+        "home_training",
+        "group_staffing",
+        "operating_policies",
+        "final_visit",
+        "licence_decision",
+        "funding_decision"
+      ],
+      "afterLicensing": [
+        "Introductory ECE training within one year, subject to the regulatory exemption.",
+        "Group-home licensee must meet ECE I qualifications within three years.",
+        "At least six hours of continuing education annually."
+      ],
+      "eligibilityNote": "Home licence applicants must be individuals aged 18 or older who reside in Saskatchewan."
+    },
+    {
+      "id": "centre",
+      "title": "Child care centre",
+      "currentProcedure": "Development information session and needs assessment with budgets, Ministry review, applicable development/funding agreements, licence application, premises and operational review, then licensing decision.",
+      "capacityNote": "A centre licence sets capacity and age allocations; the regulatory maximum is 90 spaces.",
+      "fundingNote": "Licensing and funding have different eligibility. The published centre funding programme requires an eligible non-profit, co-operative or municipal entity; for-profit operations are not eligible for that funding.",
+      "sourceIds": [
+        "centre-process",
+        "centre-checklist",
+        "regulations"
+      ],
+      "requiredDocumentIds": [
+        "centre_information",
+        "needs_assessment",
+        "budgets",
+        "incorporation",
+        "licence_application",
+        "private_operator_check",
+        "banking_setup",
+        "fire_inspection",
+        "heating_inspection",
+        "health_inspection",
+        "insurance",
+        "centre_plans",
+        "lease",
+        "centre_staffing",
+        "operating_policies",
+        "centre_operating_records",
+        "final_visit",
+        "licence_decision",
+        "funding_decision"
+      ],
+      "afterLicensing": [
+        "Maintain required staffing, qualification, insurance and operating standards.",
+        "Use the existing Ministry reporting channels for enrolment and fee information."
+      ],
+      "eligibilityNote": "Centre applicants may be eligible corporations, co-operatives, municipalities, adult Saskatchewan residents or partnerships of adult Saskatchewan residents. Structure-specific ownership conditions apply; funding has separate eligibility."
+    }
+  ],
+  "documentTypes": [
+    {
+      "id": "home_information",
+      "title": "Applicant information session",
+      "stageId": "readiness",
+      "appliesTo": [
+        "family_home",
+        "group_home"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "home-process"
+      ],
+      "handling": "completion_record",
+      "note": "Record completion; this is not a suitability decision.",
+      "requirement": "Before submitting the initial home application"
+    },
+    {
+      "id": "centre_information",
+      "title": "Centre development information session",
+      "stageId": "readiness",
+      "appliesTo": [
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "centre-process"
+      ],
+      "handling": "completion_record",
+      "note": "",
+      "requirement": "Development preparation"
+    },
+    {
+      "id": "needs_assessment",
+      "title": "Community needs assessment",
+      "stageId": "readiness",
+      "appliesTo": [
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "centre-needs",
+        "centre-process"
+      ],
+      "handling": "digital_copy",
+      "note": "Published form is emailed to the centre development team.",
+      "requirement": "Development proposal"
+    },
+    {
+      "id": "budgets",
+      "title": "Development and operating budgets",
+      "stageId": "readiness",
+      "appliesTo": [
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "centre-process"
+      ],
+      "handling": "digital_copy",
+      "note": "Show expected development costs, operating income and expenses.",
+      "requirement": "Development proposal"
+    },
+    {
+      "id": "incorporation",
+      "title": "Applicant organization and ownership records",
+      "stageId": "readiness",
+      "appliesTo": [
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "centre-process",
+        "centre-checklist"
+      ],
+      "handling": "digital_copy",
+      "note": "Grant eligibility requires a non-profit corporation, co-operative or municipality. For-profit licensing is a separate route.",
+      "requirement": "Corporate registration and ownership records when applying as a corporation or co-operative."
+    },
+    {
+      "id": "licence_application",
+      "title": "Licence application",
+      "stageId": "application",
+      "appliesTo": [
+        "family_home",
+        "group_home",
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "home-form",
+        "centre-form"
+      ],
+      "handling": "digital_copy",
+      "note": "Use the home application for family and group-family homes; use the separate centre application for a centre.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "family_assessment",
+      "title": "Family assessment questionnaire",
+      "stageId": "application",
+      "appliesTo": [
+        "family_home",
+        "group_home"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "family-assessment"
+      ],
+      "handling": "digital_copy",
+      "note": "Applicant responses and consultant assessment remain separate.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "household_checks",
+      "title": "Original applicant and adult-household checks",
+      "stageId": "application",
+      "appliesTo": [
+        "family_home",
+        "group_home"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "home-process",
+        "home-form"
+      ],
+      "handling": "sealed_original",
+      "note": "Track each required original criminal-record/vulnerable-sector check and Ministry verification. Do not store check contents in this demo.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "references",
+      "title": "Four character references",
+      "stageId": "application",
+      "appliesTo": [
+        "family_home",
+        "group_home"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "home-form",
+        "regulations"
+      ],
+      "handling": "restricted_record",
+      "note": "Track completion only; no real reference identities in this demo.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "banking_setup",
+      "title": "Payment setup",
+      "stageId": "application",
+      "appliesTo": [
+        "family_home",
+        "group_home",
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "home-process",
+        "centre-checklist"
+      ],
+      "handling": "restricted_record",
+      "note": "Separate payment setup from the licensing decision. No banking details in this demo.",
+      "requirement": "Funding/payment administration when applicable"
+    },
+    {
+      "id": "fire_inspection",
+      "title": "Fire inspection report",
+      "stageId": "premises",
+      "appliesTo": [
+        "family_home",
+        "group_home",
+        "centre"
+      ],
+      "owner": "Inspector",
+      "sourceIds": [
+        "regulations",
+        "centre-checklist"
+      ],
+      "handling": "digital_copy",
+      "note": "For homes, the consultant advises when to arrange the inspection.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "heating_inspection",
+      "title": "Heating inspection report",
+      "stageId": "premises",
+      "appliesTo": [
+        "family_home",
+        "group_home",
+        "centre"
+      ],
+      "owner": "Inspector",
+      "sourceIds": [
+        "regulations",
+        "centre-checklist"
+      ],
+      "handling": "digital_copy",
+      "note": "",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "health_inspection",
+      "title": "Public-health inspection report",
+      "stageId": "premises",
+      "appliesTo": [
+        "centre"
+      ],
+      "owner": "Inspector",
+      "sourceIds": [
+        "regulations",
+        "centre-checklist"
+      ],
+      "handling": "digital_copy",
+      "note": "",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "insurance",
+      "title": "Facility insurance",
+      "stageId": "premises",
+      "appliesTo": [
+        "family_home",
+        "group_home",
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "regulations",
+        "centre-checklist"
+      ],
+      "handling": "digital_copy",
+      "note": "Review required liability, personal-injury and transport coverage against the proposed operation.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "home_space",
+      "title": "Home space and outdoor-play review",
+      "stageId": "premises",
+      "appliesTo": [
+        "family_home",
+        "group_home"
+      ],
+      "owner": "Ministry",
+      "sourceIds": [
+        "regulations",
+        "home-process"
+      ],
+      "handling": "inspection_record",
+      "note": "The consultant checks usable space, play arrangements and the proposed child mix.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "centre_plans",
+      "title": "Approved centre floor plan",
+      "stageId": "premises",
+      "appliesTo": [
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "centre-checklist"
+      ],
+      "handling": "digital_copy",
+      "note": "Approval is recorded by the responsible reviewer; an upload alone is not approval.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "lease",
+      "title": "Signed lease, if premises are rented",
+      "stageId": "premises",
+      "appliesTo": [
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "centre-checklist"
+      ],
+      "handling": "digital_copy",
+      "note": "",
+      "requirement": "Signed lease when premises are rented."
+    },
+    {
+      "id": "home_training",
+      "title": "Home first-aid and training plan",
+      "stageId": "premises",
+      "appliesTo": [
+        "family_home",
+        "group_home"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "regulations"
+      ],
+      "handling": "completion_record",
+      "note": "First aid is required. If it omits CPR, CPR must follow within six months of licensing. Introductory ECE training is due within one year; do not incorrectly make all later training a pre-licence condition.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "group_staffing",
+      "title": "Group-home assistant and staffing review",
+      "stageId": "premises",
+      "appliesTo": [
+        "group_home"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "regulations"
+      ],
+      "handling": "digital_copy",
+      "note": "Review assistants, checks, training, child ages and capacity. The maximum alone does not determine permitted staffing.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "centre_staffing",
+      "title": "Centre staffing and qualifications",
+      "stageId": "premises",
+      "appliesTo": [
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "regulations",
+        "centre-checklist"
+      ],
+      "handling": "digital_copy",
+      "note": "Review director and worker qualifications, required checks and supervision arrangements.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "operating_policies",
+      "title": "Operating policies and agreements",
+      "stageId": "premises",
+      "appliesTo": [
+        "family_home",
+        "group_home",
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "regulations",
+        "centre-checklist"
+      ],
+      "handling": "digital_copy",
+      "note": "Required operational and child-management policies and parent service agreements; centres also prepare parent and staff handbooks.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "centre_operating_records",
+      "title": "Centre menu, governance and fee records",
+      "stageId": "premises",
+      "appliesTo": [
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "centre-checklist"
+      ],
+      "handling": "digital_copy",
+      "note": "Includes board/advisory information and menu. The official checklist sends fee schedules through the existing Enrolment Portal.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "final_visit",
+      "title": "Final consultant review",
+      "stageId": "final_review",
+      "appliesTo": [
+        "family_home",
+        "group_home",
+        "centre"
+      ],
+      "owner": "Ministry",
+      "sourceIds": [
+        "home-process",
+        "centre-checklist"
+      ],
+      "handling": "inspection_record",
+      "note": "The centre checklist calls for a final meeting at least four weeks before anticipated opening; this is not an approval-time promise.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "licence_decision",
+      "title": "Operating-licence decision",
+      "stageId": "final_review",
+      "appliesTo": [
+        "family_home",
+        "group_home",
+        "centre"
+      ],
+      "owner": "Ministry",
+      "sourceIds": [
+        "regulations",
+        "home-process"
+      ],
+      "handling": "decision_record",
+      "note": "Record the issued licence and conditions only after an authorized Ministry decision.",
+      "requirement": "Before operating licence"
+    },
+    {
+      "id": "funding_decision",
+      "title": "Space-allocation and funding records",
+      "stageId": "final_review",
+      "appliesTo": [
+        "family_home",
+        "group_home",
+        "centre"
+      ],
+      "owner": "Ministry",
+      "sourceIds": [
+        "centre-process",
+        "home-process"
+      ],
+      "handling": "decision_record",
+      "note": "Track allocation and grant outcomes separately. A completed document checklist is not a funding approval.",
+      "requirement": "Only where allocation or funding is requested"
+    },
+    {
+      "id": "private_operator_check",
+      "title": "Private operator criminal-record check",
+      "stageId": "application",
+      "appliesTo": [
+        "centre"
+      ],
+      "owner": "Applicant",
+      "sourceIds": [
+        "centre-checklist"
+      ],
+      "handling": "restricted_record",
+      "requirement": "Private-operator check where applicable; confirm handling with the consultant.",
+      "note": "Track completion only; do not store check contents in this prototype."
+    }
+  ],
+  "cases": [
+    {
+      "id": "APP-2026-001",
+      "facilityName": "Prairie Sprout Family Home",
+      "facilityTypeId": "family_home",
+      "fictional": true,
+      "region": "Central",
+      "applicantLabel": "Applicant",
+      "assignedTeam": "Sample coordinator · Central",
+      "currentStageId": "premises",
+      "summary": "Replace the insurance document with a copy showing the coverage dates.",
+      "createdAt": "2026-11-10",
+      "updatedAt": "2026-11-25",
+      "recordVersion": 1,
+      "stages": [
+        {
+          "stageId": "readiness",
+          "status": "complete"
+        },
+        {
+          "stageId": "application",
+          "status": "complete"
+        },
+        {
+          "stageId": "premises",
+          "status": "needs_changes"
+        },
+        {
+          "stageId": "final_review",
+          "status": "not_started"
+        }
+      ],
+      "decisions": {
+        "readiness": {
+          "status": "proceed",
+          "owner": "Ministry",
+          "note": "Proposed readiness checkpoint; no authority to operate.",
+          "label": "Proceed"
+        },
+        "licence": {
+          "status": "under_review",
+          "owner": "Ministry",
+          "note": "No operating licence has been issued in this fictional case.",
+          "label": "Under review"
+        },
+        "funding": {
+          "status": "not_decided",
+          "owner": "Ministry",
+          "spaceAllocationStatus": "not_decided",
+          "note": "No grant or space-allocation approval is implied.",
+          "label": "Not decided"
+        }
+      },
+      "documents": [
+        {
+          "documentTypeId": "home_information",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Information session completion recorded.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "licence_application",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Application details reviewed for this demo.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "licence-application-demo.pdf"
+        },
+        {
+          "documentTypeId": "family_assessment",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Consultant review recorded; responses are not stored in this demo.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "family-assessment-demo.pdf"
+        },
+        {
+          "documentTypeId": "household_checks",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Required sealed originals logged and verified by the Ministry in this fictional case.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null,
+          "originalDeliveryStatus": "verified_by_ministry",
+          "originalHandlingNote": "Only delivery and verification are tracked. No original check or scan is stored."
+        },
+        {
+          "documentTypeId": "references",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Reference-review completion recorded; no personal details shown.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "banking_setup",
+          "status": "received",
+          "owner": "Applicant",
+          "note": "Payment setup recorded separately; no banking information shown.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "fire_inspection",
+          "status": "received",
+          "owner": "Inspector",
+          "note": "Fire inspection report received; Ministry review is pending.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "fire-inspection-demo.pdf"
+        },
+        {
+          "documentTypeId": "heating_inspection",
+          "status": "accepted",
+          "owner": "Inspector",
+          "note": "Fictional premises report reviewed.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "heating-inspection-demo.pdf"
+        },
+        {
+          "documentTypeId": "insurance",
+          "status": "needs_changes",
+          "owner": "Applicant",
+          "note": "Replace the insurance document with a copy showing the coverage dates.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "insurance-demo.pdf"
+        },
+        {
+          "documentTypeId": "home_space",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Home visit scheduled; the premises review is not yet complete.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "home_training",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "First-aid/CPR completion and later ECE training plan recorded.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "operating_policies",
+          "status": "received",
+          "owner": "Applicant",
+          "note": "Policies received; final consistency review remains.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "operating-policies-demo.pdf"
+        },
+        {
+          "documentTypeId": "final_visit",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Can be arranged after outstanding premises items are reviewed.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "licence_decision",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Operating licence not issued.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "funding_decision",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Funding and space-allocation decisions remain separate.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        }
+      ],
+      "corrections": [
+        {
+          "id": "correction-insurance",
+          "documentTypeId": "insurance",
+          "status": "open",
+          "requestedAt": "2026-11-24",
+          "requestedBy": "Ministry",
+          "title": "Show the coverage dates",
+          "message": "Replace the insurance document with a copy showing the coverage dates.",
+          "applicantResponse": "",
+          "responseAt": null,
+          "resolution": null
+        }
+      ],
+      "nextActions": [
+        {
+          "owner": "Applicant",
+          "title": "Correct the insurance record",
+          "detail": "Replace the insurance document with a copy showing the coverage dates.",
+          "documentTypeId": "insurance"
+        },
+        {
+          "owner": "Ministry",
+          "title": "Review the corrected record",
+          "detail": "Check the updated evidence and explain any remaining requirement.",
+          "documentTypeId": "insurance"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-18",
+          "actor": "Ministry",
+          "title": "Application records reviewed",
+          "detail": "Readiness and application stages completed in this demo."
+        },
+        {
+          "date": "2026-11-22",
+          "actor": "Ministry",
+          "title": "Original checks verified",
+          "detail": "Physical-original verification recorded without storing check contents."
+        },
+        {
+          "date": "2026-11-24",
+          "actor": "Ministry",
+          "title": "Insurance correction requested",
+          "detail": "The insurance example does not show the coverage dates."
+        },
+        {
+          "date": "2026-11-25",
+          "actor": "Ministry",
+          "title": "Home visit scheduled",
+          "detail": "Fictional visit arranged for November 27."
+        }
+      ],
+      "messages": [
+        {
+          "id": "message-prairie-1",
+          "date": "2026-11-24",
+          "author": "Ministry",
+          "text": "You can correct the insurance item in this case. Your other accepted records remain attached."
+        }
+      ],
+      "applicationNumber": "APP-2026-001",
+      "city": "Saskatoon",
+      "coordinator": "Sample coordinator",
+      "appointments": [
+        {
+          "id": "visit-prairie",
+          "title": "Home visit",
+          "owner": "Ministry",
+          "status": "scheduled",
+          "date": "2026-11-27",
+          "note": "Fictional appointment with the sample coordinator."
+        }
+      ]
+    },
+    {
+      "id": "case-willow",
+      "facilityName": "Willowbend Centre",
+      "facilityTypeId": "centre",
+      "fictional": true,
+      "region": "Saskatchewan — fictional location",
+      "applicantLabel": "Applicant",
+      "assignedTeam": "Early Years review team — demo",
+      "currentStageId": "readiness",
+      "summary": "Development readiness is awaiting Ministry review.",
+      "createdAt": "2026-11-10",
+      "updatedAt": "2026-11-25",
+      "recordVersion": 1,
+      "stages": [
+        {
+          "stageId": "readiness",
+          "status": "awaiting_review"
+        },
+        {
+          "stageId": "application",
+          "status": "not_started"
+        },
+        {
+          "stageId": "premises",
+          "status": "not_started"
+        },
+        {
+          "stageId": "final_review",
+          "status": "not_started"
+        }
+      ],
+      "decisions": {
+        "readiness": {
+          "status": "awaiting_review",
+          "owner": "Ministry",
+          "note": "Proposed readiness checkpoint; no authority to operate."
+        },
+        "licence": {
+          "status": "not_submitted",
+          "owner": "Ministry",
+          "note": "No operating licence has been issued in this fictional case."
+        },
+        "funding": {
+          "status": "not_decided",
+          "owner": "Ministry",
+          "spaceAllocationStatus": "not_decided",
+          "note": "No grant or space-allocation approval is implied."
+        }
+      },
+      "documents": [
+        {
+          "documentTypeId": "centre_information",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Development information session completion recorded.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "needs_assessment",
+          "status": "received",
+          "owner": "Applicant",
+          "note": "Development proposal received; local need has not been decided.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "needs-assessment-demo.pdf"
+        },
+        {
+          "documentTypeId": "budgets",
+          "status": "received",
+          "owner": "Applicant",
+          "note": "Development and operating budgets await review.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "budgets-demo.pdf"
+        },
+        {
+          "documentTypeId": "incorporation",
+          "status": "received",
+          "owner": "Applicant",
+          "note": "Fictional non-profit incorporation record received.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "incorporation-demo.pdf"
+        },
+        {
+          "documentTypeId": "licence_application",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "banking_setup",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "fire_inspection",
+          "status": "missing",
+          "owner": "Inspector",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "heating_inspection",
+          "status": "missing",
+          "owner": "Inspector",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "health_inspection",
+          "status": "missing",
+          "owner": "Inspector",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "insurance",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "centre_plans",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "lease",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "centre_staffing",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "operating_policies",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "centre_operating_records",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "final_visit",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "licence_decision",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "funding_decision",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        }
+      ],
+      "corrections": [],
+      "nextActions": [
+        {
+          "owner": "Ministry",
+          "title": "Review the development package",
+          "detail": "Assess local need, organizational readiness and completeness. Record the outcome without implying licence or funding approval.",
+          "documentTypeId": "needs_assessment"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-23",
+          "actor": "Applicant",
+          "title": "Development package received",
+          "detail": "Needs assessment, budgets and incorporation record submitted in the demo."
+        }
+      ],
+      "messages": [],
+      "applicationNumber": "APP-2026-002",
+      "coordinator": "Sample coordinator",
+      "appointments": [],
+      "city": "Regina"
+    },
+    {
+      "id": "case-meadow",
+      "facilityName": "Meadow Lane Family Home",
+      "facilityTypeId": "family_home",
+      "fictional": true,
+      "region": "Saskatchewan — fictional location",
+      "applicantLabel": "Applicant",
+      "assignedTeam": "Early Years review team — demo",
+      "currentStageId": "premises",
+      "summary": "Premises records are with the consultant for review.",
+      "createdAt": "2026-11-10",
+      "updatedAt": "2026-11-25",
+      "recordVersion": 1,
+      "stages": [
+        {
+          "stageId": "readiness",
+          "status": "complete"
+        },
+        {
+          "stageId": "application",
+          "status": "complete"
+        },
+        {
+          "stageId": "premises",
+          "status": "awaiting_review"
+        },
+        {
+          "stageId": "final_review",
+          "status": "not_started"
+        }
+      ],
+      "decisions": {
+        "readiness": {
+          "status": "reviewed",
+          "owner": "Ministry",
+          "note": "Proposed readiness checkpoint; no authority to operate."
+        },
+        "licence": {
+          "status": "pending",
+          "owner": "Ministry",
+          "note": "No operating licence has been issued in this fictional case."
+        },
+        "funding": {
+          "status": "not_requested",
+          "owner": "Ministry",
+          "spaceAllocationStatus": "not_decided",
+          "note": "No grant or space-allocation approval is implied."
+        }
+      },
+      "documents": [
+        {
+          "documentTypeId": "home_information",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Fictional review record.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "licence_application",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Fictional review record.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "licence-application-demo.pdf"
+        },
+        {
+          "documentTypeId": "family_assessment",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Fictional review record.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "family-assessment-demo.pdf"
+        },
+        {
+          "documentTypeId": "household_checks",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Original checks verified; contents not stored.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null,
+          "originalDeliveryStatus": "verified_by_ministry",
+          "originalHandlingNote": "Only delivery and verification are tracked. No original check or scan is stored."
+        },
+        {
+          "documentTypeId": "references",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Fictional review record.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "banking_setup",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "fire_inspection",
+          "status": "received",
+          "owner": "Inspector",
+          "note": "Inspector report received; consultant review pending.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "fire-inspection-demo.pdf"
+        },
+        {
+          "documentTypeId": "heating_inspection",
+          "status": "received",
+          "owner": "Inspector",
+          "note": "Inspector report received; consultant review pending.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "heating-inspection-demo.pdf"
+        },
+        {
+          "documentTypeId": "insurance",
+          "status": "received",
+          "owner": "Applicant",
+          "note": "Coverage evidence received for review.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "insurance-demo.pdf"
+        },
+        {
+          "documentTypeId": "home_space",
+          "status": "received",
+          "owner": "Ministry",
+          "note": "Consultant visit notes awaiting completion.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "home_training",
+          "status": "accepted",
+          "owner": "Applicant",
+          "note": "Fictional review record.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "operating_policies",
+          "status": "received",
+          "owner": "Applicant",
+          "note": "Fictional review record.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": "operating-policies-demo.pdf"
+        },
+        {
+          "documentTypeId": "final_visit",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "licence_decision",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "funding_decision",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        }
+      ],
+      "corrections": [],
+      "nextActions": [
+        {
+          "owner": "Ministry",
+          "title": "Review premises evidence",
+          "detail": "Review the inspection reports, space notes and insurance; identify any outstanding item.",
+          "documentTypeId": "home_space"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-21",
+          "actor": "Inspector",
+          "title": "Inspection reports received",
+          "detail": "Fire and heating reports are available for consultant review."
+        }
+      ],
+      "messages": [],
+      "applicationNumber": "APP-2026-003",
+      "coordinator": "Sample coordinator",
+      "appointments": [],
+      "city": "Moose Jaw"
+    },
+    {
+      "id": "case-north",
+      "facilityName": "North Star Group Home",
+      "facilityTypeId": "group_home",
+      "fictional": true,
+      "region": "Saskatchewan — fictional location",
+      "applicantLabel": "Applicant",
+      "assignedTeam": "Early Years review team — demo",
+      "currentStageId": "readiness",
+      "summary": "A draft application is being prepared.",
+      "createdAt": "2026-11-10",
+      "updatedAt": "2026-11-25",
+      "recordVersion": 1,
+      "stages": [
+        {
+          "stageId": "readiness",
+          "status": "in_progress"
+        },
+        {
+          "stageId": "application",
+          "status": "not_started"
+        },
+        {
+          "stageId": "premises",
+          "status": "not_started"
+        },
+        {
+          "stageId": "final_review",
+          "status": "not_started"
+        }
+      ],
+      "decisions": {
+        "readiness": {
+          "status": "not_submitted",
+          "owner": "Ministry",
+          "note": "Proposed readiness checkpoint; no authority to operate."
+        },
+        "licence": {
+          "status": "not_submitted",
+          "owner": "Ministry",
+          "note": "No operating licence has been issued in this fictional case."
+        },
+        "funding": {
+          "status": "not_requested",
+          "owner": "Ministry",
+          "spaceAllocationStatus": "not_decided",
+          "note": "No grant or space-allocation approval is implied."
+        }
+      },
+      "documents": [
+        {
+          "documentTypeId": "home_information",
+          "status": "received",
+          "owner": "Applicant",
+          "note": "Applicant marked the information session complete; confirmation pending.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "licence_application",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Draft details have not been submitted.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "family_assessment",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "household_checks",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Required adults and original-check delivery still need to be confirmed.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null,
+          "originalDeliveryStatus": "not_received",
+          "originalHandlingNote": "Only delivery and verification are tracked. No original check or scan is stored."
+        },
+        {
+          "documentTypeId": "references",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "banking_setup",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "fire_inspection",
+          "status": "missing",
+          "owner": "Inspector",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "heating_inspection",
+          "status": "missing",
+          "owner": "Inspector",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "insurance",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "home_space",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "home_training",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "group_staffing",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Discuss the proposed child mix and assistant arrangements with the consultant.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "operating_policies",
+          "status": "missing",
+          "owner": "Applicant",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "final_visit",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "licence_decision",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        },
+        {
+          "documentTypeId": "funding_decision",
+          "status": "missing",
+          "owner": "Ministry",
+          "note": "Not yet due at this stage.",
+          "updatedAt": "2026-11-25",
+          "sampleFileName": null
+        }
+      ],
+      "corrections": [],
+      "nextActions": [
+        {
+          "owner": "Applicant",
+          "title": "Complete the draft basics",
+          "detail": "Confirm the proposed service, household information and next steps with the regional team.",
+          "documentTypeId": "licence_application"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-25",
+          "actor": "Applicant",
+          "title": "Draft started",
+          "detail": "No application or supporting record has been submitted to the Ministry."
+        }
+      ],
+      "messages": [],
+      "applicationNumber": "APP-2026-004",
+      "coordinator": "Sample coordinator",
+      "appointments": [],
+      "city": "Prince Albert"
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "Child Care Facility Name": {
+    "/T": "Child Care Facility Name",
+    "/FT": "/Tx",
+    "/TU": "Child Care Facility Name:"
+  },
+  "Address": {
+    "/T": "Address",
+    "/FT": "/Tx",
+    "/TU": "Address:"
+  },
+  "Childs Name": {
+    "/T": "Childs Name",
+    "/FT": "/Tx",
+    "/TU": "Child\u2019s Name:"
+  },
+  "Childs Date of Birth": {
+    "/T": "Childs Date of Birth",
+    "/FT": "/Tx",
+    "/TU": "Child\u2019s Date of Birth:"
+  },
+  "Month and YearRow1": {
+    "/T": "Month and YearRow1",
+    "/FT": "/Tx",
+    "/TU": "Month and Year_Row_1",
+    "/Ff": "4096"
+  },
+  "Total Funding RequestRow1": {
+    "/T": "Total Funding RequestRow1",
+    "/FT": "/Tx",
+    "/TU": "Total Funding Request_Row_1",
+    "/Ff": "4096"
+  },
+  "Total Hours Requested per MonthRow1": {
+    "/T": "Total Hours Requested per MonthRow1",
+    "/FT": "/Tx",
+    "/TU": "Total Hours Requested per Month_Row_1",
+    "/Ff": "4096"
+  },
+  "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow1": {
+    "/T": "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow1",
+    "/FT": "/Tx",
+    "/TU": "Hourly Wage x Total Hours Requested per Month *Identify hourly wage before the Wage Enhancement Grant_Row_1",
+    "/Ff": "4096"
+  },
+  "MERCs per Month eg CPP EI mandatory employer expenses onlyRow1": {
+    "/T": "MERCs per Month eg CPP EI mandatory employer expenses onlyRow1",
+    "/FT": "/Tx",
+    "/TU": "MERCs per Month (e.g. CPP, EI, mandatory employer expenses only)_Row_1",
+    "/Ff": "4096"
+  },
+  "Eligible AmountRow1": {
+    "/T": "Eligible AmountRow1",
+    "/FT": "/Tx",
+    "/TU": "Eligible Amount_Row_1",
+    "/Ff": "4096"
+  },
+  "Averaged Monthly AmountRow1": {
+    "/T": "Averaged Monthly AmountRow1",
+    "/FT": "/Tx",
+    "/TU": "Averaged Monthly Amount_Row_1",
+    "/Ff": "4096"
+  },
+  "Month and YearRow2": {
+    "/T": "Month and YearRow2",
+    "/FT": "/Tx",
+    "/TU": "Month and Year_Row_2",
+    "/Ff": "4096"
+  },
+  "Total Funding RequestRow2": {
+    "/T": "Total Funding RequestRow2",
+    "/FT": "/Tx",
+    "/TU": "Total Funding Request_Row_2",
+    "/Ff": "4096"
+  },
+  "Total Hours Requested per MonthRow2": {
+    "/T": "Total Hours Requested per MonthRow2",
+    "/FT": "/Tx",
+    "/TU": "Total Hours Requested per Month_Row_2",
+    "/Ff": "4096"
+  },
+  "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow2": {
+    "/T": "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow2",
+    "/FT": "/Tx",
+    "/TU": "Hourly Wage x Total Hours Requested per Month *Identify hourly wage before the Wage Enhancement Grant_Row_2",
+    "/Ff": "4096"
+  },
+  "MERCs per Month eg CPP EI mandatory employer expenses onlyRow2": {
+    "/T": "MERCs per Month eg CPP EI mandatory employer expenses onlyRow2",
+    "/FT": "/Tx",
+    "/TU": "MERCs per Month (e.g. CPP, EI, mandatory employer expenses only)_Row_2",
+    "/Ff": "4096"
+  },
+  "Eligible AmountRow2": {
+    "/T": "Eligible AmountRow2",
+    "/FT": "/Tx",
+    "/TU": "Eligible Amount_Row_2",
+    "/Ff": "4096"
+  },
+  "Averaged Monthly AmountRow2": {
+    "/T": "Averaged Monthly AmountRow2",
+    "/FT": "/Tx",
+    "/TU": "Averaged Monthly Amount_Row_2",
+    "/Ff": "4096"
+  },
+  "Month and YearRow3": {
+    "/T": "Month and YearRow3",
+    "/FT": "/Tx",
+    "/TU": "Month and Year_Row_3",
+    "/Ff": "4096"
+  },
+  "Total Funding RequestRow3": {
+    "/T": "Total Funding RequestRow3",
+    "/FT": "/Tx",
+    "/TU": "Total Funding Request_Row_3",
+    "/Ff": "4096"
+  },
+  "Total Hours Requested per MonthRow3": {
+    "/T": "Total Hours Requested per MonthRow3",
+    "/FT": "/Tx",
+    "/TU": "Total Hours Requested per Month_Row_3",
+    "/Ff": "4096"
+  },
+  "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow3": {
+    "/T": "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow3",
+    "/FT": "/Tx",
+    "/TU": "Hourly Wage x Total Hours Requested per Month *Identify hourly wage before the Wage Enhancement Grant_Row_3",
+    "/Ff": "4096"
+  },
+  "MERCs per Month eg CPP EI mandatory employer expenses onlyRow3": {
+    "/T": "MERCs per Month eg CPP EI mandatory employer expenses onlyRow3",
+    "/FT": "/Tx",
+    "/TU": "MERCs per Month (e.g. CPP, EI, mandatory employer expenses only)_Row_3",
+    "/Ff": "4096"
+  },
+  "Eligible AmountRow3": {
+    "/T": "Eligible AmountRow3",
+    "/FT": "/Tx",
+    "/TU": "Eligible Amount_Row_3",
+    "/Ff": "4096"
+  },
+  "Averaged Monthly AmountRow3": {
+    "/T": "Averaged Monthly AmountRow3",
+    "/FT": "/Tx",
+    "/TU": "Averaged Monthly Amount_Row_3",
+    "/Ff": "4096"
+  },
+  "Month and YearRow4": {
+    "/T": "Month and YearRow4",
+    "/FT": "/Tx",
+    "/TU": "Month and Year_Row_4",
+    "/Ff": "4096"
+  },
+  "Total Funding RequestRow4": {
+    "/T": "Total Funding RequestRow4",
+    "/FT": "/Tx",
+    "/TU": "Total Funding Request_Row_4",
+    "/Ff": "4096"
+  },
+  "Total Hours Requested per MonthRow4": {
+    "/T": "Total Hours Requested per MonthRow4",
+    "/FT": "/Tx",
+    "/TU": "Total Hours Requested per Month_Row_4",
+    "/Ff": "4096"
+  },
+  "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow4": {
+    "/T": "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow4",
+    "/FT": "/Tx",
+    "/TU": "Hourly Wage x Total Hours Requested per Month *Identify hourly wage before the Wage Enhancement Grant_Row_4",
+    "/Ff": "4096"
+  },
+  "MERCs per Month eg CPP EI mandatory employer expenses onlyRow4": {
+    "/T": "MERCs per Month eg CPP EI mandatory employer expenses onlyRow4",
+    "/FT": "/Tx",
+    "/TU": "MERCs per Month (e.g. CPP, EI, mandatory employer expenses only)_Row_4",
+    "/Ff": "4096"
+  },
+  "Eligible AmountRow4": {
+    "/T": "Eligible AmountRow4",
+    "/FT": "/Tx",
+    "/TU": "Eligible Amount_Row_4",
+    "/Ff": "4096"
+  },
+  "Averaged Monthly AmountRow4": {
+    "/T": "Averaged Monthly AmountRow4",
+    "/FT": "/Tx",
+    "/TU": "Averaged Monthly Amount_Row_4",
+    "/Ff": "4096"
+  },
+  "Month and YearRow5": {
+    "/T": "Month and YearRow5",
+    "/FT": "/Tx",
+    "/TU": "Month and Year_Row_5",
+    "/Ff": "4096"
+  },
+  "Total Funding RequestRow5": {
+    "/T": "Total Funding RequestRow5",
+    "/FT": "/Tx",
+    "/TU": "Total Funding Request_Row_5",
+    "/Ff": "4096"
+  },
+  "Total Hours Requested per MonthRow5": {
+    "/T": "Total Hours Requested per MonthRow5",
+    "/FT": "/Tx",
+    "/TU": "Total Hours Requested per Month_Row_5",
+    "/Ff": "4096"
+  },
+  "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow5": {
+    "/T": "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow5",
+    "/FT": "/Tx",
+    "/TU": "Hourly Wage x Total Hours Requested per Month *Identify hourly wage before the Wage Enhancement Grant_Row_5",
+    "/Ff": "4096"
+  },
+  "MERCs per Month eg CPP EI mandatory employer expenses onlyRow5": {
+    "/T": "MERCs per Month eg CPP EI mandatory employer expenses onlyRow5",
+    "/FT": "/Tx",
+    "/TU": "MERCs per Month (e.g. CPP, EI, mandatory employer expenses only)_Row_5",
+    "/Ff": "4096"
+  },
+  "Eligible AmountRow5": {
+    "/T": "Eligible AmountRow5",
+    "/FT": "/Tx",
+    "/TU": "Eligible Amount_Row_5",
+    "/Ff": "4096"
+  },
+  "Averaged Monthly AmountRow5": {
+    "/T": "Averaged Monthly AmountRow5",
+    "/FT": "/Tx",
+    "/TU": "Averaged Monthly Amount_Row_5",
+    "/Ff": "4096"
+  },
+  "Month and YearRow6": {
+    "/T": "Month and YearRow6",
+    "/FT": "/Tx",
+    "/TU": "Month and Year_Row_6",
+    "/Ff": "4096"
+  },
+  "Total Funding RequestRow6": {
+    "/T": "Total Funding RequestRow6",
+    "/FT": "/Tx",
+    "/TU": "Total Funding Request_Row_6",
+    "/Ff": "4096"
+  },
+  "Total Hours Requested per MonthRow6": {
+    "/T": "Total Hours Requested per MonthRow6",
+    "/FT": "/Tx",
+    "/TU": "Total Hours Requested per Month_Row_6",
+    "/Ff": "4096"
+  },
+  "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow6": {
+    "/T": "Hourly Wage x Total Hours Requested per Month Identify hourly wage before the Wage Enhancement GrantRow6",
+    "/FT": "/Tx",
+    "/TU": "Hourly Wage x Total Hours Requested per Month *Identify hourly wage before the Wage Enhancement Grant_Row_6",
+    "/Ff": "4096"
+  },
+  "MERCs per Month eg CPP EI mandatory employer expenses onlyRow6": {
+    "/T": "MERCs per Month eg CPP EI mandatory employer expenses onlyRow6",
+    "/FT": "/Tx",
+    "/TU": "MERCs per Month (e.g. CPP, EI, mandatory employer expenses only)_Row_6",
+    "/Ff": "4096"
+  },
+  "Eligible AmountRow6": {
+    "/T": "Eligible AmountRow6",
+    "/FT": "/Tx",
+    "/TU": "Eligible Amount_Row_6",
+    "/Ff": "4096"
+  },
+  "Averaged Monthly AmountRow6": {
+    "/T": "Averaged Monthly AmountRow6",
+    "/FT": "/Tx",
+    "/TU": "Averaged Monthly Amount_Row_6",
+    "/Ff": "4096"
+  },
+  "Is this educator supporting another children receiving EA grant funding No Yes Explain": {
+    "/T": "Is this educator supporting another children receiving EA grant funding No Yes Explain",
+    "/FT": "/Tx",
+    "/TU": "Is this educator supporting another child(ren) receiving EA grant funding? No Yes Explain:"
+  },
+  "If applicable provide the name of the educator": {
+    "/T": "If applicable provide the name of the educator",
+    "/FT": "/Tx",
+    "/TU": "If applicable, provide the name of the educator"
+  },
+  "Other": {
+    "/T": "Other",
+    "/FT": "/Tx",
+    "/TU": "Other"
+  },
+  "Check Box1": {
+    "/T": "Check Box1",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box4": {
+    "/T": "Check Box4",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box5": {
+    "/T": "Check Box5",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box6": {
+    "/T": "Check Box6",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box7": {
+    "/T": "Check Box7",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box8": {
+    "/T": "Check Box8",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box14": {
+    "/T": "Check Box14",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box15": {
+    "/T": "Check Box15",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box16": {
+    "/T": "Check Box16",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Check Box17": {
+    "/T": "Check Box17",
+    "/FT": "/Btn",
+    "/_States_": "['/Off', '/Yes']"
+  },
+  "Text18": {
+    "/T": "Text18",
+    "/FT": "/Tx"
+  },
+  "Text19": {
+    "/T": "Text19",
+    "/FT": "/Tx"
+  },
+  "Text20": {
+    "/T": "Text20",
+    "/FT": "/Tx"
+  },
+  "Text21": {
+    "/T": "Text21",
+    "/FT": "/Tx"
+  },
+  "Text22": {
+    "/T": "Text22",
+    "/FT": "/Tx"
+  },
+  "Text23": {
+    "/T": "Text23",
+    "/FT": "/Tx"
+  },
+  "Text24": {
+    "/T": "Text24",
+    "/FT": "/Tx"
+  },
+  "Text1": {
+    "/T": "Text1",
+    "/FT": "/Tx"
+  },
+  "Text8": {
+    "/T": "Text8",
+    "/FT": "/Tx"
+  },
+  "Text9": {
+    "/T": "Text9",
+    "/FT": "/Tx"
+  },
+  "Text10": {
+    "/T": "Text10",
+    "/FT": "/Tx"
+  },
+  "Text11": {
+    "/T": "Text11",
+    "/FT": "/Tx"
+  },
+  "Text12": {
+    "/T": "Text12",
+    "/FT": "/Tx"
+  },
+  "Text13": {
+    "/T": "Text13",
+    "/FT": "/Tx"
+  },
+  "Text14": {
+    "/T": "Text14",
+    "/FT": "/Tx"
+  },
+  "Text15": {
+    "/T": "Text15",
+    "/FT": "/Tx"
+  },
+  "Text16": {
+    "/T": "Text16",
+    "/FT": "/Tx"
+  },
+  "Text17": {
+    "/T": "Text17",
+    "/FT": "/Tx"
+  },
+  "Text25": {
+    "/T": "Text25",
+    "/FT": "/Tx"
+  },
+  "Text26": {
+    "/T": "Text26",
+    "/FT": "/Tx"
+  },
+  "Text27": {
+    "/T": "Text27",
+    "/FT": "/Tx"
+  },
+  "Text28": {
+    "/T": "Text28",
+    "/FT": "/Tx"
+  },
+  "Text29": {
+    "/T": "Text29",
+    "/FT": "/Tx"
+  },
+  "Text30": {
+    "/T": "Text30",
+    "/FT": "/Tx"
+  },
+  "Text31": {
+    "/T": "Text31",
+    "/FT": "/Tx"
+  },
+  "Text32": {
+    "/T": "Text32",
+    "/FT": "/Tx"
+  },
+  "Text33": {
+    "/T": "Text33",
+    "/FT": "/Tx"
+  },
+  "Text34": {
+    "/T": "Text34",
+    "/FT": "/Tx"
+  },
+  "Text35": {
+    "/T": "Text35",
+    "/FT": "/Tx"
+  },
+  "Text36": {
+    "/T": "Text36",
+    "/FT": "/Tx"
+  },
+  "Text37": {
+    "/T": "Text37",
+    "/FT": "/Tx"
+  },
+  "Text38": {
+    "/T": "Text38",
+    "/FT": "/Tx"
+  },
+  "Text39": {
+    "/T": "Text39",
+    "/FT": "/Tx"
+  },
+  "Text40": {
+    "/T": "Text40",
+    "/FT": "/Tx"
+  },
+  "Text41": {
+    "/T": "Text41",
+    "/FT": "/Tx"
+  },
+  "Text42": {
+    "/T": "Text42",
+    "/FT": "/Tx"
+  },
+  "Text43": {
+    "/T": "Text43",
+    "/FT": "/Tx"
+  },
+  "Text44": {
+    "/T": "Text44",
+    "/FT": "/Tx"
+  },
+  "Text45": {
+    "/T": "Text45",
+    "/FT": "/Tx"
+  },
+  "Text46": {
+    "/T": "Text46",
+    "/FT": "/Tx"
+  },
+  "Text47": {
+    "/T": "Text47",
+    "/FT": "/Tx"
+  },
+  "Text48": {
+    "/T": "Text48",
+    "/FT": "/Tx"
+  }
+}

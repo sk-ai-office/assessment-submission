@@ -1,0 +1,9 @@
+# Preserve exact artifact bytes and show binary files correctly in diffs.
+*.pdf binary
+*.zip binary
+*.mp4 binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.xlsx binary
+*.docx binary

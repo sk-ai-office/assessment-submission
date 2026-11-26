@@ -1,0 +1,6 @@
+Sharing update verified 25 November 2026.
+28 stable complaint IDs and 80 stable evidence IDs. Registry tested for reorder, title change and append behavior. Original source records and counts unchanged.
+All standalone HTML/text briefs include every matching evidence record, route, AI assessment, source links, context, status, counting qualifications and review coverage. Embedded data round-trips exactly.
+Browser: search SK-C020, App Store filter (2 accounts), share scope (all 3), full-text copy, ID copy, actual HTML download, evidence deep link SK-E061, independent brief rendering verified. Actual download matched generated brief; subsequent text-only wording clarified review-wide totals and missing source-check dates.
+Brief mobile rendering checked with no horizontal overflow. Dashboard and brief browser consoles had no errors.
+Archive integrity and parity checked: 62 files, all IDs included in CSVs. No publishing or messages sent.

@@ -1,0 +1,14 @@
+Launcher verification — November 25, 2026 (America/Regina)
+Runtime: v24.16.0
+Command: node start.cjs (tested from an isolated temporary copy)
+PASS http://127.0.0.1:4182/: expected 200, actual 200
+PASS http://127.0.0.1:4182/outputs/childcare-applicant-dashboard.html: expected 200, actual 200
+PASS http://127.0.0.1:4180/api/health: expected 200, actual 200
+PASS http://127.0.0.1:4182/outputs/childcare-applicant-preview.jpg: expected 200, actual 200
+PASS http://127.0.0.1:4182/outputs/family-dashboard/desktop-search.jpg: expected 200, actual 200
+PASS http://127.0.0.1:4182/.env: expected 403, actual 403
+PASS http://127.0.0.1:4182/%2e%2e%2fSTART-HERE.txt: expected 403, actual 403
+PASS SIGTERM stopped launcher and family child process.
+PASS port 4180 no longer responds after shutdown.
+PASS port 4182 no longer responds after shutdown.
+No SQLite database was created in the submission package.

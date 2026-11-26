@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "type": "Saskatchewan public-service complaint brief",
+  "referenceId": "SK-C019",
+  "reviewedAt": "2026-11-25",
+  "period": {
+    "start": "2024-11-25",
+    "end": "2026-11-25"
+  },
+  "issue": {
+    "id": "telecom-data-restoration",
+    "title": "Paid mobile-data speed restoration problems",
+    "summary": "Customers say purchased data-speed restoration did not work as expected and follow-up was insufficient.",
+    "ministry": "Crown Investments Corporation (oversight)",
+    "service": "SaskTel",
+    "routeId": "telecom",
+    "concern": "Paid data restoration does not restore service",
+    "why": "Customers pay for restored speed but report no improvement and inadequate follow-up.",
+    "fit": "service",
+    "idea": "Fix purchase-to-provisioning checks and failed-restoration follow-up; no AI pilot is needed to establish whether the service was delivered.",
+    "limit": "AI cannot repair provisioning failures or substitute for delivering the purchased service.",
+    "firstStep": "Trace a failed purchase through payment, entitlement, provisioning and customer notification, then add a deterministic failure alert and named owner.",
+    "measure": "Restoration purchases followed by confirmed activation.",
+    "priority": 5,
+    "reason": "Two direct accounts describe a failed paid transaction. Reliable fulfillment and follow-up should precede conversational assistance.",
+    "referenceId": "SK-C019"
+  },
+  "counts": {
+    "publicAccounts": 2,
+    "namedInReporting": 0,
+    "evidenceRecords": 2,
+    "uncountedRecords": 0,
+    "sourcePages": 1
+  },
+  "route": {
+    "id": "telecom",
+    "title": "SaskTel service, data, and app issues",
+    "ministry": "Crown Investments Corporation portfolio — oversight",
+    "first": "Contact SaskTel customer service or technical support. Ask for a Customer Services Manager if the concern remains unresolved.",
+    "escalation": "Eligible unresolved telecom and TV disputes may go to the independent CCTS. Some regulated matters go to CRTC. Provincial utility fairness guidance also identifies the Ombudsman route.",
+    "note": "CIC oversees the Crown corporation; telecom regulation and CCTS are separate from provincial ministry administration.",
+    "links": [
+      {
+        "title": "SaskTel complaint process",
+        "url": "https://www.sasktel.com/wps/wcm/connect/content/home/about-sasktel/how-are-we-doing"
+      },
+      {
+        "title": "CCTS complaint process",
+        "url": "https://www.ccts-cprst.ca/for-consumers/telecom-complaints/complaints-process-explained/"
+      },
+      {
+        "title": "Utility fairness guidance",
+        "url": "https://ombudsman.sk.ca/ombudsman/where-to-complain/utilities/"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "id": "OS10",
+      "authorId": "A039",
+      "authorType": "account",
+      "date": "2025-08-11",
+      "dateLabel": "Aug 11, 2025",
+      "datePrecision": "day",
+      "issueId": "telecom-data-restoration",
+      "summary": "Says a paid speed-restoration purchase did not noticeably restore mobile data speed.",
+      "url": "https://www.reddit.com/r/saskatchewan/comments/1mn77bq/sasktel_data_speed_restore_scam/",
+      "sourcePage": "https://www.reddit.com/r/saskatchewan/comments/1mn77bq/sasktel_data_speed_restore_scam/",
+      "sourceTitle": "Mobile data-speed restoration discussion",
+      "publisher": "r/saskatchewan",
+      "sourceKind": "Reddit post",
+      "status": "Historical complaint; current outcome not independently verified",
+      "context": "",
+      "region": "Saskatchewan forum",
+      "counted": true,
+      "caseId": "OS10",
+      "platform": "Reddit",
+      "sourceRole": "firsthand",
+      "originalDate": "2025-08-11",
+      "authorHandle": "u/FewPepper4901",
+      "quote": "the speed is only slightly faster, if not the same, as it was before I restored the speed.",
+      "verification": "Public handle and quoted text visible on the source page. Absolute publication date matched to the search-index discussion transcript. The complaint is self-reported, not an independently adjudicated finding.",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E057",
+      "complaintReferenceId": "SK-C019"
+    },
+    {
+      "id": "OS11",
+      "authorId": "A040",
+      "authorType": "account",
+      "date": "2025-08-11",
+      "dateLabel": "Aug 11, 2025 (thread date)",
+      "datePrecision": "thread",
+      "issueId": "telecom-data-restoration",
+      "summary": "Reports a second data-speed restoration purchase failed and no promised follow-up arrived.",
+      "url": "https://www.reddit.com/r/saskatchewan/comments/1mn77bq/comment/n87qowq/",
+      "sourcePage": "https://www.reddit.com/r/saskatchewan/comments/1mn77bq/sasktel_data_speed_restore_scam/",
+      "sourceTitle": "Mobile data-speed restoration discussion",
+      "publisher": "r/saskatchewan",
+      "sourceKind": "Reddit comment",
+      "status": "Historical complaint; current outcome not independently verified",
+      "context": "Exact comment date was not independently established; the discussion date is shown.",
+      "region": "Saskatchewan forum",
+      "counted": true,
+      "caseId": "OS11",
+      "platform": "Reddit",
+      "sourceRole": "firsthand",
+      "originalDate": "2025-08-11",
+      "authorHandle": "u/texxmix",
+      "quote": "When I called I just got told “we will look into it”. Never got a call back and it never worked.",
+      "verification": "Public handle and exact quote visible in the parent thread. Reddit exposes the comment permalink, but the comment-only page could not be fetched. Exact comment date unverified; thread date shown.",
+      "verifiedAt": "2026-11-25",
+      "referenceId": "SK-E058",
+      "complaintReferenceId": "SK-C019"
+    }
+  ],
+  "methodology": [
+    "SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.",
+    "A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.",
+    "Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.",
+    "This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.",
+    "Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.",
+    "AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes."
+  ],
+  "researchContext": {
+    "scopeNote": "The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.",
+    "limitations": [
+      "This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.",
+      "All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.",
+      "Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.",
+      "A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.",
+      "Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.",
+      "LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.",
+      "Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.",
+      "AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.",
+      "Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.",
+      "Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.",
+      "A missing topic or platform means a gap in this review, not that nobody has complained about it."
+    ],
+    "platformCoverage": [
+      {
+        "platform": "Reddit",
+        "note": "48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked."
+      },
+      {
+        "platform": "App Store",
+        "note": "2 reviewer accounts counted. Direct reviews of the mySASKTEL app."
+      },
+      {
+        "platform": "LinkedIn",
+        "note": "4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts."
+      },
+      {
+        "platform": "X / Twitter",
+        "note": "Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist."
+      },
+      {
+        "platform": "Quora",
+        "note": "Original pages could not be reviewed because access was blocked. No Quora accounts counted."
+      },
+      {
+        "platform": "News & reports",
+        "note": "25 named complainants retained separately as supporting reporting, not direct social posts."
+      }
+    ],
+    "priorityMeaning": "Suggested discovery order for a Solutions Architect, based on the reviewed complaints, clarity of the service problem and scope for a small pilot. This is judgment, not an objective score, prevalence ranking or incident-severity ranking."
+  },
+  "publicationNote": "Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked."
+}

@@ -1,0 +1,75 @@
+SK-C022 — Drivers report potholes and unsafe road surfaces
+INTERNAL COMPLAINT BRIEF · Sources reviewed 2026-11-25
+Review period: 2024-11-25 to 2026-11-25
+Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked.
+
+CONCERN AND IMPACT
+A road user raises safety concerns about potholes, deep ruts and rough highway surfaces.
+A road user describes deep ruts and rough surfaces that make travel feel unsafe.
+
+EVIDENCE IN THIS SAMPLE
+0 distinct public accounts; 1 named people in reporting (separate count); 1 evidence records; 0 records excluded from counts; 1 source pages.
+
+RESPONSIBLE SERVICE
+Ministry / oversight: Highways
+Service: Ministry of Highways
+First contact: Use the Highways Customer Service Centre and the inquiry or complaint form on the ministry page. Describe the highway, location, and service concern.
+Escalation / responsibility: Ministry of Highways for maintenance, provincial road safety, and construction-signage concerns. Municipal streets and roads should be directed to the responsible municipality.
+Routing context: undefined
+Highways contacts and complaint form: https://www.saskatchewan.ca/Government/Government-Structure/Ministries/Highways
+
+AI ASSESSMENT AND PROPOSED ACTION
+Assessment: Service / policy fix
+Opportunity / first intervention: Confirm inspection and repair follow-through first; image-assisted reporting is only a later hypothesis if intake proves problematic.
+What AI cannot fix: It cannot repair roads, fund maintenance or replace an engineering safety assessment.
+First step: Verify the reported location, inspection history and responsible maintenance team; establish whether the gap is reporting or repair delivery.
+Success measure: Time from a validated defect report to the appropriate maintenance action.
+Why this starting point: One reported road condition requires field verification. The current evidence does not demonstrate an information-processing bottleneck.
+
+ALL SOURCE EVIDENCE
+
+SK-E063 · SK-C022 · Original record OS16
+Platform: News & reports · 650 CKOM
+Attribution: P019 · Reported experience
+Account / person reference: P019; incident reference: OS16
+Date: Nov 6, 2026 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: Raises concerns about deep ruts, potholes and rough travel on Highway 339.
+Status at source review: Historical complaint; current outcome not independently verified
+Context: Ministry said it has invested in maintenance and continues monitoring and evaluating improvements. Reviewed through the search-index text; the direct page could not be opened.
+Source: Briercrest-area farmer calls for major repairs to Highway 339
+Original link: https://www.ckom.com/2026/11/06/briercrest-area-farmer-calls-for-major-repairs-to-highway-339/
+Region: Highway 339 / Briercrest
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+COUNTING AND INTERPRETATION
+• SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.
+• A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.
+• Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.
+• This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.
+• Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.
+• AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes.
+
+REVIEW-WIDE COVERAGE AND LIMITATIONS
+The following platform totals cover the entire research review, not only this complaint.
+The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.
+Reddit: 48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked.
+App Store: 2 reviewer accounts counted. Direct reviews of the mySASKTEL app.
+LinkedIn: 4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts.
+X / Twitter: Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist.
+Quora: Original pages could not be reviewed because access was blocked. No Quora accounts counted.
+News & reports: 25 named complainants retained separately as supporting reporting, not direct social posts.
+• This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.
+• All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.
+• Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.
+• A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.
+• Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.
+• LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.
+• Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.
+• AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.
+• Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.
+• Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.
+• A missing topic or platform means a gap in this review, not that nobody has complained about it.
+
+Reference: SK-C022. Search this ID in the companion dashboard. Share this complete brief so evidence and qualifications travel together.

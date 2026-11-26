@@ -1,0 +1,292 @@
+{
+  "records": [
+    {
+      "existingId": "H016",
+      "platform": "Reddit",
+      "authorHandle": "u/Harshkang69",
+      "quote": "Cancelled after being processed and then sitting there waiting for 6 hours.",
+      "url": "https://www.reddit.com/r/saskatoon/comments/1o2i0c9/ruh_rant/",
+      "sourcePage": "https://www.reddit.com/r/saskatoon/comments/1o2i0c9/ruh_rant/",
+      "date": "2025-10-09",
+      "dateLabel": "2025-10-09 — publication day from search index",
+      "datePrecision": "day; indexed",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. Calendar date previously verified in the matching indexed post/comment. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim. The selected excerpt describes the author’s own experience; the separately mentioned family member is not counted as another complainant.",
+      "sourceRole": "firsthand",
+      "sourceKind": "Reddit — original post",
+      "statusContext": "One procedure completed; another family cancellation reported; current status unknown",
+      "attributionKey": "reddit:harshkang69",
+      "quoteWordCount": 12,
+      "checkedOn": "2026-11-25"
+    },
+    {
+      "existingId": "H017",
+      "platform": "Reddit",
+      "authorHandle": "u/MopsyWinston22",
+      "quote": "Because of the short staffing I was left in pain, and then left to wait for days to have a very standard procedure.",
+      "url": "https://www.reddit.com/r/regina/comments/1mg1obv/our_healthcare_system_is_collapsing/",
+      "sourcePage": "https://www.reddit.com/r/regina/comments/1mg1obv/our_healthcare_system_is_collapsing/",
+      "date": "2025-08-02",
+      "dateLabel": "2025-08-02 — publication day from search index",
+      "datePrecision": "day; indexed",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. Calendar date previously verified in the matching indexed post/comment. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim. The post also says “Today, Saturday, August 2nd”; the r/saskatchewan cross-post is the same author and complaint and is not an additional account.",
+      "sourceRole": "firsthand",
+      "sourceKind": "Reddit — original post",
+      "statusContext": "Surgery completed and patient discharged before posting",
+      "attributionKey": "reddit:mopsywinston22",
+      "quoteWordCount": 23,
+      "checkedOn": "2026-11-25",
+      "duplicateSourcePage": "https://www.reddit.com/r/saskatchewan/comments/1mg1mts/"
+    },
+    {
+      "existingId": "H018",
+      "platform": "Reddit",
+      "authorHandle": "u/batteredkitty",
+      "quote": "The wait time for my mammogram, which is supposed to be done yearly is now a year and a half.",
+      "url": "https://www.reddit.com/r/saskatchewan/comments/1jke659/biopsy_and_mammogram_wait_times_in_sask/",
+      "sourcePage": "https://www.reddit.com/r/saskatchewan/comments/1jke659/biopsy_and_mammogram_wait_times_in_sask/",
+      "date": "2025-03-26",
+      "dateLabel": "2025-03-26 — publication day from search index",
+      "datePrecision": "day; indexed",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. Calendar date previously verified in the matching indexed post/comment. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.",
+      "sourceRole": "firsthand",
+      "sourceKind": "Reddit — original post",
+      "statusContext": "Unresolved at post; current status unknown",
+      "attributionKey": "reddit:batteredkitty",
+      "quoteWordCount": 20,
+      "checkedOn": "2026-11-25"
+    },
+    {
+      "existingId": "H019",
+      "platform": "Reddit",
+      "authorHandle": "u/Sheweb",
+      "quote": "I call regularly to ask about the wait times and my family doctor has called the mammogram place directly to tell them I can’t wait.",
+      "url": "https://www.reddit.com/r/saskatchewan/comments/1jke659/comment/mjunwpd/",
+      "sourcePage": "https://www.reddit.com/r/saskatchewan/comments/1jke659/biopsy_and_mammogram_wait_times_in_sask/",
+      "date": "2025-03-26",
+      "dateLabel": "Thread dated March 26, 2025; exact comment day unverified",
+      "datePrecision": "parent-thread-day; comment-day-unverified",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. The page exposes only a relative comment age; the stored date is the parent thread date, not a verified comment date. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.",
+      "sourceRole": "firsthand",
+      "sourceKind": "Reddit — comment",
+      "statusContext": "Some accommodation reported; current status unknown",
+      "attributionKey": "reddit:sheweb",
+      "quoteWordCount": 25,
+      "checkedOn": "2026-11-25"
+    },
+    {
+      "existingId": "H020",
+      "platform": "Reddit",
+      "authorHandle": "u/Ok_Wealth2955",
+      "quote": "I asked to go to Moose Jaw for mammogram. It was more than a year wait in Regina and 6 weeks in Moose Jaw.",
+      "url": "https://www.reddit.com/r/saskatchewan/comments/1jke659/comment/mjuwn7o/",
+      "sourcePage": "https://www.reddit.com/r/saskatchewan/comments/1jke659/biopsy_and_mammogram_wait_times_in_sask/",
+      "date": "2025-03-26",
+      "dateLabel": "Thread dated March 26, 2025; exact comment day unverified",
+      "datePrecision": "parent-thread-day; comment-day-unverified",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. The page exposes only a relative comment age; the stored date is the parent thread date, not a verified comment date. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.",
+      "sourceRole": "firsthand",
+      "sourceKind": "Reddit — comment",
+      "statusContext": "Shorter appointment available in another city",
+      "attributionKey": "reddit:ok_wealth2955",
+      "quoteWordCount": 24,
+      "checkedOn": "2026-11-25"
+    },
+    {
+      "existingId": "H021",
+      "platform": "Reddit",
+      "authorHandle": "u/FrmBkr",
+      "quote": "When I called in mid-January there were no MJ appointments available to and they wouldn’t add me to any kind of waitlist.",
+      "url": "https://www.reddit.com/r/saskatchewan/comments/1jke659/comment/mjvm3fv/",
+      "sourcePage": "https://www.reddit.com/r/saskatchewan/comments/1jke659/biopsy_and_mammogram_wait_times_in_sask/",
+      "date": "2025-03-26",
+      "dateLabel": "Thread dated March 26, 2025; exact comment day unverified",
+      "datePrecision": "parent-thread-day; comment-day-unverified",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. The page exposes only a relative comment age; the stored date is the parent thread date, not a verified comment date. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.",
+      "sourceRole": "firsthand",
+      "sourceKind": "Reddit — comment",
+      "statusContext": "Cancellation appointment scheduled for April 9",
+      "attributionKey": "reddit:frmbkr",
+      "quoteWordCount": 22,
+      "checkedOn": "2026-11-25"
+    },
+    {
+      "existingId": "H022",
+      "platform": "Reddit",
+      "authorHandle": "u/YALL_IGNANT",
+      "quote": "and the receptionist at booking told me that takes 6-7 months to get in as semi-urgent, and that there is no such thing as a cancelation list",
+      "url": "https://www.reddit.com/r/saskatoon/comments/1m925f3/mri_wait_times/",
+      "sourcePage": "https://www.reddit.com/r/saskatoon/comments/1m925f3/mri_wait_times/",
+      "date": "2025-07-25",
+      "dateLabel": "2025-07-25 — publication day from search index",
+      "datePrecision": "day; indexed",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. Calendar date previously verified in the matching indexed post/comment. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.",
+      "sourceRole": "firsthand",
+      "sourceKind": "Reddit — original post",
+      "statusContext": "Unresolved at post; current status unknown",
+      "attributionKey": "reddit:yall_ignant",
+      "quoteWordCount": 27,
+      "checkedOn": "2026-11-25"
+    },
+    {
+      "existingId": "H023",
+      "platform": "Reddit",
+      "authorHandle": "u/MagicLottie",
+      "quote": "im just expected to wait for like a year",
+      "url": "https://www.reddit.com/r/saskatoon/comments/1m925f3/comment/n53pno3/",
+      "sourcePage": "https://www.reddit.com/r/saskatoon/comments/1m925f3/mri_wait_times/",
+      "date": "2025-07-25",
+      "dateLabel": "2025-07-25 — publication day from search index",
+      "datePrecision": "day; indexed",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. Calendar date previously verified in the matching indexed post/comment. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim.",
+      "sourceRole": "firsthand",
+      "sourceKind": "Reddit — comment",
+      "statusContext": "Unresolved at comment; current status unknown",
+      "attributionKey": "reddit:magiclottie",
+      "quoteWordCount": 9,
+      "checkedOn": "2026-11-25"
+    },
+    {
+      "existingId": "H024",
+      "platform": "Reddit",
+      "authorHandle": "u/Ok-Cantaloupe-2410",
+      "quote": "Just seems like an inefficient use of resources.. but I also don’t know the ins/outs.",
+      "url": "https://www.reddit.com/r/saskatoon/comments/1m925f3/comment/n57pfvy/",
+      "sourcePage": "https://www.reddit.com/r/saskatoon/comments/1m925f3/mri_wait_times/",
+      "date": "2025-07-26",
+      "dateLabel": "2025-07-26 — publication day from search index",
+      "datePrecision": "day; indexed",
+      "verification": "Public handle and exact excerpt read together on the full parent-thread page. Calendar date previously verified in the matching indexed post/comment. This verifies public attribution and wording, not the account holder’s identity or the underlying service claim. The linked comment is the author’s follow-up about booking efficiency. The parent thread also contains an earlier comment from the same account about obtaining a sooner scan. The quote is the author’s perception, not proof that scanner capacity was wasted.",
+      "sourceRole": "firsthand",
+      "sourceKind": "Reddit — comment",
+      "statusContext": "Earlier scan obtained after repeated calls",
+      "attributionKey": "reddit:ok-cantaloupe-2410",
+      "quoteWordCount": 15,
+      "checkedOn": "2026-11-25"
+    }
+  ],
+  "newRecords": [
+    {
+      "id": "HL01",
+      "platform": "LinkedIn",
+      "authorHandle": "Kyla Avis",
+      "quote": "This feels too little too late.",
+      "url": "https://www.linkedin.com/posts/liliana-canadic-a396b428_patients-first-health-plan-mar9-1pdf-activity-7437981051781746688-2hfH",
+      "sourcePage": "https://www.linkedin.com/posts/liliana-canadic-a396b428_patients-first-health-plan-mar9-1pdf-activity-7437981051781746688-2hfH",
+      "date": null,
+      "dateLabel": "5mo on a cached public page; exact comment date unverified",
+      "datePrecision": "relative-only",
+      "verification": "The visible LinkedIn comment names Kyla Avis and criticizes the timing of Saskatchewan nursing policy reforms. This is a direct public policy opinion, not a reported patient experience. No standalone comment permalink or exact calendar timestamp was exposed. Excluded from core dated counts.",
+      "sourceRole": "advocate",
+      "issue": "Timing of primary-care and nursing-scope reforms",
+      "summary": "Argues that nursing and team-based-care reforms were overdue.",
+      "attributionKey": "linkedin:kyla-avis",
+      "includedInUniqueCount": false,
+      "exclusionReason": "Exact comment date and standalone permalink unverified; supplementary advocacy signal only.",
+      "quoteWordCount": 6,
+      "checkedOn": "2026-11-25"
+    },
+    {
+      "id": "HL02",
+      "platform": "LinkedIn",
+      "authorHandle": "Leah Mitchell",
+      "quote": "I'm surprised to see one strategy missing: Any type English training",
+      "url": "https://www.linkedin.com/posts/liliana-canadic-a396b428_patients-first-health-plan-mar9-1pdf-activity-7437981051781746688-2hfH",
+      "sourcePage": "https://www.linkedin.com/posts/liliana-canadic-a396b428_patients-first-health-plan-mar9-1pdf-activity-7437981051781746688-2hfH",
+      "date": null,
+      "dateLabel": "5mo on a cached public page; exact comment date unverified",
+      "datePrecision": "relative-only",
+      "verification": "The visible LinkedIn comment names Leah Mitchell and critiques missing English training in Saskatchewan’s healthcare plan. This is a direct public policy opinion, not a reported patient experience. No standalone comment permalink or exact calendar timestamp was exposed. Excluded from core dated counts.",
+      "sourceRole": "advocate",
+      "issue": "Healthcare workforce training and retention",
+      "summary": "Argues that the plan omits industry-specific English training needed by newcomer healthcare workers.",
+      "attributionKey": "linkedin:leah-mitchell",
+      "includedInUniqueCount": false,
+      "exclusionReason": "Exact comment date and standalone permalink unverified; supplementary advocacy signal only.",
+      "quoteWordCount": 11,
+      "checkedOn": "2026-11-25"
+    }
+  ],
+  "coverage": [
+    {
+      "platform": "Reddit",
+      "method": "Opened the full public parent threads and read the displayed handles, posts and comments; matched comment permalinks exposed by Reddit.",
+      "result": "9 existing distinct public accounts enriched; all chosen excerpts are firsthand. They are accounts, not verified unique people. No votes, reactions, third-party family members or same-author cross-posts count as extra complainants.",
+      "dateLimits": "H019, H020 and H021 have a verified parent-thread date only. Their exact comment days remain unverified and must be displayed that way.",
+      "sourcePages": [
+        "https://www.reddit.com/r/saskatoon/comments/1o2i0c9/ruh_rant/",
+        "https://www.reddit.com/r/regina/comments/1mg1obv/our_healthcare_system_is_collapsing/",
+        "https://www.reddit.com/r/saskatchewan/comments/1jke659/biopsy_and_mammogram_wait_times_in_sask/",
+        "https://www.reddit.com/r/saskatoon/comments/1m925f3/mri_wait_times/"
+      ],
+      "context": "These threads also include favourable or faster-access experiences. The selected complaints do not represent every experience or a population prevalence estimate. Some complaints describe subsequently completed care.",
+      "accessLimits": "Full title-slug thread URLs were readable; some shortened URLs and direct-comment fetches failed. Exact wording was read from the parent thread."
+    },
+    {
+      "platform": "X / Twitter",
+      "method": "Public web-search index queries only; no authenticated or exhaustive platform search.",
+      "queries": [
+        "site:x.com Saskatchewan \"my\" \"healthcare\" \"2025\"",
+        "site:x.com \"Saskatchewan\" \"waiting\" \"doctor\" after:2024-11-25",
+        "site:x.com \"Saskatoon\" \"MRI\" \"wait\"",
+        "site:twitter.com \"Saskatchewan\" \"family doctor\" \"2025\""
+      ],
+      "result": "No eligible directly posted Saskatchewan health complaint with verifiable public author, text and date was found in these searches.",
+      "newCountedAccounts": 0,
+      "interpretation": "An evidence gap in this sample; does not mean that no complaints exist on X."
+    },
+    {
+      "platform": "LinkedIn",
+      "method": "Public web-search index queries and accessible public post/comment pages; no authenticated or exhaustive platform search.",
+      "queries": [
+        "site:linkedin.com/posts Saskatchewan \"wait\" \"hospital\"",
+        "site:linkedin.com/posts \"Saskatchewan\" \"healthcare\" \"frustrated\"",
+        "site:linkedin.com/posts \"Saskatoon\" \"hospital\" \"my\" \"wait\""
+      ],
+      "result": "Two directly visible Saskatchewan policy comments retained as supplementary advocate signals, excluded from dated unique counts because only cached relative timestamps were available. No additional verified firsthand patient complaint was counted.",
+      "newCountedAccounts": 0,
+      "supplementaryUncountedAccounts": 2,
+      "reviewedSource": "https://www.linkedin.com/posts/liliana-canadic-a396b428_patients-first-health-plan-mar9-1pdf-activity-7437981051781746688-2hfH",
+      "exclusions": [
+        {
+          "source": "https://www.linkedin.com/posts/liliana-canadic-a396b428_patients-first-health-plan-mar9-1pdf-activity-7437981051781746688-2hfH",
+          "reason": "Original Liliana Canadic post is supportive; Ontario items in the page’s More Relevant Posts section are outside Saskatchewan and excluded."
+        },
+        {
+          "source": "https://www.linkedin.com/posts/richard-dheilly-95719442a_humansbehindtheuniform-dheillyfirephotography-activity-7494542094326226944-QMrJ",
+          "reason": "Relays a message submitted anonymously by a medic; underlying complainant cannot be attributed or independently deduplicated, and exact date not verified."
+        },
+        {
+          "source": "https://www.linkedin.com/posts/brianna-solberg_watch-new-cfib-cma-report-finds-canadian-activity-7421915195385569280-bL56",
+          "reason": "Promotes report and media appearance; not a firsthand service-user complaint."
+        }
+      ],
+      "interpretation": "Supplementary advocates must not be presented as patients or proof of current service failure."
+    },
+    {
+      "platform": "Quora",
+      "method": "Public web-search index queries only.",
+      "queries": [
+        "site:quora.com Saskatchewan \"doctor\" \"wait\"",
+        "site:quora.com \"Saskatchewan\" \"healthcare\" \"2025\""
+      ],
+      "result": "Search tool reported quora.com blocked by robots.txt; no direct answer/page could be verified.",
+      "newCountedAccounts": 0,
+      "interpretation": "Platform unavailable to this review; not evidence of zero complaints."
+    },
+    {
+      "platform": "All",
+      "checkedOn": "2026-11-25",
+      "windowStart": "2024-11-25",
+      "windowEnd": "2026-11-25",
+      "method": "Targeted non-representative sample. Public account attribution is not real-person verification. Posts are historical self-reports, not validated findings.",
+      "quotePolicy": "Exact short contiguous excerpts. Each Reddit excerpt <=35 words, each LinkedIn excerpt <=20 words. Only 17 quoted words total across the shared LinkedIn page. Health condition details omitted from selected excerpts.",
+      "quotationBySourcePage": {
+        "https://www.reddit.com/r/saskatoon/comments/1o2i0c9/ruh_rant/": 12,
+        "https://www.reddit.com/r/regina/comments/1mg1obv/our_healthcare_system_is_collapsing/": 23,
+        "https://www.reddit.com/r/saskatchewan/comments/1jke659/biopsy_and_mammogram_wait_times_in_sask/": 91,
+        "https://www.reddit.com/r/saskatoon/comments/1m925f3/mri_wait_times/": 51,
+        "https://www.linkedin.com/posts/liliana-canadic-a396b428_patients-first-health-plan-mar9-1pdf-activity-7437981051781746688-2hfH": 17
+      }
+    }
+  ]
+}

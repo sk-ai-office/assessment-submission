@@ -1,0 +1,219 @@
+{
+  "records": [
+    {
+      "existingId": "OS01",
+      "platform": "Reddit",
+      "authorHandle": "u/Antifulsoul",
+      "quote": "Anyone else received abnormally high power bills over the last couple months?",
+      "url": "https://www.reddit.com/r/regina/comments/1h0omle/saskpower_bills/",
+      "sourcePage": "https://www.reddit.com/r/regina/comments/1h0omle/saskpower_bills/",
+      "date": "2024-11-26",
+      "dateLabel": "Nov 26, 2024",
+      "datePrecision": "day",
+      "verification": "Public handle and quoted text visible on the source page. Absolute publication date matched to the search-index discussion transcript. The complaint is self-reported, not an independently adjudicated finding.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS02",
+      "platform": "Reddit",
+      "authorHandle": "u/gusbmoizoos",
+      "quote": "we haven't changed our usage habits in the last 4 years but our equalized bills have gone up $60 per month in the last 24 months... can you explain that?",
+      "url": "https://www.reddit.com/r/regina/comments/1h0omle/comment/lz6jlgi/",
+      "sourcePage": "https://www.reddit.com/r/regina/comments/1h0omle/saskpower_bills/",
+      "date": "2024-11-27",
+      "dateLabel": "Nov 27, 2024",
+      "datePrecision": "day",
+      "verification": "Public handle and quoted text visible on the source page. Absolute publication date matched to the search-index discussion transcript. The complaint is self-reported, not an independently adjudicated finding. Comment permalink exposed by Reddit; parent page supplies the readable evidence.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS03",
+      "platform": "Reddit",
+      "authorHandle": "u/ceno_byte",
+      "quote": "Usage hasn’t changed in a year (well, it’s gone down a little actually) and bills tripled in the summer and doubled previous years this past fall.",
+      "url": "https://www.reddit.com/r/regina/comments/1h0omle/comment/lz64ccy/",
+      "sourcePage": "https://www.reddit.com/r/regina/comments/1h0omle/saskpower_bills/",
+      "date": "2024-11-27",
+      "dateLabel": "Nov 27, 2024",
+      "datePrecision": "day",
+      "verification": "Public handle and quoted text visible on the source page. Absolute publication date matched to the search-index discussion transcript. The complaint is self-reported, not an independently adjudicated finding. Comment permalink exposed by Reddit; parent page supplies the readable evidence.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS04",
+      "platform": "Reddit",
+      "authorHandle": "u/gda23",
+      "quote": "Our usage has otherwise been the same as always but our bills have steadily increased.",
+      "url": "https://www.reddit.com/r/regina/comments/1h0omle/comment/lz6u7hu/",
+      "sourcePage": "https://www.reddit.com/r/regina/comments/1h0omle/saskpower_bills/",
+      "date": "2024-11-27",
+      "dateLabel": "Nov 27, 2024",
+      "datePrecision": "day",
+      "verification": "Public handle and quoted text visible on the source page. Absolute publication date matched to the search-index discussion transcript. The complaint is self-reported, not an independently adjudicated finding. Comment permalink exposed by Reddit; parent page supplies the readable evidence.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS05",
+      "platform": "Reddit",
+      "authorHandle": "u/CheckCrafty7056",
+      "quote": "I’ve gotten no help or guidance from customer service",
+      "url": "https://www.reddit.com/r/regina/comments/1hvc894/saskpower_high_bill_help/",
+      "sourcePage": "https://www.reddit.com/r/regina/comments/1hvc894/saskpower_high_bill_help/",
+      "date": "2025-01-06",
+      "dateLabel": "Jan 6, 2025",
+      "datePrecision": "day",
+      "verification": "Public handle and quoted text visible on the source page. Absolute publication date matched to the search-index discussion transcript. The complaint is self-reported, not an independently adjudicated finding.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS06",
+      "platform": "Reddit",
+      "authorHandle": "u/PrincessLilybet",
+      "quote": "This just seems really fishy to me but SaskPower is refusing to even look into this.",
+      "url": "https://www.reddit.com/r/saskatoon/comments/1mbg1gt/did_anyone_elses_power_bill_go_up_by_double_after/",
+      "sourcePage": "https://www.reddit.com/r/saskatoon/comments/1mbg1gt/did_anyone_elses_power_bill_go_up_by_double_after/",
+      "date": "2025-07-28",
+      "dateLabel": "Jul 28, 2025",
+      "datePrecision": "day",
+      "verification": "Public handle and quoted text visible on the source page. Absolute publication date matched to the search-index discussion transcript. The complaint is self-reported, not an independently adjudicated finding.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS08",
+      "platform": "Reddit",
+      "authorHandle": "u/Schmancy-Cat",
+      "quote": "Can’t even call Sasktel to report the issue.",
+      "url": "https://www.reddit.com/r/saskatoon/comments/1mx7xz4/sasktel_down/",
+      "sourcePage": "https://www.reddit.com/r/saskatoon/comments/1mx7xz4/sasktel_down/",
+      "date": "2025-08-22",
+      "dateLabel": "Aug 22, 2025",
+      "datePrecision": "day",
+      "verification": "Public handle and quoted text visible on the source page. Absolute publication date matched to the search-index discussion transcript. The complaint is self-reported, not an independently adjudicated finding.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS09",
+      "platform": "Reddit",
+      "authorHandle": "u/tim-timsworld",
+      "quote": "Yup, no phone service this morning.",
+      "url": "https://www.reddit.com/r/saskatoon/comments/1mx7xz4/comment/na2w08s/",
+      "sourcePage": "https://www.reddit.com/r/saskatoon/comments/1mx7xz4/sasktel_down/",
+      "date": "2025-08-22",
+      "dateLabel": "Aug 22, 2025",
+      "datePrecision": "day",
+      "verification": "Public handle and quoted text visible on the source page. Absolute publication date matched to the search-index discussion transcript. The complaint is self-reported, not an independently adjudicated finding. Comment permalink exposed by Reddit; parent page supplies the readable evidence.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS10",
+      "platform": "Reddit",
+      "authorHandle": "u/FewPepper4901",
+      "quote": "the speed is only slightly faster, if not the same, as it was before I restored the speed.",
+      "url": "https://www.reddit.com/r/saskatchewan/comments/1mn77bq/sasktel_data_speed_restore_scam/",
+      "sourcePage": "https://www.reddit.com/r/saskatchewan/comments/1mn77bq/sasktel_data_speed_restore_scam/",
+      "date": "2025-08-11",
+      "dateLabel": "Aug 11, 2025",
+      "datePrecision": "day",
+      "verification": "Public handle and quoted text visible on the source page. Absolute publication date matched to the search-index discussion transcript. The complaint is self-reported, not an independently adjudicated finding.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS11",
+      "platform": "Reddit",
+      "authorHandle": "u/texxmix",
+      "quote": "When I called I just got told “we will look into it”. Never got a call back and it never worked.",
+      "url": "https://www.reddit.com/r/saskatchewan/comments/1mn77bq/comment/n87qowq/",
+      "sourcePage": "https://www.reddit.com/r/saskatchewan/comments/1mn77bq/sasktel_data_speed_restore_scam/",
+      "date": "2025-08-11",
+      "dateLabel": "Aug 11, 2025 (thread date)",
+      "datePrecision": "thread",
+      "verification": "Public handle and exact quote visible in the parent thread. Reddit exposes the comment permalink, but the comment-only page could not be fetched. Exact comment date unverified; thread date shown.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS12",
+      "platform": "App Store",
+      "authorHandle": "KrystalDawnStrong",
+      "quote": "each time is an error.",
+      "url": "https://apps.apple.com/ca/app/mysasktel/id628147431?platform=iphone&see-all=reviews",
+      "sourcePage": "https://apps.apple.com/ca/app/mysasktel/id628147431?platform=iphone&see-all=reviews",
+      "date": "2025-09-13",
+      "dateLabel": "Sep 13, 2025",
+      "datePrecision": "day",
+      "verification": "Public review name, exact quote and absolute review date visible on the App Store page. Duplicate rendering of the same review counted once. No individual-review permalink exposed.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS13",
+      "platform": "App Store",
+      "authorHandle": "Total Defiance",
+      "quote": "you’d think they could afford someone to build a better app.",
+      "url": "https://apps.apple.com/ca/app/mysasktel/id628147431?platform=iphone&see-all=reviews",
+      "sourcePage": "https://apps.apple.com/ca/app/mysasktel/id628147431?platform=iphone&see-all=reviews",
+      "date": "2025-08-19",
+      "dateLabel": "Aug 19, 2025",
+      "datePrecision": "day",
+      "verification": "Public review name, exact quote and absolute review date visible on the App Store page. Duplicate rendering of the same review counted once. No individual-review permalink exposed.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS14",
+      "platform": "Reddit",
+      "authorHandle": "u/Dear-Bullfrog680",
+      "quote": "I have done data top ups when the mysasktel app was several gb over what I had actually used.",
+      "url": "https://www.reddit.com/r/saskatchewan/comments/1mn77bq/comment/n82yve6/",
+      "sourcePage": "https://www.reddit.com/r/saskatchewan/comments/1mn77bq/sasktel_data_speed_restore_scam/",
+      "date": "2025-08-11",
+      "dateLabel": "Aug 11, 2025",
+      "datePrecision": "day",
+      "verification": "Public handle and quoted text visible on the source page. Absolute publication date matched to the search-index discussion transcript. The complaint is self-reported, not an independently adjudicated finding. Comment permalink exposed by Reddit; parent page supplies the readable evidence.",
+      "sourceRole": "firsthand"
+    },
+    {
+      "existingId": "OS17",
+      "platform": "Reddit",
+      "authorHandle": "u/No_Salary1561",
+      "quote": "half the time I have no idea where the actual construction zone begins or ends.",
+      "url": "https://www.reddit.com/r/saskatchewan/comments/1w1vfmb/highway_construction_signage/",
+      "sourcePage": "https://www.reddit.com/r/saskatchewan/comments/1w1vfmb/highway_construction_signage/",
+      "date": "2026-08-29",
+      "dateLabel": "August 2026 (approximate)",
+      "datePrecision": "month",
+      "verification": "Public handle and exact quote visible in the post. Indexed discussion dates establish August 2026; exact original-post day not independently verified.",
+      "sourceRole": "firsthand"
+    }
+  ],
+  "newRecords": [],
+  "coverage": [
+    {
+      "platform": "Reddit",
+      "status": "Verified direct complaints",
+      "detail": "Twelve existing public accounts have exact short excerpts and visible handles. Dates for two items remain approximate as labelled; several comment permalinks require opening the parent discussion."
+    },
+    {
+      "platform": "App Store",
+      "status": "Verified direct reviews",
+      "detail": "Two mySASKTEL reviewers have exact excerpts and explicit review dates. Combined quoted text from the shared page totals 16 words; reviewers are counted once each despite duplicate page rendering."
+    },
+    {
+      "platform": "X",
+      "status": "No verified direct post added",
+      "detail": "SaskPower billing and SaskTel service/outage searches found mirrored complaints, but an original post permalink and absolute date could not be verified. Mirror entries were excluded from counts."
+    },
+    {
+      "platform": "LinkedIn",
+      "status": "No verified direct complaint added in these sectors",
+      "detail": "Utility/telecom searches returned company promotions, staff profiles and news reposts rather than a verified first-person Saskatchewan service complaint. A health-policy advocacy lead was forwarded for separate review."
+    },
+    {
+      "platform": "Quora",
+      "status": "Access limited",
+      "detail": "A targeted Saskatchewan/SGI search returned a robots.txt access block. No Quora complaint was verified or counted."
+    },
+    {
+      "platform": "All",
+      "status": "Scope",
+      "detail": "Research refreshed November 25, 2026 for a rolling 24-month window. Existing records in this file all fall after November 25, 2024. This is a sample of direct public posts, not complete platform coverage."
+    }
+  ]
+}

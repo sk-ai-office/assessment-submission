@@ -1,0 +1,252 @@
+{
+  "Nom de l\u00e9tablissement": {
+    "/T": "Nom de l\u00e9tablissement",
+    "/FT": "/Tx",
+    "/TU": "Nom de l\u2019\u00e9tablissement"
+  },
+  "Date": {
+    "/T": "Date",
+    "/FT": "/Tx",
+    "/TU": "Date"
+  },
+  "2 l\u00e9gumes ou fruits  1 aliment": {
+    "/T": "2 l\u00e9gumes ou fruits  1 aliment",
+    "/FT": "/Btn",
+    "/TU": "2 l\u00e9gumes ou fruits + 1 aliment",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Lait": {
+    "/T": "Lait",
+    "/FT": "/Btn",
+    "/TU": "Lait",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Eau": {
+    "/T": "Eau",
+    "/FT": "/Btn",
+    "/TU": "Eau",
+    "/_States_": "['/Off', '/On']"
+  },
+  "LundiPetitd\u00e9jeuner 2 l\u00e9gumes ou fruits  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "LundiPetitd\u00e9jeuner 2 l\u00e9gumes ou fruits  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Lundi_Petit-d\u00e9jeuner 2 l\u00e9gumes ou fruits + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "MardiPetitd\u00e9jeuner 2 l\u00e9gumes ou fruits  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "MardiPetitd\u00e9jeuner 2 l\u00e9gumes ou fruits  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Mardi_Petit-d\u00e9jeuner 2 l\u00e9gumes ou fruits + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "MercrediPetitd\u00e9jeuner 2 l\u00e9gumes ou fruits  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "MercrediPetitd\u00e9jeuner 2 l\u00e9gumes ou fruits  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Mercredi_Petit-d\u00e9jeuner 2 l\u00e9gumes ou fruits + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "JeudiPetitd\u00e9jeuner 2 l\u00e9gumes ou fruits  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "JeudiPetitd\u00e9jeuner 2 l\u00e9gumes ou fruits  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Jeudi_Petit-d\u00e9jeuner 2 l\u00e9gumes ou fruits + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "VendrediPetitd\u00e9jeuner 2 l\u00e9gumes ou fruits  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "VendrediPetitd\u00e9jeuner 2 l\u00e9gumes ou fruits  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Vendredi_Petit-d\u00e9jeuner 2 l\u00e9gumes ou fruits + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier": {
+    "/T": "1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier",
+    "/FT": "/Btn",
+    "/TU": "1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Lait_2": {
+    "/T": "Lait_2",
+    "/FT": "/Btn",
+    "/TU": "Lait",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Eau_2": {
+    "/T": "Eau_2",
+    "/FT": "/Btn",
+    "/TU": "Eau",
+    "/_States_": "['/Off', '/On']"
+  },
+  "LundiCollation du matin 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "LundiCollation du matin 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Lundi_Collation du matin 1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier; OU 1 l\u00e9gume ou fruit + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "MardiCollation du matin 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "MardiCollation du matin 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Mardi_Collation du matin 1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier; OU 1 l\u00e9gume ou fruit + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "MercrediCollation du matin 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "MercrediCollation du matin 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Mercredi_Collation du matin 1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier; OU 1 l\u00e9gume ou fruit + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "JeudiCollation du matin 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "JeudiCollation du matin 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Jeudi_Collation du matin 1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier; OU 1 l\u00e9gume ou fruit + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "VendrediCollation du matin 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "VendrediCollation du matin 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Vendredi_Collation du matin 1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier; OU 1 l\u00e9gume ou fruit + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier": {
+    "/T": "1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier",
+    "/FT": "/Btn",
+    "/TU": "1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Lait_3": {
+    "/T": "Lait_3",
+    "/FT": "/Btn",
+    "/TU": "Lait",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Eau_3": {
+    "/T": "Eau_3",
+    "/FT": "/Btn",
+    "/TU": "Eau",
+    "/_States_": "['/Off', '/On']"
+  },
+  "LundiD\u00eener 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "LundiD\u00eener 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Lundi_D\u00eener 1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9; OU 2 l\u00e9gumes + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "MardiD\u00eener 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "MardiD\u00eener 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Mardi_D\u00eener 1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9; OU 2 l\u00e9gumes + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "MercrediD\u00eener 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "MercrediD\u00eener 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Mercredi_D\u00eener 1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9; OU 2 l\u00e9gumes + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "JeudiD\u00eener 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "JeudiD\u00eener 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Jeudi_D\u00eener 1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9; OU 2 l\u00e9gumes + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "VendrediD\u00eener 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "VendrediD\u00eener 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Vendredi_D\u00eener 1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9; OU 2 l\u00e9gumes + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier_2": {
+    "/T": "1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier_2",
+    "/FT": "/Btn",
+    "/TU": "1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Lait_4": {
+    "/T": "Lait_4",
+    "/FT": "/Btn",
+    "/TU": "Lait",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Eau_4": {
+    "/T": "Eau_4",
+    "/FT": "/Btn",
+    "/TU": "Eau",
+    "/_States_": "['/Off', '/On']"
+  },
+  "LundiCollation de lapr\u00e8smidi 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "LundiCollation de lapr\u00e8smidi 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Lundi_Collation de l\u2019apr\u00e8s-midi 1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier; OU 1 l\u00e9gume ou fruit + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "MardiCollation de lapr\u00e8smidi 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "MardiCollation de lapr\u00e8smidi 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Mardi_Collation de l\u2019apr\u00e8s-midi 1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier; OU 1 l\u00e9gume ou fruit + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "MercrediCollation de lapr\u00e8smidi 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "MercrediCollation de lapr\u00e8smidi 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Mercredi_Collation de l\u2019apr\u00e8s-midi 1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier; OU 1 l\u00e9gume ou fruit + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "JeudiCollation de lapr\u00e8smidi 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "JeudiCollation de lapr\u00e8smidi 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Jeudi_Collation de l\u2019apr\u00e8s-midi 1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier; OU 1 l\u00e9gume ou fruit + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "VendrediCollation de lapr\u00e8smidi 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "VendrediCollation de lapr\u00e8smidi 1 l\u00e9gume ou fruit  1 aliment c\u00e9r\u00e9alier OU 1 l\u00e9gume ou fruit  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Vendredi_Collation de l\u2019apr\u00e8s-midi 1 l\u00e9gume ou fruit + 1 aliment c\u00e9r\u00e9alier; OU 1 l\u00e9gume ou fruit + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier_2": {
+    "/T": "1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier_2",
+    "/FT": "/Btn",
+    "/TU": "1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Lait_5": {
+    "/T": "Lait_5",
+    "/FT": "/Btn",
+    "/TU": "Lait",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Eau_5": {
+    "/T": "Eau_5",
+    "/FT": "/Btn",
+    "/TU": "Eau",
+    "/_States_": "['/Off', '/On']"
+  },
+  "LundiSouper 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "LundiSouper 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Lundi_Souper 1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9; OU 2 l\u00e9gumes + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "MardiSouper 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "MardiSouper 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Mardi_Souper 1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9; OU 2 l\u00e9gumes + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "MercrediSouper 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "MercrediSouper 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Mercredi_Souper 1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9; OU 2 l\u00e9gumes + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "JeudiSouper 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "JeudiSouper 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Jeudi_Souper 1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9; OU 2 l\u00e9gumes + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  },
+  "VendrediSouper 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau": {
+    "/T": "VendrediSouper 1 l\u00e9gume  1 fruit  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 OU 2 l\u00e9gumes  1 aliment c\u00e9r\u00e9alier  1 aliment prot\u00e9in\u00e9 Lait Eau",
+    "/FT": "/Tx",
+    "/TU": "Vendredi_Souper 1 l\u00e9gume + 1 fruit + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9; OU 2 l\u00e9gumes + 1 aliment c\u00e9r\u00e9alier + 1 aliment prot\u00e9in\u00e9 *Lait Eau",
+    "/Ff": "4096"
+  }
+}

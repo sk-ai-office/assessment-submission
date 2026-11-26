@@ -1,0 +1,895 @@
+{
+  "Home Provider Name": {
+    "/FT": "/Tx",
+    "/TU": "Home Provider Name"
+  },
+  "My furnishings are sturdy in good working conditions and free of hazards I have appropriate fall zones": {
+    "/FT": "/Tx",
+    "/TU": "_My furnishings are sturdy, in good working conditions and free of hazards. I have appropriate fall zones."
+  },
+  "I have enough equipment and materials for the number of children in attendance": {
+    "/FT": "/Tx",
+    "/TU": "_I have enough equipment and materials for the number of children in attendance."
+  },
+  "I have developmentally appropriate equipment and materials_2": {
+    "/FT": "/Tx",
+    "/TU": "_I have developmentally appropriate equipment and materials."
+  },
+  "My equipment and materials are maintained in a sanitary condition cleaned regularly": {
+    "/FT": "/Tx",
+    "/TU": "_My equipment and materials are maintained in a sanitary condition (cleaned regularly)."
+  },
+  "I make sure hygienic procedures are followed by everyone in the child care home hand washing diapering etc": {
+    "/FT": "/Tx",
+    "/TU": "_I make sure hygienic procedures are followed by everyone in the child care home (hand washing, diapering, etc.)."
+  },
+  "CommentsMaintenance and repairs are not carried out in any area of the home while child care services are provided": {
+    "/FT": "/Tx",
+    "/TU": "Comments_Maintenance and repairs are not carried out in any area of the home while child care services are provided."
+  },
+  "CommentsI provide adequate safe and comfortable usable floor space to allow for various activities": {
+    "/FT": "/Tx",
+    "/TU": "Comments_I provide adequate, safe and comfortable usable floor space to allow for various activities."
+  },
+  "CommentsAll the licensed usable area is available and used during child care hours": {
+    "/FT": "/Tx",
+    "/TU": "Comments_All the licensed, usable area is available and used during child care hours."
+  },
+  "CommentsI have not added large furniture or equipment to the licensed space": {
+    "/FT": "/Tx",
+    "/TU": "Comments_I have not added large furniture or equipment to the licensed space."
+  },
+  "CommentsMy outdoor play space is clean safe and meets CSA standards with a fall zone as applicable": {
+    "/FT": "/Tx",
+    "/TU": "Comments_My outdoor play space is clean, safe and meets CSA standards with a fall zone, as applicable."
+  },
+  "My menus are prepared in advance and posted for parents": {
+    "/FT": "/Tx",
+    "/TU": "My menus are prepared in advance and posted for parents."
+  },
+  "I provide meals and snacks at threehour intervals or less": {
+    "/FT": "/Tx",
+    "/TU": "I provide meals and snacks at three-hour intervals (or less)."
+  },
+  "Changes to the menu are posted for families": {
+    "/FT": "/Tx",
+    "/TU": "Changes to the menu are posted for families."
+  },
+  "I handle prepare store and serve food safely and hygienically": {
+    "/FT": "/Tx",
+    "/TU": "I handle, prepare, store and serve food safely and hygienically."
+  },
+  "CommentsI take emergency information cards and first aid supplies when I leave the house go outside": {
+    "/FT": "/Tx",
+    "/TU": "Comments_I take emergency information cards and first aid supplies when I leave the house (go outside)."
+  },
+  "CommentsI report and document all injuries and unusual occurrences and make changes to prevent them from happening again": {
+    "/FT": "/Tx",
+    "/TU": "Comments_I report and document all injuries and unusual occurrences and make changes to prevent them from happening again."
+  },
+  "CommentsI never leave volunteers including other adults in the home alone with the children": {
+    "/FT": "/Tx",
+    "/TU": "Comments_I never leave volunteers, including other adults in the home, alone with the children."
+  },
+  "CommentsI make sure children are supervised at all times": {
+    "/FT": "/Tx",
+    "/TU": "Comments_I make sure children are supervised at all times."
+  },
+  "CommentsThe social environment of my home promotes the safety and wellbeing of the children": {
+    "/FT": "/Tx",
+    "/TU": "Comments_The social environment of my home promotes the safety and well-being of the children."
+  },
+  "undefined_14": {
+    "/FT": "/Tx",
+    "/TU": "undefined",
+    "/Ff": "4096"
+  },
+  "I keep childrens and parents information confidential": {
+    "/FT": "/Tx",
+    "/TU": "_I keep children\u2019s and parents\u2019 information confidential."
+  },
+  "I lock confidential files": {
+    "/FT": "/Tx",
+    "/TU": "_I lock confidential files."
+  },
+  "undefined_18": {
+    "/FT": "/Tx",
+    "/TU": "undefined"
+  },
+  "undefined_19": {
+    "/FT": "/Tx",
+    "/TU": "undefined",
+    "/Ff": "4096"
+  },
+  "undefined_20": {
+    "/FT": "/Tx",
+    "/TU": "undefined",
+    "/Ff": "4096"
+  },
+  "Alternates": {
+    "/FT": "/Tx",
+    "/TU": "Alternates"
+  },
+  "undefined_22": {
+    "/FT": "/Tx",
+    "/TU": "undefined",
+    "/Ff": "4096"
+  },
+  "undefined_23": {
+    "/FT": "/Tx",
+    "/TU": "undefined"
+  },
+  "undefined_24": {
+    "/FT": "/Tx",
+    "/TU": "undefined"
+  },
+  "For Annual Review Only My assistants participated in 6 hours of professional development in the past licensing year Provide specifics at the end of the checklist_2": {
+    "/FT": "/Tx",
+    "/TU": "_For Annual Review Only: My assistant(s) participated in 6+ hours of professional development in the past licensing year. Provide specifics at the end of the checklist.",
+    "/Ff": "4096"
+  },
+  "My assistants staff records are complete": {
+    "/FT": "/Tx",
+    "/TU": "_My assistant\u2019s staff records are complete."
+  },
+  "TitleRow1": {
+    "/FT": "/Tx",
+    "/TU": "Title_Row_1"
+  },
+  "DateRow1": {
+    "/FT": "/Tx",
+    "/TU": "Date_Row_1"
+  },
+  "DurationRow1": {
+    "/FT": "/Tx",
+    "/TU": "Duration_Row_1"
+  },
+  "Provider xRow1": {
+    "/FT": "/Tx",
+    "/TU": "Provider (x)_Row_1"
+  },
+  "Assistant nameRow1": {
+    "/FT": "/Tx",
+    "/TU": "Assistant (name)_Row_1"
+  },
+  "TitleRow2": {
+    "/FT": "/Tx",
+    "/TU": "Title_Row_2"
+  },
+  "DateRow2": {
+    "/FT": "/Tx",
+    "/TU": "Date_Row_2"
+  },
+  "DurationRow2": {
+    "/FT": "/Tx",
+    "/TU": "Duration_Row_2"
+  },
+  "Provider xRow2": {
+    "/FT": "/Tx",
+    "/TU": "Provider (x)_Row_2"
+  },
+  "Assistant nameRow2": {
+    "/FT": "/Tx",
+    "/TU": "Assistant (name)_Row_2"
+  },
+  "TitleRow3": {
+    "/FT": "/Tx",
+    "/TU": "Title_Row_3"
+  },
+  "DateRow3": {
+    "/FT": "/Tx",
+    "/TU": "Date_Row_3"
+  },
+  "DurationRow3": {
+    "/FT": "/Tx",
+    "/TU": "Duration_Row_3"
+  },
+  "Provider xRow3": {
+    "/FT": "/Tx",
+    "/TU": "Provider (x)_Row_3"
+  },
+  "Assistant nameRow3": {
+    "/FT": "/Tx",
+    "/TU": "Assistant (name)_Row_3"
+  },
+  "TitleRow4": {
+    "/FT": "/Tx",
+    "/TU": "Title_Row_4"
+  },
+  "DateRow4": {
+    "/FT": "/Tx",
+    "/TU": "Date_Row_4"
+  },
+  "DurationRow4": {
+    "/FT": "/Tx",
+    "/TU": "Duration_Row_4"
+  },
+  "Provider xRow4": {
+    "/FT": "/Tx",
+    "/TU": "Provider (x)_Row_4"
+  },
+  "Assistant nameRow4": {
+    "/FT": "/Tx",
+    "/TU": "Assistant (name)_Row_4"
+  },
+  "TitleRow5": {
+    "/FT": "/Tx",
+    "/TU": "Title_Row_5"
+  },
+  "DateRow5": {
+    "/FT": "/Tx",
+    "/TU": "Date_Row_5"
+  },
+  "DurationRow5": {
+    "/FT": "/Tx",
+    "/TU": "Duration_Row_5"
+  },
+  "Provider xRow5": {
+    "/FT": "/Tx",
+    "/TU": "Provider (x)_Row_5"
+  },
+  "Assistant nameRow5": {
+    "/FT": "/Tx",
+    "/TU": "Assistant (name)_Row_5"
+  },
+  "Licensee signature": {
+    "/FT": "/Tx",
+    "/TU": "Licensee signature:"
+  },
+  "Date": {
+    "/FT": "/Tx",
+    "/TU": "Date:"
+  },
+  "Check Box2": {
+    "/FT": "/Btn"
+  },
+  "Check Box3": {
+    "/FT": "/Btn"
+  },
+  "Check Box4": {
+    "/FT": "/Btn"
+  },
+  "Check Box5": {
+    "/FT": "/Btn"
+  },
+  "Check Box6": {
+    "/FT": "/Btn"
+  },
+  "Check Box7": {
+    "/FT": "/Btn"
+  },
+  "Check Box8": {
+    "/FT": "/Btn"
+  },
+  "Check Box9": {
+    "/FT": "/Btn"
+  },
+  "Check Box10": {
+    "/FT": "/Btn"
+  },
+  "Check Box11": {
+    "/FT": "/Btn"
+  },
+  "Check Box12": {
+    "/FT": "/Btn"
+  },
+  "Check Box13": {
+    "/FT": "/Btn"
+  },
+  "Check Box14": {
+    "/FT": "/Btn"
+  },
+  "Check Box15": {
+    "/FT": "/Btn"
+  },
+  "Check Box16": {
+    "/FT": "/Btn"
+  },
+  "Check Box17": {
+    "/FT": "/Btn"
+  },
+  "Check Box18": {
+    "/FT": "/Btn"
+  },
+  "Check Box19": {
+    "/FT": "/Btn"
+  },
+  "Check Box20": {
+    "/FT": "/Btn"
+  },
+  "Check Box21": {
+    "/FT": "/Btn"
+  },
+  "Check Box22": {
+    "/FT": "/Btn"
+  },
+  "Check Box23": {
+    "/FT": "/Btn"
+  },
+  "Check Box24": {
+    "/FT": "/Btn"
+  },
+  "Text25": {
+    "/FT": "/Tx"
+  },
+  "Text26": {
+    "/FT": "/Tx"
+  },
+  "Text27": {
+    "/FT": "/Tx"
+  },
+  "Text28": {
+    "/FT": "/Tx"
+  },
+  "Text29": {
+    "/FT": "/Tx"
+  },
+  "Text30": {
+    "/FT": "/Tx"
+  },
+  "Text31": {
+    "/FT": "/Tx"
+  },
+  "Text32": {
+    "/FT": "/Tx"
+  },
+  "Text33": {
+    "/FT": "/Tx"
+  },
+  "Check Box34": {
+    "/FT": "/Btn"
+  },
+  "Check Box35": {
+    "/FT": "/Btn"
+  },
+  "Check Box36": {
+    "/FT": "/Btn"
+  },
+  "Check Box37": {
+    "/FT": "/Btn"
+  },
+  "Check Box38": {
+    "/FT": "/Btn"
+  },
+  "Check Box39": {
+    "/FT": "/Btn"
+  },
+  "Check Box40": {
+    "/FT": "/Btn"
+  },
+  "Check Box41": {
+    "/FT": "/Btn"
+  },
+  "Check Box42": {
+    "/FT": "/Btn"
+  },
+  "Check Box43": {
+    "/FT": "/Btn"
+  },
+  "Check Box44": {
+    "/FT": "/Btn"
+  },
+  "Check Box45": {
+    "/FT": "/Btn"
+  },
+  "Check Box46": {
+    "/FT": "/Btn"
+  },
+  "Check Box47": {
+    "/FT": "/Btn"
+  },
+  "Check Box48": {
+    "/FT": "/Btn"
+  },
+  "Check Box49": {
+    "/FT": "/Btn"
+  },
+  "Check Box50": {
+    "/FT": "/Btn"
+  },
+  "Check Box51": {
+    "/FT": "/Btn"
+  },
+  "My meals and snacks meet the nutritional needs of children": {
+    "/FT": "/Tx",
+    "/TU": "My meals and snacks meet the nutritional needs of children."
+  },
+  "Text52": {
+    "/FT": "/Tx"
+  },
+  "Text53": {
+    "/FT": "/Tx"
+  },
+  "Text54": {
+    "/FT": "/Tx"
+  },
+  "Text55": {
+    "/FT": "/Tx"
+  },
+  "Text56": {
+    "/FT": "/Tx"
+  },
+  "Text57": {
+    "/FT": "/Tx"
+  },
+  "Text59": {
+    "/FT": "/Tx"
+  },
+  "Text60": {
+    "/FT": "/Tx"
+  },
+  "Text61": {
+    "/FT": "/Tx"
+  },
+  "Text62": {
+    "/FT": "/Tx"
+  },
+  "Text63": {
+    "/FT": "/Tx"
+  },
+  "Text64": {
+    "/FT": "/Tx"
+  },
+  "Text65": {
+    "/FT": "/Tx"
+  },
+  "Text66": {
+    "/FT": "/Tx"
+  },
+  "Check Box67": {
+    "/FT": "/Btn"
+  },
+  "Check Box68": {
+    "/FT": "/Btn"
+  },
+  "Check Box69": {
+    "/FT": "/Btn"
+  },
+  "Check Box70": {
+    "/FT": "/Btn"
+  },
+  "Check Box71": {
+    "/FT": "/Btn"
+  },
+  "Check Box72": {
+    "/FT": "/Btn"
+  },
+  "Check Box73": {
+    "/FT": "/Btn"
+  },
+  "Check Box74": {
+    "/FT": "/Btn"
+  },
+  "Check Box75": {
+    "/FT": "/Btn"
+  },
+  "Check Box76": {
+    "/FT": "/Btn"
+  },
+  "Check Box77": {
+    "/FT": "/Btn"
+  },
+  "Check Box78": {
+    "/FT": "/Btn"
+  },
+  "Check Box79": {
+    "/FT": "/Btn"
+  },
+  "Check Box80": {
+    "/FT": "/Btn"
+  },
+  "Check Box81": {
+    "/FT": "/Btn"
+  },
+  "Check Box82": {
+    "/FT": "/Btn"
+  },
+  "Check Box83": {
+    "/FT": "/Btn"
+  },
+  "Check Box84": {
+    "/FT": "/Btn"
+  },
+  "Check Box85": {
+    "/FT": "/Btn"
+  },
+  "Check Box86": {
+    "/FT": "/Btn"
+  },
+  "Check Box87": {
+    "/FT": "/Btn"
+  },
+  "Check Box88": {
+    "/FT": "/Btn"
+  },
+  "Check Box89": {
+    "/FT": "/Btn"
+  },
+  "Check Box90": {
+    "/FT": "/Btn"
+  },
+  "Check Box91": {
+    "/FT": "/Btn"
+  },
+  "Check Box92": {
+    "/FT": "/Btn"
+  },
+  "Check Box93": {
+    "/FT": "/Btn"
+  },
+  "Check Box94": {
+    "/FT": "/Btn"
+  },
+  "Check Box95": {
+    "/FT": "/Btn"
+  },
+  "Check Box96": {
+    "/FT": "/Btn"
+  },
+  "Check Box97": {
+    "/FT": "/Btn"
+  },
+  "Check Box98": {
+    "/FT": "/Btn"
+  },
+  "Check Box99": {
+    "/FT": "/Btn"
+  },
+  "Check Box100": {
+    "/FT": "/Btn"
+  },
+  "Check Box101": {
+    "/FT": "/Btn"
+  },
+  "Check Box102": {
+    "/FT": "/Btn"
+  },
+  "Check Box103": {
+    "/FT": "/Btn"
+  },
+  "Check Box104": {
+    "/FT": "/Btn"
+  },
+  "Check Box105": {
+    "/FT": "/Btn"
+  },
+  "Check Box106": {
+    "/FT": "/Btn"
+  },
+  "Check Box107": {
+    "/FT": "/Btn"
+  },
+  "Check Box108": {
+    "/FT": "/Btn"
+  },
+  "Check Box109": {
+    "/FT": "/Btn"
+  },
+  "Check Box110": {
+    "/FT": "/Btn"
+  },
+  "Check Box111": {
+    "/FT": "/Btn"
+  },
+  "Check Box112": {
+    "/FT": "/Btn"
+  },
+  "Check Box113": {
+    "/FT": "/Btn"
+  },
+  "Check Box114": {
+    "/FT": "/Btn"
+  },
+  "Check Box115": {
+    "/FT": "/Btn"
+  },
+  "Check Box116": {
+    "/FT": "/Btn"
+  },
+  "Check Box117": {
+    "/FT": "/Btn"
+  },
+  "Check Box118": {
+    "/FT": "/Btn"
+  },
+  "Check Box119": {
+    "/FT": "/Btn"
+  },
+  "Check Box120": {
+    "/FT": "/Btn"
+  },
+  "Check Box121": {
+    "/FT": "/Btn"
+  },
+  "Check Box122": {
+    "/FT": "/Btn"
+  },
+  "Check Box123": {
+    "/FT": "/Btn"
+  },
+  "Check Box124": {
+    "/FT": "/Btn"
+  },
+  "Check Box125": {
+    "/FT": "/Btn"
+  },
+  "Check Box126": {
+    "/FT": "/Btn"
+  },
+  "Check Box127": {
+    "/FT": "/Btn"
+  },
+  "Check Box128": {
+    "/FT": "/Btn"
+  },
+  "Check Box129": {
+    "/FT": "/Btn"
+  },
+  "Check Box130": {
+    "/FT": "/Btn"
+  },
+  "Check Box131": {
+    "/FT": "/Btn"
+  },
+  "Check Box132": {
+    "/FT": "/Btn"
+  },
+  "Check Box133": {
+    "/FT": "/Btn"
+  },
+  "Check Box134": {
+    "/FT": "/Btn"
+  },
+  "Check Box135": {
+    "/FT": "/Btn"
+  },
+  "Check Box136": {
+    "/FT": "/Btn"
+  },
+  "Check Box137": {
+    "/FT": "/Btn"
+  },
+  "Check Box138": {
+    "/FT": "/Btn"
+  },
+  "Check Box139": {
+    "/FT": "/Btn"
+  },
+  "Check Box140": {
+    "/FT": "/Btn"
+  },
+  "Check Box141": {
+    "/FT": "/Btn"
+  },
+  "Check Box142": {
+    "/FT": "/Btn"
+  },
+  "Text143": {
+    "/FT": "/Tx"
+  },
+  "Text144": {
+    "/FT": "/Tx"
+  },
+  "Text145": {
+    "/FT": "/Tx"
+  },
+  "Text146": {
+    "/FT": "/Tx"
+  },
+  "Text147": {
+    "/FT": "/Tx"
+  },
+  "Check Box148": {
+    "/FT": "/Btn"
+  },
+  "Check Box149": {
+    "/FT": "/Btn"
+  },
+  "Check Box150": {
+    "/FT": "/Btn"
+  },
+  "Check Box151": {
+    "/FT": "/Btn"
+  },
+  "Check Box152": {
+    "/FT": "/Btn"
+  },
+  "Check Box153": {
+    "/FT": "/Btn"
+  },
+  "Check Box154": {
+    "/FT": "/Btn"
+  },
+  "Check Box155": {
+    "/FT": "/Btn"
+  },
+  "Check Box156": {
+    "/FT": "/Btn"
+  },
+  "Check Box157": {
+    "/FT": "/Btn"
+  },
+  "Check Box158": {
+    "/FT": "/Btn"
+  },
+  "Check Box159": {
+    "/FT": "/Btn"
+  },
+  "Check Box160": {
+    "/FT": "/Btn"
+  },
+  "Check Box161": {
+    "/FT": "/Btn"
+  },
+  "Check Box162": {
+    "/FT": "/Btn"
+  },
+  "Check Box163": {
+    "/FT": "/Btn"
+  },
+  "Check Box164": {
+    "/FT": "/Btn"
+  },
+  "Check Box165": {
+    "/FT": "/Btn"
+  },
+  "Check Box166": {
+    "/FT": "/Btn"
+  },
+  "Check Box167": {
+    "/FT": "/Btn"
+  },
+  "Check Box168": {
+    "/FT": "/Btn"
+  },
+  "Check Box169": {
+    "/FT": "/Btn"
+  },
+  "Check Box170": {
+    "/FT": "/Btn"
+  },
+  "Check Box171": {
+    "/FT": "/Btn"
+  },
+  "Check Box172": {
+    "/FT": "/Btn"
+  },
+  "Check Box173": {
+    "/FT": "/Btn"
+  },
+  "Check Box174": {
+    "/FT": "/Btn"
+  },
+  "Check Box175": {
+    "/FT": "/Btn"
+  },
+  "Check Box176": {
+    "/FT": "/Btn"
+  },
+  "Check Box177": {
+    "/FT": "/Btn"
+  },
+  "Check Box178": {
+    "/FT": "/Btn"
+  },
+  "Check Box179": {
+    "/FT": "/Btn"
+  },
+  "Check Box180": {
+    "/FT": "/Btn"
+  },
+  "Check Box181": {
+    "/FT": "/Btn"
+  },
+  "Check Box182": {
+    "/FT": "/Btn"
+  },
+  "Check Box183": {
+    "/FT": "/Btn"
+  },
+  "Check Box184": {
+    "/FT": "/Btn"
+  },
+  "Check Box185": {
+    "/FT": "/Btn"
+  },
+  "Check Box186": {
+    "/FT": "/Btn"
+  },
+  "Check Box187": {
+    "/FT": "/Btn"
+  },
+  "Check Box188": {
+    "/FT": "/Btn"
+  },
+  "Check Box189": {
+    "/FT": "/Btn"
+  },
+  "Check Box190": {
+    "/FT": "/Btn"
+  },
+  "Check Box191": {
+    "/FT": "/Btn"
+  },
+  "Check Box192": {
+    "/FT": "/Btn"
+  },
+  "Check Box193": {
+    "/FT": "/Btn"
+  },
+  "Check Box194": {
+    "/FT": "/Btn"
+  },
+  "Check Box195": {
+    "/FT": "/Btn"
+  },
+  "Check Box196": {
+    "/FT": "/Btn"
+  },
+  "Check Box197": {
+    "/FT": "/Btn"
+  },
+  "Check Box198": {
+    "/FT": "/Btn"
+  },
+  "Check Box199": {
+    "/FT": "/Btn"
+  },
+  "Check Box200": {
+    "/FT": "/Btn"
+  },
+  "Check Box201": {
+    "/FT": "/Btn"
+  },
+  "Check Box202": {
+    "/FT": "/Btn"
+  },
+  "Check Box203": {
+    "/FT": "/Btn"
+  },
+  "Check Box204": {
+    "/FT": "/Btn"
+  },
+  "Check Box205": {
+    "/FT": "/Btn"
+  },
+  "Check Box206": {
+    "/FT": "/Btn"
+  },
+  "Check Box207": {
+    "/FT": "/Btn"
+  },
+  "Check Box208": {
+    "/FT": "/Btn"
+  },
+  "Check Box209": {
+    "/FT": "/Btn"
+  },
+  "Check Box210": {
+    "/FT": "/Btn"
+  },
+  "Check Box211": {
+    "/FT": "/Btn"
+  },
+  "Check Box212": {
+    "/FT": "/Btn"
+  },
+  "Check Box213": {
+    "/FT": "/Btn"
+  },
+  "Check Box214": {
+    "/FT": "/Btn"
+  },
+  "Check Box215": {
+    "/FT": "/Btn"
+  },
+  "Check Box216": {
+    "/FT": "/Btn"
+  },
+  "Text217": {
+    "/FT": "/Tx"
+  },
+  "Text218": {
+    "/FT": "/Tx"
+  }
+}

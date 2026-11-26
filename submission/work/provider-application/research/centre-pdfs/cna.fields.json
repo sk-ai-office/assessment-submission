@@ -1,0 +1,334 @@
+{
+  "Date daymonthyear": {
+    "/T": "Date daymonthyear",
+    "/FT": "/Tx",
+    "/TU": "Date: (day/month/year)"
+  },
+  "Name of organization": {
+    "/T": "Name of organization",
+    "/FT": "/Tx",
+    "/TU": "Name of organization:"
+  },
+  "Incorporated entitys name if different from above": {
+    "/T": "Incorporated entitys name if different from above",
+    "/FT": "/Tx",
+    "/TU": "Incorporated entity\u2019s name (if different from above):"
+  },
+  "Have you completed a Survey of Need for Child Care Services This is recommended": {
+    "/T": "Have you completed a Survey of Need for Child Care Services This is recommended",
+    "/FT": "/Btn",
+    "/TU": "Have you completed a Survey of Need for Child Care Services? (This is recommended",
+    "/Ff": "49152",
+    "/Kids": "[IndirectObject(85, 0, 4609047776), IndirectObject(86, 0, 4609047776)]",
+    "/_States_": "['/Yes', '/No']"
+  },
+  "Name": {
+    "/T": "Name",
+    "/FT": "/Tx",
+    "/TU": "Name"
+  },
+  "Role in organization": {
+    "/T": "Role in organization",
+    "/FT": "/Tx",
+    "/TU": "Role in organization"
+  },
+  "Phone number": {
+    "/T": "Phone number",
+    "/FT": "/Tx",
+    "/TU": "Phone number"
+  },
+  "Email": {
+    "/T": "Email",
+    "/FT": "/Tx",
+    "/TU": "Email"
+  },
+  "Mailing address": {
+    "/T": "Mailing address",
+    "/FT": "/Tx",
+    "/TU": "Mailing address"
+  },
+  "CityTown": {
+    "/T": "CityTown",
+    "/FT": "/Tx",
+    "/TU": "City/Town"
+  },
+  "Postal Code": {
+    "/T": "Postal Code",
+    "/FT": "/Tx",
+    "/TU": "Postal Code"
+  },
+  "Indigenous early learning and child care": {
+    "/T": "Indigenous early learning and child care",
+    "/FT": "/Btn",
+    "/TU": "Indigenous early learning and child care",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Municipality": {
+    "/T": "Municipality",
+    "/FT": "/Btn",
+    "/TU": "Municipality",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Operational child care facility": {
+    "/T": "Operational child care facility",
+    "/FT": "/Btn",
+    "/TU": "Operational child care facility",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Parentcommunity group": {
+    "/T": "Parentcommunity group",
+    "/FT": "/Btn",
+    "/TU": "Parent/community group",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Postsecondary institute": {
+    "/T": "Postsecondary institute",
+    "/FT": "/Btn",
+    "/TU": "Post-secondary institute",
+    "/_States_": "['/Off', '/On']"
+  },
+  "School division": {
+    "/T": "School division",
+    "/FT": "/Btn",
+    "/TU": "School division",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Other": {
+    "/T": "Other",
+    "/FT": "/Tx",
+    "/TU": "Other"
+  },
+  "Proposed Communitylocation Fillable text box": {
+    "/T": "Proposed Communitylocation Fillable text box",
+    "/FT": "/Tx",
+    "/TU": "Proposed Community/location: Fillable text box",
+    "/Ff": "4096"
+  },
+  "Infants 6 weeks  18 months": {
+    "/T": "Infants 6 weeks  18 months",
+    "/FT": "/Btn",
+    "/TU": "Infants (6 weeks \u2013 18 months",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Toddlers 18  29 months": {
+    "/T": "Toddlers 18  29 months",
+    "/FT": "/Btn",
+    "/TU": "Toddlers (18 \u2013 29 months",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Preschool 30 months  end of Kindergarten": {
+    "/T": "Preschool 30 months  end of Kindergarten",
+    "/FT": "/Btn",
+    "/TU": "Preschool (30 months \u2013 end of Kindergarten",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Schoolage attends school in Grade 1 or higher": {
+    "/T": "Schoolage attends school in Grade 1 or higher",
+    "/FT": "/Btn",
+    "/TU": "School-age (attends school in Grade 1 or higher",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Beforeafter school for schoolaged children": {
+    "/T": "Beforeafter school for schoolaged children",
+    "/FT": "/Btn",
+    "/TU": "Before/after school for school-aged children",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Children enrolled in parttime prekindergarten": {
+    "/T": "Children enrolled in parttime prekindergarten",
+    "/FT": "/Btn",
+    "/TU": "Children enrolled in part-time prekindergarten",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Eveningsafterhours care": {
+    "/T": "Eveningsafterhours care",
+    "/FT": "/Btn",
+    "/TU": "Evenings/after-hours care",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Weekends": {
+    "/T": "Weekends",
+    "/FT": "/Btn",
+    "/TU": "Weekends",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Number of Regulated Spaces RequestedInfant": {
+    "/T": "Number of Regulated Spaces RequestedInfant",
+    "/FT": "/Tx",
+    "/TU": "Number of Regulated Spaces Requested_Infant"
+  },
+  "Number of Regulated Spaces RequestedToddler": {
+    "/T": "Number of Regulated Spaces RequestedToddler",
+    "/FT": "/Tx",
+    "/TU": "Number of Regulated Spaces Requested_Toddler"
+  },
+  "Number of Regulated Spaces RequestedPreschool": {
+    "/T": "Number of Regulated Spaces RequestedPreschool",
+    "/FT": "/Tx",
+    "/TU": "Number of Regulated Spaces Requested_Preschool"
+  },
+  "Number of Regulated Spaces RequestedSchool age": {
+    "/T": "Number of Regulated Spaces RequestedSchool age",
+    "/FT": "/Tx",
+    "/TU": "Number of Regulated Spaces Requested_School age"
+  },
+  "undefined": {
+    "/T": "undefined",
+    "/FT": "/Tx",
+    "/TU": "undefined"
+  },
+  "Current Number of Regulated Spaces in the CentreInfant": {
+    "/T": "Current Number of Regulated Spaces in the CentreInfant",
+    "/FT": "/Tx",
+    "/TU": "Current Number of Regulated Spaces in the Centre_Infant"
+  },
+  "ADDITIONAL Number of Regulated Spaces requestedInfant": {
+    "/T": "ADDITIONAL Number of Regulated Spaces requestedInfant",
+    "/FT": "/Tx",
+    "/TU": "ADDITIONAL Number of Regulated Spaces requested_Infant"
+  },
+  "Current Number of Regulated Spaces in the CentreToddler": {
+    "/T": "Current Number of Regulated Spaces in the CentreToddler",
+    "/FT": "/Tx",
+    "/TU": "Current Number of Regulated Spaces in the Centre_Toddler"
+  },
+  "ADDITIONAL Number of Regulated Spaces requestedToddler": {
+    "/T": "ADDITIONAL Number of Regulated Spaces requestedToddler",
+    "/FT": "/Tx",
+    "/TU": "ADDITIONAL Number of Regulated Spaces requested_Toddler"
+  },
+  "Current Number of Regulated Spaces in the CentrePreschool": {
+    "/T": "Current Number of Regulated Spaces in the CentrePreschool",
+    "/FT": "/Tx",
+    "/TU": "Current Number of Regulated Spaces in the Centre_Preschool"
+  },
+  "ADDITIONAL Number of Regulated Spaces requestedPreschool": {
+    "/T": "ADDITIONAL Number of Regulated Spaces requestedPreschool",
+    "/FT": "/Tx",
+    "/TU": "ADDITIONAL Number of Regulated Spaces requested_Preschool"
+  },
+  "Current Number of Regulated Spaces in the CentreSchool age": {
+    "/T": "Current Number of Regulated Spaces in the CentreSchool age",
+    "/FT": "/Tx",
+    "/TU": "Current Number of Regulated Spaces in the Centre_School age"
+  },
+  "ADDITIONAL Number of Regulated Spaces requestedSchool age": {
+    "/T": "ADDITIONAL Number of Regulated Spaces requestedSchool age",
+    "/FT": "/Tx",
+    "/TU": "ADDITIONAL Number of Regulated Spaces requested_School age"
+  },
+  "Current Number of Regulated Spaces in the CentreTOTAL": {
+    "/T": "Current Number of Regulated Spaces in the CentreTOTAL",
+    "/FT": "/Tx",
+    "/TU": "Current Number of Regulated Spaces in the Centre_TOTAL"
+  },
+  "ADDITIONAL Number of Regulated Spaces requestedTOTAL": {
+    "/T": "ADDITIONAL Number of Regulated Spaces requestedTOTAL",
+    "/FT": "/Tx",
+    "/TU": "ADDITIONAL Number of Regulated Spaces requested_TOTAL"
+  },
+  "families requiring fulltime care": {
+    "/T": "families requiring fulltime care",
+    "/FT": "/Btn",
+    "/TU": "families requiring full-time care",
+    "/_States_": "['/Off', '/On']"
+  },
+  "toggle_2": {
+    "/T": "toggle_2",
+    "/FT": "/Btn",
+    "/TU": "families requiring extended/\ufb02exible hours",
+    "/_States_": "['/Off', '/On']"
+  },
+  "children requiring enhanced or individual supports": {
+    "/T": "children requiring enhanced or individual supports",
+    "/FT": "/Btn",
+    "/TU": "children requiring enhanced or individual supports",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Francophone": {
+    "/T": "Francophone",
+    "/FT": "/Btn",
+    "/TU": "Francophone",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Indigenous": {
+    "/T": "Indigenous",
+    "/FT": "/Btn",
+    "/TU": "Indigenous",
+    "/_States_": "['/Off', '/On']"
+  },
+  "loneparent": {
+    "/T": "loneparent",
+    "/FT": "/Btn",
+    "/TU": "lone-parent",
+    "/_States_": "['/Off', '/On']"
+  },
+  "low income": {
+    "/T": "low income",
+    "/FT": "/Btn",
+    "/TU": "low income",
+    "/_States_": "['/Off', '/On']"
+  },
+  "newcomer": {
+    "/T": "newcomer",
+    "/FT": "/Btn",
+    "/TU": "newcomer",
+    "/_States_": "['/Off', '/On']"
+  },
+  "racialized and visible minority children": {
+    "/T": "racialized and visible minority children",
+    "/FT": "/Btn",
+    "/TU": "racialized and visible minority children",
+    "/_States_": "['/Off', '/On']"
+  },
+  "rural": {
+    "/T": "rural",
+    "/FT": "/Btn",
+    "/TU": "rural",
+    "/_States_": "['/Off', '/On']"
+  },
+  "seasonal child care needs": {
+    "/T": "seasonal child care needs",
+    "/FT": "/Btn",
+    "/TU": "seasonal child care needs",
+    "/_States_": "['/Off', '/On']"
+  },
+  "students": {
+    "/T": "students",
+    "/FT": "/Btn",
+    "/TU": "students",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Text1": {
+    "/T": "Text1",
+    "/FT": "/Tx"
+  },
+  "Text2": {
+    "/T": "Text2",
+    "/FT": "/Tx"
+  },
+  "Text3": {
+    "/T": "Text3",
+    "/FT": "/Tx"
+  },
+  "Text4": {
+    "/T": "Text4",
+    "/FT": "/Tx"
+  },
+  "Text5": {
+    "/T": "Text5",
+    "/FT": "/Tx"
+  },
+  "Text6": {
+    "/T": "Text6",
+    "/FT": "/Tx"
+  },
+  "Text7": {
+    "/T": "Text7",
+    "/FT": "/Tx"
+  },
+  "Text8": {
+    "/T": "Text8",
+    "/FT": "/Tx"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "Child Care Facility Information": {
+    "/FT": "/Tx",
+    "/TU": "Child Care Facility Information"
+  },
+  "Home Provider Child Care Centre Name": {
+    "/FT": "/Tx",
+    "/TU": "Home Provider /Child Care Centre Name"
+  },
+  "Address": {
+    "/FT": "/Tx",
+    "/TU": "Address"
+  },
+  "CityTown": {
+    "/FT": "/Tx",
+    "/TU": "City/Town"
+  },
+  "Postal Code": {
+    "/FT": "/Tx",
+    "/TU": "Postal Code"
+  },
+  "Phone Number": {
+    "/FT": "/Tx",
+    "/TU": "Phone Number"
+  },
+  "Email Address": {
+    "/FT": "/Tx",
+    "/TU": "Email Address"
+  },
+  "Total Number of Licensed Spaces": {
+    "/FT": "/Tx",
+    "/TU": "Total Number of Licensed Spaces"
+  },
+  "Family Child Care Home": {
+    "/FT": "/Btn",
+    "/TU": "Family Child Care Home"
+  },
+  "Group Family Child Care Home": {
+    "/FT": "/Btn",
+    "/TU": "Group Family Child Care Home"
+  },
+  "Centre with 30 or fewer spaces": {
+    "/FT": "/Btn",
+    "/TU": "Centre with 30 or fewer spaces"
+  },
+  "Signature of Child Care Home ProviderBoard Chairperson": {
+    "/FT": "/Sig",
+    "/TU": "Signature of Child Care Home Provider/Board Chairperson"
+  },
+  "Date": {
+    "/FT": "/Tx",
+    "/TU": "Date"
+  },
+  "Centre with 31 and more spaces  2500 base amount  75 for each additional space above": {
+    "/FT": "/Btn",
+    "/TU": "Centre with 31 and more spaces  $2,500 base amount + $75 for each additional space above"
+  },
+  "Check Box6": {
+    "/FT": "/Btn"
+  },
+  "Check Box8": {
+    "/FT": "/Btn"
+  },
+  "Check Box9": {
+    "/FT": "/Btn"
+  },
+  "Check Box10": {
+    "/FT": "/Btn"
+  },
+  "Check Box11": {
+    "/FT": "/Btn"
+  }
+}

@@ -1,0 +1,7 @@
+Public submission: https://assessment.zaidsoomro.me/
+Production deployment: dpl_Fzm3uywcu9fgFJAzFVYgfXbyp4Qs
+Project: sk-ai-office-assessment
+Domain configured correctly, verified and attached. Root redirects to /submission/.
+All 14 same-origin hub links returned HTTP 200 without authentication.
+Local credentials/config requests returned HTTP 404. Dated source ZIP remains unchanged.
+Video is a narrated screenshot walkthrough; family backend remains local-download only.

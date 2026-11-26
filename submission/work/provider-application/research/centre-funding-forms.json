@@ -1,0 +1,759 @@
+{
+  "researchedOn": "2026-11-25",
+  "scope": "Public Saskatchewan child care centre funding applications. Research inventory only; not a complete ministry form library or an approved digital replacement.",
+  "forms": [
+    {
+      "id": "centre-capital-grant",
+      "title": "Child Care Centre Space Development Capital Grant Application",
+      "stage": "opening or expansion, after space approval",
+      "purpose": "Funding approval, separate from licence approval.",
+      "url": null,
+      "supportingUrl": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/147418/CCC%252BSpace%252BDevelopment%252BCapital%252BGrant%252BInfo%252BSheet-EN-FINAL.pdf",
+      "publicLink": "https://publications.saskatchewan.ca/api/v1/products/125950/formats/147418/download",
+      "version": {
+        "formDate": null,
+        "supportingDocumentDate": "01/2026"
+      },
+      "verification": "Form named in official information sheet, page 2; actual application not retrieved.",
+      "sections": [],
+      "applicantFields": [],
+      "reviewerFields": [],
+      "attachments": [
+        "Construction budget",
+        "Project completion timeline",
+        "Incorporation certificate",
+        "Mailing address and postal code confirmation",
+        "Banking information"
+      ],
+      "conditions": [
+        "Submit after ministry approval of spaces; capital funding requires its own approval.",
+        "Use funds for eligible physical-space development; return ineligible or unused funds and retain expenditure records."
+      ],
+      "implementation": "Do not invent an official field-level form. A proposed application can reuse organization, project, budget and banking data, but label its unverified sections.",
+      "sourceIds": [
+        "capital-information",
+        "opening-checklist",
+        "centre-start-page"
+      ]
+    },
+    {
+      "id": "enhanced-accessibility-request",
+      "title": "Enhanced Accessibility Request",
+      "stage": "optional operating, child-specific",
+      "purpose": "Additional staffing support for inclusion; not a licence prerequisite.",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/75901/formats/86776/download",
+      "publicLink": "https://publications.saskatchewan.ca/api/v1/products/75901/formats/86776/download",
+      "version": {
+        "printedDate": null,
+        "pages": 2
+      },
+      "verification": "Current publication download retrieved; both pages extracted, 101 AcroForm fields enumerated. No printed date visible.",
+      "sections": [
+        "Facility and child",
+        "Monthly funding calculation",
+        "Educator support",
+        "Signatures"
+      ],
+      "applicantFields": [
+        "Facility name/address",
+        "Child name/birth date/school-age status",
+        "Requested months and amounts",
+        "Monthly hours, wage before enhancement, mandatory employer costs",
+        "Educator employment, shared support, name and certification",
+        "Director/provider and parent signatures/dates"
+      ],
+      "reviewerFields": [
+        "Office-use eligible amount",
+        "Office-use averaged monthly amount"
+      ],
+      "attachments": [
+        "Personal Program Plan accompanies the application or follows within four weeks, per separate guidelines"
+      ],
+      "conditions": [
+        "Additional educator is outside regular staff-child ratios.",
+        "Notify consultant immediately of relevant enrolment or parent employment/training changes; report shared support arrangements."
+      ],
+      "implementation": "Keep office-use calculations separate from applicant inputs. Link this request to the broader inclusion application and consent, not only a financial total.",
+      "sourceIds": [
+        "ea-request",
+        "inclusion-guidelines",
+        "inclusion-information"
+      ],
+      "publicationProductId": 75901,
+      "publicationFormatId": 86776,
+      "downloadedOn": "2026-11-25",
+      "localSource": "work/provider-application/research/centre-funding-pdfs/75901-86776.pdf",
+      "fieldMap": "work/provider-application/research/centre-funding-pdfs/75901-86776.fields.json"
+    },
+    {
+      "id": "tuition-reimbursement",
+      "title": "Child Care Application for Tuition Reimbursement",
+      "stage": "optional operating, staff course reimbursement",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/75740/formats/87878/download",
+      "publicLink": "https://publications.saskatchewan.ca/api/v1/products/75740/formats/87878/download",
+      "version": {
+        "printedDate": "EY 02/2026",
+        "pages": 2,
+        "acroFormFieldCount": 56
+      },
+      "verification": "Current official download retrieved; both pages extracted, first-page image inspected and all AcroForm fields enumerated.",
+      "sections": [
+        "Employee identity and employment",
+        "Facility identification",
+        "Completed courses and costs",
+        "Evidence and declarations"
+      ],
+      "applicantFields": [
+        "Names, prior names, gender and birth date",
+        "Certification/date, position, wage including top-up, employment dates/type",
+        "Facility entity number and facility/site name",
+        "Up to five courses: name/number, institution, completion date, tuition and book costs",
+        "Evidence checklist",
+        "Board representative and employee signatures/dates"
+      ],
+      "reviewerFields": [],
+      "attachments": [
+        "Tuition payment receipts",
+        "Required-book receipts",
+        "Registration-fee receipt",
+        "Official or unofficial transcripts showing completion"
+      ],
+      "conditions": [
+        "Submit within one year after successful completion.",
+        "Exclude costs paid fully by other funding; unreimbursed portions may qualify up to $1,500/course.",
+        "International students are excluded by this template.",
+        "Employee declaration prevents duplicate claims."
+      ],
+      "currentPolicyCaveat": "Current EY02/2026 download resolves the stale $500 search-index copy: this template states $1,500/course. Regulatory maximum and individual approval remain distinct.",
+      "implementation": "Reuse entity and staff information with restricted access. Preserve separate employer and employee declarations; expenses and completion evidence remain course-specific.",
+      "sourceIds": [
+        "tuition-form",
+        "training-financial-supports",
+        "regulations"
+      ],
+      "publicationProductId": 75740,
+      "publicationFormatId": 87878,
+      "downloadedOn": "2026-11-25",
+      "localSource": "work/provider-application/research/centre-funding-pdfs/75740-87878.pdf",
+      "fieldMap": "work/provider-application/research/centre-funding-pdfs/75740-87878.fields.json",
+      "submission": "Email completed form and required evidence to childcare@gov.sk.ca."
+    },
+    {
+      "id": "professional-development-reimbursement",
+      "title": "Application for Reimbursement of Professional Development Expenses 2026-27",
+      "stage": "optional operating, after an eligible event",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/74953/formats/83852/download",
+      "publicLink": "https://publications.saskatchewan.ca/api/v1/products/74953/formats/83852/download",
+      "version": {
+        "printedClaimYear": "2026-27",
+        "filenameDate": "2026-04",
+        "pages": 2,
+        "acroFormFieldCount": 132
+      },
+      "verification": "Current official download retrieved; both pages extracted, claim table visually inspected, AcroForm fields enumerated. Supersedes stale indexed 2024–25 copy.",
+      "sections": [
+        "Facility identification",
+        "Individual/event expense rows",
+        "Claim totals"
+      ],
+      "applicantFields": [
+        "Facility name, entity ID and community",
+        "Each attendee, eligible event and completion date",
+        "Registration, travel, meals and eligible staffing stipend",
+        "Per-attendee/event claim and grand total",
+        "Board representative/provider signature and date"
+      ],
+      "reviewerFields": [],
+      "attachments": [
+        "Required expense receipts; form explicitly requires accommodation receipts"
+      ],
+      "conditions": [
+        "Submit within two months of event.",
+        "Use funding to reimburse whoever incurred expenses.",
+        "Stipend must match the current eligible-opportunities list; do not claim it during facility PD closures."
+      ],
+      "currentPolicyCaveat": "Application is 2026–27, but the currently downloadable general information sheet (product74952/format83851) still covers 2025–26. Use the applicable-year eligible-opportunities list and obtain matching guidance; do not carry over its expired deadline or travel rates.",
+      "implementation": "Repeating event/attendee claims with automatic arithmetic, distinct retained attendance evidence and applicant declaration. Ministry determines eligibility.",
+      "sourceIds": [
+        "pd-current-form",
+        "pd-information-download",
+        "pd-service-page"
+      ],
+      "publicationProductId": 74953,
+      "publicationFormatId": 83852,
+      "downloadedOn": "2026-11-25",
+      "localSource": "work/provider-application/research/centre-funding-pdfs/74953-83852.pdf",
+      "fieldMap": "work/provider-application/research/centre-funding-pdfs/74953-83852.fields.json",
+      "recordsRetained": [
+        "Attendance certificate, or Professional Development Reflection Form when no certificate is issued, retained for consultant review"
+      ],
+      "submission": "Email completed form to childcare@gov.sk.ca."
+    },
+    {
+      "id": "training-support-grant",
+      "title": "Training Support Grant Application",
+      "stage": "optional operating, staff release for formal studies",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/147640/Training%252BSupport%252BGrant%252BApplication.pdf",
+      "publicLink": null,
+      "version": {
+        "printedDate": "EY 06/2024",
+        "pages": null
+      },
+      "verification": "Official PDF text inspected, including Parts I–III. Published template age is explicit; current acceptance not independently confirmed.",
+      "sections": [
+        "Facility/contact details",
+        "I: Grant calculation",
+        "II: Conditions and signature",
+        "III: Staff information"
+      ],
+      "applicantFields": [
+        "Centre operating name, postal address, email and phone",
+        "Staff member, training option, institution and course",
+        "Enrolment months and course duration",
+        "Monthly release blocks, half-days and full-days",
+        "Monthly/course totals",
+        "Licensee or board-chair signature/date"
+      ],
+      "reviewerFields": [],
+      "attachments": [
+        "Enrolment verification for each course",
+        "Extra staff/course pages if needed",
+        "Proof of staff coverage when requested"
+      ],
+      "conditions": [
+        "Use funding for substitute/alternate coverage while educators pursue eligible studies.",
+        "Update staff/course information when needed.",
+        "Form caps support at $500 per course monthly and $1,500 per educator monthly; these maxima agree with regulation 92.2."
+      ],
+      "implementation": "Use repeating educator/course/month records, not one total text box. Keep release-time arithmetic distinct from approval.",
+      "sourceIds": [
+        "training-support-form",
+        "regulations"
+      ]
+    },
+    {
+      "id": "inclusion-program-application",
+      "title": "Inclusion Program Grant Application",
+      "stage": "optional operating, child-specific application/reapplication",
+      "url": null,
+      "supportingUrl": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/84866/3.%252BGuidelines%252Bfor%252BCompleting%252Bthe%252BInclusion%252BProgram%252BGrant%252BApplication.pdf",
+      "version": {
+        "printedDate": null
+      },
+      "verification": "Official completion guidelines inspected; actual application PDF not retrieved. Sections below are guideline descriptions, not complete field inventory.",
+      "sections": [
+        "I: General information",
+        "II: Child and required support",
+        "III: Parent/guardian",
+        "IV: Individual Inclusion funding level"
+      ],
+      "applicantFields": [
+        "Child strengths/interests and applicable diagnosis",
+        "Facility support and ongoing communication plans",
+        "Parent/guardian portion"
+      ],
+      "reviewerFields": [
+        "Consultant makes final funding-level decision after team discussion"
+      ],
+      "attachments": [
+        "Separate Impact Assessment Profile",
+        "Enhanced Accessibility Personal Program Plan: with application or within four weeks"
+      ],
+      "conditions": [
+        "Application is collaborative among family, facility, supporting professional and consultant.",
+        "Parent consent is required; reapplication precedes expiry."
+      ],
+      "implementation": "Separate parent, provider, professional and ministry contributions. Individual Inclusion, equipment and training/resource supports require linked decisions; do not infer a single provider-only checklist.",
+      "sourceIds": [
+        "inclusion-guidelines",
+        "inclusion-information"
+      ]
+    },
+    {
+      "id": "skills-enhancement-grant",
+      "title": "Skills Enhancement Grant application",
+      "stage": "optional operating, micro-credential or approved course",
+      "url": null,
+      "supportingUrl": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/150063/9-24%252B%252892.3%2529%252BSkills%252BEnhancement%252BGrant.pdf",
+      "version": {
+        "formDate": null,
+        "manualDate": "2025-07-01"
+      },
+      "verification": "Application named in manual section 92.3, page 9-24. Actual application not retrieved.",
+      "sections": [],
+      "applicantFields": [],
+      "reviewerFields": [],
+      "attachments": [
+        "Autism Certificate of Achievement course enrolment verification, or micro-credential completion verification"
+      ],
+      "conditions": [
+        "Programme concerns approved ECE learning delivered by Saskatchewan post-secondary institutions."
+      ],
+      "implementation": "Track as an optional later operating service. Do not fabricate a form from programme descriptions.",
+      "sourceIds": [
+        "skills-enhancement-manual",
+        "regulations"
+      ]
+    },
+    {
+      "id": "centre-ece-staff-information",
+      "title": "Child Care Centre ECE Staff Information Form",
+      "stage": "ongoing operating, wage-enhancement support",
+      "url": null,
+      "supportingUrl": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/150067/9-15%252B%252883.4%2529%252BWage%252BEnhancement%252BGrant.pdf",
+      "version": {
+        "formDate": null,
+        "manualDate": "2026-09-01"
+      },
+      "verification": "Form named in current manual section 83.4; actual form not retrieved.",
+      "sections": [],
+      "applicantFields": [],
+      "reviewerFields": [],
+      "attachments": [],
+      "conditions": [
+        "Wage funding depends on certified employees' reported hours and applicable wage thresholds.",
+        "Facilities periodically submit updated staffing documents; no exact periodic frequency is stated in this section."
+      ],
+      "implementation": "Reuse staff credentials, roles and hours only after validating the current reporting specification. Listing a staff member is not a grant approval.",
+      "sourceIds": [
+        "wage-enhancement-manual"
+      ]
+    },
+    {
+      "id": "active-play-grant",
+      "title": "Active Play Grant Application Form",
+      "stage": "opening or later one-time grant; centre needs developmental licence",
+      "version": {
+        "printedDate": "EY 12/2025",
+        "cataloguePublicationDate": "2026-01-07",
+        "pages": 1,
+        "acroFormFieldCount": 17
+      },
+      "sections": [
+        "Facility information",
+        "Grant calculation",
+        "Terms and declaration"
+      ],
+      "applicantFields": [
+        "Centre/licensee name and contact/address details",
+        "Licensed spaces",
+        "Facility category/size bracket",
+        "Three condition acknowledgments",
+        "Board-chair signature and date"
+      ],
+      "reviewerFields": [],
+      "attachments": [
+        "Active Play Grant Planning Template"
+      ],
+      "conditions": [
+        "Centre amount: $1,900 for first30 spaces plus $60 for each extra space.",
+        "Use funds for active play, retain purchase receipts for request and repay misused funding."
+      ],
+      "sourceIds": [
+        "active-play-application",
+        "active-play-information"
+      ],
+      "url": "https://publications.saskatchewan.ca/api/v1/products/127893/formats/153085/download",
+      "publicLink": "https://publications.saskatchewan.ca/api/v1/products/127893/formats/153085/download",
+      "publicationProductId": 127893,
+      "publicationFormatId": 153085,
+      "downloadedOn": "2026-11-25",
+      "localSource": "work/provider-application/research/centre-funding-pdfs/127893-153085.pdf",
+      "fieldMap": "work/provider-application/research/centre-funding-pdfs/127893-153085.fields.json",
+      "verification": "Current catalogue/download retrieved; all pages extracted and AcroForm fields enumerated.",
+      "submission": "Submit with the related grant package to childcare@gov.sk.ca.",
+      "implementation": "Digital field mapping can preserve repeatable rows, applicant declarations and the original printable record. Completeness does not authorize funding."
+    },
+    {
+      "id": "active-play-plan",
+      "title": "Active Play Grant Planning Template",
+      "stage": "attachment to Active Play application",
+      "version": {
+        "printedDate": "EY 12/2025",
+        "cataloguePublicationDate": "2026-01-07",
+        "pages": 2,
+        "acroFormFieldCount": 82
+      },
+      "sections": [
+        "Proposed expenditure rows"
+      ],
+      "applicantFields": [
+        "Proposed purchase/expenditure",
+        "Estimated cost including taxes",
+        "Explanation of how it enhances active play"
+      ],
+      "reviewerFields": [],
+      "attachments": [],
+      "conditions": [
+        "Application attachment; it is not a separate approval."
+      ],
+      "sourceIds": [
+        "active-play-plan"
+      ],
+      "url": "https://publications.saskatchewan.ca/api/v1/products/128037/formats/153257/download",
+      "publicLink": "https://publications.saskatchewan.ca/api/v1/products/128037/formats/153257/download",
+      "publicationProductId": 128037,
+      "publicationFormatId": 153257,
+      "downloadedOn": "2026-11-25",
+      "localSource": "work/provider-application/research/centre-funding-pdfs/128037-153257.pdf",
+      "fieldMap": "work/provider-application/research/centre-funding-pdfs/128037-153257.fields.json",
+      "verification": "Current catalogue/download retrieved; all pages extracted and AcroForm fields enumerated.",
+      "submission": "Submit with the related grant package to childcare@gov.sk.ca.",
+      "implementation": "Digital field mapping can preserve repeatable rows, applicant declarations and the original printable record. Completeness does not authorize funding."
+    },
+    {
+      "id": "play-exploration-grant",
+      "title": "Play and Exploration Grant Application Form",
+      "stage": "one-time programme support associated with opening",
+      "version": {
+        "printedDate": "EY 12/2025",
+        "cataloguePublicationDate": "2026-01-07",
+        "pages": 1,
+        "acroFormFieldCount": 19
+      },
+      "sections": [
+        "Facility information",
+        "Grant calculation",
+        "Conditional terms and declaration"
+      ],
+      "applicantFields": [
+        "Centre name/contact/address",
+        "Licensed spaces and category/size bracket",
+        "Applicable declarations",
+        "Board-chair signature/date"
+      ],
+      "reviewerFields": [],
+      "attachments": [
+        "Play and Exploration Grant Planning Template",
+        "Phase I Workshop Summary and online participation certificates, per information sheet"
+      ],
+      "conditions": [
+        "Centre amount: $2,500 for first30 spaces plus $75 for each extra space.",
+        "At least75% of full-time centre staff attend Phase I within initial year.",
+        "Retain purchase receipts and workshop evidence; repay improperly used funding."
+      ],
+      "currentPolicyCaveat": "Application says centre certificates are retained and provided on request; information sheet also asks for workshop summary and certificates with submission. Preserve both instructions and confirm timing with Education.",
+      "sourceIds": [
+        "play-exploration-application",
+        "play-exploration-information"
+      ],
+      "url": "https://publications.saskatchewan.ca/api/v1/products/127883/formats/153076/download",
+      "publicLink": "https://publications.saskatchewan.ca/api/v1/products/127883/formats/153076/download",
+      "publicationProductId": 127883,
+      "publicationFormatId": 153076,
+      "downloadedOn": "2026-11-25",
+      "localSource": "work/provider-application/research/centre-funding-pdfs/127883-153076.pdf",
+      "fieldMap": "work/provider-application/research/centre-funding-pdfs/127883-153076.fields.json",
+      "verification": "Current catalogue/download retrieved; all pages extracted and AcroForm fields enumerated.",
+      "submission": "Submit with the related grant package to childcare@gov.sk.ca.",
+      "implementation": "Digital field mapping can preserve repeatable rows, applicant declarations and the original printable record. Completeness does not authorize funding."
+    },
+    {
+      "id": "play-exploration-plan",
+      "title": "Play and Exploration Grant Planning Template",
+      "stage": "attachment to Play and Exploration application",
+      "version": {
+        "printedDate": "EY 12/2025",
+        "cataloguePublicationDate": "2026-01-07",
+        "pages": 4,
+        "acroFormFieldCount": 196
+      },
+      "sections": [
+        "Social-emotional",
+        "Physical",
+        "Intellectual",
+        "Spiritual"
+      ],
+      "applicantFields": [
+        "Proposed expenditure",
+        "Estimated tax-inclusive cost",
+        "Expected improvement to early learning quality, for each domain"
+      ],
+      "reviewerFields": [],
+      "attachments": [],
+      "conditions": [
+        "An expenditure may support more than one developmental domain."
+      ],
+      "sourceIds": [
+        "play-exploration-plan"
+      ],
+      "url": "https://publications.saskatchewan.ca/api/v1/products/127890/formats/153082/download",
+      "publicLink": "https://publications.saskatchewan.ca/api/v1/products/127890/formats/153082/download",
+      "publicationProductId": 127890,
+      "publicationFormatId": 153082,
+      "downloadedOn": "2026-11-25",
+      "localSource": "work/provider-application/research/centre-funding-pdfs/127890-153082.pdf",
+      "fieldMap": "work/provider-application/research/centre-funding-pdfs/127890-153082.fields.json",
+      "verification": "Current catalogue/download retrieved; all pages extracted and AcroForm fields enumerated.",
+      "submission": "Submit with the related grant package to childcare@gov.sk.ca.",
+      "implementation": "Digital field mapping can preserve repeatable rows, applicant declarations and the original printable record. Completeness does not authorize funding."
+    },
+    {
+      "id": "annual-operating-budget",
+      "title": "Child Care Centre – Annual Operating Budget",
+      "stage": "operating financial template; potentially reusable in development budgeting",
+      "version": {
+        "printedDate": "Rev.08/03",
+        "printedFormNumber": "7823",
+        "pages": 5,
+        "acroFormFieldCount": 242
+      },
+      "sections": [
+        "Centre and budget periods",
+        "Staff wages and benefits",
+        "Professional development",
+        "Administration",
+        "Premises",
+        "Equipment",
+        "Consumables",
+        "Fees, grants and other revenue",
+        "Surplus/deficit and authorization"
+      ],
+      "applicantFields": [
+        "Centre name/address/licensed spaces",
+        "Actual and projected periods and amounts",
+        "Staff-level wages and cost categories",
+        "Owned/rented premises",
+        "Food quantities and costs",
+        "Age-band spaces, fees, summer/non-summer occupancy assumptions",
+        "Revenue/expenditure totals",
+        "Board-chair and treasurer signatures/dates"
+      ],
+      "reviewerFields": [],
+      "attachments": [],
+      "conditions": [
+        "Actual column refers to financial statements."
+      ],
+      "currentPolicyCaveat": "Catalogue currently serves this much older form. It is not a current grant eligibility calculator, proof of mandatory annual submission, or substitute for the newer development budget workbook.",
+      "sourceIds": [
+        "annual-operating-budget"
+      ],
+      "url": "https://publications.saskatchewan.ca/api/v1/products/75883/formats/84850/download",
+      "publicLink": "https://publications.saskatchewan.ca/api/v1/products/75883/formats/84850/download",
+      "publicationProductId": 75883,
+      "publicationFormatId": 84850,
+      "downloadedOn": "2026-11-25",
+      "localSource": "work/provider-application/research/centre-funding-pdfs/75883-84850.pdf",
+      "fieldMap": "work/provider-application/research/centre-funding-pdfs/75883-84850.fields.json",
+      "verification": "Current catalogue/download retrieved; all pages extracted and AcroForm fields enumerated.",
+      "implementation": "Digital field mapping can preserve repeatable rows, applicant declarations and the original printable record. Completeness does not authorize funding."
+    }
+  ],
+  "sources": [
+    {
+      "id": "centre-grants-page",
+      "title": "Grants for Child Care Centres",
+      "url": "https://www.saskatchewan.ca/business/entrepreneurs-start-or-exit-a-business/start-a-business/managing-a-child-care-business/start-a-regulated-child-care-centre/grants-for-child-care-centres",
+      "type": "official programme directory",
+      "coverage": {
+        "opening": [
+          "Space Development Capital Funding",
+          "Start-Up",
+          "Play and Exploration",
+          "Active Play"
+        ],
+        "operating": [
+          "Early Childhood Services",
+          "Northern Early Childhood Services",
+          "Wage Enhancement",
+          "Parent Fee Reduction",
+          "Teen Support",
+          "Northern Transportation"
+        ],
+        "optionalChildSpecific": [
+          "Individual Inclusion",
+          "Enhanced Accessibility",
+          "Adapted Equipment"
+        ],
+        "optionalWorkforce": [
+          "Tuition and Book Reimbursement",
+          "Professional Development"
+        ]
+      },
+      "notes": "Service page links only three application types; publication catalogues reveal additional current forms. Some page rates lag current downloads. Use the current form version, not search-index copy, for field mapping."
+    },
+    {
+      "id": "centre-start-page",
+      "title": "Apply to Start a Regulated Child Care Centre",
+      "url": "https://www.saskatchewan.ca/Business/Entrepreneurs-Start-or-Exit-a-Business/Start-a-Business/Managing-a-Child-Care-Business/start-a-regulated-child-care-centre/apply-to-start-a-regulated-child-care-centre",
+      "type": "official opening procedure",
+      "notes": "Funding eligibility is distinct from licensing: co-operatives, nonprofit corporations and municipalities may qualify for funding; adult individuals and for-profit corporations may pursue licensing without government funding. Initial proposals include a Community Needs Assessment and development/operating budgets. These opening forms are inventoried separately by the centre-form researcher."
+    },
+    {
+      "id": "capital-information",
+      "title": "Child Care Centre Space Development Capital Grant Information Sheet",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/147418/CCC%252BSpace%252BDevelopment%252BCapital%252BGrant%252BInfo%252BSheet-EN-FINAL.pdf",
+      "printedDate": "01/2026",
+      "sections": "Pages 1–2, particularly distribution and reconciliation on page 2",
+      "notes": "Physical-space capital costs are distinguished from furniture, equipment, supplies and routine operating costs. This is an information sheet, not the application."
+    },
+    {
+      "id": "opening-checklist",
+      "title": "Opening a Regulated Child Care Centre Checklist",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/146785/Opening%252Ba%252BRegulated%252BChild%252BCare%252BCentre%252BChecklist%252B-%252BFinal.pdf",
+      "notes": "After ministry notification: licence application, direct-deposit/banking documents, signed capital agreement and applicable grant applications. It does not enumerate every grant application or provide a single combined approval."
+    },
+    {
+      "id": "ea-request",
+      "title": "Enhanced Accessibility Request",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/86776/5.%252BEA%252BGrant%252BRequest%252BForm.pdf",
+      "sections": "Both pages"
+    },
+    {
+      "id": "tuition-form",
+      "title": "Child Care Application for Tuition Reimbursement",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/75740/formats/87878/download",
+      "sections": "Both pages",
+      "printedDate": "EY 02/2026",
+      "notes": "Current downloaded template, not the obsolete indexed blob filename."
+    },
+    {
+      "id": "tuition-alternate",
+      "title": "Alternate indexed tuition template",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/87878/Child%252BCare%252BApplication%252Bfor%252BTuition%252BReimbursement%252BMay%252B15.pdf",
+      "printedDate": "EY 12/2023",
+      "notes": "Different filename under the same format identifier; indexed content has fewer attachment fields. No current-version precedence established."
+    },
+    {
+      "id": "pd-form-index",
+      "title": "Professional development reimbursement PDF, indexed extract",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/83852/Application%252Bfor%252BReimbursement%252Bof%252BProfessional%252BDevelopment%252BExpenses.pdf",
+      "notes": "Only indexed text retrieved; explicit claim period March 15, 2024–March 15, 2025."
+    },
+    {
+      "id": "pd-service-page",
+      "title": "Professional Development Grants for Regulated Child Care",
+      "url": "https://www.saskatchewan.ca/government/education-and-child-care-facility-administration/training-and-workshops-for-early-childhood-education/professional-development-grant-for-licensed-child-care",
+      "sections": "How to Apply and Apply"
+    },
+    {
+      "id": "training-support-form",
+      "title": "Training Support Grant Application",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/147640/Training%252BSupport%252BGrant%252BApplication.pdf",
+      "printedDate": "EY 06/2024",
+      "sections": "Parts I–III"
+    },
+    {
+      "id": "inclusion-guidelines",
+      "title": "Guidelines for Completing the Inclusion Program Grant Application",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/84866/3.%252BGuidelines%252Bfor%252BCompleting%252Bthe%252BInclusion%252BProgram%252BGrant%252BApplication.pdf",
+      "sections": "Sections I–IV"
+    },
+    {
+      "id": "inclusion-information",
+      "title": "Inclusion Program and Grant Application Information",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/86777/4.%252BInclusion%252BProgram%252BApplication%252BInformation.pdf",
+      "notes": "Covers Individual Inclusion, Enhanced Accessibility, adapted equipment and training/resources, with shared responsibilities and renewal. This version describes a $3,200 Enhanced Accessibility maximum; an older 06/2021 publication at format 111651 says $2,000 and should not be substituted."
+    },
+    {
+      "id": "skills-enhancement-manual",
+      "title": "Child Care Licensee's Manual, section 92.3 Skills Enhancement Grant",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/150063/9-24%252B%252892.3%2529%252BSkills%252BEnhancement%252BGrant.pdf",
+      "printedDate": "2025-07-01",
+      "sections": "Page 9-24"
+    },
+    {
+      "id": "wage-enhancement-manual",
+      "title": "Child Care Licensee's Manual, section 83.4 Wage Enhancement Grant",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/150067/9-15%252B%252883.4%2529%252BWage%252BEnhancement%252BGrant.pdf",
+      "printedDate": "2026-09-01",
+      "sections": "Page 9-15, eligibility and implementation"
+    },
+    {
+      "id": "workforce-programme",
+      "title": "Investments into the ECE Workforce",
+      "url": "https://www.saskatchewan.ca/Government/Education-and-Child-Care-Facility-Administration/early-childhood-educator/investments-into-the-ece-workforce",
+      "notes": "Separately identifies Wage Enhancement and employer-led Workforce Enhancement recruitment/retention support. No current public Workforce Enhancement application was retrieved. A 2022 announcement said forms would be sent to facilities; that historical distribution does not establish current intake."
+    },
+    {
+      "id": "training-financial-supports",
+      "title": "Early Childhood Educator Training and Financial Supports",
+      "url": "https://www.saskatchewan.ca/Government/Education-and-Child-Care-Facility-Administration/early-childhood-educator/training-and-financial-supports",
+      "notes": "The 2026–27 page emphasizes entry-level and leadership training. Employers apply for staff tuition reimbursement. Institution-run tuition-free seats and bursaries use institution processes and should not be treated as ministry centre-opening forms."
+    },
+    {
+      "id": "regulations",
+      "title": "The Child Care Regulations, 2015, consolidated through SR 55/2026",
+      "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/82271/C7-31r1.pdf",
+      "sections": "Sections 92, 92.1, 92.2, 92.3; PDF pages 44–45",
+      "notes": "Tuition maximum $1,500/course; Training Support maximum $500/course/month and $1,500/person/month. These are legal maximums, not automatic entitlements. Consolidation itself says it is unofficial and original enactments govern interpretation."
+    },
+    {
+      "id": "pd-current-form",
+      "title": "Professional Development Expenses2026–27 application",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/74953/formats/83852/download",
+      "notes": "Current download retrieved; filename begins2026-04."
+    },
+    {
+      "id": "pd-information-download",
+      "title": "Professional Development Grant information sheet",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/74952/formats/83851/download",
+      "notes": "Current download still specifies2025–26 and March15,2026 deadline; does not match2026–27 application."
+    },
+    {
+      "id": "active-play-application",
+      "title": "Active Play application",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/127893/formats/153085/download",
+      "printedDate": "EY12/2025"
+    },
+    {
+      "id": "active-play-information",
+      "title": "Active Play information sheet",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/127892/formats/153084/download",
+      "printedDate": "EY12/2025",
+      "notes": "Centres require developmental licence. Excludes unrelated items and PD already covered by the dedicated PD grant."
+    },
+    {
+      "id": "active-play-plan",
+      "title": "Active Play planning template",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/128037/formats/153257/download",
+      "printedDate": "EY12/2025"
+    },
+    {
+      "id": "play-exploration-application",
+      "title": "Play and Exploration application",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/127883/formats/153076/download",
+      "printedDate": "EY12/2025"
+    },
+    {
+      "id": "play-exploration-information",
+      "title": "Play and Exploration information sheet",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/127884/formats/153077/download",
+      "notes": "Requires planning template, Phase I summary and certificates. Excludes PD, unrelated purchases and routine startup furnishings."
+    },
+    {
+      "id": "play-exploration-plan",
+      "title": "Play and Exploration planning template",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/127890/formats/153082/download",
+      "printedDate": "EY12/2025"
+    },
+    {
+      "id": "annual-operating-budget",
+      "title": "Annual Operating Budget",
+      "url": "https://publications.saskatchewan.ca/api/v1/products/75883/formats/84850/download",
+      "printedDate": "Rev.08/03"
+    },
+    {
+      "id": "catalogue-opening",
+      "title": "Official opening-centre publication catalogue",
+      "url": "https://publications.saskatchewan.ca/api/v1/categories/6271/products",
+      "notes": "Retrieved public metadata. Product publication dates can predate the current uploaded file; do not infer form revision from catalogue publication date."
+    },
+    {
+      "id": "catalogue-operating",
+      "title": "Official operating-centre publication catalogue",
+      "url": "https://publications.saskatchewan.ca/api/v1/categories/6267/products"
+    }
+  ],
+  "limitations": [
+    "Web search indexed superseded filenames even when current download URLs served newer forms. Final records prioritize directly downloaded current catalogue files. Earlier partial/index-only findings are retained as source-history notes, not current requirements.",
+    "Exact current capital, standard inclusion, Skills Enhancement and ECE staff-information applications were not retrieved. Startup and other operating grant intake specifications also remain incomplete. Missing fields must not be fabricated.",
+    "Current PD application is2026–27 while linked general information download is2025–26. Obtain corresponding-year eligibility guidance and deadline before production.",
+    "Play and Exploration application and information sheet differ on submission versus retention of workshop certificates. Confirm timing, keeping document ownership and evidence obligations visible.",
+    "Budget Rev.08/03 is still publicly downloadable but is not proof of current reporting frequency or grant calculations. New development budget workbook is inventoried separately.",
+    "Home-only nutrition, equipment and startup forms are outside this centre inventory and must not be applied to centres.",
+    "Monthly enrolment and Parent Fee Reduction reporting are operating workflows distinct from opening. Internal portal fields were not inspected here.",
+    "Referenced-only records have empty field arrays because no fields were verified; this does not establish absence of reviewer fields.",
+    "All source documents were blank public forms. No applications were submitted and no dashboard or model code was changed."
+  ]
+}

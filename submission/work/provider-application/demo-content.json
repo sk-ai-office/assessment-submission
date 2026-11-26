@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "Child care application workspace",
+    "asOf": "2026-11-25",
+    "localOnly": true,
+    "prototype": true,
+    "dataVersion": "structured-forms-demo-2026-11-25",
+    "sampleNotice": "Every case, provider name and answer in this demonstration is fictional. Drafts marked ready for review are local examples, not submissions to the Government of Saskatchewan. No inspection, background check, licence or funding approval has been invented."
+  },
+  "cases": [
+    {
+      "id": "APP-2026-001",
+      "applicationNumber": "APP-2026-001",
+      "facilityName": "Prairie Sprout Family Home",
+      "facilityTypeId": "family_home",
+      "city": "Saskatoon",
+      "fictional": true,
+      "createdAt": "2026-11-25T15:00:00Z",
+      "recordVersion": 0,
+      "profile": {
+        "firstName": "Avery",
+        "lastName": "Sample",
+        "contactName": "Avery Sample",
+        "email": "applicant@example.invalid",
+        "phone": "306-555-0100",
+        "city": "Saskatoon",
+        "address": "Fictional site address \u2014 replace before preparing a real application",
+        "postalCode": "",
+        "capacity": 8,
+        "openingDate": "2027-02-01",
+        "organizationType": "individual",
+        "applicationKind": "new",
+        "householdAdults": "",
+        "informationSession": false,
+        "requestingFunding": false,
+        "outdoorPlayArea": "on-site",
+        "alternateOutdoorPlanNeeded": false
+      },
+      "documents": [],
+      "decisions": {},
+      "messages": [],
+      "history": [
+        {
+          "date": "2026-11-25",
+          "actor": "Applicant",
+          "title": "Menu and handbook ready for review",
+          "detail": "Two example forms are ready for your consultant. Continue the licence application next."
+        }
+      ],
+      "formAnswers": {
+        "home_licence_application": {
+          "status": "draft",
+          "values": {
+            "route_licence_type": "Family Child Care Home (maximum 8 children)",
+            "applicant_mailing_same": false,
+            "checklist_already_operating": false
+          }
+        },
+        "home_weekly_menu": {
+          "status": "submitted",
+          "values": {
+            "identification_date": "2026-11-30",
+            "weekly_meals_menu": [
+              {
+                "row_label": "Breakfast",
+                "monday": "Banana and peaches; oatmeal; plain yogurt. Milk and water.",
+                "tuesday": "Orange and pear; whole-grain toast; scrambled egg. Milk and water.",
+                "wednesday": "Apple and berries; oatmeal; plain yogurt. Milk and water.",
+                "thursday": "Banana and orange; whole-grain toast; scrambled egg. Milk and water.",
+                "friday": "Pear and peaches; whole-grain cereal; plain yogurt. Milk and water."
+              },
+              {
+                "row_label": "Morning Snack",
+                "monday": "Pear and whole-grain crackers. Water.",
+                "tuesday": "Apple and whole-grain toast. Water.",
+                "wednesday": "Orange and whole-grain crackers. Water.",
+                "thursday": "Peaches and whole-grain cereal. Water.",
+                "friday": "Banana and whole-grain toast. Water."
+              },
+              {
+                "row_label": "Lunch",
+                "monday": "Broccoli and apple; brown rice; beans. Water.",
+                "tuesday": "Peas and orange; whole-grain pasta; lentils. Water.",
+                "wednesday": "Carrots and pear; whole-grain bread; chicken. Water.",
+                "thursday": "Broccoli and peaches; brown rice; tofu. Water.",
+                "friday": "Peas and apple; whole-grain pasta; beans. Water."
+              },
+              {
+                "row_label": "Afternoon Snack",
+                "monday": "Banana and plain yogurt. Milk and water.",
+                "tuesday": "Pear and whole-grain crackers. Milk and water.",
+                "wednesday": "Peaches and whole-grain toast. Milk and water.",
+                "thursday": "Apple and plain yogurt. Milk and water.",
+                "friday": "Orange and whole-grain crackers. Milk and water."
+              },
+              {
+                "row_label": "Supper",
+                "monday": "Not served in this fictional schedule. Program closes at 17:30; afternoon snack is at 15:00.",
+                "tuesday": "Not served in this fictional schedule. Program closes at 17:30; afternoon snack is at 15:00.",
+                "wednesday": "Not served in this fictional schedule. Program closes at 17:30; afternoon snack is at 15:00.",
+                "thursday": "Not served in this fictional schedule. Program closes at 17:30; afternoon snack is at 15:00.",
+                "friday": "Not served in this fictional schedule. Program closes at 17:30; afternoon snack is at 15:00."
+              }
+            ],
+            "weekly_meals_meal_checks": [
+              {
+                "meal": "Breakfast",
+                "food_groups": true,
+                "milk": true,
+                "water": true
+              },
+              {
+                "meal": "Morning Snack",
+                "food_groups": true,
+                "milk": false,
+                "water": true
+              },
+              {
+                "meal": "Lunch",
+                "food_groups": true,
+                "milk": false,
+                "water": true
+              },
+              {
+                "meal": "Afternoon Snack",
+                "food_groups": true,
+                "milk": true,
+                "water": true
+              },
+              {
+                "meal": "Supper \u2014 not served during these proposed hours",
+                "food_groups": false,
+                "milk": false,
+                "water": false
+              }
+            ],
+            "preparation_review_relevant_fields_reviewed": true
+          }
+        },
+        "home_parent_handbook": {
+          "status": "submitted",
+          "values": {
+            "identity_licensee_name": "Avery Sample \u2014 fictional proposed provider",
+            "legislation_policy": "FICTIONAL WORKING DRAFT FOR REVIEW. This handbook describes proposed operations; no licence has been issued. A current copy of the Child Care Act, 2014 and Child Care Regulations, 2015 will be available to parents. This draft will be checked against current Ministry requirements before use.",
+            "philosophy_statement_policy": "The proposed program will offer a welcoming environment where children learn through play, exploration and everyday routines. Activities will reflect children's ages, interests and abilities. Families will be invited to share their goals and cultural practices. This is an example policy, not a claim about an operating service.",
+            "program_operation_policy": "Proposed hours are Monday to Friday, 07:30\u201317:30. The service will open only after all required permissions and the operating licence are in place. The licence will determine capacity and permitted age combinations. Holiday closures and any planned changes will be provided in writing before families sign a service agreement.",
+            "daily_schedule_policy": "Proposed daily rhythm: arrival and quiet play from 07:30; breakfast at 08:00; indoor or outdoor play; morning snack at 10:00; exploration and stories; lunch at 12:00; age-appropriate rest and quiet choices; afternoon snack at 15:00; active play and departure before 17:30. The sequence will be adjusted to children's developmental needs while maintaining required supervision and meal intervals.",
+            "meals_and_snacks_policy": "The attached fictional weekly menu illustrates the proposed meals and snacks. Menus and substitutions will be posted for parents. Food will be prepared and served in ways suitable for the ages in care, with water offered throughout the day. Required milk choices and infant feeding arrangements will follow current guidance. Any individual food arrangements will be agreed with the family and recorded privately; this demo contains no children's health or dietary information.",
+            "social_environment_policy": "The provider will model respectful language, welcome differences and respond calmly to conflicts. Children will have opportunities for cooperative play and quiet activity. Concerns affecting a child's safety or well-being will be addressed promptly with the family and, where required, the appropriate authority.",
+            "supervision_policy": "The provider will maintain adequate supervision indoors, outdoors and during transitions. Activities will be planned around the number and ages of attending children. Departure routines will confirm that children leave only with authorized people. Volunteers and other household adults will not be left alone with children. Specific room and outdoor supervision arrangements will be confirmed during the premises review.",
+            "child_guidance_policy": "The provider will use predictable routines, clear choices, redirection and support for naming feelings and solving problems. Guidance will suit each child's developmental level. Corporal punishment, abuse, denial of necessities, isolation and inappropriate restraint will not be used. The provider will discuss recurring concerns with the family and follow the duty to report suspected abuse or neglect.",
+            "health_policies_policy": "The proposed service will follow current public-health and Ministry requirements for illness, hygiene and communicable diseases. Families will receive the attendance-when-ill policy before enrolment. Any required public-health notification will be made promptly. Actual child and household health details will be kept outside this public demonstration.",
+            "administration_of_medication_policy": "If medication administration is agreed, the provider will obtain the required authorization and record each dose on the Ministry's form. Non-emergency medication will be stored in a locked enclosure. Any exceptional oral authorization will be handled only within the current rules and followed by written authorization as required. No medication instructions or personal medical details are stored in this sample.",
+            "enrollment_policy": "Before care starts, the family and provider will agree on hours, services and applicable fees in a written service agreement. Required child records, emergency contacts and authorizations will be completed securely. A family visit and gradual introduction may be arranged. Expressions of interest in this demonstration are not enrolments or guaranteed spaces.",
+            "termination_of_child_care_services_policy": "The proposed service agreement will ask families to give two weeks' written notice when ending care. The provider will explain any proposed termination in writing, including the reason, notice period and treatment of any prepaid amount. Immediate safety concerns will be addressed under applicable requirements. These draft terms require review before contracts are offered.",
+            "changes_to_child_care_services_policy": "Changes to hours, services, fees or handbook policies will be communicated in writing in advance. Where a change affects a family's service agreement, the agreement will be updated and retained. Families may raise questions with the provider before agreeing to the change. No unapproved fee increase is authorized by this draft.",
+            "fee_schedule_and_payment_policy": "DRAFT REQUIRING REVIEW: a proposed written fee schedule will accompany the final handbook and distinguish the facility's approved rate from the parent portion and any permitted additional services. Rates are intentionally not invented here. Payment timing, permitted methods and receipt arrangements will be set out in each service agreement. Please request the missing proposed schedule during the demonstration review; this draft does not authorize charging fees.",
+            "confidentiality_policy": "Children's and parents' records will be kept securely and accessed only for legitimate care and administration purposes. Information will be shared only with appropriate authorization or where required for health, safety or by law. Confidential paper files will be locked. Families may ask how their information is used and raise any privacy concern with the provider.",
+            "alternates_policy": "An adult alternate will be identified and checked against current requirements before being used. The provider will plan for absence and notify families of alternate arrangements. Use of alternates will stay within the permitted limits, including the monthly-hours and annual-vacation rules. No alternate person's identity, qualifications or background-check result is invented in this sample.",
+            "preparation_review_relevant_fields_reviewed": true
+          }
+        }
+      }
+    },
+    {
+      "id": "case-willow",
+      "applicationNumber": "APP-2026-002",
+      "facilityName": "Willowbend Centre",
+      "facilityTypeId": "centre",
+      "city": "Regina",
+      "fictional": true,
+      "createdAt": "2026-11-25T15:00:00Z",
+      "recordVersion": 0,
+      "profile": {
+        "city": "Regina",
+        "organizationName": "Willowbend Community Child Care \u2014 fictional example",
+        "organizationType": "nonprofit",
+        "capacity": 40,
+        "applicationKind": "new",
+        "pathway": "centre-development",
+        "centrePathway": "centre-development",
+        "requestingFunding": true
+      },
+      "documents": [],
+      "decisions": {},
+      "messages": [],
+      "history": [
+        {
+          "date": "2026-11-25",
+          "actor": "Applicant",
+          "title": "Blank centre example created",
+          "detail": "This fictional centre has no completed forms or Ministry decisions. It demonstrates the centre-development pathway."
+        }
+      ]
+    },
+    {
+      "id": "case-meadow",
+      "applicationNumber": "APP-2026-003",
+      "facilityName": "Meadow Lane Family Home",
+      "facilityTypeId": "family_home",
+      "city": "Moose Jaw",
+      "fictional": true,
+      "createdAt": "2026-11-25T15:00:00Z",
+      "recordVersion": 0,
+      "profile": {
+        "city": "Moose Jaw",
+        "organizationType": "individual",
+        "capacity": 8,
+        "applicationKind": "new"
+      },
+      "documents": [],
+      "decisions": {},
+      "messages": [],
+      "history": [
+        {
+          "date": "2026-11-25",
+          "actor": "Applicant",
+          "title": "Blank family-home example created",
+          "detail": "No application answers, inspections, checks or approvals have been recorded for this fictional case."
+        }
+      ]
+    },
+    {
+      "id": "case-north",
+      "applicationNumber": "APP-2026-004",
+      "facilityName": "North Star Group Home",
+      "facilityTypeId": "group_home",
+      "city": "Prince Albert",
+      "fictional": true,
+      "createdAt": "2026-11-25T15:00:00Z",
+      "recordVersion": 0,
+      "profile": {
+        "city": "Prince Albert",
+        "organizationType": "individual",
+        "capacity": 12,
+        "applicationKind": "new"
+      },
+      "documents": [],
+      "decisions": {},
+      "messages": [],
+      "history": [
+        {
+          "date": "2026-11-25",
+          "actor": "Applicant",
+          "title": "Blank group-home example created",
+          "detail": "This fictional new group-home example proposes 12 spaces. It has no regular-licence history and does not claim eligibility for expansion to 16."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+commit	author_date	committer_date	subject
+de210a2556826655f400eeb390a8e6f6d3b16fd5	2026-11-25T22:56:43-06:00	2026-11-25T22:56:43-06:00	Preserve current complaint dashboard and recovered earlier snapshots
+f7a8f28b95148c8a281a3acc781dce2ccf748a42	2026-11-25T23:15:56-06:00	2026-11-25T23:15:56-06:00	Add complete PDF downloads and simplify complaint sharing
+0166066de8e1b9389a80cbae6fd2d97d528b6d58	2026-11-25T23:19:43-06:00	2026-11-25T23:19:43-06:00	Enable verified public links in local dashboard copies
+f4928cc311220b6fd0d747cf7439b0ce5136b95e	2026-11-25T23:22:29-06:00	2026-11-25T23:22:29-06:00	Make copy actions responsive in local and embedded browsers
+90b91d7503e812a8fdaa59edf480a51e94be6f92	2026-11-25T23:49:15-06:00	2026-11-25T23:49:15-06:00	Update Site source
+e84ed615e5245603dc09361a11fea3e657d99ad7	2026-11-25T23:56:07-06:00	2026-11-25T23:56:07-06:00	Update Site source

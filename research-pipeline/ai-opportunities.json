@@ -1,0 +1,368 @@
+{
+  "purpose": "Candidate service improvements for Saskatchewan's AI Office; ideas for discovery, not approved solutions or established feasibility.",
+  "priorityMeaning": "Suggested discovery order for a Solutions Architect, based on the reviewed complaints, clarity of the service problem and scope for a small pilot. This is judgment, not an objective score, prevalence ranking or incident-severity ranking.",
+  "fitLabels": {
+    "assist": "AI may help staff explain, find or summarize information after source data and policy are verified.",
+    "mixed": "Some communication or administrative work may benefit from AI; a substantial data, process or capacity problem remains.",
+    "service": "Lead with conventional software, staffing, policy or operational improvements; an AI pilot is not the first recommendation."
+  },
+  "opportunities": [
+    {
+      "id": "income-assistance-administration",
+      "concern": "People repeat paperwork and get conflicting answers",
+      "why": "Repeated calls, lost forms and inconsistent guidance make it harder to obtain support.",
+      "fit": "assist",
+      "idea": "Give staff a policy search assistant that cites current guidance and drafts consistent answers and document checklists.",
+      "limit": "It cannot replace caseworkers, recover missing records, or decide eligibility.",
+      "firstStep": "Review anonymized contact examples with SIS and SAID staff; test a draft assistant against current, versioned policy and a human-reviewed answer set.",
+      "measure": "Accuracy of staff-reviewed answers against the applicable current policy.",
+      "priority": 1,
+      "reason": "Several direct accounts describe repeatable information and paperwork problems that can be investigated within a bounded staff-assistance trial."
+    },
+    {
+      "id": "said-payment-delays",
+      "concern": "People cannot understand why payments are held",
+      "why": "Unexplained holds and missed callbacks leave recipients uncertain about money they rely on.",
+      "fit": "assist",
+      "idea": "Help staff turn verified payment-status records into clear explanations, next steps and callback notes.",
+      "limit": "It cannot release payments, remove holds, or invent a reason missing from the case record.",
+      "firstStep": "Map the actual hold reasons, case ownership and available status fields. Have caseworkers review sample explanations before any recipient-facing trial.",
+      "measure": "Repeat contacts needed to understand a payment hold.",
+      "priority": 2,
+      "reason": "Direct reports identify a specific communication failure with high practical impact; feasibility depends on trustworthy status data."
+    },
+    {
+      "id": "power-billing",
+      "concern": "People cannot explain unexpected electricity bills",
+      "why": "Unexpected charges and unclear explanations leave customers unsure whether bills or meter readings are correct.",
+      "fit": "mixed",
+      "idea": "Explain bills using verified readings, tariffs and adjustment calculations, linking each explanation to the underlying entries.",
+      "limit": "It cannot correct faulty meters, tariffs or billing calculations; those need operational fixes.",
+      "firstStep": "Select resolved billing enquiries and verify every figure with billing specialists. Compare plain-language draft explanations with the explanations customers originally received.",
+      "measure": "Billing enquiries resolved without a repeat explanatory contact.",
+      "priority": 3,
+      "reason": "Repeated direct complaints make explanation quality worth testing, while calculations and meter investigations remain conventional responsibilities."
+    },
+    {
+      "id": "telecom-app",
+      "concern": "The app fails to show reliable information",
+      "why": "Bill-viewing errors and inaccurate usage displays frustrate customers and can prompt unnecessary purchases.",
+      "fit": "service",
+      "idea": "Fix bill access, usage reconciliation and error handling before considering any AI feature.",
+      "limit": "An assistant cannot compensate for broken screens or incorrect account data.",
+      "firstStep": "Reproduce the reported bill and usage journeys on affected app versions; trace displayed values to the authoritative billing and usage systems.",
+      "measure": "Successful bill-viewing sessions without an error.",
+      "priority": 4,
+      "reason": "Multiple direct accounts identify concrete software faults. A conventional fix has a clearer path to value than an AI wrapper."
+    },
+    {
+      "id": "telecom-data-restoration",
+      "concern": "Paid data restoration does not restore service",
+      "why": "Customers pay for restored speed but report no improvement and inadequate follow-up.",
+      "fit": "service",
+      "idea": "Fix purchase-to-provisioning checks and failed-restoration follow-up; no AI pilot is needed to establish whether the service was delivered.",
+      "limit": "AI cannot repair provisioning failures or substitute for delivering the purchased service.",
+      "firstStep": "Trace a failed purchase through payment, entitlement, provisioning and customer notification, then add a deterministic failure alert and named owner.",
+      "measure": "Restoration purchases followed by confirmed activation.",
+      "priority": 5,
+      "reason": "Two direct accounts describe a failed paid transaction. Reliable fulfillment and follow-up should precede conversational assistance."
+    },
+    {
+      "id": "student-aid-delays",
+      "concern": "Students cannot track funding or get callbacks",
+      "why": "Funding delays and unanswered callbacks leave students uncertain about where their application is stalled.",
+      "fit": "assist",
+      "idea": "Help staff summarize case progress, identify the responsible organization and draft clear handoff or callback messages from verified records.",
+      "limit": "It cannot approve aid, confirm enrolment for a university, or control federal loan disbursement.",
+      "firstStep": "Map provincial assessment, institutional enrolment confirmation and NSLSC disbursement. Test summaries of anonymized delayed cases with the teams responsible for each handoff.",
+      "measure": "Time to identify the organization responsible for the next action.",
+      "priority": 6,
+      "reason": "The reported problem spans organizations; clear ownership and case summaries are promising, but shared status access must be established."
+    },
+    {
+      "id": "childcare-access",
+      "concern": "Families cannot find suitable affordable childcare",
+      "why": "Long waitlists and few callbacks complicate returning to work and increase family costs.",
+      "fit": "mixed",
+      "idea": "Let parents ask plain-language questions of a verified childcare directory and see which providers accept suitable waitlist enquiries.",
+      "limit": "It cannot create spaces or promise availability; provider information must be current.",
+      "firstStep": "Check which directory fields providers can reliably maintain, including ages, hours and enquiry status. Test search tasks with parents before selecting AI.",
+      "measure": "Parent time needed to identify providers accepting suitable enquiries.",
+      "priority": 7,
+      "reason": "Many direct accounts show navigation friction, but the dominant shortage of spaces requires a separate capacity response."
+    },
+    {
+      "id": "childcare-licensing",
+      "concern": "Providers wait months before learning applications will not proceed",
+      "why": "A household reports uncertainty and financial strain after a delayed decision on joining subsidized childcare.",
+      "fit": "mixed",
+      "idea": "Verify intake and transition rules first; then help staff draft application-status explanations from confirmed records.",
+      "limit": "It cannot reopen intake, supply funding, grant approvals or determine licensing status.",
+      "firstStep": "Confirm which approval was sought and the applicable intake notice; review acknowledgements and decision communications.",
+      "measure": "Applicants receiving a clear status, decision reason and next applicable step.",
+      "priority": 8,
+      "reason": "One household raises an application-transition and communication concern; it does not establish a general licensing-process failure."
+    },
+    {
+      "id": "surgery-specialist-delays",
+      "concern": "Patients face cancellations and cannot get updates",
+      "why": "Delays, repeated cancellations and missing callbacks disrupt patients and families while they wait for care.",
+      "fit": "mixed",
+      "idea": "Help care coordinators summarize referral progress and draft updates from approved scheduling records.",
+      "limit": "It cannot create surgical capacity, set clinical urgency or promise a surgery date.",
+      "firstStep": "Review the administrative steps behind delayed callbacks and cancelled appointments. Trial staff-reviewed progress summaries only where reliable records and accountable coordinators exist.",
+      "measure": "Patient enquiries answered with a verified next administrative step.",
+      "priority": 9,
+      "reason": "Communication could improve a recurring experience, but cancellation causes and surgical capacity need clinical-operational investigation."
+    },
+    {
+      "id": "medical-imaging-waits",
+      "concern": "Patients struggle to navigate imaging appointment waits",
+      "why": "Long quoted waits and unclear cancellation options lead patients to make repeated booking calls.",
+      "fit": "mixed",
+      "idea": "Help booking staff summarize referral status and draft updates from verified appointment records.",
+      "limit": "It cannot add scanners or staff, assign clinical urgency, or guarantee an earlier slot.",
+      "firstStep": "Verify the existing cancellation-list rules and booking workflow. Compare a conventional status display with staff-assisted summaries before choosing an AI approach.",
+      "measure": "Repeat booking calls per patient enquiry.",
+      "priority": 10,
+      "reason": "Direct accounts point to booking friction as well as long waits; data visibility and ordinary workflow fixes may suffice."
+    },
+    {
+      "id": "breast-screening-waits",
+      "concern": "People call repeatedly for breast imaging appointments",
+      "why": "Long waits and limited local appointments prompt repeated calls or travel to other cities.",
+      "fit": "mixed",
+      "idea": "Help booking staff explain approved referral status and available scheduling options, using current service information.",
+      "limit": "It cannot expand imaging capacity, interpret symptoms or decide clinical priority.",
+      "firstStep": "Distinguish screening from diagnostic pathways with service owners. Test explanations for verified booking scenarios and keep clinical decisions with qualified staff.",
+      "measure": "Enquiries resolved with an accurate explanation of the applicable booking pathway.",
+      "priority": 11,
+      "reason": "Several accounts show a navigation problem, but combining different clinical pathways without discovery would produce misleading advice."
+    },
+    {
+      "id": "wildfire-evacuee-support",
+      "concern": "Evacuees receive unclear updates and delayed assistance",
+      "why": "Delayed aid, insufficient supplies and conflicting instructions increase uncertainty while people are displaced.",
+      "fit": "mixed",
+      "idea": "Help emergency-support staff draft consistent updates from approved current notices and verified assistance-status records.",
+      "limit": "It cannot supply aid, authorize payments, determine evacuation safety or issue independent return-home advice.",
+      "firstStep": "Trace how an approved notice reaches evacuees and identify conflicting versions. Test staff-reviewed drafts in a tabletop exercise before considering live use.",
+      "measure": "Time from an approved notice to a consistent recipient update.",
+      "priority": 12,
+      "reason": "Communication is consequential and repeated, but emergency authority, accessible channels and version control must be established first."
+    },
+    {
+      "id": "sgi-claims",
+      "concern": "Claimants cannot resolve prolonged settlement disputes",
+      "why": "A homeowner describes a prolonged claim and disagreement over repairs and settlement terms.",
+      "fit": "mixed",
+      "idea": "Help claims staff compile a dated case summary and explain recorded decisions with links to the relevant documents.",
+      "limit": "It cannot determine coverage, settle claims or replace an independent dispute process.",
+      "firstStep": "Review an anonymized resolved claim with an adjuster and complaints specialist; compare the summary against every material document and disputed point.",
+      "measure": "Time a reviewer needs to locate the evidence behind a disputed decision.",
+      "priority": 13,
+      "reason": "Document navigation may help, but one sampled claim cannot establish a general claims-processing problem or justify decision automation."
+    },
+    {
+      "id": "said-policy-clarity",
+      "concern": "Recipients do not understand changing support rules",
+      "why": "A recipient describes uncertainty about program changes and whether support will continue.",
+      "fit": "assist",
+      "idea": "Draft plain-language explanations of approved policy changes, with citations and a clear distinction between general rules and individual decisions.",
+      "limit": "It cannot resolve policy ambiguity or assure an individual's entitlement without an authorized assessment.",
+      "firstStep": "Ask the policy owner to approve a change log and common questions; test draft explanations for comprehension with appropriate reviewers.",
+      "measure": "Readers who correctly understand what changed and where to obtain individual advice.",
+      "priority": 14,
+      "reason": "A plausible explanation task, but this topic currently rests on reported media evidence rather than a verified direct internet complaint."
+    },
+    {
+      "id": "income-assistance-eligibility",
+      "concern": "People cannot understand disputed benefit deductions",
+      "why": "A recipient alleges an interruption after other income; commenters disagree about the applicable rules.",
+      "fit": "assist",
+      "idea": "Help caseworkers explain a recorded deduction using cited policy and the approved calculation, without making eligibility decisions.",
+      "limit": "It cannot adjudicate disputed facts, recalculate entitlements independently or decide an appeal.",
+      "firstStep": "Have benefits specialists establish the correct policy and calculations for anonymized resolved examples before evaluating any generated explanations.",
+      "measure": "Explanations requiring correction by a benefits specialist.",
+      "priority": 15,
+      "reason": "The complaint exposes confusion, but disputed facts and rules require expert review before any assistance tool is proposed."
+    },
+    {
+      "id": "public-housing-maintenance",
+      "concern": "Tenants report pests and unresolved repairs",
+      "why": "Repeated pest treatment and unresolved repair reports leave households dealing with poor living conditions.",
+      "fit": "service",
+      "idea": "Fix repair ownership, repeat-visit tracking and tenant callbacks first; consider history summaries only if record review is a proven bottleneck.",
+      "limit": "It cannot repair homes, treat pests or provide maintenance crews and funding.",
+      "firstStep": "Trace a recurring repair request from intake to inspection and closure; confirm that a named team owns repeat failures.",
+      "measure": "Repeat repair reports after a job is marked complete.",
+      "priority": 16,
+      "reason": "The observed problem concerns actual conditions and follow-through; workflow accountability is more direct than introducing an AI interface."
+    },
+    {
+      "id": "school-bullying-response",
+      "concern": "Parents escalate bullying but see little action",
+      "why": "A parent reports continued bullying despite raising concerns through school leadership.",
+      "fit": "service",
+      "idea": "Establish clear reporting and escalation ownership first; consider staff-reviewed chronology summaries only if documentation is the demonstrated bottleneck.",
+      "limit": "It cannot investigate harm, decide safeguarding actions or replace responsible school staff.",
+      "firstStep": "Review the division's response process with safeguarding leads, using a fictional case to test acknowledgements, ownership and escalation.",
+      "measure": "Reports receiving an acknowledged owner and documented follow-up.",
+      "priority": 17,
+      "reason": "The complaint is about action after escalation, not merely missing information; a responsible human response must lead."
+    },
+    {
+      "id": "family-doctor-access",
+      "concern": "People cannot find a family doctor",
+      "why": "Residents describe repeated unsuccessful searches and losing continuity of care when a clinic closes.",
+      "fit": "service",
+      "idea": "Maintain accurate clinic availability and referral routes first; consider question answering only after an accountable data owner is established.",
+      "limit": "It cannot recruit clinicians, open patient panels or guarantee ongoing care.",
+      "firstStep": "Confirm how clinics report whether they accept patients and how residents are directed when no local option exists.",
+      "measure": "Accuracy of published clinic-availability information when checked with providers.",
+      "priority": 18,
+      "reason": "The primary constraint is access to clinical capacity. Better navigation helps only when it reflects real availability."
+    },
+    {
+      "id": "hospital-crowding",
+      "concern": "Patients spend days receiving care in hallways",
+      "why": "Patients and families describe limited privacy, difficult conditions and prolonged hallway stays.",
+      "fit": "service",
+      "idea": "Start with bed capacity, patient flow and escalation reviews; no AI pilot is recommended from these complaints alone.",
+      "limit": "It cannot create beds, staff wards or establish that a care arrangement is clinically appropriate.",
+      "firstStep": "Ask clinical operations to identify the measured causes of hallway stays and whether a specific information bottleneck warrants separate investigation.",
+      "measure": "Patient hours spent receiving care in hallways.",
+      "priority": 19,
+      "reason": "Repeated concerns are serious, but the evidence supports an operational capacity problem rather than a defined AI use case."
+    },
+    {
+      "id": "emergency-care-waits",
+      "concern": "Families face long waits for emergency care",
+      "why": "A parent describes a lengthy emergency wait and repeat visits to obtain care.",
+      "fit": "service",
+      "idea": "Review staffing, patient flow and waiting-room communication before considering AI; basic service updates may be sufficient.",
+      "limit": "It cannot decide triage priority, diagnose patients or create emergency-care capacity.",
+      "firstStep": "Have emergency-care leaders examine the relevant wait measures and communication gaps without treating a complaint as proof of incorrect triage.",
+      "measure": "Clinician-reviewed time to initial assessment, separated by the applicable urgency category.",
+      "priority": 20,
+      "reason": "A high-impact service concern, but the available evidence does not isolate a safe, useful AI intervention."
+    },
+    {
+      "id": "school-support-capacity",
+      "concern": "Families worry about losing classroom support",
+      "why": "A parent fears reduced educational-assistant capacity will undermine consistent support at school.",
+      "fit": "service",
+      "idea": "Review staffing and support continuity with school divisions; do not propose AI as a substitute for educational assistants.",
+      "limit": "It cannot supply classroom staff or replace individualized human support.",
+      "firstStep": "Validate the affected support requirements and available staffing with the division before considering any administrative assistance opportunity.",
+      "measure": "Scheduled support hours delivered to students who require them.",
+      "priority": 21,
+      "reason": "The concern is staffing capacity and currently supported by media reporting; it does not establish an AI-solvable task."
+    },
+    {
+      "id": "income-assistance-adequacy",
+      "concern": "Benefits do not cover basic living costs",
+      "why": "Recipients and families describe relying on relatives or shared housing to make ends meet.",
+      "fit": "service",
+      "idea": "Review benefit adequacy and housing affordability; no AI pilot is recommended for the core complaint.",
+      "limit": "It cannot increase benefit rates, reduce rents or resolve income poverty.",
+      "firstStep": "Share the documented concerns with program policy staff and compare relevant household costs with authorized benefit provisions.",
+      "measure": "Gap between applicable support and documented essential household costs.",
+      "priority": 22,
+      "reason": "This is a funding and policy question. Recasting it as a chatbot problem would miss what people are complaining about."
+    },
+    {
+      "id": "highway-maintenance",
+      "concern": "Drivers report potholes and unsafe road surfaces",
+      "why": "A road user describes deep ruts and rough surfaces that make travel feel unsafe.",
+      "fit": "service",
+      "idea": "Confirm inspection and repair follow-through first; image-assisted reporting is only a later hypothesis if intake proves problematic.",
+      "limit": "It cannot repair roads, fund maintenance or replace an engineering safety assessment.",
+      "firstStep": "Verify the reported location, inspection history and responsible maintenance team; establish whether the gap is reporting or repair delivery.",
+      "measure": "Time from a validated defect report to the appropriate maintenance action.",
+      "priority": 23,
+      "reason": "One reported road condition requires field verification. The current evidence does not demonstrate an information-processing bottleneck."
+    },
+    {
+      "id": "highway-signage",
+      "concern": "Drivers cannot tell where restrictions apply",
+      "why": "Unclear construction-zone boundaries and speed signs leave drivers uncertain about the required behaviour.",
+      "fit": "service",
+      "idea": "Audit sign placement, consistency and zone boundaries; do not add an AI explanation layer to unclear roadside instructions.",
+      "limit": "It cannot make physical signs clear or replace approved traffic-control arrangements.",
+      "firstStep": "Have the responsible road team review the reported route against the approved traffic-control plan and actual sign placement.",
+      "measure": "Signage inconsistencies found and corrected in the reviewed construction zone.",
+      "priority": 24,
+      "reason": "The direct complaint concerns physical instructions drivers must understand immediately; conventional inspection is the appropriate first response."
+    },
+    {
+      "id": "telecom-outages",
+      "concern": "People lose calls and cannot reach support",
+      "why": "Customers report losing telephone service, including the ability to contact the provider by phone.",
+      "fit": "service",
+      "idea": "Prioritize service restoration and accessible incident updates through alternative channels; consider staff draft assistance only after reliable incident data exists.",
+      "limit": "It cannot restore network service or provide a working channel during a network failure.",
+      "firstStep": "Review the outage record and check which alternative status channels remained available to affected customers.",
+      "measure": "Time between confirmed outage detection and an accessible customer update.",
+      "priority": 25,
+      "reason": "The sampled accounts concern an outage, so network reliability and accessible communications should lead rather than an AI feature."
+    },
+    {
+      "id": "wildfire-response",
+      "concern": "Residents question response resources and local input",
+      "why": "Residents describe insufficient operational support and local warnings or expertise not being adequately considered.",
+      "fit": "service",
+      "idea": "Review resource coordination and how local reports reach incident command; consider staff summaries only after a specific handoff failure is established.",
+      "limit": "It cannot provide firefighting resources, validate field conditions or make incident-command decisions.",
+      "firstStep": "Include local representatives and incident-command staff in an after-action review of how warnings, offers and resource requests were recorded and addressed.",
+      "measure": "Local reports with a recorded owner and documented disposition.",
+      "priority": 26,
+      "reason": "The complaints point to resources and participation in operations. AI feasibility is unestablished and should follow accountable process review."
+    }
+  ],
+  "topThreeSuggestions": [
+    {
+      "id": "income-assistance-administration",
+      "suggestion": "Start with a staff policy-search and answer-drafting trial.",
+      "reason": "Repeated direct complaints describe inconsistent answers and paperwork. Current source citations and human review make a limited trial assessable."
+    },
+    {
+      "id": "said-payment-delays",
+      "suggestion": "Investigate a clear payment-hold explanation workflow.",
+      "reason": "The next useful step is to confirm reliable status reasons and ownership. AI is optional once those foundations are known."
+    },
+    {
+      "id": "power-billing",
+      "suggestion": "Test evidence-linked explanations of resolved billing enquiries.",
+      "reason": "Multiple customers question bills and explanations. Use conventional calculations, then assess whether reviewed drafts improve understanding."
+    }
+  ],
+  "supplementaryTopics": [
+    {
+      "id": "health-workforce",
+      "concern": "Advocates question delays in nursing workforce reforms",
+      "why": "Professional advocates connect delayed reforms and training changes with workforce constraints; individual service effects are not verified here.",
+      "fit": "service",
+      "idea": "Clarify the policy, training and implementation barriers with workforce leads; consider document summaries only after a specific administrative bottleneck is evidenced.",
+      "limit": "It cannot train or recruit nurses, change professional rules or supply missing clinical staff.",
+      "firstStep": "Verify post dates and claims with the responsible workforce and education teams before adding this topic to the main evidence counts.",
+      "measure": "Verified implementation milestones completed against the responsible team's published plan.",
+      "priority": 27,
+      "reason": "Supplementary professional commentary has unverified dates; operational and policy work is primary.",
+      "countStatus": "Excluded from complaint counts pending date verification; professional advocacy, not verified firsthand service experience."
+    },
+    {
+      "id": "sinp-policy-uncertainty",
+      "concern": "Professionals question pauses in immigration job approvals",
+      "why": "Professional commentary describes uncertainty around job-approval intake; affected applicants and dates are not verified in this supplementary topic.",
+      "fit": "service",
+      "idea": "Publish clear approved intake status and transition guidance first; staff may later use a cited policy-search assistant.",
+      "limit": "It cannot reopen intake, change nomination allocations or decide immigration eligibility.",
+      "firstStep": "Verify the referenced pause, dates and responsible provincial process, then identify any repeated unanswered administrative questions.",
+      "measure": "Enquiries receiving an accurate explanation of the current intake status and next applicable step.",
+      "priority": 28,
+      "reason": "Policy capacity and transitions appear primary; the evidence is supplementary and should not be treated as measured applicant demand.",
+      "countStatus": "Excluded from complaint counts pending verification; professional commentary is labelled separately."
+    }
+  ]
+}

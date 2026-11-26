@@ -1,0 +1,59 @@
+SUBMISSION SCOPE AND NEXT STEPS
+
+POSITIONING
+Three working prototypes form a two-part submission:
+1. Public-source problems and complaints discovery.
+2. A childcare service vision spanning providers, ministry case workers and families.
+The family/provider handoff shares a local database. The ministry onboarding prototype remains separate. The complete service journey is the proposed next integration, not a completed production system.
+
+WHAT WORKS NOW
+
+Complaints discovery dashboard
+- 28 concern themes and 80 evidence records, with source context, responsible ministries and suggested next steps.
+- Search and filters, evidence library, AI opportunities and limits, data exports, 28 PDF briefs and complaint-sharing links.
+- Targeted public-source review: 50 counted public accounts and 25 named people in reporting, kept separate. These are not population estimates or verified unique individuals across sources.
+- Childcare access (SK-C007) includes nine accounts. Provider application uncertainty (SK-C008) is one household account; it does not establish a general licensing failure.
+- Static, curated research. No live ingestion or automatic connection to childcare case records.
+
+Provider/applicant and ministry prototype
+- Shared provider details, guided forms, applicant answers, field-specific correction requests, resubmission and recorded form review.
+- Printable visit copy with applicant answers and consultant-note space.
+- Uses browser localStorage on the same origin. No production authentication, live AI, secure real uploads or licence issuance.
+- Accepting a reviewed form is not licensing approval and does not provision a provider account in the family app.
+
+Family and provider application app
+- Family search, provider details, application review and consent, application submission, provider review/status update, and family status visibility.
+- Family and provider views share a real local SQLite database; the backend test suite passed 11 tests during this review.
+- Two fictional providers support in-app applications. Nine researched real listings use external enquiry links.
+- Demo account switching is for demonstration, not production identity or authorization. No verified live hosted deployment.
+- Separate from ministry onboarding and licensing.
+
+DESIRED END-TO-END SERVICE
+Provider applies -> ministry reviews requirements -> authorized ministry user approves the relevant licence/registration -> provider dashboard is provisioned -> provider maintains profile, capacity and application availability -> family reviews and consents to an application -> provider reviews it -> both parties can track status.
+
+Compliance forms, secure documents and reminders would continue within the provider dashboard. Grant discovery, eligibility, applications, evidence, review and awards require separate confirmation of actual ministry rules and responsibilities.
+
+PRIORITIES BEFORE SUBMISSION
+1. Submit the three current apps and a short recording with the two-part narrative above.
+2. Demonstrate the strongest completed handoffs: applicant correction/review and family application/provider status update.
+3. State exactly where persistence is local and where the apps are separate.
+4. Include this scope statement, reproducible run instructions and available downloadable artifacts.
+5. Preserve current working versions; avoid last-minute changes to authentication, data models or licensing logic.
+
+AFTER SUBMISSION: FIRST INTEGRATION
+1. Confirm the real ministry process with case workers, providers and families. Separate licensing, funding eligibility, program intake and form acceptance.
+2. Define stable provider, facility, family and application identifiers across both childcare apps.
+3. Move both apps onto one authenticated backend with role-based access and a shared relational database. Keep ministry approval distinct from family/provider enrolment decisions.
+4. Implement an explicit approved-provider event that provisions the provider dashboard and links it to the approved facility. Test rejection, correction, resubmission and withdrawal as well as approval.
+5. Deploy a reviewable environment and test one complete fictional journey across ministry, provider and family accounts.
+
+AFTER SUBMISSION: SERVICE HARDENING
+- Secure document upload, file validation, storage permissions, retention and audit history.
+- Consent records, minimum necessary data sharing, real authentication and role-level access tests.
+- Capacity and availability updates, notifications, duplicate prevention and recovery from failed submissions.
+- Accessibility checks and user testing, including incomplete and ambiguous applications.
+- Grounded assistance for form explanations and missing-information checks, with clear uncertainty and human control of decisions. Live AI is not implemented in the applicant prototype.
+- Grants only after validating actual program rules, required evidence, decision authority and payment responsibilities. No grant eligibility, approval or award capability is claimed in this submission.
+
+MEASURING SUCCESS
+Establish a baseline, then compare application completeness, correction cycles, time to first response, staff processing time and family time to find suitable providers. Track errors and inappropriate disclosures as well as speed. Treat reduced delays and avoidable declines as hypotheses to evaluate, not achieved results.

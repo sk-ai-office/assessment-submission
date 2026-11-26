@@ -1,0 +1,986 @@
+{
+  "Proposed ExpenditureRow1": {
+    "/T": "Proposed ExpenditureRow1",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_1"
+  },
+  "Estimated Cost including taxesRow1": {
+    "/T": "Estimated Cost including taxesRow1",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_1"
+  },
+  "Proposed ExpenditureRow2": {
+    "/T": "Proposed ExpenditureRow2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_2"
+  },
+  "Estimated Cost including taxesRow2": {
+    "/T": "Estimated Cost including taxesRow2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_2"
+  },
+  "Proposed ExpenditureRow3": {
+    "/T": "Proposed ExpenditureRow3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_3"
+  },
+  "Estimated Cost including taxesRow3": {
+    "/T": "Estimated Cost including taxesRow3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_3"
+  },
+  "Proposed ExpenditureRow4": {
+    "/T": "Proposed ExpenditureRow4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_4"
+  },
+  "Estimated Cost including taxesRow4": {
+    "/T": "Estimated Cost including taxesRow4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_4"
+  },
+  "Proposed ExpenditureRow5": {
+    "/T": "Proposed ExpenditureRow5",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_5"
+  },
+  "Estimated Cost including taxesRow5": {
+    "/T": "Estimated Cost including taxesRow5",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_5"
+  },
+  "Proposed ExpenditureRow6": {
+    "/T": "Proposed ExpenditureRow6",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_6"
+  },
+  "Estimated Cost including taxesRow6": {
+    "/T": "Estimated Cost including taxesRow6",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_6"
+  },
+  "Proposed ExpenditureRow7": {
+    "/T": "Proposed ExpenditureRow7",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_7"
+  },
+  "Estimated Cost including taxesRow7": {
+    "/T": "Estimated Cost including taxesRow7",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_7"
+  },
+  "Proposed ExpenditureRow8": {
+    "/T": "Proposed ExpenditureRow8",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_8"
+  },
+  "Estimated Cost including taxesRow8": {
+    "/T": "Estimated Cost including taxesRow8",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_8"
+  },
+  "Proposed ExpenditureRow9": {
+    "/T": "Proposed ExpenditureRow9",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_9"
+  },
+  "Estimated Cost including taxesRow9": {
+    "/T": "Estimated Cost including taxesRow9",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_9"
+  },
+  "Proposed ExpenditureRow10": {
+    "/T": "Proposed ExpenditureRow10",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_10"
+  },
+  "Estimated Cost including taxesRow10": {
+    "/T": "Estimated Cost including taxesRow10",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_10"
+  },
+  "Proposed ExpenditureRow11": {
+    "/T": "Proposed ExpenditureRow11",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_11"
+  },
+  "Estimated Cost including taxesRow11": {
+    "/T": "Estimated Cost including taxesRow11",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_11"
+  },
+  "Proposed ExpenditureRow12": {
+    "/T": "Proposed ExpenditureRow12",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_12"
+  },
+  "Estimated Cost including taxesRow12": {
+    "/T": "Estimated Cost including taxesRow12",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_12"
+  },
+  "Proposed ExpenditureRow13": {
+    "/T": "Proposed ExpenditureRow13",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_13"
+  },
+  "Estimated Cost including taxesRow13": {
+    "/T": "Estimated Cost including taxesRow13",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_13"
+  },
+  "Proposed ExpenditureRow14": {
+    "/T": "Proposed ExpenditureRow14",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_14"
+  },
+  "Estimated Cost including taxesRow14": {
+    "/T": "Estimated Cost including taxesRow14",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_14"
+  },
+  "Proposed ExpenditureRow15": {
+    "/T": "Proposed ExpenditureRow15",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_15"
+  },
+  "Estimated Cost including taxesRow15": {
+    "/T": "Estimated Cost including taxesRow15",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_15"
+  },
+  "Proposed ExpenditureRow16": {
+    "/T": "Proposed ExpenditureRow16",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_16"
+  },
+  "Estimated Cost including taxesRow16": {
+    "/T": "Estimated Cost including taxesRow16",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_16"
+  },
+  "Proposed ExpenditureRow17": {
+    "/T": "Proposed ExpenditureRow17",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_17"
+  },
+  "Estimated Cost including taxesRow17": {
+    "/T": "Estimated Cost including taxesRow17",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_17"
+  },
+  "Proposed ExpenditureRow18": {
+    "/T": "Proposed ExpenditureRow18",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_18"
+  },
+  "Estimated Cost including taxesRow18": {
+    "/T": "Estimated Cost including taxesRow18",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_18"
+  },
+  "Proposed ExpenditureRow19": {
+    "/T": "Proposed ExpenditureRow19",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_19"
+  },
+  "Estimated Cost including taxesRow19": {
+    "/T": "Estimated Cost including taxesRow19",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_19"
+  },
+  "Proposed ExpenditureRow20": {
+    "/T": "Proposed ExpenditureRow20",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_20"
+  },
+  "Estimated Cost including taxesRow20": {
+    "/T": "Estimated Cost including taxesRow20",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_20"
+  },
+  "Proposed ExpenditureRow21": {
+    "/T": "Proposed ExpenditureRow21",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_21"
+  },
+  "Estimated Cost including taxesRow21": {
+    "/T": "Estimated Cost including taxesRow21",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_21"
+  },
+  "Proposed ExpenditureRow22": {
+    "/T": "Proposed ExpenditureRow22",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_22"
+  },
+  "Estimated Cost including taxesRow22": {
+    "/T": "Estimated Cost including taxesRow22",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_22"
+  },
+  "How will these expenditures enhance the quality of the early learning programRow1": {
+    "/T": "How will these expenditures enhance the quality of the early learning programRow1",
+    "/FT": "/Tx",
+    "/TU": "How will these expenditures enhance the quality of the early learning program?_Row_1",
+    "/Ff": "4096"
+  },
+  "Proposed ExpenditureRow1_2": {
+    "/T": "Proposed ExpenditureRow1_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_1"
+  },
+  "Estimated Cost including taxesRow1_2": {
+    "/T": "Estimated Cost including taxesRow1_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_1"
+  },
+  "Proposed ExpenditureRow2_2": {
+    "/T": "Proposed ExpenditureRow2_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_2"
+  },
+  "Estimated Cost including taxesRow2_2": {
+    "/T": "Estimated Cost including taxesRow2_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_2"
+  },
+  "Proposed ExpenditureRow3_2": {
+    "/T": "Proposed ExpenditureRow3_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_3"
+  },
+  "Estimated Cost including taxesRow3_2": {
+    "/T": "Estimated Cost including taxesRow3_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_3"
+  },
+  "Proposed ExpenditureRow4_2": {
+    "/T": "Proposed ExpenditureRow4_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_4"
+  },
+  "Estimated Cost including taxesRow4_2": {
+    "/T": "Estimated Cost including taxesRow4_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_4"
+  },
+  "Proposed ExpenditureRow5_2": {
+    "/T": "Proposed ExpenditureRow5_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_5"
+  },
+  "Estimated Cost including taxesRow5_2": {
+    "/T": "Estimated Cost including taxesRow5_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_5"
+  },
+  "Proposed ExpenditureRow6_2": {
+    "/T": "Proposed ExpenditureRow6_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_6"
+  },
+  "Estimated Cost including taxesRow6_2": {
+    "/T": "Estimated Cost including taxesRow6_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_6"
+  },
+  "Proposed ExpenditureRow7_2": {
+    "/T": "Proposed ExpenditureRow7_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_7"
+  },
+  "Estimated Cost including taxesRow7_2": {
+    "/T": "Estimated Cost including taxesRow7_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_7"
+  },
+  "Proposed ExpenditureRow8_2": {
+    "/T": "Proposed ExpenditureRow8_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_8"
+  },
+  "Estimated Cost including taxesRow8_2": {
+    "/T": "Estimated Cost including taxesRow8_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_8"
+  },
+  "Proposed ExpenditureRow9_2": {
+    "/T": "Proposed ExpenditureRow9_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_9"
+  },
+  "Estimated Cost including taxesRow9_2": {
+    "/T": "Estimated Cost including taxesRow9_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_9"
+  },
+  "Proposed ExpenditureRow10_2": {
+    "/T": "Proposed ExpenditureRow10_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_10"
+  },
+  "Estimated Cost including taxesRow10_2": {
+    "/T": "Estimated Cost including taxesRow10_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_10"
+  },
+  "Proposed ExpenditureRow11_2": {
+    "/T": "Proposed ExpenditureRow11_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_11"
+  },
+  "Estimated Cost including taxesRow11_2": {
+    "/T": "Estimated Cost including taxesRow11_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_11"
+  },
+  "Proposed ExpenditureRow12_2": {
+    "/T": "Proposed ExpenditureRow12_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_12"
+  },
+  "Estimated Cost including taxesRow12_2": {
+    "/T": "Estimated Cost including taxesRow12_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_12"
+  },
+  "Proposed ExpenditureRow13_2": {
+    "/T": "Proposed ExpenditureRow13_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_13"
+  },
+  "Estimated Cost including taxesRow13_2": {
+    "/T": "Estimated Cost including taxesRow13_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_13"
+  },
+  "Proposed ExpenditureRow14_2": {
+    "/T": "Proposed ExpenditureRow14_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_14"
+  },
+  "Estimated Cost including taxesRow14_2": {
+    "/T": "Estimated Cost including taxesRow14_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_14"
+  },
+  "Proposed ExpenditureRow15_2": {
+    "/T": "Proposed ExpenditureRow15_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_15"
+  },
+  "Estimated Cost including taxesRow15_2": {
+    "/T": "Estimated Cost including taxesRow15_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_15"
+  },
+  "Proposed ExpenditureRow16_2": {
+    "/T": "Proposed ExpenditureRow16_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_16"
+  },
+  "Estimated Cost including taxesRow16_2": {
+    "/T": "Estimated Cost including taxesRow16_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_16"
+  },
+  "Proposed ExpenditureRow17_2": {
+    "/T": "Proposed ExpenditureRow17_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_17"
+  },
+  "Estimated Cost including taxesRow17_2": {
+    "/T": "Estimated Cost including taxesRow17_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_17"
+  },
+  "Proposed ExpenditureRow18_2": {
+    "/T": "Proposed ExpenditureRow18_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_18"
+  },
+  "Estimated Cost including taxesRow18_2": {
+    "/T": "Estimated Cost including taxesRow18_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_18"
+  },
+  "Proposed ExpenditureRow19_2": {
+    "/T": "Proposed ExpenditureRow19_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_19"
+  },
+  "Estimated Cost including taxesRow19_2": {
+    "/T": "Estimated Cost including taxesRow19_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_19"
+  },
+  "Proposed ExpenditureRow20_2": {
+    "/T": "Proposed ExpenditureRow20_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_20"
+  },
+  "Estimated Cost including taxesRow20_2": {
+    "/T": "Estimated Cost including taxesRow20_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_20"
+  },
+  "Proposed ExpenditureRow21_2": {
+    "/T": "Proposed ExpenditureRow21_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_21"
+  },
+  "Estimated Cost including taxesRow21_2": {
+    "/T": "Estimated Cost including taxesRow21_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_21"
+  },
+  "Proposed ExpenditureRow22_2": {
+    "/T": "Proposed ExpenditureRow22_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_22"
+  },
+  "Estimated Cost including taxesRow22_2": {
+    "/T": "Estimated Cost including taxesRow22_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_22"
+  },
+  "Proposed ExpenditureRow23": {
+    "/T": "Proposed ExpenditureRow23",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_23"
+  },
+  "Estimated Cost including taxesRow23": {
+    "/T": "Estimated Cost including taxesRow23",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_23"
+  },
+  "Proposed ExpenditureRow24": {
+    "/T": "Proposed ExpenditureRow24",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_24"
+  },
+  "Estimated Cost including taxesRow24": {
+    "/T": "Estimated Cost including taxesRow24",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_24"
+  },
+  "How will these expenditures enhance the quality of the early learning programRow1_2": {
+    "/T": "How will these expenditures enhance the quality of the early learning programRow1_2",
+    "/FT": "/Tx",
+    "/TU": "How will these expenditures enhance the quality of the early learning program?_Row_1",
+    "/Ff": "4096"
+  },
+  "Proposed ExpenditureRow1_3": {
+    "/T": "Proposed ExpenditureRow1_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_1"
+  },
+  "Estimated Cost including taxesRow1_3": {
+    "/T": "Estimated Cost including taxesRow1_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_1"
+  },
+  "Proposed ExpenditureRow2_3": {
+    "/T": "Proposed ExpenditureRow2_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_2"
+  },
+  "Estimated Cost including taxesRow2_3": {
+    "/T": "Estimated Cost including taxesRow2_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_2"
+  },
+  "Proposed ExpenditureRow3_3": {
+    "/T": "Proposed ExpenditureRow3_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_3"
+  },
+  "Estimated Cost including taxesRow3_3": {
+    "/T": "Estimated Cost including taxesRow3_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_3"
+  },
+  "Proposed ExpenditureRow4_3": {
+    "/T": "Proposed ExpenditureRow4_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_4"
+  },
+  "Estimated Cost including taxesRow4_3": {
+    "/T": "Estimated Cost including taxesRow4_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_4"
+  },
+  "Proposed ExpenditureRow5_3": {
+    "/T": "Proposed ExpenditureRow5_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_5"
+  },
+  "Estimated Cost including taxesRow5_3": {
+    "/T": "Estimated Cost including taxesRow5_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_5"
+  },
+  "Proposed ExpenditureRow6_3": {
+    "/T": "Proposed ExpenditureRow6_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_6"
+  },
+  "Estimated Cost including taxesRow6_3": {
+    "/T": "Estimated Cost including taxesRow6_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_6"
+  },
+  "Proposed ExpenditureRow7_3": {
+    "/T": "Proposed ExpenditureRow7_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_7"
+  },
+  "Estimated Cost including taxesRow7_3": {
+    "/T": "Estimated Cost including taxesRow7_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_7"
+  },
+  "Proposed ExpenditureRow8_3": {
+    "/T": "Proposed ExpenditureRow8_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_8"
+  },
+  "Estimated Cost including taxesRow8_3": {
+    "/T": "Estimated Cost including taxesRow8_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_8"
+  },
+  "Proposed ExpenditureRow9_3": {
+    "/T": "Proposed ExpenditureRow9_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_9"
+  },
+  "Estimated Cost including taxesRow9_3": {
+    "/T": "Estimated Cost including taxesRow9_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_9"
+  },
+  "Proposed ExpenditureRow10_3": {
+    "/T": "Proposed ExpenditureRow10_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_10"
+  },
+  "Estimated Cost including taxesRow10_3": {
+    "/T": "Estimated Cost including taxesRow10_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_10"
+  },
+  "Proposed ExpenditureRow11_3": {
+    "/T": "Proposed ExpenditureRow11_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_11"
+  },
+  "Estimated Cost including taxesRow11_3": {
+    "/T": "Estimated Cost including taxesRow11_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_11"
+  },
+  "Proposed ExpenditureRow12_3": {
+    "/T": "Proposed ExpenditureRow12_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_12"
+  },
+  "Estimated Cost including taxesRow12_3": {
+    "/T": "Estimated Cost including taxesRow12_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_12"
+  },
+  "Proposed ExpenditureRow13_3": {
+    "/T": "Proposed ExpenditureRow13_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_13"
+  },
+  "Estimated Cost including taxesRow13_3": {
+    "/T": "Estimated Cost including taxesRow13_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_13"
+  },
+  "Proposed ExpenditureRow14_3": {
+    "/T": "Proposed ExpenditureRow14_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_14"
+  },
+  "Estimated Cost including taxesRow14_3": {
+    "/T": "Estimated Cost including taxesRow14_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_14"
+  },
+  "Proposed ExpenditureRow15_3": {
+    "/T": "Proposed ExpenditureRow15_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_15"
+  },
+  "Estimated Cost including taxesRow15_3": {
+    "/T": "Estimated Cost including taxesRow15_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_15"
+  },
+  "Proposed ExpenditureRow16_3": {
+    "/T": "Proposed ExpenditureRow16_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_16"
+  },
+  "Estimated Cost including taxesRow16_3": {
+    "/T": "Estimated Cost including taxesRow16_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_16"
+  },
+  "Proposed ExpenditureRow17_3": {
+    "/T": "Proposed ExpenditureRow17_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_17"
+  },
+  "Estimated Cost including taxesRow17_3": {
+    "/T": "Estimated Cost including taxesRow17_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_17"
+  },
+  "Proposed ExpenditureRow18_3": {
+    "/T": "Proposed ExpenditureRow18_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_18"
+  },
+  "Estimated Cost including taxesRow18_3": {
+    "/T": "Estimated Cost including taxesRow18_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_18"
+  },
+  "Proposed ExpenditureRow19_3": {
+    "/T": "Proposed ExpenditureRow19_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_19"
+  },
+  "Estimated Cost including taxesRow19_3": {
+    "/T": "Estimated Cost including taxesRow19_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_19"
+  },
+  "Proposed ExpenditureRow20_3": {
+    "/T": "Proposed ExpenditureRow20_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_20"
+  },
+  "Estimated Cost including taxesRow20_3": {
+    "/T": "Estimated Cost including taxesRow20_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_20"
+  },
+  "Proposed ExpenditureRow21_3": {
+    "/T": "Proposed ExpenditureRow21_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_21"
+  },
+  "Estimated Cost including taxesRow21_3": {
+    "/T": "Estimated Cost including taxesRow21_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_21"
+  },
+  "Proposed ExpenditureRow22_3": {
+    "/T": "Proposed ExpenditureRow22_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_22"
+  },
+  "Estimated Cost including taxesRow22_3": {
+    "/T": "Estimated Cost including taxesRow22_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_22"
+  },
+  "Proposed ExpenditureRow23_2": {
+    "/T": "Proposed ExpenditureRow23_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_23"
+  },
+  "Estimated Cost including taxesRow23_2": {
+    "/T": "Estimated Cost including taxesRow23_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_23"
+  },
+  "Proposed ExpenditureRow24_2": {
+    "/T": "Proposed ExpenditureRow24_2",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_24"
+  },
+  "Estimated Cost including taxesRow24_2": {
+    "/T": "Estimated Cost including taxesRow24_2",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_24"
+  },
+  "Proposed ExpenditureRow25": {
+    "/T": "Proposed ExpenditureRow25",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_25"
+  },
+  "Estimated Cost including taxesRow25": {
+    "/T": "Estimated Cost including taxesRow25",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_25"
+  },
+  "Proposed ExpenditureRow26": {
+    "/T": "Proposed ExpenditureRow26",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_26"
+  },
+  "Estimated Cost including taxesRow26": {
+    "/T": "Estimated Cost including taxesRow26",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_26"
+  },
+  "How will these expenditures enhance the quality of the early learning programRow1_3": {
+    "/T": "How will these expenditures enhance the quality of the early learning programRow1_3",
+    "/FT": "/Tx",
+    "/TU": "How will these expenditures enhance the quality of the early learning program?_Row_1",
+    "/Ff": "4096"
+  },
+  "Proposed ExpenditureRow1_4": {
+    "/T": "Proposed ExpenditureRow1_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_1"
+  },
+  "Estimated Cost including taxesRow1_4": {
+    "/T": "Estimated Cost including taxesRow1_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_1"
+  },
+  "Proposed ExpenditureRow2_4": {
+    "/T": "Proposed ExpenditureRow2_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_2"
+  },
+  "Estimated Cost including taxesRow2_4": {
+    "/T": "Estimated Cost including taxesRow2_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_2"
+  },
+  "Proposed ExpenditureRow3_4": {
+    "/T": "Proposed ExpenditureRow3_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_3"
+  },
+  "Estimated Cost including taxesRow3_4": {
+    "/T": "Estimated Cost including taxesRow3_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_3"
+  },
+  "Proposed ExpenditureRow4_4": {
+    "/T": "Proposed ExpenditureRow4_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_4"
+  },
+  "Estimated Cost including taxesRow4_4": {
+    "/T": "Estimated Cost including taxesRow4_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_4"
+  },
+  "Proposed ExpenditureRow5_4": {
+    "/T": "Proposed ExpenditureRow5_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_5"
+  },
+  "Estimated Cost including taxesRow5_4": {
+    "/T": "Estimated Cost including taxesRow5_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_5"
+  },
+  "Proposed ExpenditureRow6_4": {
+    "/T": "Proposed ExpenditureRow6_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_6"
+  },
+  "Estimated Cost including taxesRow6_4": {
+    "/T": "Estimated Cost including taxesRow6_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_6"
+  },
+  "Proposed ExpenditureRow7_4": {
+    "/T": "Proposed ExpenditureRow7_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_7"
+  },
+  "Estimated Cost including taxesRow7_4": {
+    "/T": "Estimated Cost including taxesRow7_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_7"
+  },
+  "Proposed ExpenditureRow8_4": {
+    "/T": "Proposed ExpenditureRow8_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_8"
+  },
+  "Estimated Cost including taxesRow8_4": {
+    "/T": "Estimated Cost including taxesRow8_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_8"
+  },
+  "Proposed ExpenditureRow9_4": {
+    "/T": "Proposed ExpenditureRow9_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_9"
+  },
+  "Estimated Cost including taxesRow9_4": {
+    "/T": "Estimated Cost including taxesRow9_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_9"
+  },
+  "Proposed ExpenditureRow10_4": {
+    "/T": "Proposed ExpenditureRow10_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_10"
+  },
+  "Estimated Cost including taxesRow10_4": {
+    "/T": "Estimated Cost including taxesRow10_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_10"
+  },
+  "Proposed ExpenditureRow11_4": {
+    "/T": "Proposed ExpenditureRow11_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_11"
+  },
+  "Estimated Cost including taxesRow11_4": {
+    "/T": "Estimated Cost including taxesRow11_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_11"
+  },
+  "Proposed ExpenditureRow12_4": {
+    "/T": "Proposed ExpenditureRow12_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_12"
+  },
+  "Estimated Cost including taxesRow12_4": {
+    "/T": "Estimated Cost including taxesRow12_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_12"
+  },
+  "Proposed ExpenditureRow13_4": {
+    "/T": "Proposed ExpenditureRow13_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_13"
+  },
+  "Estimated Cost including taxesRow13_4": {
+    "/T": "Estimated Cost including taxesRow13_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_13"
+  },
+  "Proposed ExpenditureRow14_4": {
+    "/T": "Proposed ExpenditureRow14_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_14"
+  },
+  "Estimated Cost including taxesRow14_4": {
+    "/T": "Estimated Cost including taxesRow14_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_14"
+  },
+  "Proposed ExpenditureRow15_4": {
+    "/T": "Proposed ExpenditureRow15_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_15"
+  },
+  "Estimated Cost including taxesRow15_4": {
+    "/T": "Estimated Cost including taxesRow15_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_15"
+  },
+  "Proposed ExpenditureRow16_4": {
+    "/T": "Proposed ExpenditureRow16_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_16"
+  },
+  "Estimated Cost including taxesRow16_4": {
+    "/T": "Estimated Cost including taxesRow16_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_16"
+  },
+  "Proposed ExpenditureRow17_4": {
+    "/T": "Proposed ExpenditureRow17_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_17"
+  },
+  "Estimated Cost including taxesRow17_4": {
+    "/T": "Estimated Cost including taxesRow17_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_17"
+  },
+  "Proposed ExpenditureRow18_4": {
+    "/T": "Proposed ExpenditureRow18_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_18"
+  },
+  "Estimated Cost including taxesRow18_4": {
+    "/T": "Estimated Cost including taxesRow18_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_18"
+  },
+  "Proposed ExpenditureRow19_4": {
+    "/T": "Proposed ExpenditureRow19_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_19"
+  },
+  "Estimated Cost including taxesRow19_4": {
+    "/T": "Estimated Cost including taxesRow19_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_19"
+  },
+  "Proposed ExpenditureRow20_4": {
+    "/T": "Proposed ExpenditureRow20_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_20"
+  },
+  "Estimated Cost including taxesRow20_4": {
+    "/T": "Estimated Cost including taxesRow20_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_20"
+  },
+  "Proposed ExpenditureRow21_4": {
+    "/T": "Proposed ExpenditureRow21_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_21"
+  },
+  "Estimated Cost including taxesRow21_4": {
+    "/T": "Estimated Cost including taxesRow21_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_21"
+  },
+  "Proposed ExpenditureRow22_4": {
+    "/T": "Proposed ExpenditureRow22_4",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_22"
+  },
+  "Estimated Cost including taxesRow22_4": {
+    "/T": "Estimated Cost including taxesRow22_4",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_22"
+  },
+  "Proposed ExpenditureRow23_3": {
+    "/T": "Proposed ExpenditureRow23_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_23"
+  },
+  "Estimated Cost including taxesRow23_3": {
+    "/T": "Estimated Cost including taxesRow23_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_23"
+  },
+  "Proposed ExpenditureRow24_3": {
+    "/T": "Proposed ExpenditureRow24_3",
+    "/FT": "/Tx",
+    "/TU": "Proposed Expenditure_Row_24"
+  },
+  "Estimated Cost including taxesRow24_3": {
+    "/T": "Estimated Cost including taxesRow24_3",
+    "/FT": "/Tx",
+    "/TU": "Estimated Cost (including taxes)_Row_24"
+  },
+  "How will these expenditures enhance the quality of the early learning programRow1_4": {
+    "/T": "How will these expenditures enhance the quality of the early learning programRow1_4",
+    "/FT": "/Tx",
+    "/TU": "How will these expenditures enhance the quality of the early learning program?_Row_1",
+    "/Ff": "4096"
+  }
+}

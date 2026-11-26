@@ -1,0 +1,230 @@
+{
+  "First Application": {
+    "/T": "First Application",
+    "/FT": "/Btn",
+    "/TU": "First Application",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Change in Licensed Spaces": {
+    "/T": "Change in Licensed Spaces",
+    "/FT": "/Btn",
+    "/TU": "Change in Licensed Spaces",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Change in Address": {
+    "/T": "Change in Address",
+    "/FT": "/Btn",
+    "/TU": "Change in Address",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Change of Name": {
+    "/T": "Change of Name",
+    "/FT": "/Btn",
+    "/TU": "Change of Name",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Projected opening date or effective date of requested change": {
+    "/T": "Projected opening date or effective date of requested change",
+    "/FT": "/Tx",
+    "/TU": "Projected opening date or effective date of requested change"
+  },
+  "Incorporated Name": {
+    "/T": "Incorporated Name",
+    "/FT": "/Tx",
+    "/TU": "Incorporated Name"
+  },
+  "Child Care Centre Site Name if different from Incorporated Name": {
+    "/T": "Child Care Centre Site Name if different from Incorporated Name",
+    "/FT": "/Tx",
+    "/TU": "Child Care Centre Site Name (if different from Incorporated Name)"
+  },
+  "Site Physical Address": {
+    "/T": "Site Physical Address",
+    "/FT": "/Tx",
+    "/TU": "Site Physical Address"
+  },
+  "CityTown": {
+    "/T": "CityTown",
+    "/FT": "/Tx",
+    "/TU": "City/Town"
+  },
+  "Postal Code": {
+    "/T": "Postal Code",
+    "/FT": "/Tx",
+    "/TU": "Postal Code"
+  },
+  "Phone Number": {
+    "/T": "Phone Number",
+    "/FT": "/Tx",
+    "/TU": "Phone Number"
+  },
+  "Fax Number": {
+    "/T": "Fax Number",
+    "/FT": "/Tx",
+    "/TU": "Fax Number"
+  },
+  "Email Address": {
+    "/T": "Email Address",
+    "/FT": "/Tx",
+    "/TU": "E-mail Address"
+  },
+  "Mailing Address StreetPO Box Same as above": {
+    "/T": "Mailing Address StreetPO Box Same as above",
+    "/FT": "/Tx",
+    "/TU": "Mailing Address Street/P.O. Box Same as above"
+  },
+  "undefined": {
+    "/T": "undefined",
+    "/FT": "/Btn",
+    "/TU": "undefined",
+    "/_States_": "['/Off', '/On']"
+  },
+  "CityTown_2": {
+    "/T": "CityTown_2",
+    "/FT": "/Tx",
+    "/TU": "City/Town"
+  },
+  "Postal Code_2": {
+    "/T": "Postal Code_2",
+    "/FT": "/Tx",
+    "/TU": "Postal Code"
+  },
+  "Daily Weekdays": {
+    "/T": "Daily Weekdays",
+    "/FT": "/Btn",
+    "/TU": "Daily (Weekdays",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Evening": {
+    "/T": "Evening",
+    "/FT": "/Btn",
+    "/TU": "Evening",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Weekend": {
+    "/T": "Weekend",
+    "/FT": "/Btn",
+    "/TU": "Weekend",
+    "/_States_": "['/Off', '/On']"
+  },
+  "Other": {
+    "/T": "Other",
+    "/FT": "/Btn",
+    "/TU": "Other",
+    "/_States_": "['/Off', '/On']"
+  },
+  "1": {
+    "/T": "1",
+    "/FT": "/Tx",
+    "/TU": "[1]"
+  },
+  "2": {
+    "/T": "2",
+    "/FT": "/Tx",
+    "/TU": "[2]"
+  },
+  "3": {
+    "/T": "3",
+    "/FT": "/Tx",
+    "/TU": "[3]"
+  },
+  "4": {
+    "/T": "4",
+    "/FT": "/Tx",
+    "/TU": "[4]"
+  },
+  "to": {
+    "/T": "to",
+    "/FT": "/Tx",
+    "/TU": "to"
+  },
+  "Daily Weekdays to Evening to Weekend to Other to": {
+    "/T": "Daily Weekdays to Evening to Weekend to Other to",
+    "/FT": "/Tx",
+    "/TU": "Daily (Weekdays) to Evening to Weekend to Other to",
+    "/Ff": "4096"
+  },
+  "to_2": {
+    "/T": "to_2",
+    "/FT": "/Tx",
+    "/TU": "to"
+  },
+  "to_3": {
+    "/T": "to_3",
+    "/FT": "/Tx",
+    "/TU": "to"
+  },
+  "to_4": {
+    "/T": "to_4",
+    "/FT": "/Tx",
+    "/TU": "to"
+  },
+  "Signature of Private OwnerOperator": {
+    "/T": "Signature of Private OwnerOperator",
+    "/FT": "/Sig",
+    "/TU": "Signature of Private Owner/Operator"
+  },
+  "Name Printed": {
+    "/T": "Name Printed",
+    "/FT": "/Tx",
+    "/TU": "Name Printed"
+  },
+  "Signature of Chairperson Board of Directors": {
+    "/T": "Signature of Chairperson Board of Directors",
+    "/FT": "/Sig",
+    "/TU": "Signature of Chairperson, Board of Directors"
+  },
+  "Name Printed_2": {
+    "/T": "Name Printed_2",
+    "/FT": "/Tx",
+    "/TU": "Name Printed"
+  },
+  "Toddler": {
+    "/T": "Toddler",
+    "/FT": "/Tx",
+    "/TU": "[1]"
+  },
+  "Infant": {
+    "/T": "Infant",
+    "/FT": "/Tx",
+    "/TU": "[1]"
+  },
+  "PreSchool": {
+    "/T": "PreSchool",
+    "/FT": "/Tx",
+    "/TU": "[1]"
+  },
+  "School Age": {
+    "/T": "School Age",
+    "/FT": "/Tx",
+    "/TU": "[1]"
+  },
+  "Flexible": {
+    "/T": "Flexible",
+    "/FT": "/Tx",
+    "/TU": "[1]"
+  },
+  "Total Number of Spaces": {
+    "/T": "Total Number of Spaces",
+    "/FT": "/Tx",
+    "/TU": "[1]"
+  },
+  "Dated At": {
+    "/T": "Dated At",
+    "/FT": "/Tx"
+  },
+  "This": {
+    "/T": "This",
+    "/FT": "/Tx"
+  },
+  "Day Of": {
+    "/T": "Day Of",
+    "/FT": "/Tx",
+    "/TU": "20"
+  },
+  "Add Year": {
+    "/T": "Add Year",
+    "/FT": "/Tx",
+    "/TU": "undefined"
+  }
+}

@@ -1,0 +1,1066 @@
+<!doctype html>
+<html lang="en-CA"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Applicant dashboard · Child care applications</title><style>:root {
+  color-scheme: light;
+  --ink: #173c2d;
+  --green: #1d6236;
+  --green-hover: #164c2a;
+  --muted: #63766b;
+  --line: #d5dfd7;
+  --line-strong: #adbcaf;
+  --sage: #f1f6ee;
+  --success-bg: #e7f1de;
+  --amber: #fff0d3;
+  --amber-ink: #754d12;
+  --red: #a53529;
+  --focus: #246e44;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: #fff; color: var(--ink); line-height: 1.5; }
+button, input, select, textarea { font: inherit; }
+button, a, input, select, textarea, summary { -webkit-tap-highlight-color: transparent; }
+button { color: inherit; cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .48; }
+a { color: var(--green); text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2px; }
+button, a, input, select, textarea, summary { outline-offset: 4px; }
+:focus-visible { outline: 3px solid var(--focus); }
+[hidden] { display: none !important; }
+h1, h2, h3, h4, p { margin: 0; }
+h1, h2, h3, h4 { color: var(--ink); line-height: 1.2; }
+h1 { font-size: 2.375rem; font-weight: 730; letter-spacing: -.035em; }
+h2 { font-size: 1.375rem; font-weight: 720; letter-spacing: -.022em; }
+h3 { font-size: 1.0625rem; font-weight: 700; }
+p + p { margin-top: .75rem; }
+small { font-size: .875rem; }
+svg { flex-shrink: 0; vertical-align: middle; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 24px 0; }
+
+.shell { width: 100%; max-width: 1320px; margin: 0 auto; padding: 40px; }
+.topbar { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-bottom: 23px; border-bottom: 1px solid var(--line-strong); }
+.brand { min-width: 0; }
+.brand strong { display: block; font-size: 1.65rem; line-height: 1.2; letter-spacing: -.03em; font-weight: 750; }
+.brand small { display: block; margin-top: 5px; font-size: .9375rem; color: var(--muted); }
+.header-actions, .inline-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
+.header-actions { flex-shrink: 0; justify-content: flex-end; }
+main { padding-top: 28px; }
+.page-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; margin-bottom: 24px; }
+.page-heading > :first-child { min-width: 0; }
+.page-heading h1 { overflow-wrap: anywhere; }
+.page-heading .btn { flex-shrink: 0; }
+.eyebrow { display: block; margin-bottom: 8px; font-size: .75rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
+.subline { margin-top: 8px; color: var(--muted); font-size: 1rem; line-height: 1.55; }
+.muted { color: var(--muted); }
+.small-text { font-size: .875rem; line-height: 1.5; }
+.back-link { display: inline-flex; align-items: center; gap: 7px; padding: 0; margin: 0 0 20px; color: var(--green); border: 0; background: transparent; font-weight: 650; text-decoration: none; }
+.back-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 42px; padding: 9px 17px; border: 1px solid var(--green); border-radius: 6px; background: #fff; color: var(--ink); font-weight: 650; line-height: 1.25; text-align: center; text-decoration: none; transition: background-color .15s, border-color .15s; }
+.btn:hover:not(:disabled) { background: var(--sage); text-decoration: none; }
+.btn.primary { border-color: var(--green); background: var(--green); color: #fff; }
+.btn.primary:hover:not(:disabled) { background: var(--green-hover); border-color: var(--green-hover); }
+.btn.small { min-height: 34px; padding: 7px 12px; font-size: .875rem; }
+.btn.danger { border-color: #ca9a91; color: var(--red); }
+.btn.danger:hover:not(:disabled) { background: #fff1ee; }
+.btn svg, .back-link svg { width: 18px; height: 18px; }
+.icon-btn { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 36px; width: 36px; height: 36px; padding: 7px; border: 1px solid var(--line-strong); border-radius: 50%; background: #fff; color: var(--ink); }
+.icon-btn:hover { background: var(--sage); border-color: var(--green); }
+.icon-btn svg { width: 19px; height: 19px; }
+.text-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 5px 0; border: 0; background: transparent; color: var(--green); font-weight: 650; text-align: left; text-decoration: underline; text-underline-offset: 4px; }
+.text-btn:hover:not(:disabled) { color: var(--green-hover); text-decoration-thickness: 2px; }
+
+.progress { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; list-style: none; margin: 30px 0 28px; padding: 0 8px; }
+.step { position: relative; min-width: 0; padding: 0 8px; color: var(--muted); font-size: .9375rem; line-height: 1.35; text-align: center; }
+.step::after { position: absolute; z-index: 0; content: ""; top: 18px; left: 50%; width: 100%; height: 2px; background: var(--line); }
+.step:last-child::after { display: none; }
+.step.complete::after { background: var(--green); }
+.step > :not(.step-dot) { position: relative; z-index: 1; }
+.step-dot { display: flex; align-items: center; justify-content: center; position: relative; z-index: 1; width: 38px; height: 38px; margin: 0 auto 10px; border: 1.5px solid var(--line-strong); border-radius: 50%; background: #fff; color: var(--muted); font-size: 1rem; font-weight: 650; }
+.step-dot svg { width: 19px; height: 19px; }
+.step.complete .step-dot { border-color: var(--green); background: var(--green); color: #fff; }
+.step.active { color: var(--ink); font-weight: 700; }
+.step.active .step-dot { border-color: var(--green); background: var(--green); color: #fff; outline: 1px solid var(--green); outline-offset: 3px; }
+.step.complete { color: var(--ink); }
+.next-action { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin: 0 0 12px; padding: 21px 24px; border-radius: 7px; background: var(--amber); }
+.next-copy { min-width: 0; }
+.next-copy h2 { margin-bottom: 5px; }
+.next-copy p { line-height: 1.5; }
+.next-action > .btn { flex-shrink: 0; max-width: 100%; }
+.next-action .inline-actions { justify-content: flex-end; }
+
+.tabs { display: flex; align-items: stretch; gap: 8px; margin: 10px 0 28px; padding: 0; border-bottom: 1px solid var(--line-strong); }
+.tabs button { flex-shrink: 0; position: relative; padding: 15px 18px 14px; border: 0; border-bottom: 3px solid transparent; margin-bottom: -1px; background: transparent; color: var(--ink); font-weight: 500; }
+.tabs button:hover { background: var(--sage); }
+.tabs button.active { border-bottom-color: var(--green); font-weight: 700; }
+.tabs button:focus-visible { z-index: 2; outline-offset: -5px; }
+.detail-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(260px, 1fr); gap: 30px; }
+.main-column, .side-column { min-width: 0; }
+.side-column { padding-left: 28px; border-left: 1px solid var(--line); }
+.side-column > section + section { margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--line); }
+.side-column h2 { margin-bottom: 12px; }
+.side-column p + .btn, .side-column p + .inline-actions { margin-top: 14px; }
+.side-column .team-name { margin: 4px 0 16px; }
+.team-name { font-size: 1rem; }
+.section-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 16px; }
+.section-heading h2, .section-heading h3 { margin: 0; }
+.task-row { display: flex; align-items: center; gap: 18px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.task-row > :first-child { flex: 1; min-width: 0; }
+.task-row strong { display: block; font-weight: 650; }
+.task-row small, .task-row .small-text { display: block; margin-top: 4px; color: var(--muted); }
+.task-state { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; flex-shrink: 0; }
+.task-owner { min-width: 68px; color: var(--muted); font-size: .875rem; }
+.badge { display: inline-flex; align-items: center; justify-content: center; gap: 5px; width: fit-content; max-width: 100%; padding: 4px 10px; border-radius: 6px; color: var(--ink); background: #eef1ee; font-size: .8125rem; font-weight: 650; line-height: 1.35; vertical-align: middle; }
+.badge.warning { background: var(--amber); color: #684817; }
+.badge.success { background: var(--success-bg); color: #245330; }
+.badge.neutral { background: #eef0ee; color: #55685b; }
+.decision-list { margin: 0; }
+.decision-row { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.decision-row:last-child { border-bottom: 0; }
+.decision-row dt { min-width: 0; }
+.decision-row dd { margin: 0; text-align: right; }
+.activity-item { position: relative; padding: 17px 0; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.activity-item:first-child { padding-top: 3px; }
+.activity-item:last-child { border-bottom: 0; }
+.activity-item p { margin-top: 5px; }
+.activity-item time, .activity-item small { display: block; margin-top: 5px; color: var(--muted); font-size: .8125rem; }
+
+.filters { display: grid; grid-template-columns: minmax(0, 2fr) repeat(2, minmax(0, 1fr)); align-items: end; gap: 16px; margin: 24px 0; }
+.filters label { display: block; margin-bottom: 7px; font-size: .875rem; font-weight: 650; }
+input:not([type="checkbox"]):not([type="radio"]), select, textarea { display: block; width: 100%; min-width: 0; min-height: 44px; padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: 5px; background: #fff; color: var(--ink); line-height: 1.4; }
+select { padding-right: 30px; }
+textarea { min-height: 110px; resize: vertical; }
+input::placeholder, textarea::placeholder { color: #7b8a7f; opacity: 1; }
+input:focus-visible, select:focus-visible, textarea:focus-visible { border-color: var(--green); outline: 2px solid var(--focus); outline-offset: 2px; }
+input:disabled, select:disabled, textarea:disabled, input[readonly], textarea[readonly] { background: #f5f7f4; color: var(--muted); }
+input[type="checkbox"], input[type="radio"] { width: 18px; height: 18px; flex: 0 0 18px; margin: 3px 0 0; accent-color: var(--green); }
+input[type="file"] { padding: 8px; font-size: .875rem; }
+input[type="file"]::file-selector-button { margin-right: 12px; padding: 6px 10px; border: 1px solid var(--line-strong); border-radius: 3px; background: var(--sage); color: var(--ink); font: inherit; cursor: pointer; }
+.table-wrap { width: 100%; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table.queue { width: 100%; border-collapse: collapse; text-align: left; font-size: .9375rem; }
+.queue th, .queue td { padding: 18px 14px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+.queue th { color: var(--muted); font-size: .8125rem; font-weight: 650; background: #f6f8f5; white-space: nowrap; }
+.queue th:first-child, .queue td:first-child { padding-left: 18px; }
+.queue th:last-child, .queue td:last-child { padding-right: 18px; }
+.queue tbody tr:hover { background: #fafcf9; }
+.queue td .small-text, .queue td small { display: block; margin-top: 4px; color: var(--muted); }
+.case-link { padding: 0; border: 0; background: transparent; color: var(--ink); font-weight: 700; text-align: left; text-decoration: none; line-height: 1.4; }
+.case-link:hover { color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
+.empty-state { padding: 52px 24px; text-align: center; }
+.empty-state h2 { margin-bottom: 10px; }
+.empty-state p { max-width: 480px; margin: 0 auto; color: var(--muted); }
+.empty-state .btn { margin-top: 22px; }
+
+.form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 20px; }
+.field { min-width: 0; }
+.field.full { grid-column: 1 / -1; }
+.field > label { display: block; margin-bottom: 7px; font-size: .9375rem; font-weight: 650; }
+.field .help, .field .help-text, .field small { display: block; margin-top: 6px; color: var(--muted); font-size: .8125rem; line-height: 1.45; }
+.form-actions { display: flex; justify-content: flex-end; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--line); }
+.route-options { display: grid; gap: 12px; margin: 20px 0; }
+.route-option { display: flex; align-items: flex-start; gap: 12px; padding: 17px 18px; border: 1px solid var(--line-strong); border-radius: 8px; background: #fff; cursor: pointer; }
+.route-option:hover { background: #f8fbf6; }
+.route-option:has(input:checked) { border-color: var(--green); background: var(--sage); }
+.route-option:has(input:focus-visible) { outline: 2px solid var(--focus); outline-offset: 3px; }
+.route-option strong { display: block; margin-bottom: 4px; }
+.route-option small { display: block; color: var(--muted); line-height: 1.45; }
+.route-detail { margin: 16px 0; padding: 18px 20px; border-radius: 6px; background: var(--sage); }
+.route-detail h3 { margin-bottom: 9px; }
+.route-detail ul { margin: 10px 0 0; padding-left: 20px; }
+.route-detail li + li { margin-top: 6px; }
+.route-compare { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: .875rem; text-align: left; }
+.route-compare th, .route-compare td { padding: 13px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.route-compare th { background: #f5f8f2; font-weight: 650; }
+
+dialog.modal { width: calc(100% - 40px); max-width: 720px; max-height: calc(100dvh - 64px); padding: 0; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--ink); box-shadow: 0 24px 80px rgba(11, 35, 22, .18); overflow: auto; overscroll-behavior: contain; }
+dialog.modal::backdrop { background: rgba(14, 35, 24, .38); }
+dialog.modal-wide { max-width: 960px; }
+.modal-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; padding: 26px 28px 20px; }
+.modal-header h2 { padding-top: 3px; font-size: 1.5rem; }
+.modal-header p { margin-top: 6px; color: var(--muted); font-size: .875rem; }
+.modal-header .icon-btn { flex-shrink: 0; }
+.modal-body { padding: 0 28px 26px; }
+.modal-body > p:first-child { margin-bottom: 20px; }
+.modal-footer { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 10px; padding: 19px 28px; border-top: 1px solid var(--line); background: #fafcf9; }
+.error-message { margin: 10px 0; color: var(--red); font-size: .875rem; font-weight: 600; }
+.notice { margin: 16px 0; padding: 14px 17px; border-left: 3px solid #73966d; border-radius: 0 5px 5px 0; background: var(--sage); color: var(--ink); font-size: .9375rem; line-height: 1.5; }
+.notice.warning { border-left-color: #c69130; background: var(--amber); color: var(--amber-ink); }
+.notice p + p { margin-top: 7px; }
+.toast { position: fixed; z-index: 100; right: 28px; bottom: 24px; max-width: min(430px, calc(100vw - 40px)); padding: 13px 18px; border: 1px solid #fff; border-radius: 7px; background: var(--ink); color: #fff; font-size: .9375rem; line-height: 1.45; }
+
+.doc-group { margin-bottom: 30px; }
+.doc-group:last-child { margin-bottom: 0; }
+.doc-group h3 { padding-bottom: 12px; border-bottom: 1px solid var(--line-strong); }
+.doc-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(110px, auto) auto; align-items: center; gap: 16px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+.doc-row > :first-child { min-width: 0; }
+.doc-row strong { display: block; font-size: .9375rem; font-weight: 650; overflow-wrap: anywhere; }
+.doc-row .inline-actions { justify-content: flex-end; }
+.doc-note { display: block; margin-top: 5px; font-size: .8125rem; color: var(--muted); line-height: 1.45; overflow-wrap: anywhere; }
+details { margin: 16px 0; padding: 15px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+details + details { margin-top: -17px; }
+summary { color: var(--ink); font-weight: 650; cursor: pointer; }
+summary::marker { color: var(--green); }
+details[open] > summary { margin-bottom: 15px; }
+details > p, details > ul, details > ol { font-size: .9375rem; }
+.help-section { padding: 20px 0; border-bottom: 1px solid var(--line); }
+.help-section:first-child { padding-top: 0; }
+.help-section:last-child { border-bottom: 0; padding-bottom: 0; }
+.help-section h3 { margin-bottom: 10px; }
+.help-section p, .help-section li { font-size: .9375rem; line-height: 1.6; }
+.help-section ul, .help-section ol { margin: 10px 0 0; padding-left: 22px; }
+.help-section li + li { margin-top: 8px; }
+.source-list { margin: 12px 0 0; padding-left: 20px; }
+.source-list li { margin-bottom: 9px; }
+.source-list a { color: var(--green); font-size: .875rem; overflow-wrap: anywhere; }
+.message-bubble { margin: 14px 0; padding: 16px 18px; border: 1px solid var(--line); border-radius: 7px; background: #f6f9f3; overflow-wrap: anywhere; }
+.message-bubble p { margin-top: 7px; white-space: pre-wrap; }
+.message-bubble small { display: block; margin-top: 8px; color: var(--muted); font-size: .8125rem; }
+.decision-box { margin: 18px 0; padding: 18px 20px; border: 1px solid var(--line); border-radius: 7px; }
+.decision-box h3 { margin-bottom: 12px; }
+.decision-box p { margin-top: 8px; }
+.decision-box .inline-actions { margin-top: 16px; }
+.info-inline { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: .875rem; }
+.info-inline .icon-btn { width: 24px; height: 24px; flex-basis: 24px; padding: 4px; }
+.info-inline .icon-btn svg { width: 14px; height: 14px; }
+.visually-hidden { position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0, 0, 0, 0) !important; white-space: nowrap !important; border: 0 !important; }
+
+@media (max-width: 800px) {
+  .shell { padding: 24px 24px 36px; }
+  .topbar { flex-wrap: wrap; gap: 18px; padding-bottom: 20px; }
+  .brand strong { font-size: 1.45rem; }
+  .header-actions { margin-left: auto; }
+  main { padding-top: 24px; }
+  h1 { font-size: 1.875rem; letter-spacing: -.03em; }
+  .page-heading { gap: 16px; }
+  .subline { font-size: .9375rem; }
+  .progress { margin: 28px 0 24px; padding: 0; }
+  .step { padding: 0 4px; font-size: .8125rem; }
+  .step::after { top: 16px; }
+  .step-dot { width: 34px; height: 34px; margin-bottom: 9px; font-size: .9375rem; }
+  .next-action { align-items: flex-start; flex-wrap: wrap; gap: 15px; padding: 19px 20px; }
+  .next-action .inline-actions { justify-content: flex-start; }
+  .tabs { gap: 0; margin-bottom: 24px; }
+  .tabs button { padding: 14px 15px; }
+  .detail-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .side-column { padding: 24px 0 0; border-left: 0; border-top: 1px solid var(--line); }
+  .filters, .form-grid { grid-template-columns: minmax(0, 1fr); }
+  .filters { gap: 13px; }
+  .field.full { grid-column: auto; }
+  .queue { min-width: 760px; }
+  .doc-row { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+  .doc-row > :first-child { flex: 1 1 55%; }
+  .doc-row .inline-actions { flex-wrap: wrap; justify-content: flex-start; }
+  dialog.modal { width: calc(100% - 32px); max-height: calc(100dvh - 32px); }
+  .modal-header { padding: 22px 22px 18px; }
+  .modal-body { padding: 0 22px 22px; }
+  .modal-footer { padding: 17px 22px; }
+}
+
+@media (max-width: 480px) {
+  .shell { padding: 20px 16px 30px; }
+  .topbar { gap: 16px; }
+  .brand strong { font-size: 1.35rem; }
+  .brand small { font-size: .875rem; }
+  .header-actions { width: 100%; justify-content: flex-start; margin-left: 0; gap: 8px; }
+  .header-actions .btn { min-height: 38px; padding: 8px 12px; font-size: .875rem; }
+  .page-heading { flex-wrap: wrap; margin-bottom: 20px; }
+  .page-heading > :first-child { flex-basis: 100%; }
+  .page-heading .btn { min-height: 36px; padding: 8px 12px; font-size: .875rem; }
+  h1 { font-size: 1.875rem; }
+  h2 { font-size: 1.25rem; }
+  .back-link { margin-bottom: 16px; font-size: .9375rem; }
+  .progress { margin-top: 26px; }
+  .step { font-size: .75rem; line-height: 1.3; overflow-wrap: anywhere; }
+  .step-dot { width: 31px; height: 31px; font-size: .875rem; }
+  .step::after { top: 15px; }
+  .next-action { padding: 17px 16px; }
+  .next-copy p { font-size: .9375rem; }
+  .next-action .btn { white-space: normal; }
+  .tabs { max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .tabs button { padding: 13px 14px; font-size: .9375rem; }
+  .tabs button:first-child { padding-left: 10px; }
+  .task-row { flex-wrap: wrap; gap: 10px 14px; padding: 17px 0; }
+  .task-row > :first-child { flex-basis: 100%; }
+  .task-state { flex: 1; }
+  .task-owner { min-width: auto; }
+  .section-heading { align-items: flex-start; flex-wrap: wrap; gap: 12px; }
+  .queue { min-width: 850px; }
+  .inline-actions, .form-actions, .modal-footer { flex-wrap: wrap; }
+  .btn { max-width: 100%; }
+  .form-actions { justify-content: flex-start; }
+  .doc-row > :first-child { flex-basis: 100%; }
+  .doc-row .inline-actions { margin-left: auto; }
+  .route-option { padding: 15px 14px; }
+  .route-detail { padding: 15px 16px; }
+  .route-compare th, .route-compare td { padding: 10px 8px; font-size: .8125rem; }
+  dialog.modal { width: calc(100% - 20px); max-height: calc(100dvh - 20px); border-radius: 9px; }
+  .modal-header { gap: 12px; padding: 19px 18px 17px; }
+  .modal-header h2 { font-size: 1.25rem; }
+  .modal-body { padding: 0 18px 20px; }
+  .modal-footer { padding: 16px 18px; }
+  .toast { right: 16px; bottom: 16px; left: 16px; max-width: none; font-size: .875rem; }
+  .decision-box { padding: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
+}
+
+@media print {
+  .shell { max-width: none; padding: 0; }
+  .header-actions, .back-link, .tabs, .toast, .icon-btn, .form-actions, .modal-footer { display: none !important; }
+  .btn, .text-btn { display: none !important; }
+  .topbar { margin-bottom: 20px; }
+  .detail-grid { grid-template-columns: 2fr 1fr; }
+  .next-action, .badge, .notice { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .task-row, .doc-row, .decision-box { break-inside: avoid; }
+  .queue { min-width: 0; }
+}
+
+.field > span:first-child { display: block; margin-bottom: 7px; font-size: .9375rem; font-weight: 650; }
+.route-option .small-text { display: block; color: var(--muted); }
+.latest-update { margin-top: 30px; }
+.latest-update h2 { margin-bottom: 16px; }
+.latest-update h3 { margin: 8px 0; }
+.main-column > .inline-actions { margin-top: 18px; }
+.decisions-heading { margin-top: 34px; }
+.side-column .decisions-heading h2 { margin-bottom: 0; }
+.tab-dot { display: inline-block; width: 6px; height: 6px; margin: 0 0 2px 7px; border-radius: 50%; background: #98712b; }
+.queue-next { max-width: 320px; }
+.skip-link { position: absolute; top: -100px; left: 16px; z-index: 10; padding: 12px; background: #fff; }
+.skip-link:focus { top: 10px; }
+#storage-error:not(:empty) { margin-top: 20px; }
+.application-section { max-width: 920px; }
+.doc-note { overflow-wrap: anywhere; }
+@media (min-width: 801px) {
+ .task-state { flex-direction: column; align-items: flex-end; gap: 2px; }
+}
+</style></head>
+<body data-role="applicant"><a class="skip-link" href="#main">Skip to application</a><div class="shell"><header class="topbar"><div class="brand"><strong>Child care applications</strong><small>Saskatchewan · Applicant dashboard</small></div><div class="header-actions" id="header-actions"></div></header><div id="storage-error" role="alert"></div><main id="main"></main></div><dialog id="modal" class="modal" aria-labelledby="modal-title"></dialog><div class="toast" id="toast" role="status" hidden></div><noscript><p>This dashboard needs JavaScript enabled to display its local sample applications.</p></noscript><script type="application/json" id="seed">{"meta": {"title": "Open a Child Care Service", "subtitle": "One facility record. Clear next steps.", "asOf": "2026-11-25", "primaryCaseId": "APP-2026-001", "localOnly": true, "prototype": true, "caseNotice": "Fictional demonstration cases. No application has been submitted.", "sourceNotice": "Official sources inform requirements. The four-stage workspace, record reuse and correction flow are proposed improvements.", "sourceReviewNote": "Some published forms retain older wording. Current regulations control legal requirements; the Ministry confirms case-specific requirements."}, "sources": [{"id": "home-process", "title": "Apply to start a regulated family child care home", "url": "https://www.saskatchewan.ca/business/entrepreneurs-start-or-exit-a-business/start-a-business/managing-a-child-care-business/start-a-licensed-family-child-care-home/apply-to-start-a-regulated-family-child-care-home", "note": "Current published home application sequence and local-need screening."}, {"id": "centre-process", "title": "Apply to start a regulated child care centre", "url": "https://www.saskatchewan.ca/business/entrepreneurs-start-or-exit-a-business/start-a-business/managing-a-child-care-business/start-a-regulated-child-care-centre/apply-to-start-a-regulated-child-care-centre", "note": "Development assessment, budgets, funding eligibility and email acknowledgement."}, {"id": "regulations", "title": "Child Care Regulations, 2015 — including 2026 amendments", "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/82271/C7-31r1.pdf", "note": "Sections 6, 8–13, 38, 41–45 and 60–67 govern capacity, applications, insurance and staffing. Reviewed with SR 55/2026 amendments."}, {"id": "centre-checklist", "title": "Official centre opening checklist", "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/146785/Opening%252Ba%252BRegulated%252BChild%252BCare%252BCentre%252BChecklist%252B-%252BFinal.pdf", "note": "Separate development, licence, grant, inspection and operational steps. Fee schedules use the existing Enrolment Portal."}, {"id": "home-form", "title": "Family child care home application form", "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/87866/FCCH%252BLicence%252BApplication-fillable.pdf", "note": "Published instructions require mailing original criminal-record checks in separate sealed envelopes. Its printed group-home capacity is outdated; use the amended regulations."}, {"id": "family-assessment", "title": "Family assessment questionnaire", "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/99082/Family%252BAssessment%252BQuestionnaire-FINAL%252B-%252Bfillable%252B-%252BNov%252B2021.pdf", "note": "Applicant responses and consultant assessment are distinct parts of suitability review."}, {"id": "centre-needs", "title": "Centre community needs assessment", "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/87863/Saskatchewan%252BChild%252BCare%252BCNA%252BForm%252B2025-01-14.pdf", "note": "Published submission channel: cwcentredev@gov.sk.ca. Requests entity details, spaces by age, community need and financial readiness."}, {"id": "centre-form", "title": "Centre licence application form", "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/84997/Child%252BCare%252BCentre%252BApplication%252B%252B-%252BFillable.pdf", "note": "Return to the ELCC consultant. Published form includes consultant, manager and director decision fields; older form details must be checked against current regulations."}, {"id": "act", "title": "The Child Care Act, 2014 — current consolidation", "url": "https://pubsaskdev.blob.core.windows.net/pubsask-prod/82267/C7-31.pdf", "note": "Sections 2 and 5–8 distinguish settings, licensing and applicant eligibility, including current 2026 amendments."}], "workflow": {"stages": [{"id": "readiness", "title": "Readiness", "description": "Confirm the type of service, local need and next steps."}, {"id": "application", "title": "Application", "description": "Review the application and required supporting records."}, {"id": "premises", "title": "Premises", "description": "Check the space, inspections, insurance and operating plans."}, {"id": "final_review", "title": "Final review", "description": "Resolve outstanding items and record the Ministry decision."}], "stageStatusLabels": {"not_started": "Not started", "in_progress": "In progress", "awaiting_review": "Awaiting review", "needs_changes": "Changes requested", "complete": "Complete"}, "documentStatusLabels": {"missing": "Not yet provided", "received": "Received — not yet accepted", "accepted": "Accepted for this case", "needs_changes": "Changes requested"}, "decisionLabels": {"readiness": "Readiness review", "licence": "Operating licence", "funding": "Funding"}, "decisionHelp": {"readiness": "Readiness is a proposed administrative checkpoint. It does not authorize operation.", "licence": "Only the Ministry can issue an operating licence and set its conditions.", "funding": "Space allocation and grant approvals require separate Ministry decisions. A licence does not guarantee funding."}, "currentProcedure": "The published process includes information sessions, application review, consultant visits, inspections and a licensing decision. Centre development and funding have additional approval steps.", "prototypeProcedure": "This prototype groups the work into four stages and one facility record. Shared documents, correction threads and visible progress are proposed improvements.", "submissionNotice": "This local demonstration does not submit an application, contact officials, issue a licence or award funding.", "originalCheckHandling": "Record delivery and Ministry verification of original checks separately. Uploading a scan does not satisfy the published sealed-original requirement.", "dataNotice": "All cases and progress shown here are fictional. Do not enter real criminal-record, health, identity or banking information.", "decisionNotice": "Staff review remains necessary. No automated eligibility, suitability, licensing or funding decisions are made.", "existingSystems": "The Ministry already uses an Enrolment Portal for fee schedules. This prototype proposes a connected applicant experience; it does not imply that every current step is paper-based.", "actionLabels": {"save": "Save changes locally", "sendCorrection": "Send a correction in this demo", "markReceived": "Mark received in this demo", "markAccepted": "Accept for this demo case", "requestChanges": "Request changes in this demo", "reset": "Reset demo cases"}}, "facilityTypes": [{"id": "family_home", "title": "Family child care home", "currentProcedure": "Information session, application package, local-need screening, learning sessions, home visits, inspections and final licensing review.", "capacityNote": "Normally up to eight attending children, including resident children, within age-combination and licence limits.", "fundingNote": "Regulation can provide access to grants; each applicable approval still needs confirmation.", "sourceIds": ["home-process", "home-form", "regulations"], "requiredDocumentIds": ["home_information", "licence_application", "family_assessment", "household_checks", "references", "banking_setup", "fire_inspection", "heating_inspection", "insurance", "home_space", "home_training", "operating_policies", "final_visit", "licence_decision", "funding_decision"], "afterLicensing": ["Introductory ECE training within one year, subject to the regulatory exemption.", "At least six hours of continuing education annually.", "CPR within six months if it was not included in the first-aid course."], "eligibilityNote": "Home licence applicants must be individuals aged 18 or older who reside in Saskatchewan."}, {"id": "group_home", "title": "Group family child care home", "currentProcedure": "Home licensing pathway plus review of assistants, staffing, child ages and the requested group-home capacity.", "capacityNote": "Up to 16 attending children, subject to age mix, premises and licence conditions. An assistant aged 18 or older is required whenever more than eight attend. The older published form still shows 12.", "fundingNote": "Space and grant approvals are separate decisions; local demand can affect whether development proceeds.", "sourceIds": ["home-process", "regulations"], "requiredDocumentIds": ["home_information", "licence_application", "family_assessment", "household_checks", "references", "banking_setup", "fire_inspection", "heating_inspection", "insurance", "home_space", "home_training", "group_staffing", "operating_policies", "final_visit", "licence_decision", "funding_decision"], "afterLicensing": ["Introductory ECE training within one year, subject to the regulatory exemption.", "Group-home licensee must meet ECE I qualifications within three years.", "At least six hours of continuing education annually."], "eligibilityNote": "Home licence applicants must be individuals aged 18 or older who reside in Saskatchewan."}, {"id": "centre", "title": "Child care centre", "currentProcedure": "Development information session and needs assessment with budgets, Ministry review, applicable development/funding agreements, licence application, premises and operational review, then licensing decision.", "capacityNote": "A centre licence sets capacity and age allocations; the regulatory maximum is 90 spaces.", "fundingNote": "Licensing and funding have different eligibility. The published centre funding programme requires an eligible non-profit, co-operative or municipal entity; for-profit operations are not eligible for that funding.", "sourceIds": ["centre-process", "centre-checklist", "regulations"], "requiredDocumentIds": ["centre_information", "needs_assessment", "budgets", "incorporation", "licence_application", "private_operator_check", "banking_setup", "fire_inspection", "heating_inspection", "health_inspection", "insurance", "centre_plans", "lease", "centre_staffing", "operating_policies", "centre_operating_records", "final_visit", "licence_decision", "funding_decision"], "afterLicensing": ["Maintain required staffing, qualification, insurance and operating standards.", "Use the existing Ministry reporting channels for enrolment and fee information."], "eligibilityNote": "Centre applicants may be eligible corporations, co-operatives, municipalities, adult Saskatchewan residents or partnerships of adult Saskatchewan residents. Structure-specific ownership conditions apply; funding has separate eligibility."}], "documentTypes": [{"id": "home_information", "title": "Applicant information session", "stageId": "readiness", "appliesTo": ["family_home", "group_home"], "owner": "Applicant", "sourceIds": ["home-process"], "handling": "completion_record", "note": "Record completion; this is not a suitability decision.", "requirement": "Before submitting the initial home application"}, {"id": "centre_information", "title": "Centre development information session", "stageId": "readiness", "appliesTo": ["centre"], "owner": "Applicant", "sourceIds": ["centre-process"], "handling": "completion_record", "note": "", "requirement": "Development preparation"}, {"id": "needs_assessment", "title": "Community needs assessment", "stageId": "readiness", "appliesTo": ["centre"], "owner": "Applicant", "sourceIds": ["centre-needs", "centre-process"], "handling": "digital_copy", "note": "Published form is emailed to the centre development team.", "requirement": "Development proposal"}, {"id": "budgets", "title": "Development and operating budgets", "stageId": "readiness", "appliesTo": ["centre"], "owner": "Applicant", "sourceIds": ["centre-process"], "handling": "digital_copy", "note": "Show expected development costs, operating income and expenses.", "requirement": "Development proposal"}, {"id": "incorporation", "title": "Applicant organization and ownership records", "stageId": "readiness", "appliesTo": ["centre"], "owner": "Applicant", "sourceIds": ["centre-process", "centre-checklist"], "handling": "digital_copy", "note": "Grant eligibility requires a non-profit corporation, co-operative or municipality. For-profit licensing is a separate route.", "requirement": "Corporate registration and ownership records when applying as a corporation or co-operative."}, {"id": "licence_application", "title": "Licence application", "stageId": "application", "appliesTo": ["family_home", "group_home", "centre"], "owner": "Applicant", "sourceIds": ["home-form", "centre-form"], "handling": "digital_copy", "note": "Use the home application for family and group-family homes; use the separate centre application for a centre.", "requirement": "Before operating licence"}, {"id": "family_assessment", "title": "Family assessment questionnaire", "stageId": "application", "appliesTo": ["family_home", "group_home"], "owner": "Applicant", "sourceIds": ["family-assessment"], "handling": "digital_copy", "note": "Applicant responses and consultant assessment remain separate.", "requirement": "Before operating licence"}, {"id": "household_checks", "title": "Original applicant and adult-household checks", "stageId": "application", "appliesTo": ["family_home", "group_home"], "owner": "Applicant", "sourceIds": ["home-process", "home-form"], "handling": "sealed_original", "note": "Track each required original criminal-record/vulnerable-sector check and Ministry verification. Do not store check contents in this demo.", "requirement": "Before operating licence"}, {"id": "references", "title": "Four character references", "stageId": "application", "appliesTo": ["family_home", "group_home"], "owner": "Applicant", "sourceIds": ["home-form", "regulations"], "handling": "restricted_record", "note": "Track completion only; no real reference identities in this demo.", "requirement": "Before operating licence"}, {"id": "banking_setup", "title": "Payment setup", "stageId": "application", "appliesTo": ["family_home", "group_home", "centre"], "owner": "Applicant", "sourceIds": ["home-process", "centre-checklist"], "handling": "restricted_record", "note": "Separate payment setup from the licensing decision. No banking details in this demo.", "requirement": "Funding/payment administration when applicable"}, {"id": "fire_inspection", "title": "Fire inspection report", "stageId": "premises", "appliesTo": ["family_home", "group_home", "centre"], "owner": "Inspector", "sourceIds": ["regulations", "centre-checklist"], "handling": "digital_copy", "note": "For homes, the consultant advises when to arrange the inspection.", "requirement": "Before operating licence"}, {"id": "heating_inspection", "title": "Heating inspection report", "stageId": "premises", "appliesTo": ["family_home", "group_home", "centre"], "owner": "Inspector", "sourceIds": ["regulations", "centre-checklist"], "handling": "digital_copy", "note": "", "requirement": "Before operating licence"}, {"id": "health_inspection", "title": "Public-health inspection report", "stageId": "premises", "appliesTo": ["centre"], "owner": "Inspector", "sourceIds": ["regulations", "centre-checklist"], "handling": "digital_copy", "note": "", "requirement": "Before operating licence"}, {"id": "insurance", "title": "Facility insurance", "stageId": "premises", "appliesTo": ["family_home", "group_home", "centre"], "owner": "Applicant", "sourceIds": ["regulations", "centre-checklist"], "handling": "digital_copy", "note": "Review required liability, personal-injury and transport coverage against the proposed operation.", "requirement": "Before operating licence"}, {"id": "home_space", "title": "Home space and outdoor-play review", "stageId": "premises", "appliesTo": ["family_home", "group_home"], "owner": "Ministry", "sourceIds": ["regulations", "home-process"], "handling": "inspection_record", "note": "The consultant checks usable space, play arrangements and the proposed child mix.", "requirement": "Before operating licence"}, {"id": "centre_plans", "title": "Approved centre floor plan", "stageId": "premises", "appliesTo": ["centre"], "owner": "Applicant", "sourceIds": ["centre-checklist"], "handling": "digital_copy", "note": "Approval is recorded by the responsible reviewer; an upload alone is not approval.", "requirement": "Before operating licence"}, {"id": "lease", "title": "Signed lease, if premises are rented", "stageId": "premises", "appliesTo": ["centre"], "owner": "Applicant", "sourceIds": ["centre-checklist"], "handling": "digital_copy", "note": "", "requirement": "Signed lease when premises are rented."}, {"id": "home_training", "title": "Home first-aid and training plan", "stageId": "premises", "appliesTo": ["family_home", "group_home"], "owner": "Applicant", "sourceIds": ["regulations"], "handling": "completion_record", "note": "First aid is required. If it omits CPR, CPR must follow within six months of licensing. Introductory ECE training is due within one year; do not incorrectly make all later training a pre-licence condition.", "requirement": "Before operating licence"}, {"id": "group_staffing", "title": "Group-home assistant and staffing review", "stageId": "premises", "appliesTo": ["group_home"], "owner": "Applicant", "sourceIds": ["regulations"], "handling": "digital_copy", "note": "Review assistants, checks, training, child ages and capacity. The maximum alone does not determine permitted staffing.", "requirement": "Before operating licence"}, {"id": "centre_staffing", "title": "Centre staffing and qualifications", "stageId": "premises", "appliesTo": ["centre"], "owner": "Applicant", "sourceIds": ["regulations", "centre-checklist"], "handling": "digital_copy", "note": "Review director and worker qualifications, required checks and supervision arrangements.", "requirement": "Before operating licence"}, {"id": "operating_policies", "title": "Operating policies and agreements", "stageId": "premises", "appliesTo": ["family_home", "group_home", "centre"], "owner": "Applicant", "sourceIds": ["regulations", "centre-checklist"], "handling": "digital_copy", "note": "Required operational and child-management policies and parent service agreements; centres also prepare parent and staff handbooks.", "requirement": "Before operating licence"}, {"id": "centre_operating_records", "title": "Centre menu, governance and fee records", "stageId": "premises", "appliesTo": ["centre"], "owner": "Applicant", "sourceIds": ["centre-checklist"], "handling": "digital_copy", "note": "Includes board/advisory information and menu. The official checklist sends fee schedules through the existing Enrolment Portal.", "requirement": "Before operating licence"}, {"id": "final_visit", "title": "Final consultant review", "stageId": "final_review", "appliesTo": ["family_home", "group_home", "centre"], "owner": "Ministry", "sourceIds": ["home-process", "centre-checklist"], "handling": "inspection_record", "note": "The centre checklist calls for a final meeting at least four weeks before anticipated opening; this is not an approval-time promise.", "requirement": "Before operating licence"}, {"id": "licence_decision", "title": "Operating-licence decision", "stageId": "final_review", "appliesTo": ["family_home", "group_home", "centre"], "owner": "Ministry", "sourceIds": ["regulations", "home-process"], "handling": "decision_record", "note": "Record the issued licence and conditions only after an authorized Ministry decision.", "requirement": "Before operating licence"}, {"id": "funding_decision", "title": "Space-allocation and funding records", "stageId": "final_review", "appliesTo": ["family_home", "group_home", "centre"], "owner": "Ministry", "sourceIds": ["centre-process", "home-process"], "handling": "decision_record", "note": "Track allocation and grant outcomes separately. A completed document checklist is not a funding approval.", "requirement": "Only where allocation or funding is requested"}, {"id": "private_operator_check", "title": "Private operator criminal-record check", "stageId": "application", "appliesTo": ["centre"], "owner": "Applicant", "sourceIds": ["centre-checklist"], "handling": "restricted_record", "requirement": "Private-operator check where applicable; confirm handling with the consultant.", "note": "Track completion only; do not store check contents in this prototype."}], "cases": [{"id": "APP-2026-001", "facilityName": "Prairie Sprout Family Home", "facilityTypeId": "family_home", "fictional": true, "region": "Central", "applicantLabel": "Applicant", "assignedTeam": "Sample coordinator · Central", "currentStageId": "premises", "summary": "Replace the insurance document with a copy showing the coverage dates.", "createdAt": "2026-11-10", "updatedAt": "2026-11-25", "recordVersion": 1, "stages": [{"stageId": "readiness", "status": "complete"}, {"stageId": "application", "status": "complete"}, {"stageId": "premises", "status": "needs_changes"}, {"stageId": "final_review", "status": "not_started"}], "decisions": {"readiness": {"status": "proceed", "owner": "Ministry", "note": "Proposed readiness checkpoint; no authority to operate.", "label": "Proceed"}, "licence": {"status": "under_review", "owner": "Ministry", "note": "No operating licence has been issued in this fictional case.", "label": "Under review"}, "funding": {"status": "not_decided", "owner": "Ministry", "spaceAllocationStatus": "not_decided", "note": "No grant or space-allocation approval is implied.", "label": "Not decided"}}, "documents": [{"documentTypeId": "home_information", "status": "accepted", "owner": "Applicant", "note": "Information session completion recorded.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "licence_application", "status": "accepted", "owner": "Applicant", "note": "Application details reviewed for this demo.", "updatedAt": "2026-11-25", "sampleFileName": "licence-application-demo.pdf"}, {"documentTypeId": "family_assessment", "status": "accepted", "owner": "Applicant", "note": "Consultant review recorded; responses are not stored in this demo.", "updatedAt": "2026-11-25", "sampleFileName": "family-assessment-demo.pdf"}, {"documentTypeId": "household_checks", "status": "accepted", "owner": "Applicant", "note": "Required sealed originals logged and verified by the Ministry in this fictional case.", "updatedAt": "2026-11-25", "sampleFileName": null, "originalDeliveryStatus": "verified_by_ministry", "originalHandlingNote": "Only delivery and verification are tracked. No original check or scan is stored."}, {"documentTypeId": "references", "status": "accepted", "owner": "Applicant", "note": "Reference-review completion recorded; no personal details shown.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "banking_setup", "status": "received", "owner": "Applicant", "note": "Payment setup recorded separately; no banking information shown.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "fire_inspection", "status": "received", "owner": "Inspector", "note": "Fire inspection report received; Ministry review is pending.", "updatedAt": "2026-11-25", "sampleFileName": "fire-inspection-demo.pdf"}, {"documentTypeId": "heating_inspection", "status": "accepted", "owner": "Inspector", "note": "Fictional premises report reviewed.", "updatedAt": "2026-11-25", "sampleFileName": "heating-inspection-demo.pdf"}, {"documentTypeId": "insurance", "status": "needs_changes", "owner": "Applicant", "note": "Replace the insurance document with a copy showing the coverage dates.", "updatedAt": "2026-11-25", "sampleFileName": "insurance-demo.pdf"}, {"documentTypeId": "home_space", "status": "missing", "owner": "Ministry", "note": "Home visit scheduled; the premises review is not yet complete.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "home_training", "status": "accepted", "owner": "Applicant", "note": "First-aid/CPR completion and later ECE training plan recorded.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "operating_policies", "status": "received", "owner": "Applicant", "note": "Policies received; final consistency review remains.", "updatedAt": "2026-11-25", "sampleFileName": "operating-policies-demo.pdf"}, {"documentTypeId": "final_visit", "status": "missing", "owner": "Ministry", "note": "Can be arranged after outstanding premises items are reviewed.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "licence_decision", "status": "missing", "owner": "Ministry", "note": "Operating licence not issued.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "funding_decision", "status": "missing", "owner": "Ministry", "note": "Funding and space-allocation decisions remain separate.", "updatedAt": "2026-11-25", "sampleFileName": null}], "corrections": [{"id": "correction-insurance", "documentTypeId": "insurance", "status": "open", "requestedAt": "2026-11-24", "requestedBy": "Ministry", "title": "Show the coverage dates", "message": "Replace the insurance document with a copy showing the coverage dates.", "applicantResponse": "", "responseAt": null, "resolution": null}], "nextActions": [{"owner": "Applicant", "title": "Correct the insurance record", "detail": "Replace the insurance document with a copy showing the coverage dates.", "documentTypeId": "insurance"}, {"owner": "Ministry", "title": "Review the corrected record", "detail": "Check the updated evidence and explain any remaining requirement.", "documentTypeId": "insurance"}], "history": [{"date": "2026-11-18", "actor": "Ministry", "title": "Application records reviewed", "detail": "Readiness and application stages completed in this demo."}, {"date": "2026-11-22", "actor": "Ministry", "title": "Original checks verified", "detail": "Physical-original verification recorded without storing check contents."}, {"date": "2026-11-24", "actor": "Ministry", "title": "Insurance correction requested", "detail": "The insurance example does not show the coverage dates."}, {"date": "2026-11-25", "actor": "Ministry", "title": "Home visit scheduled", "detail": "Fictional visit arranged for November 27."}], "messages": [{"id": "message-prairie-1", "date": "2026-11-24", "author": "Ministry", "text": "You can correct the insurance item in this case. Your other accepted records remain attached."}], "applicationNumber": "APP-2026-001", "city": "Saskatoon", "coordinator": "Sample coordinator", "appointments": [{"id": "visit-prairie", "title": "Home visit", "owner": "Ministry", "status": "scheduled", "date": "2026-11-27", "note": "Fictional appointment with the sample coordinator."}]}, {"id": "case-willow", "facilityName": "Willowbend Centre", "facilityTypeId": "centre", "fictional": true, "region": "Saskatchewan — fictional location", "applicantLabel": "Applicant", "assignedTeam": "Early Years review team — demo", "currentStageId": "readiness", "summary": "Development readiness is awaiting Ministry review.", "createdAt": "2026-11-10", "updatedAt": "2026-11-25", "recordVersion": 1, "stages": [{"stageId": "readiness", "status": "awaiting_review"}, {"stageId": "application", "status": "not_started"}, {"stageId": "premises", "status": "not_started"}, {"stageId": "final_review", "status": "not_started"}], "decisions": {"readiness": {"status": "awaiting_review", "owner": "Ministry", "note": "Proposed readiness checkpoint; no authority to operate."}, "licence": {"status": "not_submitted", "owner": "Ministry", "note": "No operating licence has been issued in this fictional case."}, "funding": {"status": "not_decided", "owner": "Ministry", "spaceAllocationStatus": "not_decided", "note": "No grant or space-allocation approval is implied."}}, "documents": [{"documentTypeId": "centre_information", "status": "accepted", "owner": "Applicant", "note": "Development information session completion recorded.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "needs_assessment", "status": "received", "owner": "Applicant", "note": "Development proposal received; local need has not been decided.", "updatedAt": "2026-11-25", "sampleFileName": "needs-assessment-demo.pdf"}, {"documentTypeId": "budgets", "status": "received", "owner": "Applicant", "note": "Development and operating budgets await review.", "updatedAt": "2026-11-25", "sampleFileName": "budgets-demo.pdf"}, {"documentTypeId": "incorporation", "status": "received", "owner": "Applicant", "note": "Fictional non-profit incorporation record received.", "updatedAt": "2026-11-25", "sampleFileName": "incorporation-demo.pdf"}, {"documentTypeId": "licence_application", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "banking_setup", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "fire_inspection", "status": "missing", "owner": "Inspector", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "heating_inspection", "status": "missing", "owner": "Inspector", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "health_inspection", "status": "missing", "owner": "Inspector", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "insurance", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "centre_plans", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "lease", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "centre_staffing", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "operating_policies", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "centre_operating_records", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "final_visit", "status": "missing", "owner": "Ministry", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "licence_decision", "status": "missing", "owner": "Ministry", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "funding_decision", "status": "missing", "owner": "Ministry", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}], "corrections": [], "nextActions": [{"owner": "Ministry", "title": "Review the development package", "detail": "Assess local need, organizational readiness and completeness. Record the outcome without implying licence or funding approval.", "documentTypeId": "needs_assessment"}], "history": [{"date": "2026-11-23", "actor": "Applicant", "title": "Development package received", "detail": "Needs assessment, budgets and incorporation record submitted in the demo."}], "messages": [], "applicationNumber": "APP-2026-002", "coordinator": "Sample coordinator", "appointments": [], "city": "Regina"}, {"id": "case-meadow", "facilityName": "Meadow Lane Family Home", "facilityTypeId": "family_home", "fictional": true, "region": "Saskatchewan — fictional location", "applicantLabel": "Applicant", "assignedTeam": "Early Years review team — demo", "currentStageId": "premises", "summary": "Premises records are with the consultant for review.", "createdAt": "2026-11-10", "updatedAt": "2026-11-25", "recordVersion": 1, "stages": [{"stageId": "readiness", "status": "complete"}, {"stageId": "application", "status": "complete"}, {"stageId": "premises", "status": "awaiting_review"}, {"stageId": "final_review", "status": "not_started"}], "decisions": {"readiness": {"status": "reviewed", "owner": "Ministry", "note": "Proposed readiness checkpoint; no authority to operate."}, "licence": {"status": "pending", "owner": "Ministry", "note": "No operating licence has been issued in this fictional case."}, "funding": {"status": "not_requested", "owner": "Ministry", "spaceAllocationStatus": "not_decided", "note": "No grant or space-allocation approval is implied."}}, "documents": [{"documentTypeId": "home_information", "status": "accepted", "owner": "Applicant", "note": "Fictional review record.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "licence_application", "status": "accepted", "owner": "Applicant", "note": "Fictional review record.", "updatedAt": "2026-11-25", "sampleFileName": "licence-application-demo.pdf"}, {"documentTypeId": "family_assessment", "status": "accepted", "owner": "Applicant", "note": "Fictional review record.", "updatedAt": "2026-11-25", "sampleFileName": "family-assessment-demo.pdf"}, {"documentTypeId": "household_checks", "status": "accepted", "owner": "Applicant", "note": "Original checks verified; contents not stored.", "updatedAt": "2026-11-25", "sampleFileName": null, "originalDeliveryStatus": "verified_by_ministry", "originalHandlingNote": "Only delivery and verification are tracked. No original check or scan is stored."}, {"documentTypeId": "references", "status": "accepted", "owner": "Applicant", "note": "Fictional review record.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "banking_setup", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "fire_inspection", "status": "received", "owner": "Inspector", "note": "Inspector report received; consultant review pending.", "updatedAt": "2026-11-25", "sampleFileName": "fire-inspection-demo.pdf"}, {"documentTypeId": "heating_inspection", "status": "received", "owner": "Inspector", "note": "Inspector report received; consultant review pending.", "updatedAt": "2026-11-25", "sampleFileName": "heating-inspection-demo.pdf"}, {"documentTypeId": "insurance", "status": "received", "owner": "Applicant", "note": "Coverage evidence received for review.", "updatedAt": "2026-11-25", "sampleFileName": "insurance-demo.pdf"}, {"documentTypeId": "home_space", "status": "received", "owner": "Ministry", "note": "Consultant visit notes awaiting completion.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "home_training", "status": "accepted", "owner": "Applicant", "note": "Fictional review record.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "operating_policies", "status": "received", "owner": "Applicant", "note": "Fictional review record.", "updatedAt": "2026-11-25", "sampleFileName": "operating-policies-demo.pdf"}, {"documentTypeId": "final_visit", "status": "missing", "owner": "Ministry", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "licence_decision", "status": "missing", "owner": "Ministry", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "funding_decision", "status": "missing", "owner": "Ministry", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}], "corrections": [], "nextActions": [{"owner": "Ministry", "title": "Review premises evidence", "detail": "Review the inspection reports, space notes and insurance; identify any outstanding item.", "documentTypeId": "home_space"}], "history": [{"date": "2026-11-21", "actor": "Inspector", "title": "Inspection reports received", "detail": "Fire and heating reports are available for consultant review."}], "messages": [], "applicationNumber": "APP-2026-003", "coordinator": "Sample coordinator", "appointments": [], "city": "Moose Jaw"}, {"id": "case-north", "facilityName": "North Star Group Home", "facilityTypeId": "group_home", "fictional": true, "region": "Saskatchewan — fictional location", "applicantLabel": "Applicant", "assignedTeam": "Early Years review team — demo", "currentStageId": "readiness", "summary": "A draft application is being prepared.", "createdAt": "2026-11-10", "updatedAt": "2026-11-25", "recordVersion": 1, "stages": [{"stageId": "readiness", "status": "in_progress"}, {"stageId": "application", "status": "not_started"}, {"stageId": "premises", "status": "not_started"}, {"stageId": "final_review", "status": "not_started"}], "decisions": {"readiness": {"status": "not_submitted", "owner": "Ministry", "note": "Proposed readiness checkpoint; no authority to operate."}, "licence": {"status": "not_submitted", "owner": "Ministry", "note": "No operating licence has been issued in this fictional case."}, "funding": {"status": "not_requested", "owner": "Ministry", "spaceAllocationStatus": "not_decided", "note": "No grant or space-allocation approval is implied."}}, "documents": [{"documentTypeId": "home_information", "status": "received", "owner": "Applicant", "note": "Applicant marked the information session complete; confirmation pending.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "licence_application", "status": "missing", "owner": "Applicant", "note": "Draft details have not been submitted.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "family_assessment", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "household_checks", "status": "missing", "owner": "Applicant", "note": "Required adults and original-check delivery still need to be confirmed.", "updatedAt": "2026-11-25", "sampleFileName": null, "originalDeliveryStatus": "not_received", "originalHandlingNote": "Only delivery and verification are tracked. No original check or scan is stored."}, {"documentTypeId": "references", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "banking_setup", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "fire_inspection", "status": "missing", "owner": "Inspector", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "heating_inspection", "status": "missing", "owner": "Inspector", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "insurance", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "home_space", "status": "missing", "owner": "Ministry", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "home_training", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "group_staffing", "status": "missing", "owner": "Applicant", "note": "Discuss the proposed child mix and assistant arrangements with the consultant.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "operating_policies", "status": "missing", "owner": "Applicant", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "final_visit", "status": "missing", "owner": "Ministry", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "licence_decision", "status": "missing", "owner": "Ministry", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}, {"documentTypeId": "funding_decision", "status": "missing", "owner": "Ministry", "note": "Not yet due at this stage.", "updatedAt": "2026-11-25", "sampleFileName": null}], "corrections": [], "nextActions": [{"owner": "Applicant", "title": "Complete the draft basics", "detail": "Confirm the proposed service, household information and next steps with the regional team.", "documentTypeId": "licence_application"}], "history": [{"date": "2026-11-25", "actor": "Applicant", "title": "Draft started", "detail": "No application or supporting record has been submitted to the Ministry."}], "messages": [], "applicationNumber": "APP-2026-004", "coordinator": "Sample coordinator", "appointments": [], "city": "Prince Albert"}]}</script><script>(function (root, factory) {
+  'use strict';
+  var ProviderModel = factory();
+  if (typeof module === 'object' && module.exports) module.exports = ProviderModel;
+  if (root) root.ProviderModel = ProviderModel;
+})(typeof window !== 'undefined' ? window : globalThis, function () {
+  'use strict';
+
+  const STAGES = ['readiness', 'application', 'premises', 'final_review'];
+  const DOC_STATUSES = ['missing', 'received', 'accepted', 'needs_changes'];
+  const STAGE_STATUSES = ['not_started', 'in_progress', 'awaiting_review', 'needs_changes', 'complete'];
+  const ACTORS = ['Applicant', 'Ministry', 'Inspector'];
+  const ORGS = ['nonprofit', 'cooperative', 'municipality', 'for_profit', 'individual', 'partnership'];
+  const NON_GATING = ['banking_setup', 'funding_decision', 'licence_decision'];
+  const DEVELOPMENT_ONLY = ['centre_information', 'needs_assessment', 'budgets', 'banking_setup', 'funding_decision'];
+  const DECISIONS = {
+    readiness: ['not_submitted', 'under_review', 'awaiting_review', 'pending', 'proceed', 'reviewed', 'approved', 'needs_changes', 'paused', 'declined'],
+    licence: ['not_submitted', 'under_review', 'pending', 'not_decided', 'needs_changes', 'approved', 'declined'],
+    funding: ['not_requested', 'not_submitted', 'not_decided', 'under_review', 'pending', 'needs_changes', 'approved', 'declined']
+  };
+  const PHYSICAL_STATUSES = ['not_received', 'reported_sent', 'received_by_ministry', 'verified_by_ministry'];
+  const PROFILE_FIELDS = ['contactName', 'email', 'address', 'city', 'capacity', 'openingDate', 'organizationType', 'householdAdults', 'informationSession', 'premisesTenure'];
+  const clone = value => JSON.parse(JSON.stringify(value));
+  const now = () => new Date().toISOString();
+  const reginaDate = at => {
+    const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Regina', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date(at));
+    const values = Object.fromEntries(parts.map(p => [p.type, p.value]));
+    return `${values.year}-${values.month}-${values.day}`;
+  };
+  const isObject = value => !!value && typeof value === 'object' && !Array.isArray(value);
+  const assert = (condition, message) => { if (!condition) throw new Error(message); };
+  const text = (value, label, limit = 12000) => {
+    assert(typeof value === 'string' && value.length <= limit, `${label} must be text of at most ${limit} characters.`);
+    return value.trim();
+  };
+  const actorCheck = actor => assert(ACTORS.includes(actor), 'Choose Applicant, Ministry or Inspector as the actor.');
+  const staffOnly = actor => assert(actor === 'Ministry', 'Only a Ministry reviewer can accept evidence or record this decision.');
+  const label = status => ({ proceed: 'Proceed', reviewed: 'Reviewed', approved: 'Approved', under_review: 'Under review', awaiting_review: 'Awaiting review', not_decided: 'Not decided', not_submitted: 'Not submitted', not_requested: 'Not requested', needs_changes: 'Changes requested' }[status] || status.charAt(0).toUpperCase() + status.slice(1));
+  function jsonSafe(value, depth = 0, budget = { count: 0 }) {
+    assert(depth < 30 && ++budget.count < 30000, 'This case file is too large or deeply nested.');
+    if (value === null || typeof value === 'boolean') return;
+    if (typeof value === 'string') return assert(value.length <= 50000, 'A value in this case file is too long.');
+    if (typeof value === 'number') return assert(Number.isFinite(value), 'Case numbers must be finite.');
+    assert(typeof value === 'object', 'The case must contain only JSON data.');
+    if (!Array.isArray(value)) assert(Object.getPrototypeOf(value) === Object.prototype || Object.getPrototypeOf(value) === null, 'The case contains an unsupported object.');
+    for (const key of Object.keys(value)) {
+      assert(!['__proto__', 'constructor'].includes(key), 'The case contains an unsafe property.');
+      jsonSafe(value[key], depth + 1, budget);
+    }
+  }
+  function route(value, type) {
+    if (type !== 'centre') {
+      assert(value == null || ['home', 'home-licensing', 'home_licensing'].includes(value), 'Home cases use the home licensing pathway.');
+      return 'home-licensing';
+    }
+    const normalized = (value || 'centre-development').replaceAll('_', '-');
+    assert(['centre-development', 'licensing-only'].includes(normalized), 'Choose centre development or licensing only.');
+    return normalized;
+  }
+  function organization(value, fallback) {
+    const aliases = { 'non-profit': 'nonprofit', non_profit: 'nonprofit', 'co-operative': 'cooperative', co_operative: 'cooperative', 'for-profit': 'for_profit' };
+    const result = aliases[value] || value || fallback;
+    assert(ORGS.includes(result), 'Choose a supported organization type.');
+    return result;
+  }
+
+  class ProviderModel {
+    constructor(seed, savedState = null) {
+      assert(isObject(seed) && Array.isArray(seed.cases) && Array.isArray(seed.documentTypes) && Array.isArray(seed.facilityTypes), 'The demo content is incomplete.');
+      jsonSafe(seed);
+      this.seed = clone(seed);
+      this._counter = 0;
+      this._types = new Map(this.seed.facilityTypes.map(t => [t.id, t]));
+      this._docs = new Map(this.seed.documentTypes.map(d => [d.id, d]));
+      if (savedState !== null) {
+        jsonSafe(savedState);
+        assert(savedState.version === 1 && Array.isArray(savedState.cases), 'This saved workspace has an unsupported format.');
+        const cases = clone(savedState.cases);
+        cases.forEach(c => this._validateCase(c));
+        assert(new Set(cases.map(c => c.id)).size === cases.length, 'The saved workspace contains duplicate case IDs.');
+        this.state = { version: 1, cases };
+      } else {
+        this.state = { version: 1, cases: this.seed.cases.map((c, i) => this._seedCase(c, i)) };
+        this.state.cases.forEach(c => this._validateCase(c));
+      }
+    }
+
+    case(id) {
+      const c = this.state.cases.find(c => c.id === id);
+      assert(c, 'That application could not be found.');
+      return c;
+    }
+    type(id) {
+      const result = this._types.get(id);
+      assert(result, 'Choose a supported facility type.');
+      return result;
+    }
+    docType(id) {
+      const result = this._docs.get(id);
+      assert(result, 'That document type is not recognized.');
+      return result;
+    }
+    requirements(c) {
+      if (typeof c === 'string') c = this.case(c);
+      return c.documents.map(d => this.docType(d.documentTypeId));
+    }
+    _id(prefix) { return `${prefix}-${Date.now().toString(36)}-${(++this._counter).toString(36)}`; }
+    _newCaseId() {
+      const year = reginaDate(now()).slice(0, 4);
+      const pattern = new RegExp(`^APP-${year}-(\\d+)$`);
+      let largest = 0;
+      for (const c of this.state.cases) for (const candidate of [c.id, c.applicationNumber]) {
+        const match = typeof candidate === 'string' && candidate.match(pattern);
+        if (match && Number.isSafeInteger(Number(match[1]))) largest = Math.max(largest, Number(match[1]));
+      }
+      return `APP-${year}-${String(largest + 1).padStart(3, '0')}`;
+    }
+    _event(c, actor, title, detail) {
+      actorCheck(actor);
+      const at = now();
+      c.history.push({ id: this._id('event'), date: reginaDate(at), at, actor, title, detail });
+      c.updatedAt = at;
+      c.recordVersion = (c.recordVersion || 0) + 1;
+    }
+    _profile(fields, type, base = {}) {
+      const result = { contactName: '', email: '', address: '', city: '', capacity: type === 'centre' ? 45 : 8, openingDate: '', organizationType: type === 'centre' ? 'nonprofit' : 'individual', householdAdults: type === 'centre' ? 0 : 1, informationSession: false, premisesTenure: 'rented', ...base };
+      for (const key of PROFILE_FIELDS) {
+        if (!Object.prototype.hasOwnProperty.call(fields, key)) continue;
+        const value = fields[key];
+        if (['capacity', 'householdAdults'].includes(key)) {
+          assert(value !== '' && value !== null && typeof value !== 'boolean', `Enter a number for ${key === 'capacity' ? 'capacity' : 'household adults'}.`);
+          const number = Number(value);
+          assert(Number.isInteger(number) && number >= (key === 'capacity' ? 1 : 0) && number <= 10000, `Enter a valid whole number for ${key === 'capacity' ? 'capacity' : 'household adults'}.`);
+          result[key] = number;
+        } else if (key === 'informationSession') {
+          assert(typeof value === 'boolean', 'Information-session completion must be yes or no.');
+          result[key] = value;
+        } else if (key === 'organizationType') result[key] = organization(value, result[key]);
+        else if (key === 'premisesTenure') {
+          assert(['rented', 'owned'].includes(value), 'Choose rented or owned premises.');
+          result[key] = value;
+        } else result[key] = text(value, key, 1000);
+      }
+      assert(!result.email || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(result.email), 'Enter a valid email address.');
+      assert(!result.openingDate || (/^\d{4}-\d{2}-\d{2}$/.test(result.openingDate) && !Number.isNaN(Date.parse(result.openingDate)) && new Date(result.openingDate).toISOString().slice(0, 10) === result.openingDate), 'Use a valid opening date in YYYY-MM-DD format.');
+      return result;
+    }
+    _expected(c) {
+      this.type(c.facilityTypeId);
+      return this.seed.documentTypes.filter(d => {
+        if (!d.appliesTo.includes(c.facilityTypeId)) return false;
+        if (c.facilityTypeId !== 'centre') return true;
+        if (c.pathway === 'licensing-only' && DEVELOPMENT_ONLY.includes(d.id)) return false;
+        if (d.id === 'incorporation') return ['nonprofit', 'cooperative', 'for_profit'].includes(c.profile.organizationType);
+        if (d.id === 'lease') return c.profile.premisesTenure === 'rented';
+        if (d.id === 'private_operator_check') return ['individual', 'partnership', 'for_profit'].includes(c.profile.organizationType);
+        return true;
+      });
+    }
+    _blankDoc(def) {
+      const d = { documentTypeId: def.id, status: 'missing', owner: def.owner, note: '', updatedAt: now(), sampleFileName: null, evidenceVersions: [], version: 0 };
+      if (def.handling === 'sealed_original') Object.assign(d, { originalDeliveryStatus: 'not_received', originalHandlingNote: 'Track physical delivery and Ministry verification separately. A scan is not a replacement.' });
+      return d;
+    }
+    _sync(c) {
+      const existing = new Map(c.documents.map(d => [d.documentTypeId, d]));
+      c.documents = this._expected(c).map(def => {
+        const d = existing.get(def.id) || this._blankDoc(def);
+        if (!existing.has(def.id) && ['home_information', 'centre_information'].includes(def.id) && c.profile.informationSession) {
+          d.status = 'received';
+          d.note = 'Applicant reports completing the information session. Ministry review is pending.';
+        }
+        return d;
+      });
+      const current = new Set(c.documents.map(d => d.documentTypeId));
+      c.corrections = c.corrections.filter(r => current.has(r.documentTypeId));
+    }
+    _seedCase(raw, i) {
+      const c = clone(raw);
+      const sessionRecord = c.documents.find(d => ['home_information', 'centre_information'].includes(d.documentTypeId));
+      c.profile = this._profile({ city: c.city || 'Saskatoon', contactName: `Sample applicant ${i + 1}`, email: `applicant${i + 1}@example.test`, address: `${100 + i} Example Lane (fictional)`, capacity: c.facilityTypeId === 'centre' ? 45 : 8, informationSession: !!sessionRecord && ['received', 'accepted'].includes(sessionRecord.status), ...c.profile }, c.facilityTypeId);
+      c.city = c.profile.city;
+      c.pathway = route(c.pathway, c.facilityTypeId);
+      c.status = c.status || (c.decisions.licence.status === 'approved' ? 'approved' : c.decisions.licence.status === 'not_submitted' && c.decisions.readiness.status === 'not_submitted' ? 'draft' : c.documents.some(d => d.status === 'needs_changes') ? 'needs_changes' : 'under_review');
+      c.history = c.history || [];
+      c.history = c.history.map(h => ({ ...h, at: h.at || h.date }));
+      c.messages = c.messages || [];
+      c.messages = c.messages.map(m => ({ ...m, at: m.at || m.date }));
+      c.corrections = c.corrections || [];
+      c.appointments = c.appointments || [];
+      c.documents = c.documents.map(d => ({ ...this._blankDoc(this.docType(d.documentTypeId)), ...d, evidenceVersions: d.evidenceVersions || [], version: d.version || 0 }));
+      this._sync(c);
+      return c;
+    }
+    create(fields) {
+      assert(isObject(fields), 'Enter the application details.');
+      jsonSafe(fields);
+      const type = this.type(fields.facilityTypeId);
+      const profile = this._profile({ ...(fields.profile || {}), ...fields }, type.id);
+      const at = now();
+      const id = this._newCaseId();
+      const c = { id, applicationNumber: id, facilityName: text(fields.facilityName || `New ${type.title.toLowerCase()}`, 'Facility name', 200), facilityTypeId: type.id, fictional: true, profile, city: profile.city, region: fields.region ? text(fields.region, 'Region', 100) : 'Not assigned', applicantLabel: profile.contactName || 'Applicant', coordinator: 'Not assigned', assignedTeam: 'Not assigned', pathway: route(fields.pathway, type.id), status: 'draft', currentStageId: 'readiness', summary: 'Draft application — not submitted.', createdAt: at, updatedAt: at, recordVersion: 1, stages: STAGES.map(stageId => ({ stageId, status: 'not_started' })), decisions: {}, documents: [], corrections: [], nextActions: [], history: [], messages: [], appointments: [] };
+      for (const kind of Object.keys(DECISIONS)) c.decisions[kind] = { status: kind === 'funding' ? 'not_requested' : 'not_submitted', owner: 'Ministry', note: '', label: kind === 'funding' ? 'Not requested' : 'Not submitted' };
+      c.decisions.funding.spaceAllocationStatus = 'not_decided';
+      c.decisions.licence.note = 'No operating licence has been issued. This prototype records review progress only.';
+      this._sync(c);
+      c.stages.find(s => s.stageId === c.currentStageId).status = 'in_progress';
+      this._event(c, 'Applicant', 'Draft created', 'This record exists only in the local demonstration.');
+      this.state.cases.push(c);
+      return c;
+    }
+    updateProfile(id, fields, actor = 'Applicant') {
+      actorCheck(actor);
+      assert(isObject(fields), 'Enter the profile changes.');
+      jsonSafe(fields);
+      const c = this.case(id);
+      assert(!fields.facilityTypeId || fields.facilityTypeId === c.facilityTypeId, 'Create a new case to change the facility type.');
+      const input = { ...(fields.profile || {}), ...fields };
+      const next = this._profile(input, c.facilityTypeId, c.profile);
+      assert(next.informationSession === c.profile.informationSession || actor === 'Applicant', 'Only the applicant can change their information-session completion report.');
+      const name = fields.facilityName === undefined ? c.facilityName : text(fields.facilityName, 'Facility name', 200);
+      assert(name.length > 0, 'Enter a facility name.');
+      const pathway = route(fields.pathway === undefined ? c.pathway : fields.pathway, c.facilityTypeId);
+      const changed = PROFILE_FIELDS.filter(k => next[k] !== c.profile[k]);
+      if (name !== c.facilityName) changed.push('facilityName');
+      if (pathway !== c.pathway) changed.push('pathway');
+      if (!changed.length) return c;
+      c.profile = next; c.city = next.city; c.facilityName = name; c.pathway = pathway; c.applicantLabel = next.contactName || 'Applicant';
+      this._sync(c);
+      const affected = new Set();
+      if (changed.includes('informationSession')) {
+        const session = c.documents.find(d => ['home_information', 'centre_information'].includes(d.documentTypeId));
+        if (session) {
+          const wasAccepted = session.status === 'accepted';
+          session.status = next.informationSession ? 'received' : wasAccepted ? 'needs_changes' : 'missing';
+          session.note = next.informationSession ? 'Applicant reports completing the information session. Ministry review is pending.' : 'Applicant no longer reports completing the information session. Completion needs to be confirmed again.';
+          session.updatedAt = now();
+          if (next.informationSession) {
+            for (const correction of c.corrections.filter(r => r.documentTypeId === session.documentTypeId && r.status !== 'resolved')) Object.assign(correction, { status: 'responded', applicantResponse: session.note, responseAt: now() });
+          } else if (wasAccepted || c.corrections.some(r => r.documentTypeId === session.documentTypeId && r.status !== 'resolved')) {
+            this._openCorrection(c, session, session.note, 'Applicant');
+          }
+          affected.add(session.documentTypeId);
+          c.stages.find(s => s.stageId === 'readiness').status = c.status === 'draft' ? 'in_progress' : session.status === 'needs_changes' ? 'needs_changes' : 'awaiting_review';
+        }
+      }
+      if (changed.some(k => ['address', 'city', 'premisesTenure'].includes(k))) ['fire_inspection', 'heating_inspection', 'health_inspection', 'insurance', 'home_space', 'centre_plans', 'lease', 'final_visit'].forEach(k => affected.add(k));
+      if (changed.includes('capacity')) ['fire_inspection', 'insurance', 'home_space', 'centre_plans', 'centre_staffing', 'group_staffing', 'final_visit'].forEach(k => affected.add(k));
+      if (changed.includes('householdAdults') && c.facilityTypeId !== 'centre') ['household_checks', 'family_assessment', 'final_visit'].forEach(k => affected.add(k));
+      if (changed.includes('organizationType')) ['incorporation', 'private_operator_check', 'licence_application', 'final_visit'].forEach(k => affected.add(k));
+      const material = affected.size > 0 || changed.includes('pathway');
+      const reason = `Review reopened because the shared profile changed: ${changed.join(', ')}.`;
+      if (c.facilityTypeId === 'centre' && c.decisions.funding.status === 'approved' && changed.some(k => ['organizationType', 'pathway'].includes(k))) {
+        Object.assign(c.decisions.funding, { status: 'under_review', label: 'Under review', note: 'The previously recorded funding approval needs review because the organization type or application pathway changed.', updatedAt: now() });
+        const fundingDoc = c.documents.find(d => d.documentTypeId === 'funding_decision');
+        if (fundingDoc) Object.assign(fundingDoc, { status: 'received', note: c.decisions.funding.note, updatedAt: now() });
+      }
+      for (const d of c.documents) if (d.status === 'accepted' && affected.has(d.documentTypeId)) {
+        d.status = 'needs_changes'; d.note = reason; d.updatedAt = now();
+        if (d.originalDeliveryStatus) d.originalDeliveryStatus = 'not_received';
+        this._openCorrection(c, d, reason, 'Ministry');
+      }
+      if (material) {
+        const licenseDoc = c.documents.find(d => d.documentTypeId === 'licence_decision');
+        if (licenseDoc && licenseDoc.status === 'accepted') Object.assign(licenseDoc, { status: 'needs_changes', note: reason, updatedAt: now() });
+        if (c.decisions.licence.status !== 'not_submitted') Object.assign(c.decisions.licence, { status: 'under_review', label: 'Under review', note: reason, updatedAt: now() });
+        if (c.status !== 'draft') {
+          c.status = c.documents.some(d => d.status === 'needs_changes') ? 'needs_changes' : 'under_review';
+          const first = STAGES.find(stageId => this._missing(c, stageId).length);
+          if (first) {
+            c.currentStageId = first;
+            for (const s of c.stages) if (STAGES.indexOf(s.stageId) >= STAGES.indexOf(first)) s.status = s.stageId === first ? (c.status === 'needs_changes' ? 'needs_changes' : 'awaiting_review') : 'not_started';
+          }
+        }
+      }
+      this._event(c, actor, 'Shared profile updated', material ? reason : `Updated ${changed.join(', ')}.`);
+      return c;
+    }
+    _document(c, id) {
+      const doc = c.documents.find(d => d.documentTypeId === id);
+      assert(doc, 'That requirement does not apply to this case.');
+      return doc;
+    }
+    _openCorrection(c, d, message, actor) {
+      let r = c.corrections.find(r => r.documentTypeId === d.documentTypeId && r.status !== 'resolved');
+      if (!r) { r = { id: this._id('correction'), documentTypeId: d.documentTypeId, title: this.docType(d.documentTypeId).title, applicantResponse: '', responseAt: null, resolution: null }; c.corrections.push(r); }
+      Object.assign(r, { status: 'open', requestedAt: now(), requestedBy: actor, message });
+      return r;
+    }
+    _updateStage(c, stageId) {
+      const s = c.stages.find(s => s.stageId === stageId);
+      const stageDocs = c.documents.filter(d => this.docType(d.documentTypeId).stageId === stageId && !NON_GATING.includes(d.documentTypeId));
+      if (stageDocs.some(d => d.status === 'needs_changes')) s.status = 'needs_changes';
+      else if (s.status !== 'complete' || stageDocs.some(d => d.status !== 'accepted')) s.status = 'awaiting_review';
+      if (c.status !== 'draft' && stageDocs.some(d => d.status !== 'accepted') && STAGES.indexOf(stageId) < STAGES.indexOf(c.currentStageId)) {
+        c.currentStageId = stageId;
+        for (const later of c.stages) if (STAGES.indexOf(later.stageId) > STAGES.indexOf(stageId)) later.status = 'not_started';
+      }
+      if (c.status !== 'draft' && c.decisions.licence.status !== 'approved') c.status = c.documents.some(d => d.status === 'needs_changes') ? 'needs_changes' : 'under_review';
+    }
+    addEvidence(caseId, docId, evidence, actor = 'Applicant') {
+      actorCheck(actor);
+      assert(isObject(evidence), 'Add a document name or a note.');
+      jsonSafe(evidence);
+      assert(Object.keys(evidence).every(k => ['fileName', 'note', 'sample'].includes(k)), 'Only evidence metadata can be stored here; file contents are not supported.');
+      const c = this.case(caseId), d = this._document(c, docId), def = this.docType(docId);
+      assert(!['licence_decision', 'funding_decision'].includes(docId), 'Only a Ministry decision can complete this record.');
+      assert(!(actor === 'Applicant' && def.owner === 'Ministry' && def.handling === 'inspection_record'), 'A staff reviewer must record this Ministry inspection or visit.');
+      assert(def.handling !== 'sealed_original' || actor !== 'Inspector', 'Only the applicant or Ministry can record delivery of the original checks.');
+      const fileName = evidence.fileName == null ? '' : text(evidence.fileName, 'File name', 255).split(/[\\/]/).pop();
+      const note = evidence.note == null ? '' : text(evidence.note, 'Evidence note');
+      assert(fileName || note, 'Add a document name or explain what you are providing.');
+      assert(evidence.sample === undefined || typeof evidence.sample === 'boolean', 'The sample flag must be yes or no.');
+      assert(def.handling !== 'sealed_original' || !fileName, 'Track the original checks as sent. A scanned file cannot replace the required physical originals.');
+      const at = now();
+      d.version += 1;
+      d.evidenceVersions.push({ version: d.version, fileName: fileName || null, note, submittedAt: at, submittedBy: actor, sample: evidence.sample === true, metadataOnly: true, kind: def.handling === 'sealed_original' ? 'physical_delivery' : fileName ? 'file_metadata' : 'note' });
+      d.status = 'received'; d.note = note; d.updatedAt = at; d.sampleFileName = fileName || null;
+      if (def.handling === 'sealed_original') {
+        d.originalDeliveryStatus = actor === 'Ministry' ? 'received_by_ministry' : 'reported_sent';
+        d.originalHandlingNote = actor === 'Ministry' ? 'The Ministry records receipt of physical originals. Verification is still required.' : 'The applicant reports sending originals. Ministry receipt and verification are still required.';
+      }
+      if (actor === 'Applicant') for (const r of c.corrections.filter(r => r.documentTypeId === docId && r.status !== 'resolved')) Object.assign(r, { status: 'responded', applicantResponse: note || `Evidence supplied: ${fileName}`, responseAt: at });
+      // New evidence supersedes prior acceptance. It cannot preserve an earlier licence approval.
+      if (!NON_GATING.includes(docId) && c.decisions.licence.status === 'approved') {
+        Object.assign(c.decisions.licence, { status: 'under_review', label: 'Under review', note: 'New evidence requires Ministry review.' });
+        const ld = c.documents.find(x => x.documentTypeId === 'licence_decision');
+        if (ld) Object.assign(ld, { status: 'needs_changes', note: 'New evidence requires review.' });
+        c.currentStageId = def.stageId;
+        c.stages.forEach(s => { if (STAGES.indexOf(s.stageId) >= STAGES.indexOf(def.stageId)) s.status = s.stageId === def.stageId ? 'awaiting_review' : 'not_started'; });
+      }
+      this._updateStage(c, def.stageId);
+      this._event(c, actor, def.handling === 'sealed_original' ? actor === 'Ministry' ? 'Originals received' : 'Original delivery reported' : 'Evidence added', `${def.title}: ${fileName || note}`);
+      return c;
+    }
+    reviewEvidence(caseId, docId, review, actor = 'Ministry') {
+      staffOnly(actor);
+      assert(isObject(review) && ['accepted', 'needs_changes'].includes(review.status), 'Choose accepted or changes requested.');
+      const note = text(review.note == null ? '' : review.note, 'Review note');
+      assert(review.status !== 'needs_changes' || note, 'Explain what the applicant needs to change.');
+      const c = this.case(caseId), d = this._document(c, docId), def = this.docType(docId);
+      assert(!['licence_decision', 'funding_decision'].includes(docId), 'Use the separate licence or funding decision action.');
+      assert(review.status !== 'accepted' || d.status !== 'missing', 'Record evidence or completion before accepting this requirement.');
+      d.status = review.status; d.note = note; d.updatedAt = now();
+      if (review.status === 'accepted' && ['home_information', 'centre_information'].includes(docId)) c.profile.informationSession = true;
+      if (def.handling === 'sealed_original' && review.status === 'accepted') {
+        d.originalDeliveryStatus = 'verified_by_ministry'; d.originalHandlingNote = 'Physical originals verified by the Ministry reviewer.';
+      }
+      if (review.status === 'needs_changes') this._openCorrection(c, d, note, actor);
+      else for (const r of c.corrections.filter(r => r.documentTypeId === docId && r.status !== 'resolved')) Object.assign(r, { status: 'resolved', resolution: note || 'Accepted by the Ministry reviewer.', resolvedAt: now() });
+      if (review.status === 'needs_changes' && c.decisions.licence.status === 'approved' && !NON_GATING.includes(docId)) {
+        Object.assign(c.decisions.licence, { status: 'under_review', label: 'Under review', note: 'A licensing requirement needs another review.' });
+        const ld = c.documents.find(x => x.documentTypeId === 'licence_decision');
+        if (ld) ld.status = 'needs_changes';
+        c.currentStageId = def.stageId;
+      }
+      this._updateStage(c, def.stageId);
+      this._event(c, actor, review.status === 'accepted' ? 'Evidence accepted' : 'Correction requested', `${def.title}${note ? ': ' + note : ''}`);
+      return c;
+    }
+    recordCompletion(caseId, docId, note, actor = 'Ministry') {
+      staffOnly(actor);
+      const detail = text(note || '', 'Completion note');
+      assert(detail, 'Explain what was completed or verified.');
+      const c = this.case(caseId), d = this._document(c, docId);
+      assert(!['licence_decision', 'funding_decision'].includes(docId), 'Use the separate decision action for this record.');
+      d.status = 'received';
+      if (this.docType(docId).handling === 'sealed_original') d.originalDeliveryStatus = 'received_by_ministry';
+      return this.reviewEvidence(caseId, docId, { status: 'accepted', note: detail }, actor);
+    }
+    submit(caseId) {
+      const c = this.case(caseId);
+      assert(c.status === 'draft', 'This case is already submitted. Use its existing correction and evidence records.');
+      assert(c.profile.contactName && c.profile.email && c.profile.city, 'Add a contact name, valid email and city before submitting.');
+      c.currentStageId = 'readiness';
+      c.status = 'under_review'; c.summary = 'Submitted in the local demonstration; awaiting review.';
+      c.stages.find(s => s.stageId === c.currentStageId).status = 'awaiting_review';
+      const kind = c.currentStageId === 'readiness' ? 'readiness' : 'licence';
+      Object.assign(c.decisions[kind], { status: 'under_review', label: 'Under review', updatedAt: now() });
+      this._event(c, 'Applicant', 'Application submitted in demo', 'No information was sent to the Ministry.');
+      return c;
+    }
+    _missing(c, stageId = null) {
+      return c.documents.filter(d => !NON_GATING.includes(d.documentTypeId) && (!stageId || this.docType(d.documentTypeId).stageId === stageId) && d.status !== 'accepted');
+    }
+    advance(caseId) {
+      const c = this.case(caseId);
+      assert(c.status !== 'draft', 'Submit the draft before advancing its review.');
+      const missing = this._missing(c, c.currentStageId);
+      assert(!missing.length, `Accept the current-stage requirements first: ${missing.map(d => this.docType(d.documentTypeId).title).join(', ')}.`);
+      const index = STAGES.indexOf(c.currentStageId);
+      c.stages.find(s => s.stageId === STAGES[index]).status = 'complete';
+      if (index < STAGES.length - 1) {
+        c.currentStageId = STAGES[index + 1];
+        c.stages.find(s => s.stageId === STAGES[index + 1]).status = 'in_progress';
+      }
+      this._event(c, 'Ministry', 'Review stage advanced', index < STAGES.length - 1 ? `Next stage: ${c.currentStageId.replaceAll('_', ' ')}.` : 'Final review completed. Licence and funding decisions remain separate.');
+      return c;
+    }
+    decide(caseId, kind, status, note) {
+      assert(Object.hasOwn(DECISIONS, kind) && DECISIONS[kind].includes(status), 'Choose a valid decision and outcome.');
+      const detail = text(note || '', 'Decision note');
+      assert(detail, 'Add a reason or explanation for the decision.');
+      const c = this.case(caseId);
+      assert(c.status !== 'draft', 'Submit the draft before recording a decision.');
+      if (kind === 'funding' && status === 'approved' && c.facilityTypeId === 'centre') {
+        assert(c.pathway === 'centre-development' && ['nonprofit', 'cooperative', 'municipality'].includes(c.profile.organizationType), 'Centre funding approval requires the centre-development pathway and a nonprofit, cooperative or municipal organization. A licensing-only or private-operator application cannot be approved for this funding.');
+      }
+      if (kind === 'licence' && status === 'approved') {
+        const missing = this._missing(c);
+        assert(!missing.length, `The licence cannot be approved until these requirements are accepted: ${missing.map(d => this.docType(d.documentTypeId).title).join(', ')}.`);
+      }
+      const decisionNote = kind === 'licence' ? `${detail} This prototype does not issue a real licence.` : detail;
+      Object.assign(c.decisions[kind], { status, label: label(status), note: decisionNote, owner: 'Ministry', updatedAt: now() });
+      const d = c.documents.find(d => d.documentTypeId === `${kind}_decision`);
+      if (d) Object.assign(d, { status: ['approved', 'declined'].includes(status) ? 'accepted' : 'received', note: detail, updatedAt: now() });
+      if (kind === 'licence') {
+        c.status = status === 'approved' ? 'approved' : status === 'needs_changes' ? 'needs_changes' : 'under_review';
+        if (status === 'approved') { c.currentStageId = 'final_review'; c.stages.forEach(s => { s.status = 'complete'; }); }
+      }
+      this._event(c, 'Ministry', `${label(kind)} decision recorded`, `${label(status)}: ${detail}`);
+      return c;
+    }
+    addMessage(id, message, actor = 'Applicant') {
+      actorCheck(actor);
+      const body = text(message, 'Message');
+      assert(body, 'Write a message first.');
+      const c = this.case(id), at = now();
+      c.messages.push({ id: this._id('message'), date: reginaDate(at), at, author: actor, text: body });
+      this._event(c, actor, 'Message added', body);
+      return c;
+    }
+    exportCase(id) { return { format: 'sask-childcare-case', version: 1, case: clone(this.case(id)) }; }
+    importCase(obj, options = { replace: false }) {
+      jsonSafe(obj);
+      assert(isObject(obj) && obj.format === 'sask-childcare-case' && obj.version === 1, 'Choose a version 1 Saskatchewan childcare case export.');
+      assert(isObject(obj.case), 'The case record is missing.');
+      assert(isObject(options) && (options.replace === undefined || typeof options.replace === 'boolean'), 'Replacement must be explicitly set to true or false.');
+      const c = clone(obj.case);
+      this._validateCase(c);
+      const index = this.state.cases.findIndex(item => item.id === c.id);
+      assert(index === -1 || options.replace === true, 'This case already exists. Explicitly choose replace to overwrite it.');
+      if (index === -1) this.state.cases.push(c); else this.state.cases[index] = c;
+      return c;
+    }
+    _validateCase(c) {
+      assert(isObject(c), 'The case record is missing.');
+      assert(typeof c.id === 'string' && /^[A-Za-z0-9][A-Za-z0-9._-]{0,119}$/.test(c.id), 'The case ID is invalid.');
+      assert(typeof c.facilityName === 'string' && c.facilityName.trim() && c.facilityName.length <= 200, 'The case needs a facility name.');
+      this.type(c.facilityTypeId);
+      assert(isObject(c.profile) && PROFILE_FIELDS.every(k => Object.hasOwn(c.profile, k)), 'The case profile is incomplete.');
+      const normalized = this._profile(c.profile, c.facilityTypeId);
+      assert(PROFILE_FIELDS.every(k => normalized[k] === c.profile[k]), 'The case profile contains invalid or non-normalized values.');
+      assert(c.pathway === route(c.pathway, c.facilityTypeId), 'The case pathway is invalid.');
+      assert(c.city === c.profile.city, 'The facility city and shared profile must agree.');
+      assert(['draft', 'under_review', 'needs_changes', 'approved'].includes(c.status), 'The case status is invalid.');
+      assert(STAGES.includes(c.currentStageId), 'The current stage is invalid.');
+      assert(Array.isArray(c.stages) && c.stages.length === STAGES.length && new Set(c.stages.map(s => s && s.stageId)).size === STAGES.length, 'The review stages are incomplete or duplicated.');
+      c.stages.forEach(s => assert(isObject(s) && STAGES.includes(s.stageId) && STAGE_STATUSES.includes(s.status), 'A review-stage status is invalid.'));
+      assert(isObject(c.decisions), 'The separate decisions are missing.');
+      for (const kind of Object.keys(DECISIONS)) {
+        const d = c.decisions[kind];
+        assert(isObject(d) && DECISIONS[kind].includes(d.status) && d.owner === 'Ministry' && typeof d.note === 'string', `The ${kind} decision is invalid.`);
+      }
+      assert(Array.isArray(c.documents), 'The document checklist is missing.');
+      const required = new Set(this._expected(c).map(d => d.id));
+      assert(c.documents.length === required.size && new Set(c.documents.map(d => d && d.documentTypeId)).size === required.size, 'The document checklist is incomplete or duplicated.');
+      for (const d of c.documents) {
+        assert(isObject(d) && required.has(d.documentTypeId) && DOC_STATUSES.includes(d.status) && ACTORS.includes(d.owner) && typeof d.note === 'string', 'A document requirement is invalid.');
+        assert(Object.keys(d).every(k => ['documentTypeId', 'status', 'owner', 'note', 'updatedAt', 'sampleFileName', 'evidenceVersions', 'version', 'originalDeliveryStatus', 'originalHandlingNote'].includes(k)), 'Document records may contain only review and evidence metadata.');
+        assert(Array.isArray(d.evidenceVersions) && Number.isInteger(d.version) && d.version >= 0 && d.evidenceVersions.length === d.version, 'The evidence version history is invalid.');
+        const def = this.docType(d.documentTypeId);
+        d.evidenceVersions.forEach((v, index) => {
+          assert(isObject(v) && Object.keys(v).every(k => ['version', 'fileName', 'note', 'submittedAt', 'submittedBy', 'sample', 'metadataOnly', 'kind'].includes(k)) && v.version === index + 1 && (v.fileName === null || typeof v.fileName === 'string') && typeof v.note === 'string' && typeof v.submittedAt === 'string' && ACTORS.includes(v.submittedBy) && typeof v.sample === 'boolean' && v.metadataOnly === true && ['file_metadata', 'note', 'physical_delivery'].includes(v.kind), 'Only valid evidence metadata may be imported.');
+        });
+        assert(d.sampleFileName === null || typeof d.sampleFileName === 'string', 'The evidence filename is invalid.');
+        if (def.handling === 'sealed_original') {
+          assert(PHYSICAL_STATUSES.includes(d.originalDeliveryStatus) && d.sampleFileName === null && d.evidenceVersions.every(v => v.fileName === null && v.kind === 'physical_delivery'), 'Original checks must use physical-delivery tracking, not uploaded files.');
+          assert(d.status !== 'accepted' || d.originalDeliveryStatus === 'verified_by_ministry', 'Original checks cannot be accepted without Ministry verification.');
+        }
+      }
+      assert(Array.isArray(c.corrections) && Array.isArray(c.messages) && Array.isArray(c.history), 'Case messages, corrections and history must be lists.');
+      c.corrections.forEach(r => assert(isObject(r) && typeof r.id === 'string' && required.has(r.documentTypeId) && ['open', 'responded', 'resolved'].includes(r.status) && ACTORS.includes(r.requestedBy) && typeof r.message === 'string' && typeof r.applicantResponse === 'string', 'A correction record is invalid.'));
+      c.messages.forEach(m => assert(isObject(m) && typeof m.id === 'string' && ACTORS.includes(m.author) && typeof m.text === 'string', 'A message is invalid.'));
+      c.history.forEach(h => assert(isObject(h) && ACTORS.includes(h.actor) && typeof h.title === 'string' && typeof h.detail === 'string' && typeof h.date === 'string', 'A history entry is invalid.'));
+      assert(c.decisions.licence.status !== 'approved' || (!this._missing(c).length && c.status === 'approved'), 'An approved licence must have a complete licensing review.');
+      assert(c.status !== 'approved' || c.decisions.licence.status === 'approved', 'Approved case status requires a separate licence approval.');
+      assert(!(c.facilityTypeId === 'centre' && c.decisions.funding.status === 'approved') || (c.pathway === 'centre-development' && ['nonprofit', 'cooperative', 'municipality'].includes(c.profile.organizationType)), 'The imported centre funding approval is incompatible with its application pathway or organization type.');
+    }
+  }
+  return ProviderModel;
+});
+
+(() => {
+  'use strict';
+  const seed = JSON.parse(document.getElementById('seed').textContent);
+  const staff = document.body.dataset.role === 'ministry';
+  const actor = staff ? 'Ministry' : 'Applicant';
+  const storageKey = 'sk-childcare-applications-v1';
+  const $ = s => document.querySelector(s);
+  const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let storageError = '', saved = null;
+  try { saved = JSON.parse(localStorage.getItem(storageKey) || 'null'); } catch { storageError = 'Saved data could not be read. Export your work before closing this page.'; }
+  let model;
+  try { model = new ProviderModel(seed, saved); } catch { model = new ProviderModel(seed); storageError = 'The saved record could not be loaded. Sample cases are shown; your stored copy has not been overwritten.'; }
+  let selectedId = seed.meta.primaryCaseId, tab = 'overview', queue = false, profileDirty = false;
+  try { selectedId = localStorage.getItem(storageKey+'-selected-'+actor) || selectedId; } catch {}
+  let query = '', typeFilter = '', stageFilter = '', modalSubmit = null, lastFocus = null, newType = 'family_home', newDraft = {};
+  const labels = {missing:'Not provided',received:'Awaiting review',accepted:'Accepted',needs_changes:'Needs changes',proceed:'Proceed',under_review:'Under review',not_decided:'Not decided',approved:'Approved',declined:'Declined',not_requested:'Not requested',hold:'On hold',paused:'On hold',not_submitted:'Not submitted',draft:'Draft',not_started:'Not started',awaiting_review:'Awaiting review',in_progress:'In progress',complete:'Complete'};
+  const routeDescriptions = {
+    family_home:'Child care in a residential home, for up to 8 attending children within the applicable age limits.',
+    group_home:'Child care in a residential home, for up to 16 attending children. An adult assistant is required above 8.',
+    centre:'A centre operation with its own premises, staffing and governance requirements, including small centres.'
+  };
+  const stageName = id => seed.workflow.stages.find(s => s.id === id)?.title || id;
+  const typeName = id => model.type(id)?.title || id;
+  const fmtDate = d => d ? new Intl.DateTimeFormat('en-CA',{day:'numeric',month:'short',year:'numeric',timeZone:'America/Regina'}).format(new Date(d.length === 10 ? d+'T12:00:00Z' : d)) : '—';
+  const btn = (label, action, data='', kind='') => `<button type="button" class="btn ${kind}" data-action="${action}" ${data}>${label}</button>`;
+  const info = (topic, title) => `<button type="button" class="icon-btn info-inline" data-action="info" data-topic="${topic}" aria-label="${esc(title)}" title="${esc(title)}">i</button>`;
+  const badge = (status, custom) => `<span class="badge ${['needs_changes','received','hold'].includes(status)?'warning':['accepted','approved','proceed','complete'].includes(status)?'success':'neutral'}">${esc(custom || labels[status] || status)}</span>`;
+  const current = () => model.state.cases.find(c => c.id === selectedId) || model.state.cases[0];
+  const userDocs = c => c.documents.filter(d => !['licence_decision','funding_decision'].includes(d.documentTypeId));
+  function nextTask(c) {
+    const docs = userDocs(c);
+    if (staff && c.status === 'draft') return {title:'The applicant is completing their application',detail:'Review the shared details as they are prepared.',action:'application',button:'View application'};
+    if (staff) {
+      const ready = [...docs].sort((a,b)=>(a.documentTypeId==='banking_setup'?1:0)-(b.documentTypeId==='banking_setup'?1:0)).find(d => d.status === 'received');
+      if (ready) return {title:`Review ${model.docType(ready.documentTypeId).title.toLowerCase()}`,detail:ready.note,doc:ready.documentTypeId,action:'review',button:'Review record'};
+      const correction = docs.find(d => d.status === 'needs_changes');
+      if (correction) return {title:'Waiting for the applicant’s update',detail:correction.note,doc:correction.documentTypeId,action:'review',button:'View request'};
+      const visit = docs.find(d => d.owner === 'Ministry' && d.status !== 'accepted' && model.docType(d.documentTypeId).stageId === c.currentStageId);
+      if (visit) return {title:model.docType(visit.documentTypeId).title,detail:visit.note,doc:visit.documentTypeId,action:'review',button:'Record review'};
+      if(docs.some(d=>d.status==='missing'&&model.docType(d.documentTypeId).stageId===c.currentStageId)) return {title:'Waiting for supporting records',detail:'The outstanding requirements are listed in the application.',action:'documents',button:'View requirements'};
+      return {title:'Review the application’s next stage',detail:'Check the outstanding requirements and record your decision.',action:'stage',button:'Review stage'};
+    }
+    const correction = docs.find(d => d.status === 'needs_changes');
+    if (correction) return {title:correction.note || `Update ${model.docType(correction.documentTypeId).title.toLowerCase()}.`,doc:correction.documentTypeId,action:'evidence',button:'Add updated document'};
+    const missing = docs.find(d => d.status === 'missing' && d.owner === 'Applicant');
+    if (missing) return {title:`Complete your ${model.docType(missing.documentTypeId).title.toLowerCase()}`,detail:missing.note,doc:missing.documentTypeId,action:'evidence',button:'Continue application'};
+    if (c.decisions.licence.status === 'approved') return {title:'Your licensing review is complete',detail:'View the recorded outcome and any separate funding decision.',action:'decisions',button:'View decisions'};
+    return {title:'Your application is with the review team',detail:'We’ll show the next requested update here.',action:'documents',button:'View documents'};
+  }
+  function persist(message='Changes saved') {
+    try { localStorage.setItem(storageKey, JSON.stringify(model.state)); storageError = ''; }
+    catch { storageError = 'This browser could not save your changes. Export the case to keep a copy.'; }
+    render(); toast(storageError || message);
+  }
+  function toast(message) { const t=$('#toast');t.textContent=message;t.hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.hidden=true,5500); }
+  function render() {
+    if (!model.state.cases.some(c => c.id === selectedId) && model.state.cases[0]) selectedId=model.state.cases[0].id;
+    try { localStorage.setItem(storageKey+'-selected-'+actor,selectedId); } catch {}
+    $('#header-actions').innerHTML = staff ? `${btn('Import case','import')}${info('about','About this dashboard')}` : `${btn('New application','new','','primary')}${info('about','About this dashboard')}`;
+    $('#storage-error').innerHTML = storageError ? `<div class="notice warning">${esc(storageError)}</div>` : '';
+    $('#main').innerHTML = queue ? queueView() : detailView(current());
+  }
+  function queueView() {
+    const cases=model.state.cases.filter(c=>(!typeFilter||c.facilityTypeId===typeFilter)&&(!stageFilter||c.currentStageId===stageFilter)&&(`${c.facilityName} ${c.applicationNumber||c.id} ${c.city}`.toLowerCase().includes(query.toLowerCase())));
+    return `<div class="page-heading"><div><h1>${staff?'Applications to review':'Your applications'}</h1><p class="subline" id="result-count">${cases.length} ${cases.length===1?'application':'applications'}</p></div>${staff?'':btn('Import case','import')}</div>
+      <div class="filters"><label class="field"><span class="visually-hidden">Search applications</span><input id="search" type="search" placeholder="Search applications" value="${esc(query)}"></label><label class="field"><span class="visually-hidden">Provider type</span><select id="type-filter"><option value="">All provider types</option>${seed.facilityTypes.map(t=>`<option value="${t.id}" ${typeFilter===t.id?'selected':''}>${esc(t.title)}</option>`).join('')}</select></label><label class="field"><span class="visually-hidden">Application stage</span><select id="stage-filter"><option value="">All stages</option>${seed.workflow.stages.map(s=>`<option value="${s.id}" ${stageFilter===s.id?'selected':''}>${s.title}</option>`).join('')}</select></label></div>
+      <div class="table-wrap"><table class="queue"><thead><tr><th scope="col">Application</th><th scope="col">Stage</th><th scope="col">Next action</th><th scope="col">Updated</th><th scope="col"><span class="visually-hidden">Open</span></th></tr></thead><tbody>${cases.map(c=>`<tr><td><button class="text-btn case-link" data-action="open" data-id="${esc(c.id)}">${esc(c.facilityName)}</button><div class="small-text muted">${esc(c.applicationNumber||c.id)}<br>${esc(typeName(c.facilityTypeId))} · ${esc(c.city)}</div></td><td>${stageName(c.currentStageId)}</td><td class="queue-next">${esc(nextTask(c).title)}</td><td>${fmtDate(c.updatedAt)}</td><td><button class="icon-btn" aria-label="Open ${esc(c.facilityName)}" data-action="open" data-id="${esc(c.id)}">→</button></td></tr>`).join('')}</tbody></table></div>${cases.length?'':'<p class="empty-state">No applications match these filters.</p>'}`;
+  }
+  function detailView(c) {
+    if (!c) return `<h1>No applications yet</h1>${btn('New application','new','','primary')}`;
+    const next=nextTask(c);
+    const stageIndex=seed.workflow.stages.findIndex(s=>s.id===c.currentStageId);
+    return `<button class="back-link" data-action="queue">← All applications</button>
+      <div class="page-heading"><div><h1 tabindex="-1">${esc(c.facilityName)}</h1><p class="subline">${esc(typeName(c.facilityTypeId))} · ${esc(c.city)} · ${esc(c.applicationNumber||c.id)} ${info('route','About this application type')}</p></div>${btn('Export case','export')}</div>
+      <ol class="progress" aria-label="Application progress">${seed.workflow.stages.map((s,i)=>`<li class="step ${c.stages.find(x=>x.stageId===s.id)?.status==='complete'?'complete':i===stageIndex?'active':''}" ${i===stageIndex?'aria-current="step"':''}><span class="step-dot">${c.stages.find(x=>x.stageId===s.id)?.status==='complete'?'✓':i+1}</span><span>${s.title}</span></li>`).join('')}</ol>
+      <div class="next-action"><div class="next-copy"><p class="eyebrow">${staff?'Next review':'Your next step'}</p><h2>${esc(next.title)}</h2>${next.detail&&staff?`<p>${esc(next.detail)}</p>`:''}</div>${btn(next.button,next.action,next.doc?`data-doc="${next.doc}"`:'','primary')}</div>
+      <nav class="tabs" aria-label="Application sections">${[['overview','Overview'],['application','Application'],['documents','Documents'],['activity','Activity']].map(([id,title])=>`<button data-action="tab" data-tab="${id}" class="${tab===id?'active':''}" ${tab===id?'aria-current="page"':''}>${title}${id==='documents'&&c.documents.some(d=>d.status==='needs_changes')?'<span class="tab-dot" aria-label="Updates needed"></span>':''}</button>`).join('')}</nav>
+      ${tab==='overview'?overview(c):tab==='application'?application(c):tab==='documents'?documents(c):activity(c)}`;
+  }
+  function overview(c) {
+    let taskDocs = userDocs(c).filter(d=>d.status!=='accepted'&&!['banking_setup'].includes(d.documentTypeId));
+    taskDocs.sort((a,b)=>({needs_changes:0,received:1,missing:2}[a.status]-{needs_changes:0,received:1,missing:2}[b.status]));
+    const latest=c.history[c.history.length-1];
+    const appt=(c.appointments||[]).find(a=>a.status==='scheduled');
+    return `<div class="detail-grid"><section class="main-column"><div class="section-heading"><h2>What needs to happen</h2>${info('status','What the statuses mean')}</div>
+      ${taskDocs.slice(0,4).map(d=>`<div class="task-row"><div class="task-copy"><button class="text-btn" data-action="${staff?'review':d.owner==='Ministry'?'inspect':'evidence'}" data-doc="${d.documentTypeId}">${esc(model.docType(d.documentTypeId).title)}</button><div class="small-text muted">${esc(d.documentTypeId==='home_space'&&appt?`${appt.title} · ${fmtDate(appt.date)}`:d.note)}</div></div><div class="task-state">${badge(d.status,d.documentTypeId==='home_space'&&appt?'Scheduled':null)}<small>${d.status==='received'||d.owner==='Ministry'?'Ministry':staff?'Applicant':'You'}</small></div></div>`).join('') || '<p class="notice">All supporting records have been reviewed.</p>'}
+      <div class="inline-actions">${btn('View all requirements','documents','','small')}${staff?btn('Review stage','stage','','small'):c.status==='draft'?btn('Review & submit','submit','','small'):''}</div>
+      <section class="latest-update"><h2>Latest update</h2>${latest?`<p class="small-text muted">${fmtDate(latest.at||latest.date)} · ${esc(latest.actor)}</p><h3>${esc(latest.title)}</h3><p>${esc(latest.detail)}</p>`:'<p>Your application has been started.</p>'}</section></section>
+      <aside class="side-column"><h2>${staff?'Application contact':'Your application team'}</h2><p class="team-name">${staff?esc(c.profile.contactName||'Applicant'):'Early Years · '+esc(c.region||'Regional team')}</p><p class="small-text muted">${staff?esc(c.profile.email||'Contact details not provided'):'Case coordinator'}</p>${staff?'':`<p>${esc(c.coordinator||'To be assigned')}</p>`}${btn(staff?'Add case note':'Send a message','message')}
+      <div class="section-heading decisions-heading"><h2>Decisions</h2>${info('decisions','About decisions')}</div><dl class="decision-list">${['readiness','licence','funding'].map(k=>`<div class="decision-row"><dt>${k==='readiness'?'Readiness':k==='licence'?'Operating licence':'Funding'}</dt><dd>${badge(c.decisions[k].status)}</dd></div>`).join('')}</dl>${staff?btn('Record a decision','decisions','','small'):btn('View details','decisions','','small')}</aside></div>`;
+  }
+  function field(label,name,value='',type='text',extra='') {return `<label class="field"><span>${label}</span><input name="${name}" type="${type}" value="${esc(value)}" ${extra}></label>`;}
+  const organizationOptions = [['nonprofit','Non-profit corporation'],['cooperative','Co-operative'],['municipality','Municipality'],['for_profit','For-profit corporation'],['individual','Individual'],['partnership','Partnership']];
+  function selectField(label,name,options,value,extra='') { return `<label class="field"><span>${label}</span><select name="${name}" ${extra}>${options.map(([v,t])=>`<option value="${v}" ${value===v?'selected':''}>${t}</option>`).join('')}</select></label>`; }
+  function profileFields(c,creating=false) {
+    const p=c.profile||{}, fundingEligible=!['for_profit','individual','partnership'].includes(p.organizationType), disabled=staff&&!creating?'disabled':'', max=c.facilityTypeId==='centre'?90:c.facilityTypeId==='group_home'?16:8;
+    return `<div class="form-grid">${field('Facility name','facilityName',c.facilityName||'','text',`required maxlength="100" ${disabled}`)}${field('Community','city',p.city||c.city||'','text',`required maxlength="100" ${disabled}`)}${field('Applicant name','contactName',p.contactName||'','text',`required maxlength="100" ${disabled}`)}${field('Email','email',p.email||'','email',`required maxlength="150" ${disabled}`)}${field('Street address','address',p.address||'','text',`maxlength="180" ${creating?'':'required'} ${disabled}`)}${field('Proposed spaces','capacity',p.capacity||'','number',`required min="1" max="${max}" ${disabled}`)}${field('Target opening date','openingDate',p.openingDate||'','date',disabled)}${selectField('Premises', 'premisesTenure',[['owned','Owned'],['rented','Rented']],p.premisesTenure||'owned',disabled)}${c.facilityTypeId==='centre'?selectField('Applicant structure','organizationType',organizationOptions,p.organizationType||'nonprofit',disabled):field('Adults living in the home','householdAdults',p.householdAdults||1,'number',`min="0" max="30" ${disabled}`)}${c.facilityTypeId==='centre'?selectField('Application pathway','pathway',fundingEligible?[['centre-development','Development & funding consideration'],['licensing-only','Operating licence only']]:[['licensing-only','Operating licence only']],c.pathway||'centre-development',disabled):''}<label class="field"><span>Information session</span><select name="informationSession" ${disabled}><option value="false" ${!p.informationSession?'selected':''}>Not completed</option><option value="true" ${p.informationSession?'selected':''}>Completed</option></select></label></div>`;
+  }
+  function application(c) {
+    return `<section class="application-section"><div class="section-heading"><h2>Application details</h2>${info('reuse','How these details are used')}</div><form id="profile-form">${profileFields(c)}${staff?'':`<div class="form-actions"><button class="btn primary" type="submit">Save details</button>${c.status==='draft'?btn('Review & submit','submit'):''}</div>`}<p class="error-message" id="profile-error" role="alert"></p></form></section>`;
+  }
+  function documents(c) {
+    return `<div class="section-heading"><h2>Required records</h2>${info('documents','About documents and original checks')}</div>${seed.workflow.stages.map(s=>{
+      const docs=userDocs(c).filter(d=>model.docType(d.documentTypeId).stageId===s.id);
+      return docs.length?`<section class="doc-group"><h3>${s.title}</h3>${docs.map(d=>{const def=model.docType(d.documentTypeId);return `<div class="doc-row"><div><strong>${esc(def.title)}</strong><p class="doc-note">${esc(d.note||def.requirement||'')}</p>${d.sampleFileName?`<span class="small-text muted">${esc(d.sampleFileName)}</span>`:''}</div>${badge(d.status)}<div class="inline-actions">${info(`document:${def.id}`,`Requirements for ${def.title}`)}${staff?btn(d.status==='accepted'?'View review':'Review','review',`data-doc="${def.id}"`,'small'):btn(d.status==='accepted'?'View':def.owner==='Ministry'?'View':d.status==='received'?'View / replace':d.status==='needs_changes'?'Update':'Add record',d.status==='accepted'||def.owner==='Ministry'?'inspect':'evidence',`data-doc="${def.id}"`,'small')}</div></div>`}).join('')}</section>`:'';
+    }).join('')}`;
+  }
+  function activity(c) {
+    const entries=[...c.history.filter(h=>h.title!=='Message added').map(h=>({...h,kind:'history'})),...(c.messages||[]).map(m=>({date:m.date,at:m.at,actor:m.author,title:'Message',detail:m.text,kind:'message'}))].sort((a,b)=>String(b.at||b.date).localeCompare(String(a.at||a.date)));
+    return `<div class="section-heading"><h2>Activity & messages</h2>${btn(staff?'Add case note':'Send a message','message')}</div>${entries.map(h=>`<article class="activity-item"><p class="small-text muted">${fmtDate(h.at||h.date)} · ${esc(h.actor)}</p><h3>${esc(h.title)}</h3><p>${esc(h.detail)}</p></article>`).join('')||'<p class="empty-state">No updates yet.</p>'}`;
+  }
+  function openModal(title,body,submit=null,submitLabel='Save',wide=false) {
+    lastFocus=document.activeElement; modalSubmit=submit;
+    const dialog=$('#modal');dialog.className='modal'+(wide?' modal-wide':'');
+    dialog.innerHTML=`<form id="modal-form"><div class="modal-header"><h2 id="modal-title">${title}</h2><button class="icon-btn" type="button" data-action="close" aria-label="Close dialog">×</button></div><div class="modal-body">${body}<p class="error-message" id="modal-error" role="alert"></p></div><div class="modal-footer">${btn(submit?'Cancel':'Close','close')}${submit?`<button class="btn primary" type="submit">${submitLabel}</button>`:''}</div></form>`;
+    if(!dialog.open)dialog.showModal();
+    dialog.querySelector('input,select,textarea,button')?.focus();
+  }
+  function closeModal() {$('#modal').close();modalSubmit=null;lastFocus?.focus();}
+  function dataFrom(form) {const d=Object.fromEntries(new FormData(form));if('capacity'in d)d.capacity=Number(d.capacity);if('householdAdults'in d)d.householdAdults=Number(d.householdAdults);if('informationSession'in d)d.informationSession=d.informationSession==='true';return d;}
+  function chooseType() {
+    openModal('Start a child care application',`<p>Choose the setting you plan to operate.</p><div class="route-options">${seed.facilityTypes.map(t=>`<label class="route-option"><input type="radio" name="facilityTypeId" value="${t.id}" ${newType===t.id?'checked':''}><span><strong>${esc(t.title)}</strong><span class="small-text">${esc(routeDescriptions[t.id])}</span></span></label>`).join('')}</div><div class="inline-actions">${btn('Compare the application types','compare','','small')}</div>`,d=>{newType=d.facilityTypeId;createDetails();},'Continue');
+  }
+  function createDetails() {
+    const temp={facilityTypeId:newType,facilityName:newDraft.facilityName||'',profile:newDraft};
+    openModal(`New ${typeName(newType).toLowerCase()}`,`${profileFields(temp,true)}<details class="help-section"><summary>Which application will I complete?</summary><p>${esc(model.type(newType).currentProcedure)}</p><p>${esc(model.type(newType).eligibilityNote||'')}</p><p>${esc(model.type(newType).capacityNote)}</p></details><p class="small-text muted">This creates a sample application saved on this device.</p>`,d=>{const c=model.create({...d,facilityTypeId:newType,pathway:newType==='centre'?(d.pathway||'centre-development'):'home-licensing'});selectedId=c.id;queue=false;tab='application';newDraft={};closeModal();persist('Application created');},'Create application');
+  }
+  function evidenceModal(docId) {
+    const c=current(),d=c.documents.find(x=>x.documentTypeId===docId),def=model.docType(docId);
+    if(!d)return;
+    if(def.owner==='Ministry'||d.status==='accepted')return inspectModal(docId);
+    const physical=def.handling==='sealed_original',restricted=def.handling==='restricted_record';
+    openModal(physical?'Record delivery of original checks':restricted?'Record completion':`Add ${d.sampleFileName?'updated ':''}sample evidence`, `<h3>${esc(def.title)}</h3>${d.status==='needs_changes'?`<div class="notice warning">${esc(d.note)}</div>`:''}<p>${physical?'The published process requires sealed original checks. This records delivery only; Ministry verification is a separate step.':restricted?'Record that the requirement has been addressed. Do not enter personal, reference or banking details.':'This demonstration attaches a sample record. Actual document storage would be connected in the live service.'}</p>${physical||restricted?'':field('Sample document name','fileName',`${docId.replaceAll('_','-')}-updated-demo.pdf`,'text','required maxlength="120"')}<label class="field"><span>${physical?'Delivery note':'Note for the reviewer'}</span><textarea name="note" rows="3" maxlength="1200" required>${esc(physical?'Sealed originals sent for verification.':d.status==='needs_changes'?'Updated sample record addresses the requested change.':'Sample evidence provided for review.')}</textarea></label>`,values=>{model.addEvidence(c.id,docId,{...values,sample:true});closeModal();persist(physical?'Delivery recorded; verification pending':'Sample record added for review');},physical?'Record as sent':'Add sample record');
+  }
+  function inspectModal(docId) {
+    const d=current().documents.find(x=>x.documentTypeId===docId),def=model.docType(docId);
+    openModal(esc(def.title),`${badge(d.status)}<p>${esc(d.note||def.requirement)}</p>${d.sampleFileName?`<p class="small-text">Sample record: ${esc(d.sampleFileName)}</p>`:''}${d.originalDeliveryStatus?`<p>Original delivery: ${esc(d.originalDeliveryStatus.replaceAll('_',' '))}</p>`:''}${(d.evidenceVersions||[]).length?`<h3>Record history</h3>${d.evidenceVersions.map(v=>`<p class="small-text">${esc(v.fileName||v.sampleFileName||'Record updated')} · ${esc(v.note||'')}</p>`).join('')}` : ''}${!staff&&d.owner!=='Ministry'?btn('Replace sample record','replace',`data-doc="${docId}"`,'small'):''}`);
+  }
+  function reviewModal(docId) {
+    if(!staff)return;
+    const c=current(),d=c.documents.find(x=>x.documentTypeId===docId),def=model.docType(docId);
+    if(def.handling==='decision_record')return decisionsModal();
+    if(d.status==='missing'&&def.handling==='digital_copy')return receiptModal(docId);
+    openModal(`Review ${esc(def.title.toLowerCase())}`,`${badge(d.status)}<p>${esc(d.note||def.requirement)}</p>${d.sampleFileName?`<p class="small-text">Sample record: ${esc(d.sampleFileName)}</p>`:''}${def.handling==='sealed_original'?'<div class="notice">Verify the physical original through the approved process. A scan or delivery note is not verification.</div>':''}${selectField('Review outcome','status',[['accepted',def.handling==='sealed_original'?'Originals verified':def.handling==='inspection_record'?'Review completed':'Accept record'],['needs_changes','Request changes']],d.status==='needs_changes'?'needs_changes':'accepted')}<label class="field"><span>Review note / specific change required</span><textarea name="note" rows="4" required maxlength="1500"></textarea></label><p class="small-text muted">Simulated review. This saves a local case update only.</p>`,v=>{if(v.status==='accepted'&&['inspection_record','completion_record','restricted_record','sealed_original'].includes(def.handling))model.recordCompletion(c.id,docId,v.note);else model.reviewEvidence(c.id,docId,v);closeModal();persist(v.status==='accepted'?'Review recorded':'Correction request recorded');},'Record review');
+  }
+  function receiptModal(docId) {
+    const c=current(),def=model.docType(docId);
+    openModal('Record received evidence',`<h3>${esc(def.title)}</h3><p>Record the sample report as received, then review it in a separate step.</p>${field('Sample document name','fileName',`${docId.replaceAll('_','-')}-demo.pdf`,'text','required maxlength="120"')}<label class="field"><span>Receipt note</span><textarea name="note" rows="3" required maxlength="1200"></textarea></label><p class="small-text muted">This stores a local sample record, not an actual file.</p>`,v=>{model.addEvidence(c.id,docId,{...v,sample:true},'Ministry');closeModal();persist('Evidence recorded as received; review pending');},'Record received');
+  }
+  function stageModal() {
+    if(!staff)return;
+    const c=current(),pending=userDocs(c).filter(d=>model.docType(d.documentTypeId).stageId===c.currentStageId&&d.status!=='accepted'&&d.documentTypeId!=='banking_setup');
+    openModal(`${stageName(c.currentStageId)} review`,`${pending.length?`<p>These items still need review:</p><ul>${pending.map(d=>`<li>${esc(model.docType(d.documentTypeId).title)} — ${esc(labels[d.status])}</li>`).join('')}</ul>`:'<p>The records for this stage have been reviewed.</p>'}<p class="small-text muted">Advancing a stage records progress in this demonstration. It does not issue a licence or award funding.</p>`,()=>{model.advance(c.id);closeModal();persist('Stage updated');},'Complete stage');
+  }
+  function decisionsModal() {
+    const c=current();
+    const details=['readiness','licence','funding'].map(k=>`<section class="decision-box"><div class="section-heading"><h3>${seed.workflow.decisionLabels[k]}</h3>${badge(c.decisions[k].status)}</div><p>${esc(c.decisions[k].note||seed.workflow.decisionHelp[k])}</p>${staff?btn('Record outcome','decision',`data-kind="${k}"`,'small'):''}</section>`).join('');
+    openModal('Decisions',details);
+  }
+  function decisionModal(kind) {
+    if(!staff)return;
+    const options=kind==='readiness'?[['proceed','Proceed'],['paused','On hold']]:[['approved','Approved'],['declined','Declined'],['under_review','Under review'],...(kind==='funding'?[['not_requested','Not requested']]:[])];
+    openModal(`Record ${seed.workflow.decisionLabels[kind].toLowerCase()}`,`<p>${esc(seed.workflow.decisionHelp[kind])}</p>${selectField('Outcome','status',options,'under_review')}<label class="field"><span>Reason and conditions</span><textarea name="note" rows="4" maxlength="1500" required></textarea></label><p class="small-text muted">Simulated decision only. No licence is issued and no funding is awarded.</p>`,v=>{model.decide(current().id,kind,v.status,v.note);closeModal();persist('Simulated decision recorded');},'Record outcome');
+  }
+  function submitModal() {
+    if(staff)return;
+    const form=$('#profile-form');
+    if(form){if(!form.reportValidity())return;model.updateProfile(current().id,dataFrom(form),actor);profileDirty=false;persist('Details saved for review');}
+    openModal('Review your application',`<p>Submit your completed application details for the next review step.</p><p class="notice">This is a local demonstration. Nothing is sent to the Government of Saskatchewan.</p>`,()=>{model.submit(current().id);closeModal();persist('Submitted for review in this demonstration');},'Submit in demo');
+  }
+  function messageModal() {
+    openModal(staff?'Add a case note':'Message your coordinator',`<label class="field"><span>${staff?'Case note':'Message'}</span><textarea name="text" rows="5" required maxlength="2000"></textarea></label><p class="small-text muted">Saved to the local case activity. No message is sent to an official.</p>`,v=>{model.addMessage(current().id,v.text,actor);closeModal();persist('Added to case activity');},'Save to case');
+  }
+  function sourceLinks(ids) {return `<ul class="source-list">${seed.sources.filter(s=>ids.includes(s.id)).map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><p class="small-text muted">${esc(s.note)}</p></li>`).join('')}</ul>`;}
+  function compareBody() {
+    return `<p>Choose by the setting and operating model, not just the number of children.</p><div class="table-wrap"><table class="route-compare"><thead><tr><th>Application</th><th>What differs</th></tr></thead><tbody><tr><td>Family child care home</td><td>Home application, family assessment, household checks, home visits and fire/heating inspections.</td></tr><tr><td>Group family child care home</td><td>The same home application, plus assistant, staffing and group-capacity review.</td></tr><tr><td>Child care centre</td><td>Separate centre application. Organizational details, staffing, floor plans and public-health review. Development and funding consideration adds needs assessment and budgets.</td></tr></tbody></table></div><p>Home applicants must be Saskatchewan residents aged 18 or older. A centre may use an eligible organization, individual or partnership. Licence eligibility and funding eligibility are separate. For-profit, individual and partnership centre applicants use the licence-only pathway in this proposed service; the consultant must confirm the actual intake requirements.</p><p>Current maximums are 8 for a family home, 16 for a group home and 90 licensed centre spaces. Age mix, staffing, premises and licence conditions can reduce capacity. An assistant aged 18+ is required above 8 in a group home. Older forms may still show 12.</p>${sourceLinks(['home-process','home-form','centre-process','centre-form','regulations','act'])}`;
+  }
+  function infoModal(topic) {
+    let title='About this dashboard',body='';
+    if(topic==='about')body=`<p><strong>Local prototype · fictional sample cases</strong></p><p>${esc(seed.workflow.submissionNotice)}</p><p>Applicant and ministry dashboards are separate pages. They share updates when opened from the same local web address. When opened as individual files, use Export case and Import case to transfer a record.</p><p>Records are stored in this browser, on this device. Export a case to keep a backup. There is no sign-in, secure document service, live government connection or AI service in this prototype.</p><p>${esc(seed.workflow.dataNotice)}</p><details class="help-section"><summary>Current procedure and proposed improvements</summary><p>${esc(seed.workflow.currentProcedure)}</p><p>${esc(seed.workflow.prototypeProcedure)}</p><p>${esc(seed.workflow.existingSystems)}</p></details><details class="help-section"><summary>Official sources</summary>${sourceLinks(seed.sources.map(s=>s.id))}</details><div class="inline-actions">${btn('Import case','import','','small')}${btn('Reset sample cases','reset','','small danger')}</div>`;
+    else if(topic==='route'){title='About this application type';body=`<h3>${esc(typeName(current().facilityTypeId))}</h3><p>${esc(model.type(current().facilityTypeId).currentProcedure)}</p><p>${esc(model.type(current().facilityTypeId).capacityNote)}</p>${compareBody()}`;}
+    else if(topic==='compare'){title='Choose the right application';body=compareBody();}
+    else if(topic==='status'){title='Status guide';body='<dl><dt><strong>Not provided</strong></dt><dd>The record or review is still outstanding.</dd><dt><strong>Awaiting review</strong></dt><dd>Received, but not accepted by the reviewer.</dd><dt><strong>Needs changes</strong></dt><dd>A specific update has been requested.</dd><dt><strong>Accepted</strong></dt><dd>Reviewed for this case; this does not itself grant a licence.</dd></dl>'}
+    else if(topic==='decisions'){title='Separate decisions';body=Object.values(seed.workflow.decisionHelp).map(x=>`<p>${esc(x)}</p>`).join('')+`<p>${esc(seed.workflow.decisionNotice)}</p>`;}
+    else if(topic==='reuse'){title='One shared application record';body='<p>Contact, location and proposed capacity are entered once and reused throughout this case. Changes to the address or capacity flag affected premises reviews for another look.</p><p>The checklist is tailored to the type of care, applicant structure and rented or owned premises.</p>';}
+    else if(topic==='documents'){title='About required records';body=`<p>This is an illustrative checklist for a proposed consolidated service. Your consultant must confirm the records and conditions for an actual application.</p><p>${esc(seed.workflow.originalCheckHandling)}</p><p>Sample evidence records contain a document name and note only. The prototype does not store uploaded documents.</p>`;}
+    else if(topic.startsWith('document:')) {const def=model.docType(topic.slice(9));title=def.title;let ids=def.sourceIds;if(def.id==='licence_application')ids=[current().facilityTypeId==='centre'?'centre-form':'home-form'];body=`<p>${esc(def.requirement||'')}</p><p>${esc(def.note||'')}</p>${sourceLinks(ids)}`;}
+    openModal(esc(title),body,null,'Save',topic==='compare'||topic==='route');
+  }
+  function downloadCase() {const blob=new Blob([JSON.stringify(model.exportCase(current().id),null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`${current().applicationNumber||current().id}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Case export prepared');}
+  function importModal() {
+    openModal('Import a case',`<label class="field"><span>Exported case file (.json)</span><input id="import-file" type="file" accept=".json,application/json" required></label><p class="small-text muted">Choose a case exported from either dashboard. Existing cases are kept unless you explicitly replace one.</p>`,async()=>{const file=$('#import-file').files[0];if(!file)throw new Error('Choose an exported case file.');if(file.size>2000000)throw new Error('This file is too large. Choose a case export smaller than 2 MB.');const payload=JSON.parse(await file.text());if(payload?.case?.id&&model.state.cases.some(c=>c.id===payload.case.id)){openModal('Replace the existing case?',`<p>A case with this ID is already on this device. Importing will replace its current details and review history.</p><p><strong>${esc(payload.case.facilityName)}</strong></p>`,()=>{const c=model.importCase(payload,{replace:true});selectedId=c.id;queue=false;tab='overview';closeModal();persist('Case replaced from export');},'Replace case');return;}const c=model.importCase(payload);selectedId=c.id;queue=false;tab='overview';closeModal();persist('Case imported');},'Import case');
+  }
+  document.addEventListener('click',e=>{
+    const b=e.target.closest('[data-action]');if(!b)return;
+    const a=b.dataset.action,doc=b.dataset.doc;
+    try {
+      if(a==='close')closeModal();
+      else if(a==='queue'){queue=true;render();}
+      else if(a==='open'){selectedId=b.dataset.id;queue=false;tab='overview';render();}
+      else if(a==='tab'){tab=b.dataset.tab;render();}
+      else if(a==='documents'){tab='documents';render();}
+      else if(a==='application'){tab='application';render();}
+      else if(a==='new'){newType='family_home';chooseType();}
+      else if(a==='compare') {newType=$('input[name=facilityTypeId]:checked')?.value||newType;openModal('Choose the right application',compareBody(),()=>chooseType(),'Back to application',true);}
+      else if(a==='info')infoModal(b.dataset.topic);
+      else if(a==='evidence')evidenceModal(doc);
+      else if(a==='replace'){const c=current(),d=c.documents.find(x=>x.documentTypeId===doc);if(d.status==='accepted'){openModal('Replace the accepted record?',`<p>The new sample record will need another Ministry review. The previous review remains in the activity history.</p>`,()=>{closeModal();openModal('Add replacement sample record',`${field('Sample document name','fileName',`${doc}-replacement-demo.pdf`,'text','required maxlength="120"')}<label class="field"><span>Reason for replacement</span><textarea name="note" rows="3" required maxlength="1200"></textarea></label><p class="small-text muted">No actual file is stored.</p>`,v=>{model.addEvidence(c.id,doc,{...v,sample:true});closeModal();persist('Replacement added for review');},'Replace record');},'Continue');}else evidenceModal(doc);}
+      else if(a==='inspect')inspectModal(doc);
+      else if(a==='review')reviewModal(doc);
+      else if(a==='stage')stageModal();
+      else if(a==='decisions')decisionsModal();
+      else if(a==='decision')decisionModal(b.dataset.kind);
+      else if(a==='submit')submitModal();
+      else if(a==='message')messageModal();
+      else if(a==='export')downloadCase();
+      else if(a==='import')importModal();
+      else if(a==='reset')openModal('Reset all sample cases?',`<p>This replaces every case on this device with the original examples. Export any work you want to keep first.</p>`,()=>{model=new ProviderModel(seed);selectedId=seed.meta.primaryCaseId;tab='overview';queue=false;closeModal();persist('Sample cases restored');},'Reset cases');
+    } catch(error) {toast(error.message);}
+  });
+  document.addEventListener('submit',async e=>{
+    e.preventDefault();
+    if(e.target.id==='modal-form'&&modalSubmit){const submit=modalSubmit;const b=e.submitter;if(b)b.disabled=true;try{await submit(dataFrom(e.target));}catch(error){$('#modal-error').textContent=error instanceof SyntaxError?'This is not a valid case export. Choose a JSON file exported by this dashboard.':error.message;}finally{if(b)b.disabled=false;}}
+    else if(e.target.id==='profile-form'){try{model.updateProfile(current().id,dataFrom(e.target),actor);profileDirty=false;persist('Shared application details saved');}catch(error){$('#profile-error').textContent=error.message;}}
+  });
+  document.addEventListener('input',e=>{if(e.target.closest('#profile-form'))profileDirty=true;if(e.target.id==='search'){query=e.target.value;const pos=e.target.selectionStart;render();$('#search').focus();$('#search').setSelectionRange(pos,pos);}});
+  document.addEventListener('change',e=>{if(e.target.closest('#profile-form'))profileDirty=true;if(e.target.name==='organizationType'){const path=e.target.form?.querySelector('[name="pathway"]');if(path){const previous=path.value;const eligible=!['for_profit','individual','partnership'].includes(e.target.value);path.innerHTML=(eligible?'<option value="centre-development">Development & funding consideration</option>':'')+'<option value="licensing-only">Operating licence only</option>';path.value=eligible?previous:'licensing-only';}}if(e.target.id==='type-filter'){typeFilter=e.target.value;render();}if(e.target.id==='stage-filter'){stageFilter=e.target.value;render();}});
+  window.addEventListener('storage',e=>{if(e.key===storageKey&&e.newValue){try{model=new ProviderModel(seed,JSON.parse(e.newValue));if(!(profileDirty&&tab==='application'))render();toast(profileDirty&&tab==='application'?'A review update arrived. Your unsaved details remain in this form.':'Case updated in the other dashboard');}catch{toast('An update could not be loaded. Export your current case before reloading.');}}});
+  $('#modal').addEventListener('cancel',()=>{modalSubmit=null;});
+  render();
+})();
+</script></body></html>

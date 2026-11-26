@@ -1,0 +1,92 @@
+[
+  {
+    "name": "New Leaf Daycare",
+    "coordinates": {
+      "lat": 52.16539,
+      "lng": -106.57053
+    },
+    "text": "Centre| |New Leaf Daycare|| 90 - 110 Evergreen Square, Saskatoon, SK, S7W 0W8| 306-621-0053 | |Get Directions|",
+    "ordinal": 376,
+    "directions_url": "https://maps.google.com/maps?saddr=&daddr=90 - 110 Evergreen Square, Saskatoon, SK, S7W 0W8"
+  },
+  {
+    "name": "Preston Early Learning Centre Inc. Holy Family/Willowgrove",
+    "coordinates": {
+      "lat": 52.14784,
+      "lng": -106.55937
+    },
+    "text": "Centre, Accepts infants 6 weeks - Kindergarten| |Preston Early Learning Centre Inc. Holy Family/Willowgrove|| 805 Stensrud Road, Saskatoon, SK, S7W 0M9 | 306-373-3535 | |Get Directions|",
+    "ordinal": 378,
+    "directions_url": "https://maps.google.com/maps?saddr=&daddr=805 Stensrud Road, Saskatoon, SK, S7W 0M9 "
+  },
+  {
+    "name": "Bright Learners Academy Willowgrove",
+    "coordinates": {
+      "lat": 52.149128,
+      "lng": -106.557098
+    },
+    "text": "Centre| |Bright Learners Academy Willowgrove|| 415 Willowgrove Square, Saskatoon, SK, S7W 0G8| 306-244-2404 | |Get Directions|",
+    "ordinal": 385,
+    "directions_url": "https://maps.google.com/maps?saddr=&daddr=415 Willowgrove Square, Saskatoon, SK, S7W 0G8"
+  },
+  {
+    "name": "YMCA Child Development Centre - Brighton",
+    "coordinates": {
+      "lat": 52.12962,
+      "lng": -106.55109
+    },
+    "text": "Accepts infants 6 weeks - Kindergarten| |YMCA Child Development Centre - Brighton|| 115 Secord Way, Saskatoon, SK, S7V 0L9| 306-374-3502 | |Get Directions|",
+    "ordinal": 404,
+    "directions_url": "https://maps.google.com/maps?saddr=&daddr=115 Secord Way, Saskatoon, SK, S7V 0L9"
+  },
+  {
+    "name": "Evergreen Early Learning Centre",
+    "coordinates": {
+      "lat": 52.169039,
+      "lng": -106.565884999999
+    },
+    "text": "Centre| |Evergreen Early Learning Centre|| 616 Manek Road, Saskatoon, SK, S7W 0W3| 306-373-3111 | |Get Directions|",
+    "ordinal": 406,
+    "directions_url": "https://maps.google.com/maps?saddr=&daddr=616 Manek Road, Saskatoon, SK, S7W 0W3"
+  },
+  {
+    "name": "Christine Wilmut",
+    "coordinates": {
+      "lat": 52.14597,
+      "lng": -106.55176
+    },
+    "text": "Home| |Christine Wilmut|| 218 Lamarsh Road, Saskatoon, SK, S7W 1B8| 306-651-1875 | |Get Directions|",
+    "ordinal": 407,
+    "directions_url": "https://maps.google.com/maps?saddr=&daddr=218 Lamarsh Road, Saskatoon, SK, S7W 1B8"
+  },
+  {
+    "name": "Shazia Kousar",
+    "coordinates": {
+      "lat": 52.16631,
+      "lng": -106.55775
+    },
+    "text": "Group family child care home| |Shazia Kousar|| 606 Boykowich Crescent, Saskatoon, SK, S7W 0S5| 639-317-7505 | |Get Directions|",
+    "ordinal": 423,
+    "directions_url": "https://maps.google.com/maps?saddr=&daddr=606 Boykowich Crescent, Saskatoon, SK, S7W 0S5"
+  },
+  {
+    "name": "New Leaf Daycare - Aspen Ridge",
+    "coordinates": {
+      "lat": 52.16821,
+      "lng": -106.55496
+    },
+    "text": "Centre| |New Leaf Daycare - Aspen Ridge|| 70 - 1164 Baltzan Boulevard, Saskatoon, SK, S7W 1E8| 306-621-0053 | |Get Directions|",
+    "ordinal": 435,
+    "directions_url": "https://maps.google.com/maps?saddr=&daddr=70 - 1164 Baltzan Boulevard, Saskatoon, SK, S7W 1E8"
+  },
+  {
+    "name": "YMCA Child Development Centre Aspen Ridge",
+    "coordinates": {
+      "lat": 52.172487,
+      "lng": -106.5532
+    },
+    "text": "Centre| |YMCA Child Development Centre Aspen Ridge|| 260 Orban Way, Saskatoon, SK, S7W 1E7| 306-500-1312 | |Get Directions|",
+    "ordinal": 458,
+    "directions_url": "https://maps.google.com/maps?saddr=&daddr=260 Orban Way, Saskatoon, SK, S7W 1E7"
+  }
+]

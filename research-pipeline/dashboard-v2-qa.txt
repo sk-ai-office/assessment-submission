@@ -1,0 +1,7 @@
+Reviewed 25 November 2026.
+Data: 80 records; all 70 original observations preserved; originalResearch exactly preserved. 50 counted public accounts, 25 separately counted named people, 4 LinkedIn leads and 1 deleted handle excluded.
+UI: source/ministry filters, social excerpts, source links, AI/service chips, query, ordering, research library, export dialog, CSV download verified. Browser console: no errors.
+Responsive: 390px mobile and default 1280px desktop reviewed. Mobile document width equals viewport (390px), including expanded evidence.
+Standalone output embeds all styles, evidence and scripts; no external dependencies or fetch calls.
+Visual review against concept: retained white/forest-green design, flat list, horizontal filters and two-column evidence/action detail. Deliberate change: start with all rows collapsed to make several concerns visible at a glance.
+Known limits: targeted sample, accounts not verified people, no verified X or Quora evidence, LinkedIn calendar dates unverified.

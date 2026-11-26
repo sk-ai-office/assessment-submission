@@ -1,0 +1,78 @@
+SK-C015 — Parents escalate bullying but see little action
+INTERNAL COMPLAINT BRIEF · Sources reviewed 2026-11-25
+Review period: 2024-11-25 to 2026-11-25
+Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked.
+
+CONCERN AND IMPACT
+A parent says bullying continued despite raising concerns with school leadership.
+A parent reports continued bullying despite raising concerns through school leadership.
+
+EVIDENCE IN THIS SAMPLE
+1 distinct public accounts; 0 named people in reporting (separate count); 1 evidence records; 0 records excluded from counts; 1 source pages.
+
+RESPONSIBLE SERVICE
+Ministry / oversight: Education
+Service: School / school division
+First contact: Raise the concern with the teacher or principal, then follow the relevant school division's escalation process through senior administration and the board.
+Escalation / responsibility: Ministry of Education for provincial funding and policy. The Ombudsman does not investigate schools, teachers, or school boards; ministry administration is a different jurisdiction.
+Routing context: The linked Saskatoon Public Schools protocol is one division's example, not a universal provincial procedure.
+Division escalation example: https://www.spsd.sk.ca/communication-protocol-for-families
+School jurisdiction guidance: https://ombudsman.sk.ca/ombudsman/where-to-complain/schools/
+Education ministry: https://www.saskatchewan.ca/Government/Government-Structure/Ministries/Education
+
+AI ASSESSMENT AND PROPOSED ACTION
+Assessment: Service / policy fix
+Opportunity / first intervention: Establish clear reporting and escalation ownership first; consider staff-reviewed chronology summaries only if documentation is the demonstrated bottleneck.
+What AI cannot fix: It cannot investigate harm, decide safeguarding actions or replace responsible school staff.
+First step: Review the division's response process with safeguarding leads, using a fictional case to test acknowledgements, ownership and escalation.
+Success measure: Reports receiving an acknowledged owner and documented follow-up.
+Why this starting point: The complaint is about action after escalation, not merely missing information; a responsible human response must lead.
+
+ALL SOURCE EVIDENCE
+
+SK-E044 · SK-C015 · Original record SE21
+Platform: Reddit · r/regina
+Attribution: u/Queasy_Item618 · Household experience
+Account / person reference: A028; incident reference: SE21
+Date: 2025-09-18 (post date)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “I have been in contact with the principal, superintendent and school board. They all talk and no action.”
+Summary: Parent alleges repeated bullying continued despite escalation through school leadership.
+Status at source review: Outcome unknown; not recontacted or independently verified
+Context: No additional context recorded.
+Source: School bullying
+Original link: https://www.reddit.com/r/regina/comments/1nk9vpy/school_bullying/
+Region: Regina
+Verification: Visible post author and exact excerpt verified on original full-title Reddit thread.
+Source checked: 2026-11-25
+
+COUNTING AND INTERPRETATION
+• SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.
+• A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.
+• Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.
+• This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.
+• Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.
+• AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes.
+
+REVIEW-WIDE COVERAGE AND LIMITATIONS
+The following platform totals cover the entire research review, not only this complaint.
+The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.
+Reddit: 48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked.
+App Store: 2 reviewer accounts counted. Direct reviews of the mySASKTEL app.
+LinkedIn: 4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts.
+X / Twitter: Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist.
+Quora: Original pages could not be reviewed because access was blocked. No Quora accounts counted.
+News & reports: 25 named complainants retained separately as supporting reporting, not direct social posts.
+• This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.
+• All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.
+• Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.
+• A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.
+• Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.
+• LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.
+• Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.
+• AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.
+• Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.
+• Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.
+• A missing topic or platform means a gap in this review, not that nobody has complained about it.
+
+Reference: SK-C015. Search this ID in the companion dashboard. Share this complete brief so evidence and qualifications travel together.

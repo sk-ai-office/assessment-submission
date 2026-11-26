@@ -1,0 +1,35 @@
+# Saskatchewan centre application and forms inventory
+
+Verified 25 November 2026. Inventory: `centre-forms.json`; source downloads, extracted text, and PDF field maps are retained beside it. This covers the publicly available opening-centre package and relevant funding forms, with later operating claims separated. It is not a claim to possess every Ministry or consultant form.
+
+## Current procedure
+
+1. Check community demand, partnerships and organizational structure; complete the centre-development information session. A Survey of Need is recommended. Government development funding is for eligible nonprofit/co-operative/municipal operators; permission to operate and funding are different decisions.
+2. Email the current Community Needs Assessment and proposed development/operating budgets, with applicable incorporation evidence. The Ministry acknowledges receipt and requests missing information. Applications remain open year-round; new development approvals target greatest need. Business plans and community support letters are optional strengthening material.
+3. Following Ministry notification, work with the ELCC consultant on the centre licence application, relevant grants, capital agreement and payment setup. A developmental licence under regulation 9, a space/funding allocation, and the operating licence are distinct.
+4. Prepare premises, staff and policies. Independent fire, public-health and heating reports, insurance, approved floor plan, applicable lease/governance evidence, parent/staff handbooks and menu are reviewed. Fee schedules already have an online Enrolment Portal submission route.
+5. The checklist asks for a final Ministry meeting at least four weeks before the planned opening. That is a meeting lead time, not a guaranteed total processing time. Compliance and approval remain human decisions.
+
+Sources: [current application page](https://www.saskatchewan.ca/business/entrepreneurs-start-or-exit-a-business/start-a-business/managing-a-child-care-business/start-a-regulated-child-care-centre/apply-to-start-a-regulated-child-care-centre), [opening checklist](https://publications.saskatchewan.ca/api/v1/products/125511/formats/146785/download), [licensing manual](https://publications.saskatchewan.ca/api/v1/products/76930/formats/150053/download).
+
+## Verified forms and version findings
+
+- **22 forms/templates mapped**, with applicant/reviewer ownership, section fields, conditions and attachments. Twelve core items cover CNA, licence, survey, development budget workbook, direct deposit, parent handbook, menu, fee template, bylaws, confidentiality oath, municipal EOI and opening checklist. Nine additional items cover optional grants/operating budgets; one covers conditional staff training exemptions.
+- **Current CNA has four pages and eight narrative questions.** It includes secured premises, board experience and funding-risk questions absent from an older indexed three-page copy. The live PDF was modified 12 June 2026 but prints no revision date. Use [the live download](https://publications.saskatchewan.ca/api/v1/products/69602/formats/87863/download), not a dated blob from search results.
+- **Centre licence remains EY10/2021.** It has separate Ministry entity/payee identifiers, approved spaces and consultant/manager/director decisions. Its blanket attachment list must be interpreted with current regulations: incorporation for corporations/co-operatives; lease for rented premises; partners/shareholders evidence where applicable. It omits a municipality-specific signature label. Current manual permits 15% flexible spaces, or 25% in special circumstances; do not implement an old form as a complete policy engine. [Licence form](https://publications.saskatchewan.ca/api/v1/products/75991/formats/84997/download)
+- **Budget is required; the provided workbook is optional if a prepared budget exists.** All three worksheets were inspected. It estimates grants under stated assumptions; it does not approve entitlement. It has no separate construction-cost sheet. Keep the development budget distinct. [Budget workbook](https://publications.saskatchewan.ca/api/v1/products/125423/formats/146702/download)
+- **The current parent-handbook information sheet explicitly says to use its template.** The editable file is named November2025 but its footer says EY09/2025; both versions are recorded. [Template](https://publications.saskatchewan.ca/api/v1/products/124663/formats/145339/download), [instructions](https://publications.saskatchewan.ca/api/v1/products/127402/formats/150253/download)
+- **Direct deposit is M221 Rev12/23.** It allows certified/auditable electronic signatures and requires applicant authorization plus bank evidence and Ministry verification. It belongs to payments, not the licensing gate. [Current form](https://publications.saskatchewan.ca/api/v1/products/75892/formats/84860/download)
+- Funding downloads disproved stale search-index results: tuition form EY02/2026; professional-development application2026–27; Active Play and Play/Exploration forms EY12/2025. The PD information sheet is still2025–26 and the annual operating budget remains Rev08/03. Treat these mismatches explicitly; optional claims should not block opening intake.
+
+## What cannot honestly be called converted
+
+Ten explicitly referenced forms/processes have no verified exact public blank: centre information release, Enrolment Portal access application, Ministry licensing checklist, separately named developmental-licence application, case-specific capital agreement, standalone staff-handbook template, capital-grant application, inclusion-program application, Skills Enhancement application and centre ECE staff-information form. Some requirements or section names are described by official guidance; that is not verification of the actual blank form. Startup and other operating grant intake specifications are also incomplete.
+
+Fourteen external evidence classes are tracked rather than recreated: inspection findings, registry certificates, leases, approved plans, insurance, police checks, requested professional health assessment, staff credentials/checks, applicable governance lists, parent-user list, requested audited accounts and municipal approvals.
+
+## Concrete consolidation opportunities
+
+One shared record can prefill organization/site/supplier identity with explicit distinctions, contact details and requested age-band spaces across the CNA, licence, budget and municipal EOI. Reuse incorporation evidence where the Ministry accepts it. The verified overlap is in field/document requirements; no evidence establishes that staff always demand duplicate resubmission.
+
+Keep independent readiness/development, operating-licence and funding decisions. Track a document as requested, received, correction requested and accepted, with the responsible reviewer. Preserve signatures, authentic external reports and official checks. Retain unknown consultant forms as outstanding items rather than presenting invented fields as official. Do not describe the existing process as wholly paper-based: the published checklist already refers to online fee submissions.

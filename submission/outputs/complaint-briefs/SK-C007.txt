@@ -1,0 +1,212 @@
+SK-C007 — Families cannot find suitable affordable childcare
+INTERNAL COMPLAINT BRIEF · Sources reviewed 2026-11-25
+Review period: 2024-11-25 to 2026-11-25
+Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked.
+
+CONCERN AND IMPACT
+Families describe full waitlists, few callbacks and difficulty arranging affordable childcare before returning to work.
+Long waitlists and few callbacks complicate returning to work and increase family costs.
+
+EVIDENCE IN THIS SAMPLE
+9 distinct public accounts; 0 named people in reporting (separate count); 9 evidence records; 0 records excluded from counts; 3 source pages.
+
+RESPONSIBLE SERVICE
+Ministry / oversight: Education
+Service: Licensed childcare services / Ministry of Education
+First contact: For a facility concern, contact the caregiver, then the Child Care Regional Office. For access and licensing questions, contact the ministry's Child Care Office.
+Escalation / responsibility: Ministry of Education for regulated-childcare capacity, funding, licensing, and access policy. Contacting the ministry does not guarantee a childcare space.
+Routing context: undefined
+Childcare contacts and oversight: https://www.saskatchewan.ca/Residents/Family-and-Social-Support/Child-Care/Child-Care-in-Saskatchewan
+Education ministry: https://www.saskatchewan.ca/Government/Government-Structure/Ministries/Education
+
+AI ASSESSMENT AND PROPOSED ACTION
+Assessment: AI + service change
+Opportunity / first intervention: Let parents ask plain-language questions of a verified childcare directory and see which providers accept suitable waitlist enquiries.
+What AI cannot fix: It cannot create spaces or promise availability; provider information must be current.
+First step: Check which directory fields providers can reliably maintain, including ages, hours and enquiry status. Test search tasks with parents before selecting AI.
+Success measure: Parent time needed to identify providers accepting suitable enquiries.
+Why this starting point: Many direct accounts show navigation friction, but the dominant shortage of spaces requires a separate capacity response.
+
+ALL SOURCE EVIDENCE
+
+SK-E024 · SK-C007 · Original record SE01
+Platform: Reddit · r/saskatoon
+Attribution: u/halfbakedpotential · Personal experience
+Account / person reference: A010; incident reference: SE01
+Date: 2025-12-04 (post date)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “I had called around even while pregnant but a lot of places seemed unsure of what 2026, let alone 2027 would look like with the $10/day childcare deal being up in the air.”
+Summary: Parent reports unclear subsidized-childcare information and difficulty planning a return to work.
+Status at source review: Outcome unknown; not recontacted or independently verified
+Context: The post says the childcare deal had since been extended; this excerpt describes earlier uncertainty. It does not establish that a place was refused.
+Source: Childcare search discussion
+Original link: https://www.reddit.com/r/saskatoon/comments/1pdkzpu/how_the_hell_am_i_supposed_to_find_childcare/
+Region: Saskatoon
+Verification: Visible post author and exact excerpt verified on original full-title Reddit thread. A navigation/information pain point and request for help, not proof that a childcare place was refused.
+Source checked: 2026-11-25
+
+SK-E025 · SK-C007 · Original record SE02
+Platform: Reddit · r/saskatoon
+Attribution: u/sadneighborhoodcat · Personal experience
+Account / person reference: A011; incident reference: SE02
+Date: 2025-12-04 (thread date; comment day not verified) (thread date; comment exact date not independently captured)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “She’s 11 months old and I’m still 100+ on those waitlists.”
+Summary: Still far down licensed-centre waitlists after applying during pregnancy; chose private care.
+Status at source review: Alternative private care found; subsidized access complaint historical
+Context: Exact comment date was not independently established; the discussion date is shown.
+Source: Childcare search discussion
+Original link: https://www.reddit.com/r/saskatoon/comments/1pdkzpu/comment/ns6ej8g/
+Full discussion: https://www.reddit.com/r/saskatoon/comments/1pdkzpu/how_the_hell_am_i_supposed_to_find_childcare/
+Region: Saskatoon
+Verification: Author and exact excerpt verified on full parent thread. Comment permalink was exposed by Reddit timestamp link; direct comment fetch can fail, so parent link is retained. See historical resolution/status in the existing research record; do not assume the issue remains open today.
+Source checked: 2026-11-25
+
+SK-E026 · SK-C007 · Original record SE03
+Platform: Reddit · r/saskatoon
+Attribution: u/eugeneugene · Personal experience
+Account / person reference: A012; incident reference: SE03
+Date: 2025-12-04 (thread date; comment day not verified) (thread date; comment exact date not independently captured)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “Subsidized will take a lot of calling and annoying people and luck.”
+Summary: Needed repeated applications and calls; subsidized care became available after returning to work.
+Status at source review: Subsidized care eventually found after return to work
+Context: Exact comment date was not independently established; the discussion date is shown.
+Source: Childcare search discussion
+Original link: https://www.reddit.com/r/saskatoon/comments/1pdkzpu/comment/ns5ui7m/
+Full discussion: https://www.reddit.com/r/saskatoon/comments/1pdkzpu/how_the_hell_am_i_supposed_to_find_childcare/
+Region: Saskatoon
+Verification: Author and exact excerpt verified on full parent thread. Comment permalink was exposed by Reddit timestamp link; direct comment fetch can fail, so parent link is retained. See historical resolution/status in the existing research record; do not assume the issue remains open today.
+Source checked: 2026-11-25
+
+SK-E027 · SK-C007 · Original record SE04
+Platform: Reddit · r/saskatoon
+Attribution: u/Dragon_slayer1994 · Personal experience
+Account / person reference: A013; incident reference: SE04
+Date: 2025-12-04 (thread date; comment day not verified) (thread date; comment exact date not independently captured)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “We got in a licensed day care after about 11 months.”
+Summary: Reports roughly eleven months before obtaining a licensed-childcare place.
+Status at source review: Licensed care eventually found after wait
+Context: Exact comment date was not independently established; the discussion date is shown.
+Source: Childcare search discussion
+Original link: https://www.reddit.com/r/saskatoon/comments/1pdkzpu/comment/ns65bvz/
+Full discussion: https://www.reddit.com/r/saskatoon/comments/1pdkzpu/how_the_hell_am_i_supposed_to_find_childcare/
+Region: Saskatoon
+Verification: Author and exact excerpt verified on full parent thread. Comment permalink was exposed by Reddit timestamp link; direct comment fetch can fail, so parent link is retained. See historical resolution/status in the existing research record; do not assume the issue remains open today.
+Source checked: 2026-11-25
+
+SK-E028 · SK-C007 · Original record SE05
+Platform: Reddit · r/saskatoon
+Attribution: u/carp_street · Personal experience
+Account / person reference: A014; incident reference: SE05
+Date: 2025-12-04 (thread date; comment day not verified) (thread date; comment exact date not independently captured)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “My son is nearly two and we were on dozens of wait lists about 6 months before he was born, I have had one call back lol.”
+Summary: Only one callback from numerous waitlists; later found a day home.
+Status at source review: Day-home alternative eventually found
+Context: Exact comment date was not independently established; the discussion date is shown.
+Source: Childcare search discussion
+Original link: https://www.reddit.com/r/saskatoon/comments/1pdkzpu/comment/ns6whpp/
+Full discussion: https://www.reddit.com/r/saskatoon/comments/1pdkzpu/how_the_hell_am_i_supposed_to_find_childcare/
+Region: Saskatoon
+Verification: Author and exact excerpt verified on full parent thread. Comment permalink was exposed by Reddit timestamp link; direct comment fetch can fail, so parent link is retained. See historical resolution/status in the existing research record; do not assume the issue remains open today.
+Source checked: 2026-11-25
+
+SK-E029 · SK-C007 · Original record SE06
+Platform: Reddit · r/saskatoon
+Attribution: u/Bookbabble0064 · Personal experience
+Account / person reference: A015; incident reference: SE06
+Date: May 2026 (discussion indexed May 19) (indexed discussion date; exact post/comment day unverified)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “everywhere all the lists seem to be packed with minimal movement, or some of the facilities don’t even accept waitlist applications anymore.”
+Summary: Reports full or closed waitlists with little movement before returning to work.
+Status at source review: Outcome unknown; not recontacted or independently verified
+Context: Exact item date was not independently established; the month is shown.
+Source: Licensed Daycares
+Original link: https://www.reddit.com/r/saskatoon/comments/1thvze4/licensed_daycares/
+Region: Saskatoon
+Verification: Visible post author and exact excerpt verified on original full-title Reddit thread.
+Source checked: 2026-11-25
+
+SK-E030 · SK-C007 · Original record SE07
+Platform: Reddit · r/saskatoon
+Attribution: u/Bufus · Personal experience
+Account / person reference: A016; incident reference: SE07
+Date: May 2026 (discussion indexed May 19) (indexed discussion date; exact post/comment day unverified)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “Two years later, I've heard from one of them about a spot.”
+Summary: One offer after two years on numerous licensed-daycare lists.
+Status at source review: One offer eventually received; describes historical access difficulty
+Context: Exact item date was not independently established; the month is shown.
+Source: Licensed Daycares
+Original link: https://www.reddit.com/r/saskatoon/comments/1thvze4/comment/omq1n8j/
+Full discussion: https://www.reddit.com/r/saskatoon/comments/1thvze4/licensed_daycares/
+Region: Saskatoon
+Verification: Author and exact excerpt verified on full parent thread. Comment permalink was exposed by Reddit timestamp link; direct comment fetch can fail, so parent link is retained. See historical resolution/status in the existing research record; do not assume the issue remains open today.
+Source checked: 2026-11-25
+
+SK-E031 · SK-C007 · Original record SE08
+Platform: Reddit · r/saskatoon
+Attribution: u/theblackdog92 · Personal experience
+Account / person reference: A017; incident reference: SE08
+Date: May 2026 (discussion indexed May 19) (indexed discussion date; exact post/comment day unverified)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “The best I could do was get each child in a different daycare.”
+Summary: Difficulty coordinating childcare eventually contributed to leaving employment.
+Status at source review: Left work; later outcome unknown
+Context: Exact item date was not independently established; the month is shown.
+Source: Licensed Daycares
+Original link: https://www.reddit.com/r/saskatoon/comments/1thvze4/comment/omq8942/
+Full discussion: https://www.reddit.com/r/saskatoon/comments/1thvze4/licensed_daycares/
+Region: Saskatoon
+Verification: Author and exact excerpt verified on full parent thread. Comment permalink was exposed by Reddit timestamp link; direct comment fetch can fail, so parent link is retained. See historical resolution/status in the existing research record; do not assume the issue remains open today.
+Source checked: 2026-11-25
+
+SK-E032 · SK-C007 · Original record SE09
+Platform: Reddit · r/saskatoon
+Attribution: u/mr_roo · Personal experience
+Account / person reference: A018; incident reference: SE09
+Date: 2026-06-25 (thread date; comment day not verified) (thread date; comment exact date not independently captured)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “I have two kids in daycare, we were unable to get into subsidized.”
+Summary: Unable to secure subsidized childcare and reports substantial extra household costs.
+Status at source review: Outcome unknown; not recontacted or independently verified
+Context: Exact comment date was not independently established; the discussion date is shown.
+Source: Childcare licensing discussion
+Original link: https://www.reddit.com/r/saskatoon/comments/1uf05hl/comment/otsgew0/
+Full discussion: https://www.reddit.com/r/saskatoon/comments/1uf05hl/saskatoon_no_longer_accepting_subsidized_daycare/
+Region: Saskatoon
+Verification: Author and exact excerpt verified on full parent thread. Comment permalink was exposed by Reddit timestamp link; direct comment fetch can fail, so parent link is retained.
+Source checked: 2026-11-25
+
+COUNTING AND INTERPRETATION
+• SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.
+• A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.
+• Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.
+• This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.
+• Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.
+• AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes.
+
+REVIEW-WIDE COVERAGE AND LIMITATIONS
+The following platform totals cover the entire research review, not only this complaint.
+The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.
+Reddit: 48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked.
+App Store: 2 reviewer accounts counted. Direct reviews of the mySASKTEL app.
+LinkedIn: 4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts.
+X / Twitter: Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist.
+Quora: Original pages could not be reviewed because access was blocked. No Quora accounts counted.
+News & reports: 25 named complainants retained separately as supporting reporting, not direct social posts.
+• This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.
+• All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.
+• Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.
+• A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.
+• Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.
+• LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.
+• Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.
+• AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.
+• Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.
+• Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.
+• A missing topic or platform means a gap in this review, not that nobody has complained about it.
+
+Reference: SK-C007. Search this ID in the companion dashboard. Share this complete brief so evidence and qualifications travel together.

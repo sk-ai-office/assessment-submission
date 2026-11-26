@@ -1,0 +1,25 @@
+4 MINUTE 30 SECOND DEMONSTRATION
+Three apps, two parts: discover a service problem, then demonstrate a connected service vision.
+Use fictional demonstration records. Read the quoted narration; actions are prompts for you.
+
+0:00-0:40 | PART ONE: PROBLEMS AND COMPLAINTS DISCOVERY
+ACTION: Open the complaints dashboard. Expand SK-C007, then SK-C008; briefly show evidence and Share complaint / PDF.
+"My submission has two parts. First, this dashboard turns public-source concerns into a reviewable discovery backlog: the responsible ministry, supporting evidence, possible improvements and limits. The sample contains 28 concerns and 80 evidence records. These are counts within reviewed sources, not population estimates, and online accounts are not verified individuals. Childcare access and provider application uncertainty led me to the second part. The provider-delay concern is one household's account, so it is a reason to investigate, not proof of a systemic failure."
+
+0:40-2:00 | PART TWO: PROVIDER APPLICATION AND MINISTRY REVIEW
+ACTION: Applicant dashboard: open the facility, Provider details, then Forms & checks. Choose an already-submitted form. In the Ministry dashboard on the same origin, open that form using Review, then All applicant answers. Request a field-specific change. Return to Applicant, show Update requested, edit that answer, Review my answers and Submit form for review. Ministry: Complete review, enter the required note, Accept reviewed form. If time is short, show the correction request and describe resubmission.
+"The first childcare app supports provider onboarding and ministry review. Shared provider details reduce repeated entry. Guided forms make requirements visible. The case worker sees the submitted answers and can request a correction against a specific field, instead of leaving an applicant to interpret a general rejection. The applicant receives that request, corrects the answer and resubmits it for review. The ministry can record its review with a note. Accepting this form does not issue a childcare licence. This is a local browser prototype: it demonstrates the workflow, while authentication, secure document storage and production integrations remain next steps."
+
+2:00-3:40 | FAMILY APPLICATION TO PROVIDER REVIEW
+ACTION: In the running local family app, use the default Morgan family. Find care: search Prairie Sprouts; View details; Review application. Check the consent box and Send application. Open Demo account and select Prairie Sprouts - example provider. View application; set status to Received by provider; Update status. Close the modal, switch back to Morgan family, and open My applications to show the updated status.
+"The family app lets families find care and review an application before sharing it. I am using a fictional provider for this demonstration. The family explicitly agrees to share these details with the selected provider. I can now switch to that provider's dashboard, open the same application and update its status. Back in the family dashboard, the new status is visible. This handoff persists through a shared local SQLite database. Two fictional providers support in-app applications; researched real listings direct users to external enquiry routes. The ministry onboarding app is still separate, so the whole journey is not yet connected end to end."
+
+3:40-4:30 | DIFFICULT CASE, SAFEGUARDS AND NEXT STEP
+ACTION: Keep the application status visible, then show the applicant correction request or a requirements screen.
+"An incomplete application should prompt a clear correction request and a human review, not an automatic adverse decision. A family should understand what it shares and with whom. My next step is one authenticated backend: provider application, authorized ministry approval, provider-dashboard provisioning, family application and provider review. Secure uploads and grant workflows follow discovery with ministry staff; eligibility and awards are not implemented here. The intended benefits are fewer avoidable incomplete applications, clearer status and less repeat entry. A pilot would measure completeness, processing time and rework before claiming those benefits."
+
+RECORDING CHECK
+- Run the family app locally before recording; there is no verified live hosted family app.
+- Applicant and Ministry must use the same browser origin to share their prototype data.
+- Use the seeded submitted form for the quickest correction demonstration.
+- If a click fails, describe the intended next step and continue; do not call a planned feature complete.

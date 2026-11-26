@@ -1,0 +1,77 @@
+SK-C013 — Recipients do not understand changing support rules
+INTERNAL COMPLAINT BRIEF · Sources reviewed 2026-11-25
+Review period: 2024-11-25 to 2026-11-25
+Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked.
+
+CONCERN AND IMPACT
+A recipient expresses uncertainty about program changes and continued support.
+A recipient describes uncertainty about program changes and whether support will continue.
+
+EVIDENCE IN THIS SAMPLE
+0 distinct public accounts; 1 named people in reporting (separate count); 1 evidence records; 0 records excluded from counts; 1 source pages.
+
+RESPONSIBLE SERVICE
+Ministry / oversight: Social Services
+Service: Saskatchewan Assured Income for Disability
+First contact: Contact the assigned worker or local income-assistance office. Ask for the written decision, reasons, and the review or appeal instructions that apply to that decision.
+Escalation / responsibility: Ask for a supervisor review and use the applicable program appeal route. Unresolved administrative fairness concerns can go to Ombudsman Saskatchewan; policy concerns go to Social Services.
+Routing context: Appeal rules and deadlines depend on the decision. The program page and decision letter should be checked for a current case.
+Social Services offices: https://www.saskatchewan.ca/Residents/Family-and-Social-Support/Find-a-Social-Services-Office
+SAID program: https://www.saskatchewan.ca/Residents/Family-and-Social-Support/People-with-Disabilities/Income-Support-for-People-with-Disabilities
+Social Services ministry: https://www.saskatchewan.ca/Government/Government-Structure/Ministries/Social-Services
+
+AI ASSESSMENT AND PROPOSED ACTION
+Assessment: AI could help
+Opportunity / first intervention: Draft plain-language explanations of approved policy changes, with citations and a clear distinction between general rules and individual decisions.
+What AI cannot fix: It cannot resolve policy ambiguity or assure an individual's entitlement without an authorized assessment.
+First step: Ask the policy owner to approve a change log and common questions; test draft explanations for comprehension with appropriate reviewers.
+Success measure: Readers who correctly understand what changed and where to obtain individual advice.
+Why this starting point: A plausible explanation task, but this topic currently rests on reported media evidence rather than a verified direct internet complaint.
+
+ALL SOURCE EVIDENCE
+
+SK-E042 · SK-C013 · Original record SE19
+Platform: News & reports · Global News
+Attribution: P015 · Reported experience
+Account / person reference: P015; incident reference: SE19
+Date: Feb 6, 2026 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: Recipient fears losing support after unclear program changes.
+Status at source review: Outcome unknown; not recontacted or independently verified
+Context: No additional context recorded.
+Source: SAID policy report
+Original link: https://globalnews.ca/news/11656984/changes-to-saskatchewan-disability-benefits-concern-advocates/
+Region: Saskatchewan; locality unspecified
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+COUNTING AND INTERPRETATION
+• SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.
+• A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.
+• Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.
+• This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.
+• Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.
+• AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes.
+
+REVIEW-WIDE COVERAGE AND LIMITATIONS
+The following platform totals cover the entire research review, not only this complaint.
+The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.
+Reddit: 48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked.
+App Store: 2 reviewer accounts counted. Direct reviews of the mySASKTEL app.
+LinkedIn: 4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts.
+X / Twitter: Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist.
+Quora: Original pages could not be reviewed because access was blocked. No Quora accounts counted.
+News & reports: 25 named complainants retained separately as supporting reporting, not direct social posts.
+• This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.
+• All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.
+• Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.
+• A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.
+• Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.
+• LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.
+• Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.
+• AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.
+• Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.
+• Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.
+• A missing topic or platform means a gap in this review, not that nobody has complained about it.
+
+Reference: SK-C013. Search this ID in the companion dashboard. Share this complete brief so evidence and qualifications travel together.

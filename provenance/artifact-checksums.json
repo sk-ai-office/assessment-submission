@@ -1,0 +1,20 @@
+{
+  "algorithm": "sha256",
+  "artifacts": [
+    {
+      "path": "artifacts/Childcare-prototype-walkthrough.mp4",
+      "bytes": 4870312,
+      "sha256": "cf9f3b3fe0dcc2fa792aac61d4e9dfc761578cdb9ffca6d537a9a735ab22c162"
+    },
+    {
+      "path": "artifacts/SK-AI-Office-submission-2026-11-25.zip",
+      "bytes": 13486627,
+      "sha256": "b92027d7dc586544e55497b74723b357e96eccf3affaa94e403e7e12931d955e"
+    },
+    {
+      "path": "artifacts/Voiceover-transcript.txt",
+      "bytes": 2645,
+      "sha256": "e1e697d5a0568f50955de24e14541b80d1c684a2d494587614d6523ce05439ec"
+    }
+  ]
+}

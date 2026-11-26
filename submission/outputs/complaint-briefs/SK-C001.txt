@@ -1,0 +1,167 @@
+SK-C001 — Patients spend days receiving care in hallways
+INTERNAL COMPLAINT BRIEF · Sources reviewed 2026-11-25
+Review period: 2024-11-25 to 2026-11-25
+Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked.
+
+CONCERN AND IMPACT
+Patients and families describe prolonged hallway care, limited privacy, crowding and communication concerns.
+Patients and families describe limited privacy, difficult conditions and prolonged hallway stays.
+
+EVIDENCE IN THIS SAMPLE
+0 distinct public accounts; 7 named people in reporting (separate count); 7 evidence records; 0 records excluded from counts; 5 source pages.
+
+RESPONSIBLE SERVICE
+Ministry / oversight: Health
+Service: Saskatchewan Health Authority
+First contact: Contact the care team or clinic, then its manager. For SHA services, use the SHA Client Concerns Office; surgical care coordinators can help with surgery navigation.
+Escalation / responsibility: Ministry of Health for system access, funding, and policy. For unresolved administrative fairness, check Ombudsman jurisdiction. Professional-conduct concerns may follow a separate regulator process.
+Routing context: The provider determines the correct route: not every clinic or screening service is operated by SHA.
+SHA patient concerns: https://www.saskhealthauthority.ca/contact/patient-or-client-concerns-and-feedback
+Surgical care navigation: https://www.saskatchewan.ca/residents/health/accessing-health-care-services/surgery/navigating-surgical-care
+Health ministry: https://www.saskatchewan.ca/government/government-structure/ministries/health
+
+AI ASSESSMENT AND PROPOSED ACTION
+Assessment: Service / policy fix
+Opportunity / first intervention: Start with bed capacity, patient flow and escalation reviews; no AI pilot is recommended from these complaints alone.
+What AI cannot fix: It cannot create beds, staff wards or establish that a care arrangement is clinically appropriate.
+First step: Ask clinical operations to identify the measured causes of hallway stays and whether a specific information bottleneck warrants separate investigation.
+Success measure: Patient hours spent receiving care in hallways.
+Why this starting point: Repeated concerns are serious, but the evidence supports an operational capacity problem rather than a defined AI use case.
+
+ALL SOURCE EVIDENCE
+
+SK-E001 · SK-C001 · Original record H001
+Platform: News & reports · 620 CKRM
+Attribution: P001 · Reported experience
+Account / person reference: P001; incident reference: HC01
+Date: Aug 6, 2026 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: A family member objected to a parent's almost five-day stay in a hospital hallway.
+Status at source review: Historical complaint; current resolution not verified
+Context: NDP media event; article also includes SHA response.
+Source: Province’s healthcare needs urgent improvement says NDP
+Original link: https://www.620ckrm.com/2026/08/06/provinces-healthcare-needs-urgent-improvement-says-ndp/
+Region: Saskatoon
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+SK-E009 · SK-C001 · Original record H009
+Platform: News & reports · 980 CJME / 650 CKOM
+Attribution: P009 · Reported experience
+Account / person reference: P009; incident reference: HC09
+Date: Nov 6, 2025 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: A patient criticized receiving treatment on a stretcher in a public hallway for six days.
+Status at source review: Historical complaint; current resolution not verified
+Context: Article includes Minister response. Three separately attributed family speakers describe the same hospital event; one shared case.
+Source: Hospital hallway care report
+Original link: https://www.cjme.com/2025/11/06/it-broke-me-cancer-patient-recalls-traumatic-experience-at-ruh/
+Region: Saskatoon
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+SK-E010 · SK-C001 · Original record H010
+Platform: News & reports · 980 CJME / 650 CKOM
+Attribution: P010 · Reported experience
+Account / person reference: P010; incident reference: HC09
+Date: Nov 6, 2025 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: A spouse criticized hallway conditions and the response to the family's concerns.
+Status at source review: Historical complaint; current resolution not verified
+Context: Article includes Minister response. Three separately attributed family speakers describe the same hospital event; one shared case.
+Source: Hospital hallway care report
+Original link: https://www.cjme.com/2025/11/06/it-broke-me-cancer-patient-recalls-traumatic-experience-at-ruh/
+Region: Saskatoon
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+SK-E011 · SK-C001 · Original record H011
+Platform: News & reports · 980 CJME / 650 CKOM
+Attribution: P011 · Reported experience
+Account / person reference: P011; incident reference: HC09
+Date: Nov 6, 2025 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: A daughter described the impact of the same hallway-care experience on her family.
+Status at source review: Historical complaint; current resolution not verified
+Context: Article includes Minister response. Three separately attributed family speakers describe the same hospital event; one shared case.
+Source: Hospital hallway care report
+Original link: https://www.cjme.com/2025/11/06/it-broke-me-cancer-patient-recalls-traumatic-experience-at-ruh/
+Region: Saskatoon
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+SK-E012 · SK-C001 · Original record H012
+Platform: News & reports · 980 CJME / 650 CKOM
+Attribution: P012 · Reported experience
+Account / person reference: P012; incident reference: HC10
+Date: Oct 3, 2025 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: A family member criticized three days of hallway care, privacy, cleanliness and communication.
+Status at source review: Historical complaint; current resolution not verified
+Context: NDP facilitated interview; SHA response included.
+Source: One family’s reality of the chaos in Royal University Hospital hallway
+Original link: https://www.cjme.com/2025/10/03/video-one-familys-reality-of-the-chaos-in-royal-university-hospital-hallway/
+Region: Saskatoon
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+SK-E013 · SK-C001 · Original record H013
+Platform: News & reports · Global News
+Attribution: P013 · Reported experience
+Account / person reference: P013; incident reference: HC11
+Date: Oct 21, 2026 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: Family member criticized a three-day hospital hallway stay.
+Status at source review: Outcome unknown.
+Context: NDP event; SHA response included.
+Source: Hospital capacity report
+Original link: https://globalnews.ca/news/12110346/new-beds-saskatoon-hospital/
+Region: Saskatoon
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+SK-E014 · SK-C001 · Original record H014
+Platform: News & reports · 650 CKOM
+Attribution: P014 · Reported experience
+Account / person reference: P014; incident reference: HC12
+Date: Jul 8, 2026 (day)
+Count treatment: Named person in reporting; counted separately from public accounts.
+Summary: A patient criticized three days in an overcrowded hallway without privacy or call bells and delays in care.
+Status at source review: Historical complaint; current resolution not verified
+Context: NDP media event; includes province's response and expansion plans. Reviewed through the search-index text; the direct page could not be opened.
+Source: Hospital hallway care report
+Original link: https://www.ckom.com/2026/07/08/patient-throwing-up-blood-spends-days-in-hospital-hallway/
+Region: Saskatoon
+Verification: Named testimony in reporting; underlying experience not independently verified.
+Source checked: Individual check date not recorded; included in the reviewed research snapshot.
+
+COUNTING AND INTERPRETATION
+• SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.
+• A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.
+• Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.
+• This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.
+• Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.
+• AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes.
+
+REVIEW-WIDE COVERAGE AND LIMITATIONS
+The following platform totals cover the entire research review, not only this complaint.
+The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.
+Reddit: 48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked.
+App Store: 2 reviewer accounts counted. Direct reviews of the mySASKTEL app.
+LinkedIn: 4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts.
+X / Twitter: Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist.
+Quora: Original pages could not be reviewed because access was blocked. No Quora accounts counted.
+News & reports: 25 named complainants retained separately as supporting reporting, not direct social posts.
+• This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.
+• All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.
+• Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.
+• A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.
+• Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.
+• LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.
+• Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.
+• AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.
+• Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.
+• Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.
+• A missing topic or platform means a gap in this review, not that nobody has complained about it.
+
+Reference: SK-C001. Search this ID in the companion dashboard. Share this complete brief so evidence and qualifications travel together.

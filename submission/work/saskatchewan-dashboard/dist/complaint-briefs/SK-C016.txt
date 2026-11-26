@@ -1,0 +1,95 @@
+SK-C016 — Tenants report pests and unresolved repairs
+INTERNAL COMPLAINT BRIEF · Sources reviewed 2026-11-25
+Review period: 2024-11-25 to 2026-11-25
+Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked.
+
+CONCERN AND IMPACT
+Housing accounts describe unsuccessful pest treatment and unresolved maintenance concerns.
+Repeated pest treatment and unresolved repair reports leave households dealing with poor living conditions.
+
+EVIDENCE IN THIS SAMPLE
+1 distinct public accounts; 0 named people in reporting (separate count); 2 evidence records; 1 records excluded from counts; 1 source pages.
+
+RESPONSIBLE SERVICE
+Ministry / oversight: Social Services
+Service: Local housing authority / Saskatchewan Housing Corporation
+First contact: Report maintenance and property-management concerns to the local housing authority that manages the property for Saskatchewan Housing Corporation.
+Escalation / responsibility: Escalate through the housing authority and Saskatchewan Housing Corporation. Social Services is responsible for housing programs; tenancy disputes may have a separate review route.
+Routing context: undefined
+Find a housing authority: https://www.saskatchewan.ca/government/government-structure/crown-corporations/treasury-board-crowns/saskatchewan-housing-corporation/local-housing-authorities
+Social Services ministry: https://www.saskatchewan.ca/Government/Government-Structure/Ministries/Social-Services
+
+AI ASSESSMENT AND PROPOSED ACTION
+Assessment: Service / policy fix
+Opportunity / first intervention: Fix repair ownership, repeat-visit tracking and tenant callbacks first; consider history summaries only if record review is a proven bottleneck.
+What AI cannot fix: It cannot repair homes, treat pests or provide maintenance crews and funding.
+First step: Trace a recurring repair request from intake to inspection and closure; confirm that a named team owns repeat failures.
+Success measure: Repeat repair reports after a job is marked complete.
+Why this starting point: The observed problem concerns actual conditions and follow-through; workflow accountability is more direct than introducing an AI interface.
+
+ALL SOURCE EVIDENCE
+
+SK-E045 · SK-C016 · Original record SE22
+Platform: Reddit · r/saskatoon
+Attribution: u/Ready_Swordfish1009 · Household experience
+Account / person reference: A029; incident reference: SE22
+Date: 2025-07-24 (comment date visible in indexed discussion)
+Count treatment: Public account; counted once per concern.
+Exact excerpt: “They don't care about tenants, alot of their low income housing have infestations.”
+Summary: Reports repeated pest treatment failed in a relative's housing-authority apartment.
+Status at source review: Outcome unknown; not recontacted or independently verified
+Context: No additional context recorded.
+Source: Housing authority experiences
+Original link: https://www.reddit.com/r/saskatoon/comments/1m7s0ph/comment/n4u4plg/
+Full discussion: https://www.reddit.com/r/saskatoon/comments/1m7s0ph/saskatoon_housing_authority_experiences/
+Region: Saskatoon
+Verification: Author and exact excerpt verified on full parent thread. Comment permalink was exposed by Reddit timestamp link; direct comment fetch can fail, so parent link is retained.
+Source checked: 2026-11-25
+
+SK-E047 · SK-C016 · Original record SE24
+Platform: Reddit · r/saskatoon
+Attribution: [deleted] · Personal experience
+Account / person reference: Unknown; incident reference: SE24
+Date: 2025-07-25 (comment date visible in indexed discussion)
+Count treatment: Excluded from counts. Author cannot be uniquely attributed.
+Exact excerpt: “My bathroom has mold that keeps growing back, and they swerve my every request for fixing that issue, too.”
+Summary: Anonymous tenant reports unresolved repairs and unsafe conditions.
+Status at source review: Outcome unknown; not recontacted or independently verified
+Context: Excluded from unique counts because a deleted or unknown identity cannot be reliably deduplicated.
+Source: Housing authority experiences
+Original link: https://www.reddit.com/r/saskatoon/comments/1m7s0ph/comment/n516ogp/
+Full discussion: https://www.reddit.com/r/saskatoon/comments/1m7s0ph/saskatoon_housing_authority_experiences/
+Region: Saskatoon
+Verification: Exact excerpt visible under [deleted]. Author unavailable; excluded from unique-author counts.
+Source checked: 2026-11-25
+
+COUNTING AND INTERPRETATION
+• SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.
+• A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.
+• Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.
+• This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.
+• Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.
+• AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes.
+
+REVIEW-WIDE COVERAGE AND LIMITATIONS
+The following platform totals cover the entire research review, not only this complaint.
+The current 24-month window is 25 November 2024 to 25 November 2026. Moving the original window forward one day changes no included records. Undated LinkedIn leads are separate from the date-bounded counts.
+Reddit: 48 distinct accounts counted; one deleted author retained without a count. Quotes and public handles checked.
+App Store: 2 reviewer accounts counted. Direct reviews of the mySASKTEL app.
+LinkedIn: 4 visible professional / advocacy comments retained as leads. Calendar dates unverified; excluded from counts.
+X / Twitter: Targeted searches found no directly verifiable, attributable and dated posts for this sample. This does not mean no complaints exist.
+Quora: Original pages could not be reviewed because access was blocked. No Quora accounts counted.
+News & reports: 25 named complainants retained separately as supporting reporting, not direct social posts.
+• This is a targeted public-source review, not an exhaustive search or representative survey. Counts describe the collected evidence.
+• All 70 observations from the original dashboard remain available. Six student-aid accounts and four date-unverified LinkedIn comments were added.
+• Social accounts are not verified people. Named complainants in reporting are a separate count; they may overlap with accounts.
+• A quoted post is evidence that someone expressed a concern, not proof of a service failure. Resolutions and conflicting context are retained.
+• Reddit and App Store evidence dominate the dated sample. Public-web searches cannot comprehensively cover X, LinkedIn, Quora, private groups or deleted content.
+• LinkedIn professional and advocacy comments are visible but lack verified calendar dates. They are tracked as leads and excluded from date-bounded account counts.
+• Some Reddit dates identify the parent discussion, not the exact comment. Do not infer daily trends from these dates.
+• AI opportunities are proposed discovery tasks. Some problems need clearer processes, reliable data or ordinary software fixes before AI is useful.
+• Benefits, clinical priority, claims, safeguarding and emergency decisions remain with authorized staff; the proposed AI work is assistance, not decision replacement.
+• Service responsibility can be shared: student aid spans the province, institutions and NSLSC; immigration allocations also involve the federal government.
+• A missing topic or platform means a gap in this review, not that nobody has complained about it.
+
+Reference: SK-C016. Search this ID in the companion dashboard. Share this complete brief so evidence and qualifications travel together.
