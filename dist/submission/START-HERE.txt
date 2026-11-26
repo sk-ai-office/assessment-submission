@@ -1,0 +1,45 @@
+SASKATCHEWAN AI SOLUTIONS ARCHITECT — LOCAL PROTOTYPE PACKAGE
+Prepared November 25, 2026 (America/Regina)
+
+This submission has two parts: (1) public-source problems/complaints discovery and (2) child care service improvement, demonstrated through applicant/ministry and family/provider experiences.
+
+QUICK START
+Recommended: with Node.js 24 installed, open a terminal in this package, run node start.cjs, and open http://127.0.0.1:4182. This starts both apps; Control-C stops both. No Python or dependency installation is required for this launcher.
+
+Alternative manual startup:
+1. Extract the whole package. Keep the work/ and outputs/ folders together.
+2. Install/use Node.js 24. The family dashboard includes compiled files; no npm install is needed to run it.
+3. Open outputs/family-dashboard/Start dashboard.command on macOS. Alternatively, open a terminal in the extracted package and run:
+   cd outputs/family-dashboard
+   node server/index.js
+   Open http://127.0.0.1:4180 in a browser. Keep that terminal open.
+4. In a second terminal opened at the extracted package root, run:
+   python3 -m http.server 4182 --bind 127.0.0.1
+   Python 3 is required for this static server. Open these pages:
+   Complaints discovery: http://127.0.0.1:4182/work/saskatchewan-dashboard/dist/index.html
+   Provider applicant: http://127.0.0.1:4182/outputs/childcare-applicant-dashboard.html
+   Ministry review: http://127.0.0.1:4182/outputs/childcare-ministry-dashboard.html
+   Current process: http://127.0.0.1:4182/outputs/childcare-current-process-map.html
+5. Stop each server with Control-C when finished.
+
+SIMPLE ALTERNATIVE FOR STATIC PAGES
+The HTML files in outputs/ can be opened directly in a browser. For reliable sharing of applicant/ministry browser state, use the common localhost:4182 origin above. Direct file pages can have separate browser storage; use Export case / Import case if needed. Direct HTML opening does not replace the Node server required for the family dashboard.
+
+WHAT IS CONNECTED TODAY
+- The family dashboard and its example-provider workspaces share a real local SQLite database. Switch with Demo account. Nine researched real listings and two fictional connected providers are included. Only fictional providers accept in-app applications.
+- Applicant and ministry dashboards demonstrate forms and review using browser-local state; they do not have a production backend. They share state when served from the same origin; refresh the other page after a change. Export/import is also available.
+- Ministry approval does not yet provision an account in the family/provider database. The proposed unified service architecture is the next stage.
+- Complaints discovery uses a reviewed public-source research sample, not live monitoring or a population survey. Account counts are not verified counts of individuals.
+- AI assistance in the applicant prototype uses labelled prepared examples/checklist logic; no live model receives user data.
+
+DEMONSTRATION
+Use only invented family/provider details. The clean package contains no family SQLite database; it creates fictional seed accounts on first run. Follow family-verification.txt for a 60-second family-to-provider walkthrough and fresh test evidence. The family app's README.md and UX-audit.md contain fuller instructions and earlier desktop/mobile checks.
+
+SOURCE AND REBUILD
+- work/provider-application/: source, tests and form research inventories. From the package root: python3 work/provider-application/build.py. Node.js is also required by the builder. The prepared process-map HTML in outputs/ must stay in place.
+- work/saskatchewan-dashboard/: current source, data, build tools and static output. Its README.md includes rebuild instructions. Git history, hosting metadata and archives were excluded from this submission copy; references to them in the original README describe the original working repository.
+- outputs/family-dashboard/: React source, compiled frontend, Node/SQLite backend, tests and audit. Node 24 can run node --test tests/backend.test.js from that folder. Rebuilding the frontend requires npm ci and npm run build.
+- Rebuild inputs and research inventory/source URLs are retained. Bulky provider-research PDF downloads and images were omitted; ready-built outputs are included.
+
+STATUS
+Local prototypes only. No application, message or family profile is sent to a real provider or government system. Real identity, ministry provisioning, licensed-provider registry integration, production hosting, notifications, privacy operations and grant-policy validation remain next-stage work. Map tiles and external source/application links require internet access.
