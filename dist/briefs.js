@@ -1,0 +1,77 @@
+(function (root, factory) {
+  const api = factory();
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  else root.ComplaintBriefs = api;
+})(typeof window !== 'undefined' ? window : this, function () {
+  'use strict';
+  const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const safeJson = v => JSON.stringify(v).replace(/</g,'\\u003c').replace(/\u2028/g,'\\u2028').replace(/\u2029/g,'\\u2029');
+  const fitLabel = {assist:'AI could help',mixed:'AI + service change',service:'Service / policy fix'};
+  const uniq = values => new Set(values).size;
+  const roles = {firsthand:'Personal experience',household:'Household experience',advocate:'Policy / advocacy comment','professional opinion':'Professional opinion','reported experience':'Reported experience'};
+  const method = [
+    'SK-C identifies a grouped concern. SK-E identifies an evidence record. These are internal research references, not official government complaint or case numbers.',
+    'A visible account counts once per concern. Repeat posts, votes, likes, unnamed relatives, organizations and deleted handles do not add people. Accounts are not verified individuals.',
+    'Named people in reporting are counted separately. They may overlap with online accounts and can describe the same incident. Do not add the two categories as unique people.',
+    'This brief includes every collected evidence record for this concern, regardless of dashboard filters. The reviewed sample is targeted, not a complete census or a measure of population prevalence.',
+    'Quotes document an expressed concern, not a verified finding of service failure. Historical resolutions, uncertainty and conflicting context are retained below.',
+    'AI ideas are proposals for investigation. They are not approved projects, verified root causes or promises of results. Authorized staff retain decisions about benefits, care, claims and other individual outcomes.'
+  ];
+  function dateText(r) {
+    if (!r.date) return `${r.dateLabel || 'Calendar date unverified'}; excluded from dated counts`;
+    return `${r.dateLabel || r.date}${r.datePrecision ? ` (${r.datePrecision})` : ''}`;
+  }
+  function counting(r) {
+    if (!r.counted) return `Excluded from counts. ${r.exclusionReason || (r.date ? 'Author cannot be uniquely attributed.' : 'Calendar date unverified.')}`;
+    return r.authorType === 'person' ? 'Named person in reporting; counted separately from public accounts.' : 'Public account; counted once per concern.';
+  }
+  function pack(data, id) {
+    const issue = data.issues.find(i => i.id === id || i.referenceId === id);
+    if (!issue) throw new Error('Complaint not found');
+    const evidence = data.observations.filter(r => r.issueId === issue.id);
+    return {
+      schemaVersion:1, type:'Saskatchewan public-service complaint brief', referenceId:issue.referenceId,
+      reviewedAt:data.reviewedAt, period:{start:data.start,end:data.end}, issue,
+      counts:{publicAccounts:uniq(evidence.filter(r=>r.counted&&r.authorType==='account').map(r=>r.authorId)),namedInReporting:uniq(evidence.filter(r=>r.counted&&r.authorType==='person').map(r=>r.authorId)),evidenceRecords:evidence.length,uncountedRecords:evidence.filter(r=>!r.counted).length,sourcePages:uniq(evidence.map(r=>r.sourcePage||r.url))},
+      route:data.routes.find(r=>r.id===issue.routeId)||null,evidence,methodology:method,
+      researchContext:{scopeNote:data.scopeNote,limitations:data.coverage,platformCoverage:data.platformCoverage,priorityMeaning:data.priorityMeaning},
+      publicationNote:'Independent public-source research for AI Office review. Not an official government publication. A local snapshot; source links may change. No operational case status is tracked.'
+    };
+  }
+  function text(brief) {
+    const {issue:i,counts:c,route:r}=brief;
+    const lines=[`${i.referenceId} — ${i.concern}`,`INTERNAL COMPLAINT BRIEF · Sources reviewed ${brief.reviewedAt}`,`Review period: ${brief.period.start} to ${brief.period.end}`,brief.publicationNote,'',
+      'CONCERN AND IMPACT',i.summary,i.why,'',
+      'EVIDENCE IN THIS SAMPLE',`${c.publicAccounts} distinct public accounts; ${c.namedInReporting} named people in reporting (separate count); ${c.evidenceRecords} evidence records; ${c.uncountedRecords} records excluded from counts; ${c.sourcePages} source pages.`,'',
+      'RESPONSIBLE SERVICE',`Ministry / oversight: ${i.ministry}`,`Service: ${i.service}`];
+    if(r)lines.push(`First contact: ${r.first}`,`Escalation / responsibility: ${r.escalation}`,`Routing context: ${r.note}`,...r.links.map(l=>`${l.title}: ${l.url}`));
+    lines.push('', 'AI ASSESSMENT AND PROPOSED ACTION',`Assessment: ${fitLabel[i.fit]}`,`Opportunity / first intervention: ${i.idea}`,`What AI cannot fix: ${i.limit}`,`First step: ${i.firstStep}`,`Success measure: ${i.measure}`,`Why this starting point: ${i.reason}`,'','ALL SOURCE EVIDENCE');
+    for(const e of brief.evidence){
+      lines.push('',`${e.referenceId} · ${i.referenceId} · Original record ${e.id}`,`Platform: ${e.platform === 'Reporting' ? 'News & reports' : e.platform} · ${e.publisher}`,`Attribution: ${e.authorHandle || e.authorId} · ${roles[e.sourceRole]||e.sourceRole}`,`Account / person reference: ${e.authorId}; incident reference: ${e.caseId}`,`Date: ${dateText(e)}`,`Count treatment: ${counting(e)}`);
+      if(e.quote)lines.push(`Exact excerpt: “${e.quote}”`);
+      lines.push(`Summary: ${e.summary}`,`Status at source review: ${e.status}`,`Context: ${e.context || 'No additional context recorded.'}`,`Source: ${e.sourceTitle}`,`Original link: ${e.url}`);
+      if(e.sourcePage&&e.sourcePage!==e.url)lines.push(`Full discussion: ${e.sourcePage}`);
+      lines.push(`Region: ${e.region || 'Not specified'}`,`Verification: ${e.verification || 'Named testimony in reporting; underlying experience not independently verified.'}`,`Source checked: ${e.verifiedAt || 'Individual check date not recorded; included in the reviewed research snapshot.'}`);
+    }
+    lines.push('','COUNTING AND INTERPRETATION',...brief.methodology.map(v=>'• '+v),'','REVIEW-WIDE COVERAGE AND LIMITATIONS','The following platform totals cover the entire research review, not only this complaint.',brief.researchContext.scopeNote,...brief.researchContext.platformCoverage.map(p=>`${p.platform}: ${p.note}`),...brief.researchContext.limitations.map(v=>'• '+v),'',`Reference: ${i.referenceId}. Search this ID in the companion dashboard. Share this complete brief so evidence and qualifications travel together.`);
+    return lines.join('\n');
+  }
+  const anchor=(url,label)=>/^https:\/\//.test(url||'')?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`:esc(label);
+  const field=(label,value)=>`<div class="field"><dt>${esc(label)}</dt><dd>${esc(value||'Not recorded')}</dd></div>`;
+  function html(brief) {
+    const {issue:i,counts:c,route:r}=brief;
+    const recordHTML=brief.evidence.map(e=>`<article class="evidence" id="${esc(e.referenceId)}"><div class="eyebrow">${esc(e.referenceId)} · ${esc(roles[e.sourceRole]||e.sourceRole)} · ${e.counted?'Counted':'Excluded from counts'}</div><h3>${esc(e.authorHandle || `${e.publisher} · ${e.authorId}`)}</h3><p class="muted">${esc(e.platform==='Reporting'?'News & reports':e.platform)} · ${esc(dateText(e))}</p>${e.quote?`<blockquote>“${esc(e.quote)}”</blockquote>`:''}<p>${esc(e.summary)}</p><dl>${field('Status at source review',e.status)}${field('Context',e.context||'No additional context recorded.')}${field('Count treatment',counting(e))}${field('Verification',e.verification||'Named testimony in reporting; underlying experience not independently verified.')}${field('Attribution & references',`${e.authorId} · Original record ${e.id} · Incident ${e.caseId} · ${e.region || 'Region not specified'}`)}${field('Source checked',e.verifiedAt||'Individual check date not recorded; included in the reviewed research snapshot.')}</dl><p class="source-title">${esc(e.sourceTitle)} · ${esc(e.publisher)}</p><p class="source-link">${anchor(e.url,e.url)}</p>${e.sourcePage&&e.sourcePage!==e.url?`<p class="source-link">Full discussion: ${anchor(e.sourcePage,e.sourcePage)}</p>`:''}</article>`).join('');
+    return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(i.referenceId)} · ${esc(i.concern)}</title><style>
+      :root{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:#263b2e;background:#fff}*{box-sizing:border-box}body{margin:0}main{max-width:1000px;margin:auto;padding:35px 42px 55px}header{border-bottom:2px solid #244e35;padding-bottom:24px}.eyebrow{font-size:12px;color:#546e59;letter-spacing:.6px;text-transform:uppercase;font-weight:650}h1{font-size:34px;line-height:1.2;letter-spacing:-.8px;margin:12px 0 14px;color:#173626}h2{font-size:22px;line-height:1.3;margin:0 0 16px}h3{font-size:17px;margin:8px 0 3px}p{margin:8px 0 13px}.lead{font-size:18px}.muted,.note{font-size:13px;color:#5c6b60}.actions{display:flex;flex-wrap:wrap;gap:10px;margin:19px 0 4px}button{font:inherit;font-size:13px;padding:9px 14px;border:1px solid #9caf98;border-radius:5px;background:#f1f5ed;color:#20462e;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #af7b2e;outline-offset:3px}section{padding:25px 0;border-bottom:1px solid #d0d9cb}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;background:#f1f5ed;padding:20px;margin:20px 0}.stats strong{display:block;font-size:26px;line-height:1.3}.stats span{font-size:12px}.field{display:grid;grid-template-columns:175px 1fr;gap:20px;margin:11px 0;font-size:14px}dt{color:#556d59;font-weight:600}dd{margin:0;white-space:pre-wrap;overflow-wrap:anywhere}dl{margin:0}.evidence{border-top:1px solid #bccdb6;padding:22px 0}.evidence:last-child{padding-bottom:0}blockquote{margin:16px 0;padding:4px 0 4px 18px;border-left:3px solid #8ea77e;font-size:18px;color:#1d3d29}a{color:#78521e;text-underline-offset:3px;overflow-wrap:anywhere}.source-link{font-size:12px;overflow-wrap:anywhere;margin:5px 0}.source-title{font-size:13px;margin-top:16px}.links{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:15px;font-size:13px}li{margin:9px 0;font-size:13px}footer{font-size:12px;color:#5c6b60;padding-top:25px}.tag{display:inline-block;background:#edf2e8;color:#35563c;padding:4px 8px;font-size:12px;border-radius:4px}details{margin-top:18px}summary{cursor:pointer;font-size:13px;font-weight:600}#download-notice{min-height:20px;font-size:12px;color:#5c6b60}@media(max-width:600px){main{padding:24px 20px}h1{font-size:28px}.stats{grid-template-columns:1fr 1fr}.field{grid-template-columns:1fr;gap:2px}.lead{font-size:16px}.actions button{flex:1 1 auto}}@media print{@page{margin:16mm}main{max-width:none;padding:0}.actions,#download-notice{display:none}h1{font-size:26px}h2{break-after:avoid}.evidence{break-inside:avoid}.field{font-size:11px}p,li,.source-link{font-size:11px}blockquote{font-size:13px}.stats{padding:12px}header{padding-bottom:15px}section{padding:18px 0}details>div{display:block!important}}
+      </style></head><body><main><header><div class="eyebrow">${esc(i.referenceId)} · Internal complaint brief</div><h1>${esc(i.concern)}</h1><p class="lead">${esc(i.why)}</p><p class="muted">Review period ${esc(brief.period.start)} to ${esc(brief.period.end)} · Sources reviewed ${esc(brief.reviewedAt)}</p><div class="actions"><button id="print">Print / Save PDF</button><button id="text-download">Download text</button><button id="json-download">Download evidence data</button></div><div id="download-notice" role="status"></div></header>
+      <section><h2>Concern and supporting evidence</h2><p>${esc(i.summary)}</p><div class="stats"><div><strong>${c.publicAccounts}</strong><span>public accounts</span></div><div><strong>${c.namedInReporting}</strong><span>named people in reporting</span></div><div><strong>${c.evidenceRecords}</strong><span>evidence records</span></div><div><strong>${c.uncountedRecords}</strong><span>records excluded from counts</span></div></div><p class="note">${c.sourcePages} source pages. Account and reporting counts are separate and may overlap. This brief contains all evidence for this concern, including excluded and resolved records. Counts are from this reviewed sample, not all online complaints.</p></section>
+      <section><h2>Responsible ministry and service</h2><dl>${field('Ministry / oversight',i.ministry)}${field('Service',i.service)}${r?field('First contact',r.first)+field('Escalation / responsibility',r.escalation)+field('Routing context',r.note):''}</dl>${r?`<div class="links">${r.links.map(l=>anchor(l.url,l.title)).join('')}</div>`:''}</section>
+      <section><h2>AI assessment and proposed action</h2><p><span class="tag">${esc(fitLabel[i.fit])}</span></p><dl>${field('Opportunity / first intervention',i.idea)}${field('What AI cannot fix',i.limit)}${field('First step',i.firstStep)}${field('Success measure',i.measure)}${field('Why this starting point',i.reason)}</dl><p class="note">Proposed investigation, not an approved project or promise of results. The ordering of concerns is not a ranking of harm or population prevalence.</p></section>
+      <section><h2>All source evidence · ${c.evidenceRecords} records</h2><p class="note">Quotes are excerpts from public posts. Reporting summaries are labelled separately. An expressed concern does not establish a verified service failure.</p>${recordHTML}</section>
+      <section><h2>Counting and interpretation</h2><ul>${brief.methodology.map(v=>`<li>${esc(v)}</li>`).join('')}</ul><h3>Review-wide platform coverage</h3><p class="note">These platform totals cover the entire research review, not just this complaint.</p><p class="note">${esc(brief.researchContext.scopeNote)}</p><ul>${brief.researchContext.platformCoverage.map(p=>`<li><strong>${esc(p.platform)}:</strong> ${esc(p.note)}</li>`).join('')}</ul><h3>Additional context and limitations</h3><ul>${brief.researchContext.limitations.map(v=>`<li>${esc(v)}</li>`).join('')}</ul></section>
+      <footer><p>${esc(brief.publicationNote)}</p><p>Reference <strong>${esc(i.referenceId)}</strong> when discussing this concern. Search this ID in the companion dashboard. Attach this file or share the complete text to keep all context together.</p></footer></main>
+      <script type="application/json" id="complaint-data">${safeJson(brief)}</script><script type="application/json" id="complaint-text">${safeJson(text(brief))}</script>
+      <script>(function(){const p=JSON.parse(document.getElementById('complaint-data').textContent);function save(name,value,type){const u=URL.createObjectURL(new Blob([value],{type}));const a=document.createElement('a');a.href=u;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),30000);document.getElementById('download-notice').textContent='Download prepared.';}document.getElementById('print').onclick=()=>window.print();document.getElementById('text-download').onclick=()=>save(p.referenceId+'.txt',JSON.parse(document.getElementById('complaint-text').textContent),'text/plain;charset=utf-8');document.getElementById('json-download').onclick=()=>save(p.referenceId+'.json',JSON.stringify(p,null,2),'application/json');})();<\/script></body></html>`;
+  }
+  return {pack,text,html};
+});
